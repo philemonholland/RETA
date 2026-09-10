@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-09",
+  "scope": "Bibliographic metadata and duplicate cleanup; scientific specification and historical archives unchanged. Metadata checks do not constitute full-paper review.",
+  "corrections": [
+    {
+      "id": "v1-goebel-2012",
+      "match": "Hybrid Dynamical Systems: Modeling, Stability, and Robustness",
+      "citation": "Rafal Goebel, Ricardo G. Sanfelice, and Andrew R. Teel. Hybrid Dynamical Systems: Modeling, Stability, and Robustness. Princeton University Press, 2012. ISBN 978-0-691-15389-6.",
+      "url": "https://assets.press.princeton.edu/catalogs/math12.pdf#page=20",
+      "reason": "Publisher catalog confirms title, authors, year and ISBN. Link to that verified catalog because the supplied DOI endpoint could not be verified; this does not assert that the DOI is invalid.",
+      "previous_url": "https://doi.org/10.23943/princeton/9780691153896.001.0001"
+    },
+    {
+      "id": "v1-shen-2026",
+      "match": "AI Organizations",
+      "citation": "Judy Hanwen Shen et al. 'AI Organizations are More Effective but Less Aligned than Individual Agents.' arXiv:2604.10290, 2026.",
+      "url": "https://arxiv.org/abs/2604.10290",
+      "reason": "Use the exact arXiv title (are rather than Can Be), merge duplicate listings of the same work, and retain both previous source bindings in the correction record.",
+      "previous_urls": [
+        "https://alignment.anthropic.com/2026/ai-organizations/",
+        "https://arxiv.org/abs/2604.10290"
+      ]
+    }
+  ],
+  "previous_entries": [
+    {
+      "year": 2012,
+      "citation": "Rafal Goebel, Ricardo G. Sanfelice, and Andrew R. Teel. Hybrid Dynamical Systems: Modeling, Stability, and Robustness. Princeton University Press, 2012. DOI: 10.23943/princeton/9780691153896.001.0001.",
+      "url": "https://doi.org/10.23943/princeton/9780691153896.001.0001",
+      "source": "model source register"
+    },
+    {
+      "year": 2026,
+      "citation": "Judy Hanwen Shen et al. “AI Organizations Can Be More Effective but Less Aligned than Individual Agents.” Anthropic Alignment Science / arXiv:2604.10290, 2026.",
+      "url": "https://alignment.anthropic.com/2026/ai-organizations/",
+      "source": "model source register"
+    },
+    {
+      "year": 2026,
+      "citation": "Judy Hanwen Shen et al. 'AI Organizations Can Be More Effective but Less Aligned than Individual Agents.' arXiv:2604.10290, 2026.",
+      "url": "https://arxiv.org/abs/2604.10290",
+      "source": "v1.0 supplied scientific bibliography"
+    }
+  ],
+  "corrected_in": "v1.0.0 public edition 3 / report 1"
+}

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the model specification when discussing the theory; this repository mirrors presentation v1.1.0 public edition 2."
+title: "HORTRAME IPS Alignment: recursive causal governance research prototype"
+type: software
+authors:
+  - family-names: Bolduc
+    given-names: Guillaume
+    affiliation: HORTRAME Systems
+version: 1.1.0-public.2
+date-released: 2026-09-09
+url: "https://www.hortrame.com/alignment/"
+repository-code: "https://github.com/philemonholland/HORTRAME-IPS-Alignment"
+keywords:
+  - AI alignment
+  - AI safety
+  - multi-agent systems
+  - causal governance
+  - uncertainty

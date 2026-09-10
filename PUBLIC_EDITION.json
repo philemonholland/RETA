@@ -1,0 +1,15 @@
+{
+  "version": "1.1.0",
+  "publication_edition": 2,
+  "model_name": "visualization/HORTRAME_IPS_ALIGNMENT_Interactive_v1.0.0.html",
+  "source_model_sha256": "b549f86234118b11279ab906a2b69a4a811150a889e394571cd6fcd645860797",
+  "canonical_executable": "simulation/ips_recursive_sim.py",
+  "canonical_executable_sha256": "ec2c300f5c9e446154d2a986bd7d719d68d3804c3dcbf02d120295903e928d09",
+  "source_timestamp": "2026-09-09 [21:11]",
+  "timestamp_basis": "Source ZIP last-write time, America/Toronto (UTC−04:00)",
+  "published_at": "2026-09-09T23:16:00-04:00",
+  "download": "/alignment/downloads/HORTRAME_IPS_ALIGNMENT_v1.1.0_public-2.zip",
+  "current": true,
+  "change": "Automatic request/browser language preferences with explicit manual overrides; bilingual author statement explaining urgent public research access. Continuous playback and scientific sources unchanged.",
+  "scientific_source_version": "1.0.0"
+}
