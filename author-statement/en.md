@@ -58,7 +58,7 @@ I take full responsibility for this synthesis, its interpretations, its extensio
 
 Finally, I thank **Alexia Matte** for having stood by my side throughout those years and for the emotional and intellectual support she gave me, including during some very difficult times. I wish her love, kindness, gentleness and happiness.
 
-I never wanted my name to be public, but I see no other way to get this work out into the world.
+I never wanted my name to be public, but I see no other way to get this work out into the world. I stand on the shoulders of giants, but I am very small.
 
 **Guillaume Bolduc**  
 Independant researcher  

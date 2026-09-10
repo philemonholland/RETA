@@ -1,6 +1,6 @@
 # RETA — Recursive Event–Trajectory Alignment
 
-Presentation v1.1.0, public edition 2, publication revision 3. Scientific specification/engine v1.0.0.
+Presentation v1.1.0, public edition 2, publication revision 4. Scientific specification/engine v1.0.0.
 
 UNALIGNED — WORK IN PROGRESS. Guillaume Bolduc · Independant researcher · HORTRAME Systems.
 
@@ -17,3 +17,5 @@ SHA256SUMS.txt binds every file in this package. Hashes identify bytes, not scie
 Research contact: systems@hortrame.com (English); systemes@hortrame.com (français).
 
 Typography revision 3: 2026-09-10T07:30:00-04:00. Smaller website fonts; model, Python engine, recorded trace, animation unchanged; the author’s final personal note was added. This same current archive replaces its predecessor at the owner’s request.
+
+Author wording revision 4: 2026-09-10T07:52:00-04:00. Closing paragraph extended in English and French; all model/scientific files and presentation styling unchanged.

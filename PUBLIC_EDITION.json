@@ -10,10 +10,10 @@
   "published_at": "2026-09-09T23:16:00-04:00",
   "download": "/alignment/downloads/RETA_v1.1.0_public-2.zip",
   "current": true,
-  "change": "Smaller normal typography and centered 70% author-statement panel. Model, Python source, recorded trace and animation behavior unchanged; current archive replaced at the owner’s request.",
+  "change": "Final personal statement extended in English and French; model, scientific sources, typography and animation unchanged.",
   "scientific_source_version": "1.0.0",
-  "publication_revision": 3,
-  "statement_revised_at": "2026-09-10T06:29:00-04:00",
+  "publication_revision": 4,
+  "statement_revised_at": "2026-09-10T07:52:00-04:00",
   "replacement_history": [
     {
       "revision": 2,
@@ -58,7 +58,21 @@
       "scientific_model_changed": false,
       "animation_changed": false,
       "original_bytes_preserved": "Previous Git commits and public-source history.",
+      "replacement_zip_sha256": "49f2876812cec11ad939f30d3098e6d6e903a544ff11f525ea79d83155ef9ac2",
+      "replacement_download": "/alignment/downloads/RETA_v1.1.0_public-2.zip",
       "author_statement_changed": true
+    },
+    {
+      "revision": 4,
+      "revised_at": "2026-09-10T07:52:00-04:00",
+      "reason": "Owner extended the final personal paragraph: I stand on the shoulders of giants, but I am very small. English and French wording updated; current archive replaced consistently.",
+      "previous_zip_sha256": "49f2876812cec11ad939f30d3098e6d6e903a544ff11f525ea79d83155ef9ac2",
+      "previous_website_commit": "336cc4ee5a5da4d54687212422a4cf19e58c08c7",
+      "previous_public_source_commit": "bbfa3e414febbfc4bdfb2cf6c363ea0834a7ba25",
+      "scientific_model_changed": false,
+      "animation_changed": false,
+      "layout_changed": false,
+      "original_bytes_preserved": "Previous Git commits and publication history."
     }
   ],
   "name_revised_at": "2026-09-10T06:29:00-04:00",

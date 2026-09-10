@@ -58,7 +58,7 @@ J’assume l’entière responsabilité de cette synthèse, de ses interprétati
 
 Enfin, je remercie **Alexia Matte** pour avoir été à mes côtés pendant toutes ces années et pour le soutien émotionnel et intellectuel qu’elle m’a apporté, y compris dans des moments parfois très difficiles. Je lui souhaite de l’amour, de la bienveillance, de la douceur et du bonheur.
 
-Je n’ai jamais souhaité que mon nom soit exposé publiquement, mais je ne vois pas d’autre moyen de faire connaître ce travail.
+Je n’ai jamais souhaité que mon nom soit exposé publiquement, mais je ne vois pas d’autre moyen de faire connaître ce travail. Je me tiens sur les épaules de géants, mais je suis tout petit.
 
 **Guillaume Bolduc**  
 Chercheur indépendant  
