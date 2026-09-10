@@ -8,7 +8,7 @@
     "fr": "Je rends cette recherche entièrement ouverte et publique en raison de l’urgence créée par la menace existentielle que représente l’intelligence artificielle actuellement non alignée. Elle est accessible pour être examinée, remise en question et développée collectivement. Le modèle demeure NON ALIGNÉ et en évolution active."
   },
   "scope": "Public research package; no new license or third-party scientific endorsement asserted.",
-  "revised_at": "2026-09-10T12:15:00-04:00",
+  "revised_at": "2026-09-10T12:34:00-04:00",
   "full_statement": {
     "en": "/alignment/author/",
     "fr": "/alignment/fr/author/"
@@ -16,17 +16,17 @@
   "markdown": {
     "en": {
       "url": "/alignment/author/statement.en.md",
-      "sha256": "ddb3f5cf81b050efa14b5afaa30f6616d6b43b057adb803a3382df8d1ecbfc0f"
+      "sha256": "531b052899748244632e37a409535379cad6298990ede399e35ae1e140fd6450"
     },
     "fr": {
       "url": "/alignment/author/statement.fr.md",
-      "sha256": "38aff3208683039d8dcddf2be06fd54358d41d145fa962979dc827395aa69b69"
+      "sha256": "cecb11fe07cea656ead44ddd8840a20b636d3b8f373d371ecbdc03d86118a6a5"
     }
   },
   "sources": "/alignment/author/sources.json",
   "support_appeal": {
-    "english": "I can no longer cover the computing costs of these experiments alone. This work also needs independent expert review and validation. If you share the urgency of the alignment problem and see value in this model, access to compute resources, scientific scrutiny or other practical support would make a meaningful difference. Please get in touch.",
-    "french": "Je ne peux plus assumer seul les coûts de calcul de ces expériences. Ce travail a également besoin d’une évaluation et d’une validation indépendantes par des spécialistes. Si vous partagez l’urgence du problème de l’alignement et voyez de la valeur dans ce modèle, des ressources de calcul, un examen scientifique ou toute autre aide concrète feraient une réelle différence. Je vous invite à me contacter.",
+    "english": "I can no longer cover the computing costs of these experiments alone. This work also needs independent expert review and validation. If you think this model could contribute to solving the alignment problem, I would welcome your help with computing resources, a critical review, or other practical support. Please get in touch.",
+    "french": "Je ne peux plus assumer seul les coûts de calcul de ces expériences. Ce travail a également besoin d’une évaluation et d’une validation indépendantes par des spécialistes. Si vous pensez que ce modèle peut contribuer à résoudre le problème de l’alignement, votre aide serait la bienvenue, qu’il s’agisse de ressources de calcul, d’un examen critique ou de tout autre soutien concret. Je vous invite à me contacter.",
     "scope": "Owner requests compute resources, independent expert review/validation and practical support; not an endorsement or promise of results."
   }
 }

@@ -1,6 +1,6 @@
 # Déclaration de l’auteur et remerciements
 
-**Je ne peux plus assumer seul les coûts de calcul de ces expériences. Ce travail a également besoin d’une évaluation et d’une validation indépendantes par des spécialistes. Si vous partagez l’urgence du problème de l’alignement et voyez de la valeur dans ce modèle, des ressources de calcul, un examen scientifique ou toute autre aide concrète feraient une réelle différence. Je vous invite à me contacter.**
+**Je ne peux plus assumer seul les coûts de calcul de ces expériences. Ce travail a également besoin d’une évaluation et d’une validation indépendantes par des spécialistes. Si vous pensez que ce modèle peut contribuer à résoudre le problème de l’alignement, votre aide serait la bienvenue, qu’il s’agisse de ressources de calcul, d’un examen critique ou de tout autre soutien concret. Je vous invite à me contacter.**
 
 Je rends cette recherche entièrement ouverte et publique en raison de l’urgence créée par la menace existentielle que représente l’intelligence artificielle actuellement non alignée. Elle est accessible pour être examinée, remise en question et développée collectivement. Le modèle demeure **NON ALIGNÉ et en évolution active**.
 

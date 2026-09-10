@@ -1,6 +1,6 @@
 # Author’s statement, acknowledgements and thanks
 
-**I can no longer cover the computing costs of these experiments alone. This work also needs independent expert review and validation. If you share the urgency of the alignment problem and see value in this model, access to compute resources, scientific scrutiny or other practical support would make a meaningful difference. Please get in touch.**
+**I can no longer cover the computing costs of these experiments alone. This work also needs independent expert review and validation. If you think this model could contribute to solving the alignment problem, I would welcome your help with computing resources, a critical review, or other practical support. Please get in touch.**
 
 I am making this research fully open and public because of the urgency created by the existential threat posed by currently unaligned artificial intelligence. It is available to be examined, challenged and developed collaboratively. The model remains **UNALIGNED and actively evolving**.
 

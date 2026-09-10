@@ -10,10 +10,10 @@
   "published_at": "2026-09-09T23:16:00-04:00",
   "download": "/alignment/downloads/RETA_v1.1.0_public-2.zip",
   "current": true,
-  "change": "Author’s request for compute resources and independent expert review/validation; model, report, recorded campaigns and replay unchanged.",
+  "change": "Navigation reordered, Archive/Archives capitalization corrected, and one support sentence clarified bilingually.",
   "scientific_source_version": "1.0.0",
-  "publication_revision": 7,
-  "statement_revised_at": "2026-09-10T12:15:00-04:00",
+  "publication_revision": 8,
+  "statement_revised_at": "2026-09-10T12:34:00-04:00",
   "replacement_history": [
     {
       "revision": 2,
@@ -125,6 +125,21 @@
       "scientific_model_changed": false,
       "scientific_report_changed": false,
       "recorded_campaign_data_changed": false,
+      "animation_changed": false,
+      "replacement_zip_sha256": "dc180c1ef6c2f8e0cc3d34c1d7993dfd02ef9c5b7d1c4a7e8969506eb103aa11",
+      "replacement_download": "/alignment/downloads/RETA_v1.1.0_public-2.zip"
+    },
+    {
+      "revision": 8,
+      "revised_at": "2026-09-10T12:34:00-04:00",
+      "reason": "Owner requested only clearer navigation order, Archive/Archives capitalization and a clearer support sentence, in both languages.",
+      "previous_zip_sha256": "dc180c1ef6c2f8e0cc3d34c1d7993dfd02ef9c5b7d1c4a7e8969506eb103aa11",
+      "previous_website_commit": "25c4ff613be627d3793037764534a2355732467f",
+      "previous_public_source_commit": "0f015e7e67d79fc69e5d9b58fb51f52c73f87445",
+      "scientific_model_changed": false,
+      "report_changed": false,
+      "recorded_results_changed": false,
+      "styling_changed": false,
       "animation_changed": false
     }
   ],
