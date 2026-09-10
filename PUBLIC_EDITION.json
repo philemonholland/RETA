@@ -10,10 +10,10 @@
   "published_at": "2026-09-09T23:16:00-04:00",
   "download": "/alignment/downloads/RETA_v1.1.0_public-2.zip",
   "current": true,
-  "change": "Functional browser fixes and updated final sentence; current model, Python engine, scientific documents and previous source archives preserved.",
+  "change": "Author’s request for compute resources and independent expert review/validation; model, report, recorded campaigns and replay unchanged.",
   "scientific_source_version": "1.0.0",
-  "publication_revision": 6,
-  "statement_revised_at": "2026-09-10T10:10:00-04:00",
+  "publication_revision": 7,
+  "statement_revised_at": "2026-09-10T12:15:00-04:00",
   "replacement_history": [
     {
       "revision": 2,
@@ -111,7 +111,21 @@
         "Report 2 and revised analysis qualify claims; original scientific documents and report 1 retained",
         "Readable correction, analysis and historical specification pages",
         "Preliminary results grouped into preserved experiment campaigns and individual runs"
-      ]
+      ],
+      "replacement_zip_sha256": "fd1d6764b8627a5d945b505ba2d600bb943ea55d6f5b6c7d047be3c4c8d52777",
+      "replacement_download": "/alignment/downloads/RETA_v1.1.0_public-2.zip"
+    },
+    {
+      "revision": 7,
+      "revised_at": "2026-09-10T12:15:00-04:00",
+      "reason": "Owner requested a humble bold-red appeal for compute resources and independent expert review/validation below the author-statement heading, in English and French.",
+      "previous_zip_sha256": "fd1d6764b8627a5d945b505ba2d600bb943ea55d6f5b6c7d047be3c4c8d52777",
+      "previous_website_commit": "32939310e433dc3858a89fd6c580e3c88c70e9e9",
+      "previous_public_source_commit": "a90fdbddbabae6b329f5387201c3774887552bbe",
+      "scientific_model_changed": false,
+      "scientific_report_changed": false,
+      "recorded_campaign_data_changed": false,
+      "animation_changed": false
     }
   ],
   "name_revised_at": "2026-09-10T06:29:00-04:00",

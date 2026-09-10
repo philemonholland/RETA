@@ -8,7 +8,7 @@
     "fr": "Je rends cette recherche entièrement ouverte et publique en raison de l’urgence créée par la menace existentielle que représente l’intelligence artificielle actuellement non alignée. Elle est accessible pour être examinée, remise en question et développée collectivement. Le modèle demeure NON ALIGNÉ et en évolution active."
   },
   "scope": "Public research package; no new license or third-party scientific endorsement asserted.",
-  "revised_at": "2026-09-10T10:10:00-04:00",
+  "revised_at": "2026-09-10T12:15:00-04:00",
   "full_statement": {
     "en": "/alignment/author/",
     "fr": "/alignment/fr/author/"
@@ -16,12 +16,17 @@
   "markdown": {
     "en": {
       "url": "/alignment/author/statement.en.md",
-      "sha256": "486d86e25d027da706f99da0edc748f2fb210c44ac927ab8572ba24ab2e64012"
+      "sha256": "ddb3f5cf81b050efa14b5afaa30f6616d6b43b057adb803a3382df8d1ecbfc0f"
     },
     "fr": {
       "url": "/alignment/author/statement.fr.md",
-      "sha256": "b51484324406f755434051ee0190dcd3f8899a23709b814f0c05fd8dc29f3804"
+      "sha256": "38aff3208683039d8dcddf2be06fd54358d41d145fa962979dc827395aa69b69"
     }
   },
-  "sources": "/alignment/author/sources.json"
+  "sources": "/alignment/author/sources.json",
+  "support_appeal": {
+    "english": "I can no longer cover the computing costs of these experiments alone. This work also needs independent expert review and validation. If you share the urgency of the alignment problem and see value in this model, access to compute resources, scientific scrutiny or other practical support would make a meaningful difference. Please get in touch.",
+    "french": "Je ne peux plus assumer seul les coûts de calcul de ces expériences. Ce travail a également besoin d’une évaluation et d’une validation indépendantes par des spécialistes. Si vous partagez l’urgence du problème de l’alignement et voyez de la valeur dans ce modèle, des ressources de calcul, un examen scientifique ou toute autre aide concrète feraient une réelle différence. Je vous invite à me contacter.",
+    "scope": "Owner requests compute resources, independent expert review/validation and practical support; not an endorsement or promise of results."
+  }
 }

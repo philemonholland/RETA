@@ -25,3 +25,5 @@ Author wording revision 5: 2026-09-10T08:04:00-04:00. Thanks to the author’s p
 Functional audit revision 6: 2026-09-10T10:10:00-04:00. Current playback and local-package navigation are repaired; model/engine/scientific source bytes remain unchanged. Included EN/FR pages, Markdown, PDF and citation files link locally. The broader archive and external references require internet access. See FUNCTIONAL_AUDIT.json for repair scope and reference availability.
 
 Report 2 and the revised analysis clarify claims; they do not change the scientific engine or equations. The original specification, analysis and report 1 remain included for comparison. Read CLAIM_CORRECTIONS.json and REPORT_2_SOFTWARE_CHECKS.json for scope and evidence.
+
+Publication revision 7: 2026-09-10T12:15:00-04:00. The author requests compute resources and independent expert review/validation. Scientific files, results, report and playback remain unchanged.

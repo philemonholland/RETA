@@ -1,5 +1,7 @@
 # Author’s statement, acknowledgements and thanks
 
+**I can no longer cover the computing costs of these experiments alone. This work also needs independent expert review and validation. If you share the urgency of the alignment problem and see value in this model, access to compute resources, scientific scrutiny or other practical support would make a meaningful difference. Please get in touch.**
+
 I am making this research fully open and public because of the urgency created by the existential threat posed by currently unaligned artificial intelligence. It is available to be examined, challenged and developed collaboratively. The model remains **UNALIGNED and actively evolving**.
 
 [RETA — Recursive Event–Trajectory Alignment](https://www.hortrame.com/alignment/reta/) is the direct evolution of a personal body of research that long predates its present formulation as an AI-alignment framework. Before these online releases, my underlying manuscripts and my own synthesis had never been published, and I had never attempted to publish them. I left my master’s research in education at the Université de Sherbrooke before completing it. I also did not complete my later undergraduate studies in robotics engineering. Neither the present model nor the proposed mathematical extension has received independent expert validation or peer review.
