@@ -37,7 +37,13 @@
         "website_commit": "53ddbdfb57c96634a0db022028416017a2c3bd21",
         "package_sha256": "51db1d0f28deba375c9db08e4232910c5edc1cf21277efbe614ecbf9a4f83ddd",
         "reason_for_followup": "The owner expanded the final personal wish to love, kindness, gentleness and happiness after the first push. The replacement remains the same v1.1 edition; Git retains this intermediate publication.",
-        "recorded_at": "2026-09-10T07:11:28.674479-04:00"
+        "recorded_at": "2026-09-10T07:11:28.674479-04:00",
+        "subsequent_publication": {
+          "website_commit": "0a0b6133880cc141e8e962012579610e0ad5c14b",
+          "public_source_commit": "e2de9034c8f3f77b20af8be0585142a5407cb749",
+          "package_sha256": "675012e11d54452e1aacdfaee596d88034affeea2c5fe1e2613f7b0b3699f57f",
+          "reason_for_followup": "Owner requested homepage-style email obfuscation on alignment pages before the final handoff."
+        }
       }
     }
   ],
