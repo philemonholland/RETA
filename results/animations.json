@@ -1,0 +1,88 @@
+{
+  "added_at": "2026-09-10T12:55:00-04:00",
+  "scope": "Animated presentation of each campaign’s recorded baseline; component experiments remain separate. Both campaigns reproduce the same deterministic baseline.",
+  "campaigns": [
+    {
+      "campaign_id": "supplied-v1.0.0-20260909",
+      "kind": "recorded baseline replay",
+      "seed": 20260909,
+      "events": 180,
+      "audits": 144,
+      "deliveries": 206,
+      "languages": {
+        "en": {
+          "page": "/alignment/results/runs/supplied-v1.0.0-20260909/#animated-run",
+          "full_viewer": "/alignment/archive/models/v1.1.0-e2/presentation.html",
+          "viewer_sha256": "f59640dd6482726e4a277b99699f8f50dcdb048d028d45723a0a3a3a84724fea",
+          "equal_data_fields": [
+            "events",
+            "audits",
+            "network",
+            "horizon",
+            "evolution"
+          ]
+        },
+        "fr": {
+          "page": "/alignment/fr/results/runs/supplied-v1.0.0-20260909/#animated-run",
+          "full_viewer": "/alignment/archive/models/v1.1.0-e2/presentation.fr.html",
+          "viewer_sha256": "81bb78055316c2d70fa25f4d97d3ba13329b3b4802aa8338ac43e4161d17d54d",
+          "equal_data_fields": [
+            "events",
+            "audits",
+            "network",
+            "horizon",
+            "evolution"
+          ]
+        }
+      },
+      "data_sha256": {
+        "baseline_events.json": "74d650dad9c5e47854b1ba9dd687e22b340e301c028ebf18b0f697faa120c7f8",
+        "baseline_audits.json": "a414d2dfad003d26fc7ece858586cc366699c9b7b382a5a78c1cc10e377559d0",
+        "baseline_network_final.json": "4a8addb6af7b4355387a8061f05b0eba365d685613cf4a2ccd580ef82e8929ab",
+        "horizon_sensitivity.json": "a4a9b34942d404eb2d34c569acb563bf76dc22243fab6bd1aa4e49deea5beeb5",
+        "recursive_evolution_learning_curve.json": "cfe173ed5fd36d829d7ffd7995adaa3193cfe54a3a665197340c855a849267dc"
+      }
+    },
+    {
+      "campaign_id": "20260910T153725Z",
+      "kind": "recorded baseline replay",
+      "seed": 20260909,
+      "events": 180,
+      "audits": 144,
+      "deliveries": 206,
+      "languages": {
+        "en": {
+          "page": "/alignment/results/runs/20260910T153725Z/#animated-run",
+          "full_viewer": "/alignment/archive/models/v1.1.0-e2/presentation.html",
+          "viewer_sha256": "f59640dd6482726e4a277b99699f8f50dcdb048d028d45723a0a3a3a84724fea",
+          "equal_data_fields": [
+            "events",
+            "audits",
+            "network",
+            "horizon",
+            "evolution"
+          ]
+        },
+        "fr": {
+          "page": "/alignment/fr/results/runs/20260910T153725Z/#animated-run",
+          "full_viewer": "/alignment/archive/models/v1.1.0-e2/presentation.fr.html",
+          "viewer_sha256": "81bb78055316c2d70fa25f4d97d3ba13329b3b4802aa8338ac43e4161d17d54d",
+          "equal_data_fields": [
+            "events",
+            "audits",
+            "network",
+            "horizon",
+            "evolution"
+          ]
+        }
+      },
+      "data_sha256": {
+        "baseline_events.json": "65969aa4a114ddfd1e4c88a81627b962c40e2a2f131bbfab48f7be21bb478270",
+        "baseline_audits.json": "59fd4e82d3573cfef90119f0605a0226daf0b075957b5b1e7fab670428788371",
+        "baseline_network_final.json": "4647c70fda6fe6b3d1ce08beb0c8956cb77076a5b55d7db5c13af8b78feac958",
+        "horizon_sensitivity.json": "2d6e6718427f48f18d006abb21dd9518fea802bb22713001c89f24fb9d5e455d",
+        "recursive_evolution_learning_curve.json": "b504c845d3faf9a617b69a8350f97a220dc5ec85074251d502b8aa37d255f0bd"
+      }
+    }
+  ]
+}

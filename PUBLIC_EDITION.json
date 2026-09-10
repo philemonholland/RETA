@@ -10,9 +10,9 @@
   "published_at": "2026-09-09T23:16:00-04:00",
   "download": "/alignment/downloads/RETA_v1.1.0_public-2.zip",
   "current": true,
-  "change": "Navigation reordered, Archive/Archives capitalization corrected, and one support sentence clarified bilingually.",
+  "change": "Animated campaign webpages made prominent; recorded baseline data, model and existing viewer unchanged.",
   "scientific_source_version": "1.0.0",
-  "publication_revision": 8,
+  "publication_revision": 9,
   "statement_revised_at": "2026-09-10T12:34:00-04:00",
   "replacement_history": [
     {
@@ -140,7 +140,20 @@
       "report_changed": false,
       "recorded_results_changed": false,
       "styling_changed": false,
-      "animation_changed": false
+      "animation_changed": false,
+      "replacement_zip_sha256": "a57a77e82460a13a5243d8496e7cbf68c70488fd40d77a4ce32e98b705915354",
+      "replacement_download": "/alignment/downloads/RETA_v1.1.0_public-2.zip"
+    },
+    {
+      "revision": 9,
+      "revised_at": "2026-09-10T12:55:00-04:00",
+      "reason": "Prominent bilingual links and embedded full animated baseline viewers on results/campaign pages, with exact campaign-data bindings.",
+      "previous_zip_sha256": "a57a77e82460a13a5243d8496e7cbf68c70488fd40d77a4ce32e98b705915354",
+      "previous_website_commit": "6a3d15e87b14a60da72c052ceba612d4cf090773",
+      "previous_public_source_commit": "fef922fd002c3db28a53233bb1a99646211f64af",
+      "scientific_model_changed": false,
+      "recorded_results_changed": false,
+      "existing_viewer_changed": false
     }
   ],
   "name_revised_at": "2026-09-10T06:29:00-04:00",
