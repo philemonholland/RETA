@@ -1,0 +1,109 @@
+{
+  "purpose": "Sources for the author statement's institutional credentials, publication metadata and chronology. Personal relationships and the author's unpublished history are his own account; these links are not endorsements.",
+  "checked_on": "2026-09-10",
+  "sources": [
+    {
+      "name": "Vincent Grenon",
+      "url": "https://www.usherbrooke.ca/recherche/fr/specialistes/details/vincent.grenon",
+      "supports": "Professor in education; educational technology and quantitative methods."
+    },
+    {
+      "name": "François Larose",
+      "url": "https://www.usherbrooke.ca/education/nous-joindre/professeurs-associes",
+      "supports": "Listed as professeur associé in the Faculty of Education."
+    },
+    {
+      "name": "François Claveau",
+      "url": "https://www.usherbrooke.ca/philosophie/departement/personnel/personnel-enseignant/francois-claveau",
+      "supports": "Full professor of philosophy; social/formal epistemology and decision-related research."
+    },
+    {
+      "name": "2016 research-assistant announcement",
+      "url": "https://www.usherbrooke.ca/flsh/actualites/nouvelles/details/32165",
+      "supports": "Names Guillaume Bolduc in the Canada Research Chair in Practical Epistemology, with web-based critical-thinking education work. His supplied CV specifies the Bayes teaching tool."
+    },
+    {
+      "name": "Chair's former-member list",
+      "url": "https://www.epistemopratique.org/chaire/equipe/",
+      "supports": "Lists Guillaume Bolduc among former team members."
+    },
+    {
+      "name": "Fabien Alibart",
+      "url": "https://www.usherbrooke.ca/ln2/a-propos/equipe/fabien-alibart",
+      "supports": "CNRS researcher and professeur associé; neuromorphic components/circuits and memristive devices."
+    },
+    {
+      "name": "Maude Blondin",
+      "url": "https://www.usherbrooke.ca/genie-electrique-informatique/departement/corps-professoral",
+      "supports": "Assistant professor in electrical and computer engineering."
+    },
+    {
+      "name": "Maude Blondin research profile",
+      "url": "https://www.usherbrooke.ca/recherche/fr/specialistes/details/maude.blondin2",
+      "supports": "Control, multi-agent systems and multi-objective optimization."
+    },
+    {
+      "name": "Naderi, Blondin and Roy",
+      "url": "https://arxiv.org/abs/2603.16523",
+      "supports": "Correct spelling Shokoufeh Naderi and source work on delayed consensus with QBot3 experiments. This is distinct from Bolduc's later proposed formalization."
+    },
+    {
+      "name": "Alan Cohen",
+      "url": "https://www.publichealth.columbia.edu/profile/alan-cohen-phd",
+      "supports": "Associate Professor of Environmental Health Sciences at Columbia; aging, physiological regulation, ecology and evolution."
+    },
+    {
+      "name": "Cohen lab research",
+      "url": "https://www.publichealth.columbia.edu/research-labs/cohen-lab-aging-systems-statistics",
+      "supports": "Complex-systems dynamics, physiological regulation and evolutionary constraints."
+    },
+    {
+      "name": "Robert E. Ricklefs",
+      "url": "https://www.umsl.edu/biology/directory/emeritus-faculty/index.html",
+      "supports": "Professor emeritus of biology; evolutionary ecology lineage. The author's mentor relationship attribution is his account."
+    },
+    {
+      "name": "Sergey Tarasenko paper",
+      "url": "https://arxiv.org/abs/1101.0820",
+      "supports": "Title Emotionally Colorful Reflexive Games; submitted 27 December 2010; RGT/PAD connection."
+    },
+    {
+      "name": "Vladimir A. Lefebvre",
+      "url": "https://faculty.uci.edu/profile/?facultyId=5130",
+      "supports": "Cognitive-science researcher with a doctorate in psychology; historical institutional profile."
+    },
+    {
+      "name": "Swarm publication record",
+      "url": "https://www.hortrame.com/swarm/article-sync.json",
+      "supports": "September 7, 2026 preparation/review date of the current v07 articles and software; no physical validation of the current formula claimed."
+    }
+  ],
+  "manuscript_findings": {
+    "earlier_phase": "The author's unfinished v4 manuscript: information literacy, educational misinformation/neuromyths, confidence versus competence, six framework traditions and an eight-pillar synthesis including metacognition and ethics/law.",
+    "later_phase": "The author's unfinished v5.1 manuscript: deliberate disinformation, propaganda, information-psychological warfare, reflexive control, plausible deniability, algorithmic amplification, authoritarian populism, democratic fragility and human agency.",
+    "additional_influences": "Propaganda analysis, misinformation persistence/correction, cognitive threat appraisal, human empowerment, and practical traceability/approval/recovery experience in the author's supplied CV."
+  },
+  "corrections": [
+    {
+      "subject": "Tarasenko's book",
+      "finding": "The supplied PDF's title/copyright pages and foreword identify Applications of the Reflexive Game Theory: Advanced Topics, 2016. The acknowledgments/preface describe nearly five years of collaboration with Lefebvre, not evidence of a formal five-year degree supervision."
+    },
+    {
+      "subject": "Tarasenko's article",
+      "finding": "Emotionally Colorful Reflexive Games, submitted in 2010; the arXiv identifier begins 1101. The previously suggested 2017 article date is not used."
+    },
+    {
+      "subject": "2025 internship",
+      "finding": "The unfinished work was the author's separate ethical AI model, not the internship. A connection to neuromorphic work is suspected but unestablished."
+    },
+    {
+      "subject": "Theorem authorship",
+      "finding": "The author attributes the originating experimental discoveries to his 2024 implementation; full formalization followed supplying Astra the entire historical code archive and collaborating on that material."
+    },
+    {
+      "subject": "Awareness and relationships",
+      "finding": "Only Alan Cohen knew the current project existed. None of the acknowledged researchers saw, reviewed or approved the current model. Cohen was a personal friend/mentor, not a professional collaborator; Tarasenko's contact was limited to sharing PDFs."
+    }
+  ],
+  "statement_revision_at": "2026-09-10T06:29:00-04:00"
+}

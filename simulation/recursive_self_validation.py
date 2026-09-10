@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Recursive system-level validation for HORTRAME IPS Alignment v1.0.0.
+"""Recursive system-level validation for RETA v1.0.0.
 
 This is not an alignment benchmark. It verifies that the executable model
 materializes its own evaluators as causal events, feeds postmortem output into

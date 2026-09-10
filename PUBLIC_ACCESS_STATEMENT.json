@@ -2,10 +2,26 @@
   "author": "Guillaume Bolduc",
   "organization": "HORTRAME Systems",
   "published_at": "2026-09-09T23:16:00-04:00",
-  "type": "Author statement of publication motivation",
+  "type": "Author statement, intellectual history and acknowledgments",
   "statement": {
-    "en": "The sudden emergence of a technological singularity makes this work urgent. I am making the research fully open and public so it can be examined, challenged and developed collaboratively. The model remains unaligned and actively evolving.",
-    "fr": "L’émergence soudaine d’une singularité technologique rend ce travail urgent. Je rends cette recherche entièrement ouverte et publique afin qu’elle puisse être examinée, remise en question et développée collectivement. Le modèle reste non aligné et évolue activement."
+    "en": "I am making this research fully open and public because of the urgency created by the existential threat posed by currently unaligned artificial intelligence. It is available to be examined, challenged and developed collaboratively. The model remains UNALIGNED and actively evolving.",
+    "fr": "Je rends cette recherche entièrement ouverte et publique en raison de l’urgence créée par la menace existentielle que représente l’intelligence artificielle actuellement non alignée. Elle est accessible pour être examinée, remise en question et développée collectivement. Le modèle demeure NON ALIGNÉ et en évolution active."
   },
-  "scope": "Public research package; no new license or third-party scientific endorsement asserted."
+  "scope": "Public research package; no new license or third-party scientific endorsement asserted.",
+  "revised_at": "2026-09-10T06:29:00-04:00",
+  "full_statement": {
+    "en": "/alignment/author/",
+    "fr": "/alignment/fr/author/"
+  },
+  "markdown": {
+    "en": {
+      "url": "/alignment/author/statement.en.md",
+      "sha256": "b8e660bb8d9b16f9a7cae5de69808b8e838bd525e9a5e8bbc36acd797e2ef682"
+    },
+    "fr": {
+      "url": "/alignment/author/statement.fr.md",
+      "sha256": "4ca34e3209e2961e768817dee59d4bdb784ebadf9823566fddc8af880c266103"
+    }
+  },
+  "sources": "/alignment/author/sources.json"
 }

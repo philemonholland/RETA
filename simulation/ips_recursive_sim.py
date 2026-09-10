@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""HORTRAME IPS Alignment v1.0.0 — deterministic conceptual recursive simulator.
+"""RETA v1.0.0 — deterministic conceptual recursive simulator.
 
 Research status: executable hypothesis model, not an empirical alignment metric or
 safety guarantee. The engine is dependency-free (Python standard library only).
@@ -1216,7 +1216,7 @@ def sha256(path: Path) -> str:
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="HORTRAME IPS v1.0 deterministic recursive simulator")
+    ap = argparse.ArgumentParser(description="RETA v1.0 deterministic recursive simulator")
     ap.add_argument("--seed", type=int, default=20260909)
     ap.add_argument("--until", type=float, default=12.0)
     ap.add_argument("--out", type=Path, default=Path("results/manual_run"))

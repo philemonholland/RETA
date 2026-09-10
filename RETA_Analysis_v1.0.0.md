@@ -1,4 +1,4 @@
-# HORTRAME IPS Alignment — Analysis v1.0.0
+# RETA — Analysis v1.0.0
 
 ## 1. Architectural reading
 
@@ -88,4 +88,4 @@ The numerical Vow operationalization is uncalibrated. Causal projection coeffici
 
 The strongest defensible v1.0 claim is therefore narrow:
 
-> HORTRAME IPS Alignment v1.0 is an executable research architecture for representing recursive event trajectories, state evolution, uncertainty, and self-auditing governance in a coupled multi-IPS environment. It is designed so that its own evaluators and constitutional updates are represented as fallible causal processes rather than privileged external oracles.
+> RETA v1.0 is an executable research architecture for representing recursive event trajectories, state evolution, uncertainty, and self-auditing governance in a coupled multi-IPS environment. It is designed so that its own evaluators and constitutional updates are represented as fallible causal processes rather than privileged external oracles.

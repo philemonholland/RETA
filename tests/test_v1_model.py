@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Invariant/regression tests for HORTRAME IPS Alignment v1.0.0."""
+"""Invariant/regression tests for RETA v1.0.0."""
 from __future__ import annotations
 
 import copy
@@ -10,7 +10,7 @@ from dataclasses import asdict
 from ips_recursive_sim import IPSRecursiveSimulation, Lens, VOWS, CHANNELS
 
 
-class TestHORTRAMEIPSv1(unittest.TestCase):
+class TestRETAv1(unittest.TestCase):
     def test_unknown_initial_history(self):
         sim = IPSRecursiveSimulation(seed=11, auto_response=False)
         self.assertTrue(all(n.last_event_id is None for n in sim.nodes))

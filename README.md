@@ -1,4 +1,4 @@
-# HORTRAME IPS Alignment
+# RETA — Recursive Event–Trajectory Alignment
 
 AI-alignment research through a synthetic model of recursive causal governance across interacting information-processing systems.
 
@@ -14,8 +14,8 @@ HORTRAME Systems
 
 This research-only mirror contains the files already published in **presentation v1.1.0, public edition 2**. Its canonical Python engine and scientific specification are **v1.0.0**. The distinction is deliberate: the later presentation adds continuous playback, language preferences and publication material without claiming a new scientific result.
 
-- [Model specification](HORTRAME_IPS_ALIGNMENT_Model_Spec_v1.0.0.md): definitions, equations, event/audit semantics and explicit non-claims.
-- [Scientific analysis](HORTRAME_IPS_ALIGNMENT_Analysis_v1.0.0.md) and [event/audit schemas](EVENT_AND_AUDIT_SCHEMAS.md).
+- [Model specification](RETA_Model_Spec_v1.0.0.md): definitions, equations, event/audit semantics and explicit non-claims.
+- [Scientific analysis](RETA_Analysis_v1.0.0.md) and [event/audit schemas](EVENT_AND_AUDIT_SCHEMAS.md).
 - [Python engine](simulation/ips_recursive_sim.py), [experiments](simulation/run_experiments.py), [recursive structural validation](simulation/recursive_self_validation.py), and [supplied unit tests](tests/test_v1_model.py).
 - [Browser explorer](index.html), its French presentation, report snapshots and searchable PDF.
 - [References](REFERENCES.md), [bibliographic corrections](BIBLIOGRAPHIC_CORRECTIONS.json), and [source checksums](SOURCE_SHA256SUMS.txt).
@@ -45,4 +45,12 @@ Research correspondence: [systems@hortrame.com](mailto:systems@hortrame.com). En
 
 ## Cite the specification
 
-Bolduc, Guillaume (2026). *HORTRAME IPS Alignment — Model Specification v1.0.0*. HORTRAME Systems. Technical report, working draft. [Report and citation metadata](https://www.hortrame.com/alignment/paper/).
+Bolduc, Guillaume (2026). *RETA — Recursive Event–Trajectory Alignment — Model Specification v1.0.0*. HORTRAME Systems. Technical report, working draft. [Report and citation metadata](https://www.hortrame.com/alignment/paper/).
+
+## Author statement and RETA naming revision
+
+On September 10, 2026, the author requested replacement of this same v1.1 edition with the expanded bilingual acknowledgements and the name RETA. Read the [author’s statement, acknowledgements and thanks](author-statement/en.md), the [French statement](author-statement/fr.md), and the [author-supplied RETA explanation](RETA/RETA_Model_WORK_IN_PROGRESS_UNALIGNED.md).
+
+The explanation includes proposed developments. Current playback remains a recorded trace; a live simulation is deferred to a future version. Naming, public documentation and interface changes do not alter the scientific equations or transition rules. Researchers acknowledged in the statement have not reviewed or approved the current model.
+
+[Replacement history](https://www.hortrame.com/alignment/archive/v1.1.0-e2-replacement.json) records the prior and replacement hashes. The preceding source commit remains in this repository’s history. All earlier model packages, back to the first 2D model, remain available in the [complete archive](https://www.hortrame.com/alignment/archive/).

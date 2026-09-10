@@ -1,15 +1,45 @@
 {
   "version": "1.1.0",
   "publication_edition": 2,
-  "model_name": "visualization/HORTRAME_IPS_ALIGNMENT_Interactive_v1.0.0.html",
-  "source_model_sha256": "b549f86234118b11279ab906a2b69a4a811150a889e394571cd6fcd645860797",
+  "model_name": "visualization/RETA_Interactive_v1.0.0.html",
+  "source_model_sha256": "3c3f90f3ca772b48206493caf3bf892873c825d05701899e595fc00a82482527",
   "canonical_executable": "simulation/ips_recursive_sim.py",
-  "canonical_executable_sha256": "ec2c300f5c9e446154d2a986bd7d719d68d3804c3dcbf02d120295903e928d09",
+  "canonical_executable_sha256": "7e6c34372ca2a2c85d49732aab5dd7d3ae59026b6a12620f1d8bfd398c4f5cda",
   "source_timestamp": "2026-09-09 [21:11]",
   "timestamp_basis": "Source ZIP last-write time, America/Toronto (UTC−04:00)",
   "published_at": "2026-09-09T23:16:00-04:00",
-  "download": "/alignment/downloads/HORTRAME_IPS_ALIGNMENT_v1.1.0_public-2.zip",
+  "download": "/alignment/downloads/RETA_v1.1.0_public-2.zip",
   "current": true,
-  "change": "Automatic request/browser language preferences with explicit manual overrides; bilingual author statement explaining urgent public research access. Continuous playback and scientific sources unchanged.",
-  "scientific_source_version": "1.0.0"
+  "change": "RETA naming and bilingual author statement/acknowledgments revision, replacing this same v1.1 edition at the owner’s request. Scientific equations, recorded trace and playback behavior unchanged.",
+  "scientific_source_version": "1.0.0",
+  "publication_revision": 2,
+  "statement_revised_at": "2026-09-10T06:29:00-04:00",
+  "replacement_history": [
+    {
+      "revision": 2,
+      "revised_at": "2026-09-10T06:29:00-04:00",
+      "reason": "Owner requested replacing the existing v1.1 edition with the expanded author statement and acknowledgments, then renaming the model RETA with the supplied explanation.",
+      "previous_zip_sha256": "927be36f4f889ec5859f428de88982fc10834626c73c22248a3519c88ba3a5c9",
+      "previous_zip_bytes": 820697,
+      "previous_website_commit": "9e5bf55a4b87b60040ea0fe39043736fc2de14d5",
+      "previous_public_source_commit": "892e1eed2ad75a85c1aa08369f59d3eeeb92a2cc",
+      "scientific_model_changed": false,
+      "animation_changed": false,
+      "original_bytes_preserved": "Previous Git revisions and local publication backup.",
+      "previous_model_name": "visualization/HORTRAME_IPS_ALIGNMENT_Interactive_v1.0.0.html",
+      "previous_source_model_sha256": "b549f86234118b11279ab906a2b69a4a811150a889e394571cd6fcd645860797",
+      "previous_canonical_executable_sha256": "ec2c300f5c9e446154d2a986bd7d719d68d3804c3dcbf02d120295903e928d09",
+      "previous_pdf_sha256": "9de628780a53ab1cfdcaf74616170d32afb4cb6f6f1f4102a95e53601d609c88",
+      "previous_source_sha256": "751d2d938b5ab4a3d420c1dc150ca04b37b8849ff2f69ec86c85b81d96fe82a2",
+      "name_changed": true,
+      "scientific_rules_changed": false,
+      "intermediate_publication": {
+        "website_commit": "53ddbdfb57c96634a0db022028416017a2c3bd21",
+        "package_sha256": "51db1d0f28deba375c9db08e4232910c5edc1cf21277efbe614ecbf9a4f83ddd",
+        "reason_for_followup": "The owner expanded the final personal wish to love, kindness, gentleness and happiness after the first push. The replacement remains the same v1.1 edition; Git retains this intermediate publication.",
+        "recorded_at": "2026-09-10T07:11:28.674479-04:00"
+      }
+    }
+  ],
+  "name_revised_at": "2026-09-10T06:29:00-04:00"
 }

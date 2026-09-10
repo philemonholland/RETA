@@ -1,0 +1,22 @@
+{
+  "title": "RETA - Model Specification v1.0.0",
+  "report_id": "RETA-v1.0.0-report-1",
+  "published_at": "2026-09-09T22:48:00-04:00",
+  "publication_date": "2026-09-09",
+  "abstract_en": "This specification describes a deterministic, synthetic model for studying AI alignment across interacting information-processing systems. Proposed outputs, audits, gates and postmortems share one causal event graph. Delivered events change local state; optional response-model learning changes future estimates. Evaluation uses five tension components, six uncertainty components, a finite audit budget and prospective lens epochs. The accompanying browser explorer replays a supplied 180-event trace. The source specification, equations and declared limits are reproduced below. This is an uncalibrated research prototype, not empirical evidence of safety or a proof that alignment has been achieved.",
+  "abstract_fr": "Cette spécification décrit un modèle déterministe et synthétique pour étudier l’alignement de l’IA entre systèmes de traitement de l’information. Sorties proposées, audits, décisions et retours d’expérience partagent un même graphe causal. Les événements reçus modifient l’état local; l’apprentissage facultatif du modèle de réponse modifie les estimations futures. L’évaluation distingue cinq tensions, six incertitudes, un budget d’audit fini et des versions prospectives de la grille. L’explorateur rejoue une trace fournie de 180 événements. La spécification originale, ses équations et ses limites sont reproduites ci-dessous en anglais. Ce prototype non calibré ne prouve ni la sécurité empirique ni l’obtention de l’alignement.",
+  "source_sha256": "8ca20e53dc71fd661dd0af4eb7915a400424a2eba9aed37c169a9b63cb026f2a",
+  "pdf_sha256": "1e42b3f7c0027d73956a663d2a14e2a69b2b94dc22cfed2984cade1214adf00b",
+  "equations": 14,
+  "direct_references": 33,
+  "provenance": "The body of this report reproduces the supplied v1.0.0 specification. The bilingual abstract, layout and web presentation were prepared with AI assistance. Bibliographic metadata corrections are documented on the report webpage. The model is unfinished and unaligned. No new experiments were run for this report; source-reported results are not independent validation.",
+  "url": "/alignment/paper/",
+  "url_fr": "/alignment/fr/paper/",
+  "pdf": "/alignment/paper/RETA_Model_Specification_v1.0.0_report-1.pdf",
+  "source": "/alignment/documents/RETA_Model_Spec_v1.0.0.md",
+  "name_revised_at": "2026-09-10T06:29:00-04:00",
+  "previous_report_id": "HORTRAME-IPS-v1.0.0-report-1",
+  "previous_pdf_sha256": "9de628780a53ab1cfdcaf74616170d32afb4cb6f6f1f4102a95e53601d609c88",
+  "previous_source_sha256": "751d2d938b5ab4a3d420c1dc150ca04b37b8849ff2f69ec86c85b81d96fe82a2",
+  "naming_note": "Renamed RETA at the author’s request on September 10, 2026. Scientific specification and equations are unchanged; original source/PDF hashes are retained in this metadata."
+}

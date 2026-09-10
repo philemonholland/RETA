@@ -1,0 +1,16 @@
+{
+  "name": "RETA",
+  "expanded_name": "Recursive Event–Trajectory Alignment",
+  "revised_at": "2026-09-10T06:29:00-04:00",
+  "pages": {
+    "en": "/alignment/reta/",
+    "fr": "/alignment/fr/reta/"
+  },
+  "source": "/alignment/reta/RETA_Model_WORK_IN_PROGRESS_UNALIGNED.md",
+  "source_sha256": "0102f34809bd3dc7c2cbe32961ab6f86bf0c387a99bf7cfe5b14b2b447d79d30",
+  "source_language": "en",
+  "source_sections": 31,
+  "math_count": 100,
+  "scientific_implementation_changed": false,
+  "scope": "Author-supplied conceptual explanation; proposed mechanisms are not claimed as implemented or validated."
+}

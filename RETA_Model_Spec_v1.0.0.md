@@ -1,4 +1,4 @@
-# HORTRAME IPS Alignment — Model Specification v1.0.0
+# RETA — Model Specification v1.0.0
 
 ## 1. Scope
 
