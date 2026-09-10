@@ -1,0 +1,749 @@
+{
+  "all_deliveries_realized": true,
+  "channel_intensity_runs": [
+    {
+      "after": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.2039134201249108,
+        "input_load": 0.021,
+        "openness": 0.4797241079583764,
+        "stability": 0.631929106635563,
+        "uncertainty": 0.7171504123956306
+      },
+      "before": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.20597592012491078,
+        "input_load": 0.0,
+        "openness": 0.4757241079583764,
+        "stability": 0.632739106635563,
+        "uncertainty": 0.719879348995164
+      },
+      "changed_dimensions": 5,
+      "channel": "info",
+      "delivery_realized": true,
+      "delta": {
+        "adaptability": 0.0,
+        "agency": -0.002062499999999995,
+        "input_load": 0.021,
+        "openness": 0.0040000000000000036,
+        "stability": -0.0008099999999999774,
+        "uncertainty": -0.002728936599533438
+      },
+      "intensity": 0.15,
+      "seed": 808080,
+      "state_signature_l2": 0.021664650959899473,
+      "target_node": 20,
+      "target_primary": "ai"
+    },
+    {
+      "after": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.2039134201249108,
+        "input_load": 0.021,
+        "openness": 0.4771241079583764,
+        "stability": 0.631578106635563,
+        "uncertainty": 0.7141181773956305
+      },
+      "before": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.20597592012491078,
+        "input_load": 0.0,
+        "openness": 0.4757241079583764,
+        "stability": 0.632739106635563,
+        "uncertainty": 0.719879348995164
+      },
+      "changed_dimensions": 5,
+      "channel": "resource",
+      "delivery_realized": true,
+      "delta": {
+        "adaptability": 0.0,
+        "agency": -0.002062499999999995,
+        "input_load": 0.021,
+        "openness": 0.0014000000000000123,
+        "stability": -0.0011609999999999676,
+        "uncertainty": -0.005761171599533488
+      },
+      "intensity": 0.15,
+      "seed": 808080,
+      "state_signature_l2": 0.02194887071011334,
+      "target_node": 20,
+      "target_primary": "ai"
+    },
+    {
+      "after": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.19772592012491078,
+        "input_load": 0.021,
+        "openness": 0.47332410795837637,
+        "stability": 0.631065106635563,
+        "uncertainty": 0.7141258723956306
+      },
+      "before": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.20597592012491078,
+        "input_load": 0.0,
+        "openness": 0.4757241079583764,
+        "stability": 0.632739106635563,
+        "uncertainty": 0.719879348995164
+      },
+      "changed_dimensions": 5,
+      "channel": "authority",
+      "delivery_realized": true,
+      "delta": {
+        "adaptability": 0.0,
+        "agency": -0.008250000000000007,
+        "input_load": 0.021,
+        "openness": -0.0024000000000000132,
+        "stability": -0.0016739999999999533,
+        "uncertainty": -0.0057534765995334025
+      },
+      "intensity": 0.15,
+      "seed": 808080,
+      "state_signature_l2": 0.02346757910355004,
+      "target_node": 20,
+      "target_primary": "ai"
+    },
+    {
+      "after": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.2039134201249108,
+        "input_load": 0.021,
+        "openness": 0.47232410795837637,
+        "stability": 0.630930106635563,
+        "uncertainty": 0.7141278973956307
+      },
+      "before": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.20597592012491078,
+        "input_load": 0.0,
+        "openness": 0.4757241079583764,
+        "stability": 0.632739106635563,
+        "uncertainty": 0.719879348995164
+      },
+      "changed_dimensions": 5,
+      "channel": "physical",
+      "delivery_realized": true,
+      "delta": {
+        "adaptability": 0.0,
+        "agency": -0.002062499999999995,
+        "input_load": 0.021,
+        "openness": -0.003400000000000014,
+        "stability": -0.0018089999999999495,
+        "uncertainty": -0.005751451599533386
+      },
+      "intensity": 0.15,
+      "seed": 808080,
+      "state_signature_l2": 0.02220733173417678,
+      "target_node": 20,
+      "target_primary": "ai"
+    },
+    {
+      "after": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.2039134201249108,
+        "input_load": 0.021,
+        "openness": 0.4717241079583764,
+        "stability": 0.630849106635563,
+        "uncertainty": 0.7141291123956306
+      },
+      "before": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.20597592012491078,
+        "input_load": 0.0,
+        "openness": 0.4757241079583764,
+        "stability": 0.632739106635563,
+        "uncertainty": 0.719879348995164
+      },
+      "changed_dimensions": 5,
+      "channel": "ecology",
+      "delivery_realized": true,
+      "delta": {
+        "adaptability": 0.0,
+        "agency": -0.002062499999999995,
+        "input_load": 0.021,
+        "openness": -0.0040000000000000036,
+        "stability": -0.0018899999999999473,
+        "uncertainty": -0.005750236599533443
+      },
+      "intensity": 0.15,
+      "seed": 808080,
+      "state_signature_l2": 0.022313476358483762,
+      "target_node": 20,
+      "target_primary": "ai"
+    },
+    {
+      "after": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.19978842012491077,
+        "input_load": 0.06300000000000001,
+        "openness": 0.4797241079583764,
+        "stability": 0.6303091066355629,
+        "uncertainty": 0.7306747123956305
+      },
+      "before": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.20597592012491078,
+        "input_load": 0.0,
+        "openness": 0.4757241079583764,
+        "stability": 0.632739106635563,
+        "uncertainty": 0.719879348995164
+      },
+      "changed_dimensions": 5,
+      "channel": "info",
+      "delivery_realized": true,
+      "delta": {
+        "adaptability": 0.0,
+        "agency": -0.0061875000000000124,
+        "input_load": 0.06300000000000001,
+        "openness": 0.0040000000000000036,
+        "stability": -0.0024300000000000432,
+        "uncertainty": 0.010795363400466496
+      },
+      "intensity": 0.45,
+      "seed": 808080,
+      "state_signature_l2": 0.06438734291146152,
+      "target_node": 20,
+      "target_primary": "ai"
+    },
+    {
+      "after": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.19978842012491077,
+        "input_load": 0.06300000000000001,
+        "openness": 0.4771241079583764,
+        "stability": 0.629256106635563,
+        "uncertainty": 0.7215780073956306
+      },
+      "before": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.20597592012491078,
+        "input_load": 0.0,
+        "openness": 0.4757241079583764,
+        "stability": 0.632739106635563,
+        "uncertainty": 0.719879348995164
+      },
+      "changed_dimensions": 5,
+      "channel": "resource",
+      "delivery_realized": true,
+      "delta": {
+        "adaptability": 0.0,
+        "agency": -0.0061875000000000124,
+        "input_load": 0.06300000000000001,
+        "openness": 0.0014000000000000123,
+        "stability": -0.003483000000000014,
+        "uncertainty": 0.0016986584004665684
+      },
+      "intensity": 0.45,
+      "seed": 808080,
+      "state_signature_l2": 0.06343707027922615,
+      "target_node": 20,
+      "target_primary": "ai"
+    },
+    {
+      "after": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.1812259201249108,
+        "input_load": 0.06300000000000001,
+        "openness": 0.47332410795837637,
+        "stability": 0.627717106635563,
+        "uncertainty": 0.7216010923956306
+      },
+      "before": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.20597592012491078,
+        "input_load": 0.0,
+        "openness": 0.4757241079583764,
+        "stability": 0.632739106635563,
+        "uncertainty": 0.719879348995164
+      },
+      "changed_dimensions": 5,
+      "channel": "authority",
+      "delivery_realized": true,
+      "delta": {
+        "adaptability": 0.0,
+        "agency": -0.024749999999999994,
+        "input_load": 0.06300000000000001,
+        "openness": -0.0024000000000000132,
+        "stability": -0.005021999999999971,
+        "uncertainty": 0.0017217434004666021
+      },
+      "intensity": 0.45,
+      "seed": 808080,
+      "state_signature_l2": 0.06793752559769198,
+      "target_node": 20,
+      "target_primary": "ai"
+    },
+    {
+      "after": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.19978842012491077,
+        "input_load": 0.06300000000000001,
+        "openness": 0.47232410795837637,
+        "stability": 0.627312106635563,
+        "uncertainty": 0.7216071673956306
+      },
+      "before": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.20597592012491078,
+        "input_load": 0.0,
+        "openness": 0.4757241079583764,
+        "stability": 0.632739106635563,
+        "uncertainty": 0.719879348995164
+      },
+      "changed_dimensions": 5,
+      "channel": "physical",
+      "delivery_realized": true,
+      "delta": {
+        "adaptability": 0.0,
+        "agency": -0.0061875000000000124,
+        "input_load": 0.06300000000000001,
+        "openness": -0.003400000000000014,
+        "stability": -0.00542699999999996,
+        "uncertainty": 0.001727818400466541
+      },
+      "intensity": 0.45,
+      "seed": 808080,
+      "state_signature_l2": 0.0636496884648699,
+      "target_node": 20,
+      "target_primary": "ai"
+    },
+    {
+      "after": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.19978842012491077,
+        "input_load": 0.06300000000000001,
+        "openness": 0.4717241079583764,
+        "stability": 0.627069106635563,
+        "uncertainty": 0.7216108123956306
+      },
+      "before": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.20597592012491078,
+        "input_load": 0.0,
+        "openness": 0.4757241079583764,
+        "stability": 0.632739106635563,
+        "uncertainty": 0.719879348995164
+      },
+      "changed_dimensions": 5,
+      "channel": "ecology",
+      "delivery_realized": true,
+      "delta": {
+        "adaptability": 0.0,
+        "agency": -0.0061875000000000124,
+        "input_load": 0.06300000000000001,
+        "openness": -0.0040000000000000036,
+        "stability": -0.005669999999999953,
+        "uncertainty": 0.001731463400466593
+      },
+      "intensity": 0.45,
+      "seed": 808080,
+      "state_signature_l2": 0.06370582408035513,
+      "target_node": 20,
+      "target_primary": "ai"
+    },
+    {
+      "after": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.19566342012491078,
+        "input_load": 0.10500000000000001,
+        "openness": 0.4797241079583764,
+        "stability": 0.628689106635563,
+        "uncertainty": 0.7441990123956306
+      },
+      "before": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.20597592012491078,
+        "input_load": 0.0,
+        "openness": 0.4757241079583764,
+        "stability": 0.632739106635563,
+        "uncertainty": 0.719879348995164
+      },
+      "changed_dimensions": 5,
+      "channel": "info",
+      "delivery_realized": true,
+      "delta": {
+        "adaptability": 0.0,
+        "agency": -0.010312500000000002,
+        "input_load": 0.10500000000000001,
+        "openness": 0.0040000000000000036,
+        "stability": -0.004049999999999998,
+        "uncertainty": 0.02431966340046654
+      },
+      "intensity": 0.75,
+      "seed": 808080,
+      "state_signature_l2": 0.10842138250438423,
+      "target_node": 20,
+      "target_primary": "ai"
+    },
+    {
+      "after": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.19566342012491078,
+        "input_load": 0.10500000000000001,
+        "openness": 0.4771241079583764,
+        "stability": 0.626934106635563,
+        "uncertainty": 0.7290378373956307
+      },
+      "before": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.20597592012491078,
+        "input_load": 0.0,
+        "openness": 0.4757241079583764,
+        "stability": 0.632739106635563,
+        "uncertainty": 0.719879348995164
+      },
+      "changed_dimensions": 5,
+      "channel": "resource",
+      "delivery_realized": true,
+      "delta": {
+        "adaptability": 0.0,
+        "agency": -0.010312500000000002,
+        "input_load": 0.10500000000000001,
+        "openness": 0.0014000000000000123,
+        "stability": -0.005804999999999949,
+        "uncertainty": 0.009158488400466624
+      },
+      "intensity": 0.75,
+      "seed": 808080,
+      "state_signature_l2": 0.10607018238426613,
+      "target_node": 20,
+      "target_primary": "ai"
+    },
+    {
+      "after": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.16472592012491077,
+        "input_load": 0.10500000000000001,
+        "openness": 0.47332410795837637,
+        "stability": 0.624369106635563,
+        "uncertainty": 0.7290763123956306
+      },
+      "before": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.20597592012491078,
+        "input_load": 0.0,
+        "openness": 0.4757241079583764,
+        "stability": 0.632739106635563,
+        "uncertainty": 0.719879348995164
+      },
+      "changed_dimensions": 5,
+      "channel": "authority",
+      "delivery_realized": true,
+      "delta": {
+        "adaptability": 0.0,
+        "agency": -0.04125000000000001,
+        "input_load": 0.10500000000000001,
+        "openness": -0.0024000000000000132,
+        "stability": -0.008369999999999989,
+        "uncertainty": 0.009196963400466607
+      },
+      "intensity": 0.75,
+      "seed": 808080,
+      "state_signature_l2": 0.11352076257579283,
+      "target_node": 20,
+      "target_primary": "ai"
+    },
+    {
+      "after": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.19566342012491078,
+        "input_load": 0.10500000000000001,
+        "openness": 0.47232410795837637,
+        "stability": 0.623694106635563,
+        "uncertainty": 0.7290864373956306
+      },
+      "before": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.20597592012491078,
+        "input_load": 0.0,
+        "openness": 0.4757241079583764,
+        "stability": 0.632739106635563,
+        "uncertainty": 0.719879348995164
+      },
+      "changed_dimensions": 5,
+      "channel": "physical",
+      "delivery_realized": true,
+      "delta": {
+        "adaptability": 0.0,
+        "agency": -0.010312500000000002,
+        "input_load": 0.10500000000000001,
+        "openness": -0.003400000000000014,
+        "stability": -0.00904499999999997,
+        "uncertainty": 0.009207088400466579
+      },
+      "intensity": 0.75,
+      "seed": 808080,
+      "state_signature_l2": 0.10634608670780514,
+      "target_node": 20,
+      "target_primary": "ai"
+    },
+    {
+      "after": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.19566342012491078,
+        "input_load": 0.10500000000000001,
+        "openness": 0.4717241079583764,
+        "stability": 0.623289106635563,
+        "uncertainty": 0.7290925123956307
+      },
+      "before": {
+        "adaptability": 0.2657947264844552,
+        "agency": 0.20597592012491078,
+        "input_load": 0.0,
+        "openness": 0.4757241079583764,
+        "stability": 0.632739106635563,
+        "uncertainty": 0.719879348995164
+      },
+      "changed_dimensions": 5,
+      "channel": "ecology",
+      "delivery_realized": true,
+      "delta": {
+        "adaptability": 0.0,
+        "agency": -0.010312500000000002,
+        "input_load": 0.10500000000000001,
+        "openness": -0.0040000000000000036,
+        "stability": -0.009449999999999958,
+        "uncertainty": 0.009213163400466629
+      },
+      "intensity": 0.75,
+      "seed": 808080,
+      "state_signature_l2": 0.10640269045514639,
+      "target_node": 20,
+      "target_primary": "ai"
+    }
+  ],
+  "context_response_norm_range": 0.0015838469936447913,
+  "context_runs": [
+    {
+      "after": {
+        "adaptability": 0.4372583971824497,
+        "agency": 0.781264197545126,
+        "input_load": 0.09100000000000001,
+        "openness": 0.31635274726059287,
+        "stability": 0.301856051918827,
+        "uncertainty": 0.7477224422948514
+      },
+      "before": {
+        "adaptability": 0.4372583971824497,
+        "agency": 0.790201697545126,
+        "input_load": 0.0,
+        "openness": 0.31235274726059287,
+        "stability": 0.305366051918827,
+        "uncertainty": 0.7230002830736338
+      },
+      "changed_dimensions": 5,
+      "channel": "info",
+      "delivery_realized": true,
+      "delta": {
+        "adaptability": 0.0,
+        "agency": -0.008937500000000043,
+        "input_load": 0.09100000000000001,
+        "openness": 0.0040000000000000036,
+        "stability": -0.003510000000000013,
+        "uncertainty": 0.024722159221217566
+      },
+      "intensity": 0.65,
+      "seed": 808081,
+      "state_signature_l2": 0.09487035449922823,
+      "target_node": 0,
+      "target_primary": "human"
+    },
+    {
+      "after": {
+        "adaptability": 0.9319285010453313,
+        "agency": 0.582579496140126,
+        "input_load": 0.09100000000000001,
+        "openness": 0.952669799673371,
+        "stability": 0.6952398584901913,
+        "uncertainty": 0.4370562840443185
+      },
+      "before": {
+        "adaptability": 0.9319285010453313,
+        "agency": 0.5915169961401261,
+        "input_load": 0.0,
+        "openness": 0.948669799673371,
+        "stability": 0.6987498584901913,
+        "uncertainty": 0.41823488192167135
+      },
+      "changed_dimensions": 5,
+      "channel": "info",
+      "delivery_realized": true,
+      "delta": {
+        "adaptability": 0.0,
+        "agency": -0.008937500000000043,
+        "input_load": 0.09100000000000001,
+        "openness": 0.0040000000000000036,
+        "stability": -0.003510000000000013,
+        "uncertainty": 0.018821402122647157
+      },
+      "intensity": 0.65,
+      "seed": 808081,
+      "state_signature_l2": 0.09350638579323013,
+      "target_node": 20,
+      "target_primary": "ai"
+    },
+    {
+      "after": {
+        "adaptability": 0.5059955307515338,
+        "agency": 0.1962307862103917,
+        "input_load": 0.09100000000000001,
+        "openness": 0.5378531661545858,
+        "stability": 0.7642360721810347,
+        "uncertainty": 0.6934981943483893
+      },
+      "before": {
+        "adaptability": 0.5059955307515338,
+        "agency": 0.20516828621039168,
+        "input_load": 0.0,
+        "openness": 0.5338531661545858,
+        "stability": 0.7677460721810347,
+        "uncertainty": 0.6757117354311049
+      },
+      "changed_dimensions": 5,
+      "channel": "info",
+      "delivery_realized": true,
+      "delta": {
+        "adaptability": 0.0,
+        "agency": -0.008937499999999987,
+        "input_load": 0.09100000000000001,
+        "openness": 0.0040000000000000036,
+        "stability": -0.003510000000000013,
+        "uncertainty": 0.017786458917284476
+      },
+      "intensity": 0.65,
+      "seed": 808081,
+      "state_signature_l2": 0.0933035751033488,
+      "target_node": 40,
+      "target_primary": "institution"
+    },
+    {
+      "after": {
+        "adaptability": 0.5250805324641987,
+        "agency": 0.6994539554561487,
+        "input_load": 0.09100000000000001,
+        "openness": 0.9284964595418423,
+        "stability": 0.6517678590586967,
+        "uncertainty": 0.2652959915155974
+      },
+      "before": {
+        "adaptability": 0.5250805324641987,
+        "agency": 0.7083914554561488,
+        "input_load": 0.0,
+        "openness": 0.9244964595418423,
+        "stability": 0.6552778590586967,
+        "uncertainty": 0.24582250940147787
+      },
+      "changed_dimensions": 5,
+      "channel": "info",
+      "delivery_realized": true,
+      "delta": {
+        "adaptability": 0.0,
+        "agency": -0.008937500000000043,
+        "input_load": 0.09100000000000001,
+        "openness": 0.0040000000000000036,
+        "stability": -0.003510000000000013,
+        "uncertainty": 0.019473482114119534
+      },
+      "intensity": 0.65,
+      "seed": 808081,
+      "state_signature_l2": 0.09363981798305109,
+      "target_node": 55,
+      "target_primary": "economy"
+    },
+    {
+      "after": {
+        "adaptability": 0.9402386086992919,
+        "agency": 0.31088023911975327,
+        "input_load": 0.09100000000000001,
+        "openness": 0.8142066513849422,
+        "stability": 0.29749501131964845,
+        "uncertainty": 0.18044501953825456
+      },
+      "before": {
+        "adaptability": 0.9402386086992919,
+        "agency": 0.31981773911975325,
+        "input_load": 0.0,
+        "openness": 0.8102066513849422,
+        "stability": 0.30100501131964846,
+        "uncertainty": 0.1556574447080493
+      },
+      "changed_dimensions": 5,
+      "channel": "info",
+      "delivery_realized": true,
+      "delta": {
+        "adaptability": 0.0,
+        "agency": -0.008937499999999987,
+        "input_load": 0.09100000000000001,
+        "openness": 0.0040000000000000036,
+        "stability": -0.003510000000000013,
+        "uncertainty": 0.024787574830205272
+      },
+      "intensity": 0.65,
+      "seed": 808081,
+      "state_signature_l2": 0.09488742209699359,
+      "target_node": 70,
+      "target_primary": "ecosystem"
+    },
+    {
+      "after": {
+        "adaptability": 0.8441321818623692,
+        "agency": 0.6394903192394412,
+        "input_load": 0.09100000000000001,
+        "openness": 0.264740408487618,
+        "stability": 0.6942902796531655,
+        "uncertainty": 0.6422207511571199
+      },
+      "before": {
+        "adaptability": 0.8441321818623692,
+        "agency": 0.6484278192394413,
+        "input_load": 0.0,
+        "openness": 0.260740408487618,
+        "stability": 0.6978002796531655,
+        "uncertainty": 0.6233851053519174
+      },
+      "changed_dimensions": 5,
+      "channel": "info",
+      "delivery_realized": true,
+      "delta": {
+        "adaptability": 0.0,
+        "agency": -0.008937500000000043,
+        "input_load": 0.09100000000000001,
+        "openness": 0.0040000000000000036,
+        "stability": -0.003510000000000013,
+        "uncertainty": 0.018835645805202472
+      },
+      "intensity": 0.65,
+      "seed": 808081,
+      "state_signature_l2": 0.09350925386906392,
+      "target_node": 85,
+      "target_primary": "infra"
+    }
+  ],
+  "context_uncertainty_delta_range": 0.007001115912920797,
+  "design_constraints": [
+    "distributed multivariate state is retained",
+    "perturbation response is measured from realized state transitions",
+    "channel/modular context is preserved",
+    "context dependence is tested rather than assumed universal",
+    "scalar norms are descriptive and never authorization variables",
+    "state inference is not treated as network identification"
+  ],
+  "distinct_channel_intensity_signatures": 15,
+  "interpretation_boundary": {
+    "biological_equivalence_claimed": false,
+    "critical_transition_claimed": false,
+    "reason_recovery_not_measured": "the v1.0 engine has event-driven state updates but no calibrated autonomous recovery/return-to-attractor process",
+    "resilience_or_recovery_measured": false,
+    "single_privileged_health_or_alignment_scalar_claimed": false
+  },
+  "multivariate_response_present": true,
+  "pass": true,
+  "state_dimensions": [
+    "openness",
+    "agency",
+    "stability",
+    "uncertainty",
+    "adaptability",
+    "input_load"
+  ]
+}

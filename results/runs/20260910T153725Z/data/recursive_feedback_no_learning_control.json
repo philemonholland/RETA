@@ -1,0 +1,636 @@
+{
+  "all_histories_recurred": true,
+  "all_model_errors_unchanged": true,
+  "all_ordinary_states_evolved": true,
+  "all_posteriors_unchanged": true,
+  "min_recurrent_without_model_learning": 60,
+  "n_seeds": 24,
+  "pass": true,
+  "runs": [
+    {
+      "error_after": 0.10027076159045098,
+      "error_before": 0.10027076159045098,
+      "events_materialized": 60,
+      "feedback_deliveries_recorded": 60,
+      "ordinary_state_after": {
+        "adaptability": 1.0,
+        "agency": 0.6512490485079574,
+        "input_load": 0.08399999999999994,
+        "openness": 0.2816494015444068,
+        "stability": 0.8498155678139399,
+        "uncertainty": 0.0
+      },
+      "ordinary_state_before": {
+        "adaptability": 1.0,
+        "agency": 0.6644490485079586,
+        "input_load": 0.0,
+        "openness": 0.334449401544407,
+        "stability": 0.8556907678139396,
+        "uncertainty": 0.5165423838421702
+      },
+      "ordinary_state_changed": true,
+      "posterior_unchanged": true,
+      "recurrent_without_model_learning": 60,
+      "seed": 353000
+    },
+    {
+      "error_after": 0.20648419535532594,
+      "error_before": 0.20648419535532594,
+      "events_materialized": 60,
+      "feedback_deliveries_recorded": 60,
+      "ordinary_state_after": {
+        "adaptability": 1.0,
+        "agency": 0.7024593818683165,
+        "input_load": 0.08399999999999994,
+        "openness": 0.8617826153922831,
+        "stability": 0.779948673174377,
+        "uncertainty": 0.0
+      },
+      "ordinary_state_before": {
+        "adaptability": 1.0,
+        "agency": 0.7156593818683177,
+        "input_load": 0.0,
+        "openness": 0.9145826153922826,
+        "stability": 0.7858238731743767,
+        "uncertainty": 0.28153779802378265
+      },
+      "ordinary_state_changed": true,
+      "posterior_unchanged": true,
+      "recurrent_without_model_learning": 60,
+      "seed": 353001
+    },
+    {
+      "error_after": 0.13962508508190513,
+      "error_before": 0.13962508508190513,
+      "events_materialized": 60,
+      "feedback_deliveries_recorded": 60,
+      "ordinary_state_after": {
+        "adaptability": 1.0,
+        "agency": 0.9357652034128072,
+        "input_load": 0.08399999999999994,
+        "openness": 0.5793443239692604,
+        "stability": 0.40901944512560473,
+        "uncertainty": 0.44497831678987765
+      },
+      "ordinary_state_before": {
+        "adaptability": 1.0,
+        "agency": 0.9489652034128084,
+        "input_load": 0.0,
+        "openness": 0.6321443239692599,
+        "stability": 0.41489464512560514,
+        "uncertainty": 0.7984492894029245
+      },
+      "ordinary_state_changed": true,
+      "posterior_unchanged": true,
+      "recurrent_without_model_learning": 60,
+      "seed": 353002
+    },
+    {
+      "error_after": 0.2012262995168566,
+      "error_before": 0.2012262995168566,
+      "events_materialized": 60,
+      "feedback_deliveries_recorded": 60,
+      "ordinary_state_after": {
+        "adaptability": 1.0,
+        "agency": 0.9064152922697353,
+        "input_load": 0.08399999999999994,
+        "openness": 0.8382536066163335,
+        "stability": 0.39912177980703745,
+        "uncertainty": 0.03200090753535377
+      },
+      "ordinary_state_before": {
+        "adaptability": 1.0,
+        "agency": 0.9196152922697365,
+        "input_load": 0.0,
+        "openness": 0.891053606616333,
+        "stability": 0.40499697980703786,
+        "uncertainty": 0.3765639813616872
+      },
+      "ordinary_state_changed": true,
+      "posterior_unchanged": true,
+      "recurrent_without_model_learning": 60,
+      "seed": 353003
+    },
+    {
+      "error_after": 0.1488777442388236,
+      "error_before": 0.1488777442388236,
+      "events_materialized": 60,
+      "feedback_deliveries_recorded": 60,
+      "ordinary_state_after": {
+        "adaptability": 1.0,
+        "agency": 0.5033481224423262,
+        "input_load": 0.08399999999999994,
+        "openness": 0.8129758769579236,
+        "stability": 0.8358135734434569,
+        "uncertainty": 0.0
+      },
+      "ordinary_state_before": {
+        "adaptability": 1.0,
+        "agency": 0.5165481224423274,
+        "input_load": 0.0,
+        "openness": 0.8657758769579231,
+        "stability": 0.8416887734434566,
+        "uncertainty": 0.5671398069709539
+      },
+      "ordinary_state_changed": true,
+      "posterior_unchanged": true,
+      "recurrent_without_model_learning": 60,
+      "seed": 353004
+    },
+    {
+      "error_after": 0.16073115772753951,
+      "error_before": 0.16073115772753951,
+      "events_materialized": 60,
+      "feedback_deliveries_recorded": 60,
+      "ordinary_state_after": {
+        "adaptability": 1.0,
+        "agency": 0.5485395145120087,
+        "input_load": 0.08399999999999994,
+        "openness": 0.4938900276951496,
+        "stability": 0.33106166056649267,
+        "uncertainty": 0.31797300897926567
+      },
+      "ordinary_state_before": {
+        "adaptability": 1.0,
+        "agency": 0.5617395145120099,
+        "input_load": 0.0,
+        "openness": 0.5466900276951492,
+        "stability": 0.3369368605664931,
+        "uncertainty": 0.6012819754891097
+      },
+      "ordinary_state_changed": true,
+      "posterior_unchanged": true,
+      "recurrent_without_model_learning": 60,
+      "seed": 353005
+    },
+    {
+      "error_after": 0.23336988492310046,
+      "error_before": 0.23336988492310046,
+      "events_materialized": 60,
+      "feedback_deliveries_recorded": 60,
+      "ordinary_state_after": {
+        "adaptability": 1.0,
+        "agency": 0.6392449055315914,
+        "input_load": 0.08399999999999994,
+        "openness": 0.45119823756888494,
+        "stability": 0.33969607055013507,
+        "uncertainty": 0.218958174839305
+      },
+      "ordinary_state_before": {
+        "adaptability": 1.0,
+        "agency": 0.6524449055315926,
+        "input_load": 0.0,
+        "openness": 0.5039982375688851,
+        "stability": 0.3455712705501355,
+        "uncertainty": 0.5100381103344261
+      },
+      "ordinary_state_changed": true,
+      "posterior_unchanged": true,
+      "recurrent_without_model_learning": 60,
+      "seed": 353006
+    },
+    {
+      "error_after": 0.12606795233115553,
+      "error_before": 0.12606795233115553,
+      "events_materialized": 60,
+      "feedback_deliveries_recorded": 60,
+      "ordinary_state_after": {
+        "adaptability": 1.0,
+        "agency": 0.5248892842542368,
+        "input_load": 0.08399999999999994,
+        "openness": 0.5900445630706852,
+        "stability": 0.7099771390884513,
+        "uncertainty": 0.0
+      },
+      "ordinary_state_before": {
+        "adaptability": 1.0,
+        "agency": 0.538089284254238,
+        "input_load": 0.0,
+        "openness": 0.6428445630706847,
+        "stability": 0.715852339088451,
+        "uncertainty": 0.34763824539259075
+      },
+      "ordinary_state_changed": true,
+      "posterior_unchanged": true,
+      "recurrent_without_model_learning": 60,
+      "seed": 353007
+    },
+    {
+      "error_after": 0.2325279643908143,
+      "error_before": 0.2325279643908143,
+      "events_materialized": 60,
+      "feedback_deliveries_recorded": 60,
+      "ordinary_state_after": {
+        "adaptability": 1.0,
+        "agency": 0.27121068651154584,
+        "input_load": 0.08399999999999994,
+        "openness": 0.7032721133835619,
+        "stability": 0.7226406387268896,
+        "uncertainty": 0.0
+      },
+      "ordinary_state_before": {
+        "adaptability": 1.0,
+        "agency": 0.2844106865115464,
+        "input_load": 0.0,
+        "openness": 0.7560721133835614,
+        "stability": 0.7285158387268893,
+        "uncertainty": 0.346892395010218
+      },
+      "ordinary_state_changed": true,
+      "posterior_unchanged": true,
+      "recurrent_without_model_learning": 60,
+      "seed": 353008
+    },
+    {
+      "error_after": 0.2488261106275022,
+      "error_before": 0.2488261106275022,
+      "events_materialized": 60,
+      "feedback_deliveries_recorded": 60,
+      "ordinary_state_after": {
+        "adaptability": 1.0,
+        "agency": 0.644488375143333,
+        "input_load": 0.08399999999999994,
+        "openness": 0.4374942470740525,
+        "stability": 0.60098740543298,
+        "uncertainty": 0.28558683779129185
+      },
+      "ordinary_state_before": {
+        "adaptability": 1.0,
+        "agency": 0.6576883751433342,
+        "input_load": 0.0,
+        "openness": 0.49029424707405267,
+        "stability": 0.6068626054329798,
+        "uncertainty": 0.811828974680975
+      },
+      "ordinary_state_changed": true,
+      "posterior_unchanged": true,
+      "recurrent_without_model_learning": 60,
+      "seed": 353009
+    },
+    {
+      "error_after": 0.24492485161498187,
+      "error_before": 0.24492485161498187,
+      "events_materialized": 60,
+      "feedback_deliveries_recorded": 60,
+      "ordinary_state_after": {
+        "adaptability": 1.0,
+        "agency": 0.8403176471224973,
+        "input_load": 0.08399999999999994,
+        "openness": 0.8774136646583681,
+        "stability": 0.7774694301985534,
+        "uncertainty": 0.15702183939322287
+      },
+      "ordinary_state_before": {
+        "adaptability": 1.0,
+        "agency": 0.8535176471224986,
+        "input_load": 0.0,
+        "openness": 0.9302136646583676,
+        "stability": 0.7833446301985532,
+        "uncertainty": 0.8420977985719219
+      },
+      "ordinary_state_changed": true,
+      "posterior_unchanged": true,
+      "recurrent_without_model_learning": 60,
+      "seed": 353010
+    },
+    {
+      "error_after": 0.2009274715743959,
+      "error_before": 0.2009274715743959,
+      "events_materialized": 60,
+      "feedback_deliveries_recorded": 60,
+      "ordinary_state_after": {
+        "adaptability": 1.0,
+        "agency": 0.770532785307801,
+        "input_load": 0.08399999999999994,
+        "openness": 0.5999824429096658,
+        "stability": 0.31877054520708953,
+        "uncertainty": 0.003415307269120596
+      },
+      "ordinary_state_before": {
+        "adaptability": 1.0,
+        "agency": 0.7837327853078022,
+        "input_load": 0.0,
+        "openness": 0.6527824429096654,
+        "stability": 0.32464574520708994,
+        "uncertainty": 0.2756622699555009
+      },
+      "ordinary_state_changed": true,
+      "posterior_unchanged": true,
+      "recurrent_without_model_learning": 60,
+      "seed": 353011
+    },
+    {
+      "error_after": 0.2007508545964956,
+      "error_before": 0.2007508545964956,
+      "events_materialized": 60,
+      "feedback_deliveries_recorded": 60,
+      "ordinary_state_after": {
+        "adaptability": 1.0,
+        "agency": 0.34684402021644584,
+        "input_load": 0.08399999999999994,
+        "openness": 0.44873267129790023,
+        "stability": 0.4779381048266168,
+        "uncertainty": 0.3724282586694824
+      },
+      "ordinary_state_before": {
+        "adaptability": 1.0,
+        "agency": 0.3600440202164464,
+        "input_load": 0.0,
+        "openness": 0.5015326712979004,
+        "stability": 0.4838133048266172,
+        "uncertainty": 0.7879260250134393
+      },
+      "ordinary_state_changed": true,
+      "posterior_unchanged": true,
+      "recurrent_without_model_learning": 60,
+      "seed": 353012
+    },
+    {
+      "error_after": 0.13572493918240067,
+      "error_before": 0.13572493918240067,
+      "events_materialized": 60,
+      "feedback_deliveries_recorded": 60,
+      "ordinary_state_after": {
+        "adaptability": 1.0,
+        "agency": 0.6998016099428745,
+        "input_load": 0.08399999999999994,
+        "openness": 0.6875376725967979,
+        "stability": 0.3794622899132173,
+        "uncertainty": 0.3308437904672834
+      },
+      "ordinary_state_before": {
+        "adaptability": 1.0,
+        "agency": 0.7130016099428758,
+        "input_load": 0.0,
+        "openness": 0.7403376725967974,
+        "stability": 0.3853374899132177,
+        "uncertainty": 0.65771332338918
+      },
+      "ordinary_state_changed": true,
+      "posterior_unchanged": true,
+      "recurrent_without_model_learning": 60,
+      "seed": 353013
+    },
+    {
+      "error_after": 0.13327338091656563,
+      "error_before": 0.13327338091656563,
+      "events_materialized": 60,
+      "feedback_deliveries_recorded": 60,
+      "ordinary_state_after": {
+        "adaptability": 1.0,
+        "agency": 0.5811768183817143,
+        "input_load": 0.08399999999999994,
+        "openness": 0.630410944780149,
+        "stability": 0.5688244095869692,
+        "uncertainty": 0.34791298963866546
+      },
+      "ordinary_state_before": {
+        "adaptability": 1.0,
+        "agency": 0.5943768183817155,
+        "input_load": 0.0,
+        "openness": 0.6832109447801485,
+        "stability": 0.574699609586969,
+        "uncertainty": 0.845208430266939
+      },
+      "ordinary_state_changed": true,
+      "posterior_unchanged": true,
+      "recurrent_without_model_learning": 60,
+      "seed": 353014
+    },
+    {
+      "error_after": 0.15826392259076233,
+      "error_before": 0.15826392259076233,
+      "events_materialized": 60,
+      "feedback_deliveries_recorded": 60,
+      "ordinary_state_after": {
+        "adaptability": 1.0,
+        "agency": 0.7456294533663417,
+        "input_load": 0.08399999999999994,
+        "openness": 0.7297157376937573,
+        "stability": 0.31429531621805834,
+        "uncertainty": 0.0
+      },
+      "ordinary_state_before": {
+        "adaptability": 1.0,
+        "agency": 0.7588294533663429,
+        "input_load": 0.0,
+        "openness": 0.7825157376937568,
+        "stability": 0.32017051621805875,
+        "uncertainty": 0.2549783449154347
+      },
+      "ordinary_state_changed": true,
+      "posterior_unchanged": true,
+      "recurrent_without_model_learning": 60,
+      "seed": 353015
+    },
+    {
+      "error_after": 0.16528275766596195,
+      "error_before": 0.16528275766596195,
+      "events_materialized": 60,
+      "feedback_deliveries_recorded": 60,
+      "ordinary_state_after": {
+        "adaptability": 1.0,
+        "agency": 0.7390999937529663,
+        "input_load": 0.08399999999999994,
+        "openness": 0.5831351841732864,
+        "stability": 0.5128690349852065,
+        "uncertainty": 0.17143291374823535
+      },
+      "ordinary_state_before": {
+        "adaptability": 1.0,
+        "agency": 0.7522999937529675,
+        "input_load": 0.0,
+        "openness": 0.6359351841732859,
+        "stability": 0.5187442349852063,
+        "uncertainty": 0.6183685172349214
+      },
+      "ordinary_state_changed": true,
+      "posterior_unchanged": true,
+      "recurrent_without_model_learning": 60,
+      "seed": 353016
+    },
+    {
+      "error_after": 0.2251089613474905,
+      "error_before": 0.2251089613474905,
+      "events_materialized": 60,
+      "feedback_deliveries_recorded": 60,
+      "ordinary_state_after": {
+        "adaptability": 1.0,
+        "agency": 0.4348519735254342,
+        "input_load": 0.08399999999999994,
+        "openness": 0.8140795496923854,
+        "stability": 0.5958198029763395,
+        "uncertainty": 0.0
+      },
+      "ordinary_state_before": {
+        "adaptability": 1.0,
+        "agency": 0.44805197352543474,
+        "input_load": 0.0,
+        "openness": 0.8668795496923849,
+        "stability": 0.6016950029763393,
+        "uncertainty": 0.4006694667739793
+      },
+      "ordinary_state_changed": true,
+      "posterior_unchanged": true,
+      "recurrent_without_model_learning": 60,
+      "seed": 353017
+    },
+    {
+      "error_after": 0.24939462640881532,
+      "error_before": 0.24939462640881532,
+      "events_materialized": 60,
+      "feedback_deliveries_recorded": 60,
+      "ordinary_state_after": {
+        "adaptability": 1.0,
+        "agency": 0.8059961595905001,
+        "input_load": 0.08399999999999994,
+        "openness": 0.7039107307724659,
+        "stability": 0.8463985326566132,
+        "uncertainty": 0.0
+      },
+      "ordinary_state_before": {
+        "adaptability": 1.0,
+        "agency": 0.8191961595905013,
+        "input_load": 0.0,
+        "openness": 0.7567107307724654,
+        "stability": 0.852273732656613,
+        "uncertainty": 0.37703699835110455
+      },
+      "ordinary_state_changed": true,
+      "posterior_unchanged": true,
+      "recurrent_without_model_learning": 60,
+      "seed": 353018
+    },
+    {
+      "error_after": 0.0979807354584336,
+      "error_before": 0.0979807354584336,
+      "events_materialized": 60,
+      "feedback_deliveries_recorded": 60,
+      "ordinary_state_after": {
+        "adaptability": 1.0,
+        "agency": 0.30167182305427215,
+        "input_load": 0.08399999999999994,
+        "openness": 0.44955550531651817,
+        "stability": 0.638196800437882,
+        "uncertainty": 0.0
+      },
+      "ordinary_state_before": {
+        "adaptability": 1.0,
+        "agency": 0.3148718230542727,
+        "input_load": 0.0,
+        "openness": 0.5023555053165183,
+        "stability": 0.6440720004378817,
+        "uncertainty": 0.3247301693772897
+      },
+      "ordinary_state_changed": true,
+      "posterior_unchanged": true,
+      "recurrent_without_model_learning": 60,
+      "seed": 353019
+    },
+    {
+      "error_after": 0.19152181258797643,
+      "error_before": 0.19152181258797643,
+      "events_materialized": 60,
+      "feedback_deliveries_recorded": 60,
+      "ordinary_state_after": {
+        "adaptability": 1.0,
+        "agency": 0.35916474173841945,
+        "input_load": 0.08399999999999994,
+        "openness": 0.8737187892830004,
+        "stability": 0.33569523393934103,
+        "uncertainty": 0.0
+      },
+      "ordinary_state_before": {
+        "adaptability": 1.0,
+        "agency": 0.37236474173842,
+        "input_load": 0.0,
+        "openness": 0.9265187892829999,
+        "stability": 0.34157043393934144,
+        "uncertainty": 0.21769017300102858
+      },
+      "ordinary_state_changed": true,
+      "posterior_unchanged": true,
+      "recurrent_without_model_learning": 60,
+      "seed": 353020
+    },
+    {
+      "error_after": 0.2308162836022675,
+      "error_before": 0.2308162836022675,
+      "events_materialized": 60,
+      "feedback_deliveries_recorded": 60,
+      "ordinary_state_after": {
+        "adaptability": 1.0,
+        "agency": 0.1954130531853991,
+        "input_load": 0.08399999999999994,
+        "openness": 0.838188141857088,
+        "stability": 0.3790218315768379,
+        "uncertainty": 0.0
+      },
+      "ordinary_state_before": {
+        "adaptability": 1.0,
+        "agency": 0.20861305318539963,
+        "input_load": 0.0,
+        "openness": 0.8909881418570875,
+        "stability": 0.3848970315768383,
+        "uncertainty": 0.2851457922253757
+      },
+      "ordinary_state_changed": true,
+      "posterior_unchanged": true,
+      "recurrent_without_model_learning": 60,
+      "seed": 353021
+    },
+    {
+      "error_after": 0.14458868908137082,
+      "error_before": 0.14458868908137082,
+      "events_materialized": 60,
+      "feedback_deliveries_recorded": 60,
+      "ordinary_state_after": {
+        "adaptability": 1.0,
+        "agency": 0.5531186706253315,
+        "input_load": 0.08399999999999994,
+        "openness": 0.41265778284780663,
+        "stability": 0.8583735252596767,
+        "uncertainty": 0.0142662455774048
+      },
+      "ordinary_state_before": {
+        "adaptability": 1.0,
+        "agency": 0.5663186706253327,
+        "input_load": 0.0,
+        "openness": 0.4654577828478068,
+        "stability": 0.8642487252596764,
+        "uncertainty": 0.7721558903111144
+      },
+      "ordinary_state_changed": true,
+      "posterior_unchanged": true,
+      "recurrent_without_model_learning": 60,
+      "seed": 353022
+    },
+    {
+      "error_after": 0.11515610210970043,
+      "error_before": 0.11515610210970043,
+      "events_materialized": 60,
+      "feedback_deliveries_recorded": 60,
+      "ordinary_state_after": {
+        "adaptability": 1.0,
+        "agency": 0.43151092561725474,
+        "input_load": 0.08399999999999994,
+        "openness": 0.2557845434339715,
+        "stability": 0.6638770051399576,
+        "uncertainty": 0.08335870594756194
+      },
+      "ordinary_state_before": {
+        "adaptability": 1.0,
+        "agency": 0.4447109256172553,
+        "input_load": 0.0,
+        "openness": 0.3085845434339717,
+        "stability": 0.6697522051399574,
+        "uncertainty": 0.6662014825735241
+      },
+      "ordinary_state_changed": true,
+      "posterior_unchanged": true,
+      "recurrent_without_model_learning": 60,
+      "seed": 353023
+    }
+  ],
+  "steps": 60
+}

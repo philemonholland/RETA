@@ -1,0 +1,9 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="72" fill="#fff" />
+  <g transform="translate(100 32)" fill="none" stroke="#000" stroke-width="13" shape-rendering="geometricPrecision">
+    <rect x="5" y="150" width="290" height="290" />
+    <line x1="150" y1="150" x2="150" y2="440" />
+    <line x1="5" y1="295" x2="295" y2="295" />
+  </g>
+  <rect x="297" y="36" width="116" height="116" fill="#000" />
+</svg>

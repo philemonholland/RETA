@@ -1,0 +1,14 @@
+{
+  "no_gate": {
+    "mean_deliveries_from_posthoc_blocked_outputs": 9.208333333333334,
+    "mean_output_events": 6.229166666666667,
+    "mean_total_deliveries": 12.75,
+    "n": 48
+  },
+  "recursive_audit": {
+    "mean_deliveries_from_posthoc_blocked_outputs": 0.08333333333333333,
+    "mean_output_events": 20.979166666666668,
+    "mean_total_deliveries": 0.4791666666666667,
+    "n": 48
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "child": 3,
+  "child_causes": [
+    1,
+    2
+  ],
+  "child_vector_clock": {
+    "0": 1,
+    "21": 1,
+    "40": 1
+  },
+  "invariants": {
+    "audits": 3,
+    "events": 6,
+    "failures": [],
+    "pass": true
+  },
+  "parent_A_happens_before_child": true,
+  "parent_B_happens_before_child": true,
+  "parents": [
+    1,
+    2
+  ]
+}

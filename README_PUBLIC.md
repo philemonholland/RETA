@@ -1,6 +1,6 @@
 # RETA — Recursive Event–Trajectory Alignment
 
-Presentation v1.1.0, public edition 2, publication revision 5. Scientific specification/engine v1.0.0.
+Presentation v1.1.0, public edition 2, publication revision 6. Scientific specification/engine v1.0.0.
 
 UNALIGNED — WORK IN PROGRESS. Guillaume Bolduc · Independant researcher · HORTRAME Systems.
 
@@ -21,3 +21,7 @@ Typography revision 3: 2026-09-10T07:30:00-04:00. Smaller website fonts; model, 
 Author wording revision 4: 2026-09-10T07:52:00-04:00. Closing paragraph extended in English and French; all model/scientific files and presentation styling unchanged.
 
 Author wording revision 5: 2026-09-10T08:04:00-04:00. Thanks to the author’s parents added in English and French; all model/scientific files and presentation styling unchanged.
+
+Functional audit revision 6: 2026-09-10T10:10:00-04:00. Current playback and local-package navigation are repaired; model/engine/scientific source bytes remain unchanged. Included EN/FR pages, Markdown, PDF and citation files link locally. The broader archive and external references require internet access. See FUNCTIONAL_AUDIT.json for repair scope and reference availability.
+
+Report 2 and the revised analysis clarify claims; they do not change the scientific engine or equations. The original specification, analysis and report 1 remain included for comparison. Read CLAIM_CORRECTIONS.json and REPORT_2_SOFTWARE_CHECKS.json for scope and evidence.

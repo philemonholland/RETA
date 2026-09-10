@@ -1,0 +1,195 @@
+{
+  "event_1": 1,
+  "event_1_lens": 1,
+  "event_2": 7,
+  "event_2_lens": 2,
+  "governance_chain": [
+    {
+      "audit_packet_ids": [],
+      "boundary": {
+        "source_memberships": [
+          "institution",
+          "economy"
+        ],
+        "source_primary": "institution"
+      },
+      "causes": [],
+      "channel": "info",
+      "claim_confidence": 0.55,
+      "created_at": 0.0,
+      "enactment_status": "ENACTED",
+      "evidence_status": "observed",
+      "gate_result": null,
+      "id": 4,
+      "intensity": 0.16,
+      "kind": "lens_change_proposal",
+      "label": "propose lens epoch v2",
+      "lens_version": null,
+      "metadata": {
+        "changes": {
+          "horizon": 5,
+          "modify_threshold": 0.48,
+          "note": "validated prospective test epoch"
+        },
+        "from_version": 1,
+        "prospective_only": true,
+        "to_version": 2
+      },
+      "recipients_realized": [],
+      "recipients_requested": [
+        45
+      ],
+      "recipients_scheduled": [
+        45
+      ],
+      "roots": [
+        2
+      ],
+      "runtime_status": "observed",
+      "source": 46,
+      "vector_clock": {
+        "46": 1
+      }
+    },
+    {
+      "audit_packet_ids": [],
+      "boundary": {
+        "source_memberships": [
+          "institution",
+          "ai"
+        ],
+        "source_primary": "institution"
+      },
+      "causes": [
+        4
+      ],
+      "channel": "info",
+      "claim_confidence": 0.55,
+      "created_at": 0.0,
+      "enactment_status": "ENACTED",
+      "evidence_status": "observed",
+      "gate_result": null,
+      "id": 5,
+      "intensity": 0.2,
+      "kind": "lens_change_review",
+      "label": "review proposed lens epoch v2",
+      "lens_version": null,
+      "metadata": {
+        "candidate_review": {
+          "change_magnitude": 0.333333333,
+          "failures": [],
+          "gate": "PASS",
+          "operating_limits": {
+            "horizon": [
+              1,
+              12
+            ],
+            "sensitivity_each": [
+              "greater_than_0",
+              2.0
+            ],
+            "threshold_each": [
+              "greater_than_0",
+              "less_than_1"
+            ],
+            "threshold_order": "modify < reject"
+          },
+          "review_uncertainty": 0.27,
+          "structural_valid": true
+        },
+        "proposal_event": 4,
+        "review_gate": "PASS"
+      },
+      "recipients_realized": [],
+      "recipients_requested": [
+        4
+      ],
+      "recipients_scheduled": [
+        4
+      ],
+      "roots": [
+        2
+      ],
+      "runtime_status": "observed",
+      "source": 45,
+      "vector_clock": {
+        "45": 1,
+        "46": 1
+      }
+    },
+    {
+      "audit_packet_ids": [],
+      "boundary": {
+        "source_memberships": [
+          "human"
+        ],
+        "source_primary": "human"
+      },
+      "causes": [
+        4,
+        5
+      ],
+      "channel": "authority",
+      "claim_confidence": 0.55,
+      "created_at": 0.0,
+      "enactment_status": "ENACTED",
+      "evidence_status": "observed",
+      "gate_result": null,
+      "id": 6,
+      "intensity": 0.18,
+      "kind": "lens_change_approval",
+      "label": "approve lens epoch v2",
+      "lens_version": null,
+      "metadata": {
+        "approval_requested": true,
+        "approved": true,
+        "proposal_event": 4,
+        "prospective_only": true,
+        "review_event": 5,
+        "review_gate": "PASS"
+      },
+      "recipients_realized": [],
+      "recipients_requested": [
+        46,
+        25,
+        45
+      ],
+      "recipients_scheduled": [
+        46,
+        25,
+        45
+      ],
+      "roots": [
+        2
+      ],
+      "runtime_status": "observed",
+      "source": 4,
+      "vector_clock": {
+        "4": 2,
+        "45": 1,
+        "46": 1
+      }
+    }
+  ],
+  "governance_event_exists": true,
+  "governance_event_kind": "lens_change_approval",
+  "historical_packet_sha256_after": "857760679fa1237db3ca7e395b9b40bab48df0e014e0af7d86e86313f801f055",
+  "historical_packet_sha256_before": "857760679fa1237db3ca7e395b9b40bab48df0e014e0af7d86e86313f801f055",
+  "historical_packet_unchanged": true,
+  "new_lens": {
+    "governance_event": 6,
+    "horizon": 5,
+    "modify_threshold": 0.48,
+    "note": "validated prospective test epoch",
+    "reject_threshold": 0.78,
+    "sensitivities": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "unresolved_threshold": 0.72,
+    "version": 2
+  }
+}

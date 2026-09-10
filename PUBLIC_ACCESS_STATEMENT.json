@@ -8,7 +8,7 @@
     "fr": "Je rends cette recherche entièrement ouverte et publique en raison de l’urgence créée par la menace existentielle que représente l’intelligence artificielle actuellement non alignée. Elle est accessible pour être examinée, remise en question et développée collectivement. Le modèle demeure NON ALIGNÉ et en évolution active."
   },
   "scope": "Public research package; no new license or third-party scientific endorsement asserted.",
-  "revised_at": "2026-09-10T08:04:00-04:00",
+  "revised_at": "2026-09-10T10:10:00-04:00",
   "full_statement": {
     "en": "/alignment/author/",
     "fr": "/alignment/fr/author/"
@@ -16,11 +16,11 @@
   "markdown": {
     "en": {
       "url": "/alignment/author/statement.en.md",
-      "sha256": "f1879db7cf67a76f2ab791d229992f66f2d33d13310443a9099ca51e77897af6"
+      "sha256": "486d86e25d027da706f99da0edc748f2fb210c44ac927ab8572ba24ab2e64012"
     },
     "fr": {
       "url": "/alignment/author/statement.fr.md",
-      "sha256": "d2e851e51000ee0aaced7308033dea0119acdc116fef05fade324a7741238de3"
+      "sha256": "b51484324406f755434051ee0190dcd3f8899a23709b814f0c05fd8dc29f3804"
     }
   },
   "sources": "/alignment/author/sources.json"

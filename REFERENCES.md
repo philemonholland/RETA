@@ -1,6 +1,6 @@
 # All references / Toutes les références
 
-Oldest to newest; undated entries last. Historical author-statement sources are included. Inclusion does not imply endorsement.
+Oldest to newest; unavailable online copies are marked.
 
 1. Leonard W. Doob. Propaganda: Its Psychology and Technique. Henry Holt and Company, 1935. 
 
@@ -12,7 +12,7 @@ Oldest to newest; undated entries last. Historical author-statement sources are 
 
 5. Leslie Lamport. 'Time, Clocks, and the Ordering of Events in a Distributed System.' Communications of the ACM 21(7), 558-565, 1978. https://doi.org/10.1145/359545.359563
 
-6. Colin J. Fidge. 'Timestamps in Message-Passing Systems That Preserve the Partial Ordering.' 11th Australian Computer Science Conference, pp. 56-66, 1988. https://ics.uci.edu/~cs230/reading/1.pdf
+6. Colin J. Fidge. 'Timestamps in Message-Passing Systems That Preserve the Partial Ordering.' 11th Australian Computer Science Conference, pp. 56-66, 1988. [Online copy unavailable; original URL recorded in FUNCTIONAL_AUDIT.json.]
 
 7. Friedemann Mattern. 'Virtual Time and Global States of Distributed Systems.' Proc. Workshop on Parallel and Distributed Algorithms, pp. 215-226, 1989. https://www.vs.inf.ethz.ch/publ/papers/VirtTimeGlobStates.pdf
 

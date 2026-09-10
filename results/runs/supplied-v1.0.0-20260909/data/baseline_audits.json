@@ -1,0 +1,5762 @@
+[
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.449143718,
+    "frozen_at": 0.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 1,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.363749631,
+      "boundary_ambiguity": 0.273174713,
+      "domains": 6.0,
+      "evolution_risk": 0.527300618,
+      "expected_impact": 0.400190022,
+      "expected_nodes": 4.023843,
+      "irreversibility": 0.262595402,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.660700977
+    },
+    "target_event_id": 1,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.351005931,
+      "Evolution": 0.550856282,
+      "Integrity": 0.49729266,
+      "Method": 0.334519713,
+      "Purpose": 0.529242056
+    },
+    "uncertainty": {
+      "boundary": 0.489368322,
+      "causality": 0.824638332,
+      "facts": 0.14917457,
+      "horizon": 0.68,
+      "model": 0.677848625,
+      "normative": 0.29094395
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.449143718,
+    "frozen_at": 0.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 2,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.363749631,
+      "boundary_ambiguity": 0.273174713,
+      "domains": 6.0,
+      "evolution_risk": 0.527300618,
+      "expected_impact": 0.400190022,
+      "expected_nodes": 4.023843,
+      "irreversibility": 0.262595402,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.660700977
+    },
+    "target_event_id": 1,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.351005931,
+      "Evolution": 0.550856282,
+      "Integrity": 0.49729266,
+      "Method": 0.334519713,
+      "Purpose": 0.529242056
+    },
+    "uncertainty": {
+      "boundary": 0.489368322,
+      "causality": 0.824638332,
+      "facts": 0.14917457,
+      "horizon": 0.68,
+      "model": 0.677848625,
+      "normative": 0.29094395
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.499535878,
+    "frozen_at": 0.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 3,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.556283377,
+      "boundary_ambiguity": 0.349116381,
+      "domains": 4.0,
+      "evolution_risk": 0.4954403,
+      "expected_impact": 0.374562376,
+      "expected_nodes": 0.935705,
+      "irreversibility": 0.229696321,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.754824707
+    },
+    "target_event_id": 2,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.423002288,
+      "Evolution": 0.500464122,
+      "Integrity": 0.463375193,
+      "Method": 0.324895272,
+      "Purpose": 0.499218869
+    },
+    "uncertainty": {
+      "boundary": 0.416452156,
+      "causality": 0.7466404,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.738087812,
+      "normative": 0.31533591
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.467354824,
+    "frozen_at": 0.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 4,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.274079022,
+      "boundary_ambiguity": 0.729171636,
+      "domains": 5.0,
+      "evolution_risk": 0.539315244,
+      "expected_impact": 0.510103079,
+      "expected_nodes": 0.627906,
+      "irreversibility": 0.458331377,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.660971828
+    },
+    "target_event_id": 4,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.441085918,
+      "Evolution": 0.50628781,
+      "Integrity": 0.532645176,
+      "Method": 0.431735914,
+      "Purpose": 0.52762501
+    },
+    "uncertainty": {
+      "boundary": 0.712086414,
+      "causality": 0.769730421,
+      "facts": 0.225171643,
+      "horizon": 0.6,
+      "model": 0.67802197,
+      "normative": 0.289381371
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.460653887,
+    "frozen_at": 0.25,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 5,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.436441208,
+      "boundary_ambiguity": 0.424322765,
+      "domains": 6.0,
+      "evolution_risk": 0.522413104,
+      "expected_impact": 0.42587842,
+      "expected_nodes": 0.480835,
+      "irreversibility": 0.337515501,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.711703668
+    },
+    "target_event_id": 6,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.489411646,
+      "Evolution": 0.487742244,
+      "Integrity": 0.539346113,
+      "Method": 0.362939052,
+      "Purpose": 0.516284053
+    },
+    "uncertainty": {
+      "boundary": 0.583080114,
+      "causality": 0.841979247,
+      "facts": 0.22620088,
+      "horizon": 0.68,
+      "model": 0.710490347,
+      "normative": 0.303689611
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.460653887,
+    "frozen_at": 0.25,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 6,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.436441208,
+      "boundary_ambiguity": 0.424322765,
+      "domains": 6.0,
+      "evolution_risk": 0.522413104,
+      "expected_impact": 0.42587842,
+      "expected_nodes": 0.480835,
+      "irreversibility": 0.337515501,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.711703668
+    },
+    "target_event_id": 6,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.489411646,
+      "Evolution": 0.487742244,
+      "Integrity": 0.539346113,
+      "Method": 0.362939052,
+      "Purpose": 0.516284053
+    },
+    "uncertainty": {
+      "boundary": 0.583080114,
+      "causality": 0.841979247,
+      "facts": 0.22620088,
+      "horizon": 0.68,
+      "model": 0.710490347,
+      "normative": 0.303689611
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.502694396,
+    "frozen_at": 0.25,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 7,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.593070824,
+      "boundary_ambiguity": 0.378364814,
+      "domains": 4.0,
+      "evolution_risk": 0.476466042,
+      "expected_impact": 0.370576408,
+      "expected_nodes": 0.773804,
+      "irreversibility": 0.219035126,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.73469801
+    },
+    "target_event_id": 7,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.438489566,
+      "Evolution": 0.492494934,
+      "Integrity": 0.461873316,
+      "Method": 0.329315666,
+      "Purpose": 0.497305604
+    },
+    "uncertainty": {
+      "boundary": 0.434586185,
+      "causality": 0.739797324,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.725206727,
+      "normative": 0.320087556
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.371164795,
+    "frozen_at": 0.25,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 8,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.69620123,
+      "boundary_ambiguity": 0.342462584,
+      "domains": 5.0,
+      "evolution_risk": 0.510866858,
+      "expected_impact": 0.481250501,
+      "expected_nodes": 0.773904,
+      "irreversibility": 0.382793074,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.709211277
+    },
+    "target_event_id": 9,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.628835205,
+      "Evolution": 0.482892821,
+      "Integrity": 0.501220319,
+      "Method": 0.496124704,
+      "Purpose": 0.514207773
+    },
+    "uncertainty": {
+      "boundary": 0.472326802,
+      "causality": 0.786131834,
+      "facts": 0.22620088,
+      "horizon": 0.6,
+      "model": 0.708895217,
+      "normative": 0.345593222
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.455825958,
+    "frozen_at": 0.25,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 9,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.273013183,
+      "boundary_ambiguity": 0.303356914,
+      "domains": 5.0,
+      "evolution_risk": 0.53864449,
+      "expected_impact": 0.5217377,
+      "expected_nodes": 0.727364,
+      "irreversibility": 0.478294237,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.691203799
+    },
+    "target_event_id": 11,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.356489329,
+      "Evolution": 0.544174042,
+      "Integrity": 0.469179759,
+      "Method": 0.490291698,
+      "Purpose": 0.485868836
+    },
+    "uncertainty": {
+      "boundary": 0.448081287,
+      "causality": 0.780009292,
+      "facts": 0.148160226,
+      "horizon": 0.6,
+      "model": 0.697370431,
+      "normative": 0.290395616
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.455825958,
+    "frozen_at": 0.25,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 10,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.273013183,
+      "boundary_ambiguity": 0.303356914,
+      "domains": 5.0,
+      "evolution_risk": 0.53864449,
+      "expected_impact": 0.5217377,
+      "expected_nodes": 0.727364,
+      "irreversibility": 0.478294237,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.691203799
+    },
+    "target_event_id": 11,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.356489329,
+      "Evolution": 0.544174042,
+      "Integrity": 0.469179759,
+      "Method": 0.490291698,
+      "Purpose": 0.485868836
+    },
+    "uncertainty": {
+      "boundary": 0.448081287,
+      "causality": 0.780009292,
+      "facts": 0.148160226,
+      "horizon": 0.6,
+      "model": 0.697370431,
+      "normative": 0.290395616
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.502694396,
+    "frozen_at": 0.25,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 11,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.593070824,
+      "boundary_ambiguity": 0.378364814,
+      "domains": 4.0,
+      "evolution_risk": 0.476466042,
+      "expected_impact": 0.370576408,
+      "expected_nodes": 0.773804,
+      "irreversibility": 0.219035126,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.73469801
+    },
+    "target_event_id": 12,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.438489566,
+      "Evolution": 0.492494934,
+      "Integrity": 0.461873316,
+      "Method": 0.329315666,
+      "Purpose": 0.497305604
+    },
+    "uncertainty": {
+      "boundary": 0.434586185,
+      "causality": 0.739797324,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.725206727,
+      "normative": 0.320087556
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.474743005,
+    "frozen_at": 0.25,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 12,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.285920909,
+      "boundary_ambiguity": 0.685320396,
+      "domains": 5.0,
+      "evolution_risk": 0.532567258,
+      "expected_impact": 0.50396699,
+      "expected_nodes": 0.720542,
+      "irreversibility": 0.448652582,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.649134184
+    },
+    "target_event_id": 14,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.448284194,
+      "Evolution": 0.492006989,
+      "Integrity": 0.525256995,
+      "Method": 0.430382284,
+      "Purpose": 0.525111688
+    },
+    "uncertainty": {
+      "boundary": 0.684898646,
+      "causality": 0.765705623,
+      "facts": 0.22620088,
+      "horizon": 0.6,
+      "model": 0.670445878,
+      "normative": 0.290425626
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.466023357,
+    "frozen_at": 0.25,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 13,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.211167096,
+      "boundary_ambiguity": 0.417204845,
+      "domains": 4.0,
+      "evolution_risk": 0.541618938,
+      "expected_impact": 0.393421068,
+      "expected_nodes": 0.273526,
+      "irreversibility": 0.27324348,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.730329597
+    },
+    "target_event_id": 16,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.282588642,
+      "Evolution": 0.533976643,
+      "Integrity": 0.462912607,
+      "Method": 0.304098285,
+      "Purpose": 0.370910985
+    },
+    "uncertainty": {
+      "boundary": 0.458667004,
+      "causality": 0.738312063,
+      "facts": 0.148701658,
+      "horizon": 0.52,
+      "model": 0.722410942,
+      "normative": 0.2689055
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.466023357,
+    "frozen_at": 0.25,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 14,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.211167096,
+      "boundary_ambiguity": 0.417204845,
+      "domains": 4.0,
+      "evolution_risk": 0.541618938,
+      "expected_impact": 0.393421068,
+      "expected_nodes": 0.273526,
+      "irreversibility": 0.27324348,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.730329597
+    },
+    "target_event_id": 16,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.282588642,
+      "Evolution": 0.533976643,
+      "Integrity": 0.462912607,
+      "Method": 0.304098285,
+      "Purpose": 0.370910985
+    },
+    "uncertainty": {
+      "boundary": 0.458667004,
+      "causality": 0.738312063,
+      "facts": 0.148701658,
+      "horizon": 0.52,
+      "model": 0.722410942,
+      "normative": 0.2689055
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.502694396,
+    "frozen_at": 0.25,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 15,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.593070824,
+      "boundary_ambiguity": 0.378364814,
+      "domains": 4.0,
+      "evolution_risk": 0.476466042,
+      "expected_impact": 0.370576408,
+      "expected_nodes": 0.773804,
+      "irreversibility": 0.219035126,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.73469801
+    },
+    "target_event_id": 17,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.438489566,
+      "Evolution": 0.492494934,
+      "Integrity": 0.461873316,
+      "Method": 0.329315666,
+      "Purpose": 0.497305604
+    },
+    "uncertainty": {
+      "boundary": 0.434586185,
+      "causality": 0.739797324,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.725206727,
+      "normative": 0.320087556
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.474888312,
+    "frozen_at": 0.25,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 16,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.288493469,
+      "boundary_ambiguity": 0.685320396,
+      "domains": 5.0,
+      "evolution_risk": 0.524115142,
+      "expected_impact": 0.50396699,
+      "expected_nodes": 0.720542,
+      "irreversibility": 0.448044897,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.634630852
+    },
+    "target_event_id": 19,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.449467571,
+      "Evolution": 0.4884571,
+      "Integrity": 0.521822606,
+      "Method": 0.430734139,
+      "Purpose": 0.525111688
+    },
+    "uncertainty": {
+      "boundary": 0.684898646,
+      "causality": 0.76077449,
+      "facts": 0.22620088,
+      "horizon": 0.6,
+      "model": 0.661163745,
+      "normative": 0.290785785
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.460377578,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 17,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.36040082,
+      "boundary_ambiguity": 0.311749451,
+      "domains": 6.0,
+      "evolution_risk": 0.539691409,
+      "expected_impact": 0.378880556,
+      "expected_nodes": 1.149761,
+      "irreversibility": 0.255152979,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.788104255
+    },
+    "target_event_id": 21,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.436032042,
+      "Evolution": 0.49479303,
+      "Integrity": 0.539622422,
+      "Method": 0.269179822,
+      "Purpose": 0.445274739
+    },
+    "uncertainty": {
+      "boundary": 0.51328466,
+      "causality": 0.867955447,
+      "facts": 0.208693653,
+      "horizon": 0.68,
+      "model": 0.759386723,
+      "normative": 0.28834417
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.460377578,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 18,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.36040082,
+      "boundary_ambiguity": 0.311749451,
+      "domains": 6.0,
+      "evolution_risk": 0.539691409,
+      "expected_impact": 0.378880556,
+      "expected_nodes": 1.149761,
+      "irreversibility": 0.255152979,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.788104255
+    },
+    "target_event_id": 21,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.436032042,
+      "Evolution": 0.49479303,
+      "Integrity": 0.539622422,
+      "Method": 0.269179822,
+      "Purpose": 0.445274739
+    },
+    "uncertainty": {
+      "boundary": 0.51328466,
+      "causality": 0.867955447,
+      "facts": 0.208693653,
+      "horizon": 0.68,
+      "model": 0.759386723,
+      "normative": 0.28834417
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.501840435,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 19,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.583690662,
+      "boundary_ambiguity": 0.365310161,
+      "domains": 4.0,
+      "evolution_risk": 0.48474399,
+      "expected_impact": 0.372355492,
+      "expected_nodes": 0.838564,
+      "irreversibility": 0.223494809,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.732357375
+    },
+    "target_event_id": 22,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.434815162,
+      "Evolution": 0.495971672,
+      "Integrity": 0.459862154,
+      "Method": 0.328728333,
+      "Purpose": 0.498159565
+    },
+    "uncertainty": {
+      "boundary": 0.4264923,
+      "causality": 0.739001508,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.72370872,
+      "normative": 0.318952242
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.386318429,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 20,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.673819012,
+      "boundary_ambiguity": 0.356420028,
+      "domains": 5.0,
+      "evolution_risk": 0.485504334,
+      "expected_impact": 0.467756573,
+      "expected_nodes": 0.668006,
+      "irreversibility": 0.359015669,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.728262464
+    },
+    "target_event_id": 24,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.613681571,
+      "Evolution": 0.472240561,
+      "Integrity": 0.50728929,
+      "Method": 0.484053442,
+      "Purpose": 0.507730688
+    },
+    "uncertainty": {
+      "boundary": 0.480980417,
+      "causality": 0.792609238,
+      "facts": 0.22620088,
+      "horizon": 0.6,
+      "model": 0.721087977,
+      "normative": 0.341110319
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.453812088,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 21,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.498413199,
+      "boundary_ambiguity": 0.245172128,
+      "domains": 6.0,
+      "evolution_risk": 0.528896927,
+      "expected_impact": 0.482857196,
+      "expected_nodes": 1.267516,
+      "irreversibility": 0.413688828,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.692377126
+    },
+    "target_event_id": 26,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.545856121,
+      "Evolution": 0.487055316,
+      "Integrity": 0.5152936,
+      "Method": 0.463696501,
+      "Purpose": 0.546187912
+    },
+    "uncertainty": {
+      "boundary": 0.47200672,
+      "causality": 0.835408223,
+      "facts": 0.227924956,
+      "horizon": 0.68,
+      "model": 0.69812136,
+      "normative": 0.318063567
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.453812088,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 22,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.498413199,
+      "boundary_ambiguity": 0.245172128,
+      "domains": 6.0,
+      "evolution_risk": 0.528896927,
+      "expected_impact": 0.482857196,
+      "expected_nodes": 1.267516,
+      "irreversibility": 0.413688828,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.692377126
+    },
+    "target_event_id": 26,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.545856121,
+      "Evolution": 0.487055316,
+      "Integrity": 0.5152936,
+      "Method": 0.463696501,
+      "Purpose": 0.546187912
+    },
+    "uncertainty": {
+      "boundary": 0.47200672,
+      "causality": 0.835408223,
+      "facts": 0.227924956,
+      "horizon": 0.68,
+      "model": 0.69812136,
+      "normative": 0.318063567
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.501840435,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 23,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.583690662,
+      "boundary_ambiguity": 0.365310161,
+      "domains": 4.0,
+      "evolution_risk": 0.48474399,
+      "expected_impact": 0.372355492,
+      "expected_nodes": 0.838564,
+      "irreversibility": 0.223494809,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.732357375
+    },
+    "target_event_id": 27,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.434815162,
+      "Evolution": 0.495971672,
+      "Integrity": 0.459862154,
+      "Method": 0.328728333,
+      "Purpose": 0.498159565
+    },
+    "uncertainty": {
+      "boundary": 0.4264923,
+      "causality": 0.739001508,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.72370872,
+      "normative": 0.318952242
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.345982232,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 24,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.732810717,
+      "boundary_ambiguity": 0.350000115,
+      "domains": 5.0,
+      "evolution_risk": 0.508286993,
+      "expected_impact": 0.483798275,
+      "expected_nodes": 0.731514,
+      "irreversibility": 0.384978897,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.703766576
+    },
+    "target_event_id": 29,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.654017768,
+      "Evolution": 0.478399144,
+      "Integrity": 0.501289425,
+      "Method": 0.504019901,
+      "Purpose": 0.516294704
+    },
+    "uncertainty": {
+      "boundary": 0.477000072,
+      "causality": 0.784280636,
+      "facts": 0.227924956,
+      "horizon": 0.6,
+      "model": 0.705410608,
+      "normative": 0.350973328
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.501780358,
+    "frozen_at": 0.5,
+    "gate": "PASS",
+    "horizon": 3,
+    "id": 25,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.309219625,
+      "boundary_ambiguity": 0.117850031,
+      "domains": 3.0,
+      "evolution_risk": 0.583446908,
+      "expected_impact": 0.347899503,
+      "expected_nodes": 0.221562,
+      "irreversibility": 0.237066964,
+      "max_depth": 2.0,
+      "model_uncertainty": 0.653673171
+    },
+    "target_event_id": 31,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.410984808,
+      "Evolution": 0.498219642,
+      "Integrity": 0.392498309,
+      "Method": 0.259573073,
+      "Purpose": 0.338853066
+    },
+    "uncertainty": {
+      "boundary": 0.213067019,
+      "causality": 0.582248878,
+      "facts": 0.230154145,
+      "horizon": 0.44,
+      "model": 0.673350829,
+      "normative": 0.278080698
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.501780358,
+    "frozen_at": 0.5,
+    "gate": "PASS",
+    "horizon": 3,
+    "id": 26,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.309219625,
+      "boundary_ambiguity": 0.117850031,
+      "domains": 3.0,
+      "evolution_risk": 0.583446908,
+      "expected_impact": 0.347899503,
+      "expected_nodes": 0.221562,
+      "irreversibility": 0.237066964,
+      "max_depth": 2.0,
+      "model_uncertainty": 0.653673171
+    },
+    "target_event_id": 31,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.410984808,
+      "Evolution": 0.498219642,
+      "Integrity": 0.392498309,
+      "Method": 0.259573073,
+      "Purpose": 0.338853066
+    },
+    "uncertainty": {
+      "boundary": 0.213067019,
+      "causality": 0.582248878,
+      "facts": 0.230154145,
+      "horizon": 0.44,
+      "model": 0.673350829,
+      "normative": 0.278080698
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.501840435,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 27,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.583690662,
+      "boundary_ambiguity": 0.365310161,
+      "domains": 4.0,
+      "evolution_risk": 0.48474399,
+      "expected_impact": 0.372355492,
+      "expected_nodes": 0.838564,
+      "irreversibility": 0.223494809,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.732357375
+    },
+    "target_event_id": 32,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.434815162,
+      "Evolution": 0.495971672,
+      "Integrity": 0.459862154,
+      "Method": 0.328728333,
+      "Purpose": 0.498159565
+    },
+    "uncertainty": {
+      "boundary": 0.4264923,
+      "causality": 0.739001508,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.72370872,
+      "normative": 0.318952242
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.344104885,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 28,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.735277776,
+      "boundary_ambiguity": 0.350000115,
+      "domains": 5.0,
+      "evolution_risk": 0.499966195,
+      "expected_impact": 0.483798275,
+      "expected_nodes": 0.731514,
+      "irreversibility": 0.384396133,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.691245962
+    },
+    "target_event_id": 34,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.655895115,
+      "Evolution": 0.463157742,
+      "Integrity": 0.4989933,
+      "Method": 0.503517326,
+      "Purpose": 0.515574704
+    },
+    "uncertainty": {
+      "boundary": 0.477000072,
+      "causality": 0.780023627,
+      "facts": 0.230154145,
+      "horizon": 0.6,
+      "model": 0.697397416,
+      "normative": 0.351318716
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.444548837,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 29,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.506609534,
+      "boundary_ambiguity": 0.135654613,
+      "domains": 5.0,
+      "evolution_risk": 0.530962158,
+      "expected_impact": 0.485974494,
+      "expected_nodes": 0.797586,
+      "irreversibility": 0.420134209,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.68280611
+    },
+    "target_event_id": 36,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.555451163,
+      "Evolution": 0.470504752,
+      "Integrity": 0.47340337,
+      "Method": 0.466326199,
+      "Purpose": 0.503252138
+    },
+    "uncertainty": {
+      "boundary": 0.34410586,
+      "causality": 0.777154077,
+      "facts": 0.231252761,
+      "horizon": 0.6,
+      "model": 0.69199591,
+      "normative": 0.319522784
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.444548837,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 30,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.506609534,
+      "boundary_ambiguity": 0.135654613,
+      "domains": 5.0,
+      "evolution_risk": 0.530962158,
+      "expected_impact": 0.485974494,
+      "expected_nodes": 0.797586,
+      "irreversibility": 0.420134209,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.68280611
+    },
+    "target_event_id": 36,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.555451163,
+      "Evolution": 0.470504752,
+      "Integrity": 0.47340337,
+      "Method": 0.466326199,
+      "Purpose": 0.503252138
+    },
+    "uncertainty": {
+      "boundary": 0.34410586,
+      "causality": 0.777154077,
+      "facts": 0.231252761,
+      "horizon": 0.6,
+      "model": 0.69199591,
+      "normative": 0.319522784
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.503397445,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 31,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.618443068,
+      "boundary_ambiguity": 0.389112459,
+      "domains": 4.0,
+      "evolution_risk": 0.458308515,
+      "expected_impact": 0.369111722,
+      "expected_nodes": 0.727546,
+      "irreversibility": 0.214834264,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.719289839
+    },
+    "target_event_id": 37,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.449633511,
+      "Evolution": 0.484868772,
+      "Integrity": 0.459424098,
+      "Method": 0.33334157,
+      "Purpose": 0.496602555
+    },
+    "uncertainty": {
+      "boundary": 0.441249724,
+      "causality": 0.734558545,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.715345497,
+      "normative": 0.323493202
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.34124306,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 32,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.73488435,
+      "boundary_ambiguity": 0.342462584,
+      "domains": 5.0,
+      "evolution_risk": 0.49723466,
+      "expected_impact": 0.481250501,
+      "expected_nodes": 0.773904,
+      "irreversibility": 0.381737144,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.687479355
+    },
+    "target_event_id": 39,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.65875694,
+      "Evolution": 0.456339202,
+      "Integrity": 0.497589764,
+      "Method": 0.502360821,
+      "Purpose": 0.514783773
+    },
+    "uncertainty": {
+      "boundary": 0.472326802,
+      "causality": 0.778742981,
+      "facts": 0.231252761,
+      "horizon": 0.6,
+      "model": 0.694986787,
+      "normative": 0.351008859
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.47904922,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 33,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.276207241,
+      "boundary_ambiguity": 0.304954207,
+      "domains": 5.0,
+      "evolution_risk": 0.536256566,
+      "expected_impact": 0.520535349,
+      "expected_nodes": 0.863164,
+      "irreversibility": 0.476235711,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.688326875
+    },
+    "target_event_id": 41,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.361733249,
+      "Evolution": 0.52095078,
+      "Integrity": 0.468542845,
+      "Method": 0.488938307,
+      "Purpose": 0.48992239
+    },
+    "uncertainty": {
+      "boundary": 0.449071608,
+      "causality": 0.779031137,
+      "facts": 0.147713839,
+      "horizon": 0.6,
+      "model": 0.6955292,
+      "normative": 0.290722549
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.47904922,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 34,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.276207241,
+      "boundary_ambiguity": 0.304954207,
+      "domains": 5.0,
+      "evolution_risk": 0.536256566,
+      "expected_impact": 0.520535349,
+      "expected_nodes": 0.863164,
+      "irreversibility": 0.476235711,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.688326875
+    },
+    "target_event_id": 41,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.361733249,
+      "Evolution": 0.52095078,
+      "Integrity": 0.468542845,
+      "Method": 0.488938307,
+      "Purpose": 0.48992239
+    },
+    "uncertainty": {
+      "boundary": 0.449071608,
+      "causality": 0.779031137,
+      "facts": 0.147713839,
+      "horizon": 0.6,
+      "model": 0.6955292,
+      "normative": 0.290722549
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.503397445,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 35,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.618443068,
+      "boundary_ambiguity": 0.389112459,
+      "domains": 4.0,
+      "evolution_risk": 0.458308515,
+      "expected_impact": 0.369111722,
+      "expected_nodes": 0.727546,
+      "irreversibility": 0.214834264,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.719289839
+    },
+    "target_event_id": 42,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.449633511,
+      "Evolution": 0.484868772,
+      "Integrity": 0.459424098,
+      "Method": 0.33334157,
+      "Purpose": 0.496602555
+    },
+    "uncertainty": {
+      "boundary": 0.441249724,
+      "causality": 0.734558545,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.715345497,
+      "normative": 0.323493202
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.475518131,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 36,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.298908704,
+      "boundary_ambiguity": 0.667367647,
+      "domains": 5.0,
+      "evolution_risk": 0.518380163,
+      "expected_impact": 0.501454868,
+      "expected_nodes": 0.766859,
+      "irreversibility": 0.444028449,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.628036785
+    },
+    "target_event_id": 44,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.465481715,
+      "Evolution": 0.465220314,
+      "Integrity": 0.519773168,
+      "Method": 0.430116239,
+      "Purpose": 0.524481869
+    },
+    "uncertainty": {
+      "boundary": 0.673767941,
+      "causality": 0.758532507,
+      "facts": 0.231252761,
+      "horizon": 0.6,
+      "model": 0.656943542,
+      "normative": 0.291992705
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.395677171,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 37,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.437319822,
+      "boundary_ambiguity": 0.486787934,
+      "domains": 6.0,
+      "evolution_risk": 0.52054367,
+      "expected_impact": 0.577925569,
+      "expected_nodes": 0.901078,
+      "irreversibility": 0.653322421,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.723615759
+    },
+    "target_event_id": 46,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.457248016,
+      "Evolution": 0.50391103,
+      "Integrity": 0.525762284,
+      "Method": 0.604322829,
+      "Purpose": 0.556507751
+    },
+    "uncertainty": {
+      "boundary": 0.621808519,
+      "causality": 0.846029358,
+      "facts": 0.148281796,
+      "horizon": 0.68,
+      "model": 0.718114086,
+      "normative": 0.319017332
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.395677171,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 38,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.437319822,
+      "boundary_ambiguity": 0.486787934,
+      "domains": 6.0,
+      "evolution_risk": 0.52054367,
+      "expected_impact": 0.577925569,
+      "expected_nodes": 0.901078,
+      "irreversibility": 0.653322421,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.723615759
+    },
+    "target_event_id": 46,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.457248016,
+      "Evolution": 0.50391103,
+      "Integrity": 0.525762284,
+      "Method": 0.604322829,
+      "Purpose": 0.556507751
+    },
+    "uncertainty": {
+      "boundary": 0.621808519,
+      "causality": 0.846029358,
+      "facts": 0.148281796,
+      "horizon": 0.68,
+      "model": 0.718114086,
+      "normative": 0.319017332
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.503397445,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 39,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.618443068,
+      "boundary_ambiguity": 0.389112459,
+      "domains": 4.0,
+      "evolution_risk": 0.458308515,
+      "expected_impact": 0.369111722,
+      "expected_nodes": 0.727546,
+      "irreversibility": 0.214834264,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.719289839
+    },
+    "target_event_id": 47,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.449633511,
+      "Evolution": 0.484868772,
+      "Integrity": 0.459424098,
+      "Method": 0.33334157,
+      "Purpose": 0.496602555
+    },
+    "uncertainty": {
+      "boundary": 0.441249724,
+      "causality": 0.734558545,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.715345497,
+      "normative": 0.323493202
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.475518131,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 40,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.301333862,
+      "boundary_ambiguity": 0.667367647,
+      "domains": 5.0,
+      "evolution_risk": 0.511127242,
+      "expected_impact": 0.501454868,
+      "expected_nodes": 0.766859,
+      "irreversibility": 0.443656086,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.619324406
+    },
+    "target_event_id": 49,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.466597288,
+      "Evolution": 0.462174087,
+      "Integrity": 0.517710077,
+      "Method": 0.43051009,
+      "Purpose": 0.524481869
+    },
+    "uncertainty": {
+      "boundary": 0.673767941,
+      "causality": 0.755570298,
+      "facts": 0.231252761,
+      "horizon": 0.6,
+      "model": 0.65136762,
+      "normative": 0.292332227
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.492449567,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 41,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.22815003,
+      "boundary_ambiguity": 0.431309672,
+      "domains": 4.0,
+      "evolution_risk": 0.535877644,
+      "expected_impact": 0.390557726,
+      "expected_nodes": 0.346087,
+      "irreversibility": 0.268053907,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.729253492
+    },
+    "target_event_id": 51,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.297784988,
+      "Evolution": 0.507550433,
+      "Integrity": 0.463995881,
+      "Method": 0.304636334,
+      "Purpose": 0.374022939
+    },
+    "uncertainty": {
+      "boundary": 0.467411996,
+      "causality": 0.737946187,
+      "facts": 0.147914984,
+      "horizon": 0.52,
+      "model": 0.721722235,
+      "normative": 0.270996777
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.492449567,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 42,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.22815003,
+      "boundary_ambiguity": 0.431309672,
+      "domains": 4.0,
+      "evolution_risk": 0.535877644,
+      "expected_impact": 0.390557726,
+      "expected_nodes": 0.346087,
+      "irreversibility": 0.268053907,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.729253492
+    },
+    "target_event_id": 51,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.297784988,
+      "Evolution": 0.507550433,
+      "Integrity": 0.463995881,
+      "Method": 0.304636334,
+      "Purpose": 0.374022939
+    },
+    "uncertainty": {
+      "boundary": 0.467411996,
+      "causality": 0.737946187,
+      "facts": 0.147914984,
+      "horizon": 0.52,
+      "model": 0.721722235,
+      "normative": 0.270996777
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.523411533,
+    "frozen_at": 0.5,
+    "gate": "PASS",
+    "horizon": 3,
+    "id": 43,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.651291169,
+      "boundary_ambiguity": 0.403606384,
+      "domains": 2.0,
+      "evolution_risk": 0.438593502,
+      "expected_impact": 0.363302734,
+      "expected_nodes": 0.650954,
+      "irreversibility": 0.202883109,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.712378289
+    },
+    "target_event_id": 52,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.462652402,
+      "Evolution": 0.476588467,
+      "Integrity": 0.411476314,
+      "Method": 0.336534813,
+      "Purpose": 0.405814241
+    },
+    "uncertainty": {
+      "boundary": 0.330235958,
+      "causality": 0.622208618,
+      "facts": 0.156237713,
+      "horizon": 0.36,
+      "model": 0.710922105,
+      "normative": 0.327511037
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.472797989,
+    "frozen_at": 0.5,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 44,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.319958384,
+      "boundary_ambiguity": 0.701434498,
+      "domains": 5.0,
+      "evolution_risk": 0.504700441,
+      "expected_impact": 0.506221831,
+      "expected_nodes": 0.683487,
+      "irreversibility": 0.450235964,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.605711506
+    },
+    "target_event_id": 54,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.480840675,
+      "Evolution": 0.462297953,
+      "Integrity": 0.518624416,
+      "Method": 0.436426716,
+      "Purpose": 0.527202011
+    },
+    "uncertainty": {
+      "boundary": 0.694889389,
+      "causality": 0.750941912,
+      "facts": 0.232372804,
+      "horizon": 0.6,
+      "model": 0.642655364,
+      "normative": 0.295416357
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.472607266,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 45,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.436397356,
+      "boundary_ambiguity": 0.261840306,
+      "domains": 4.0,
+      "evolution_risk": 0.522709902,
+      "expected_impact": 0.51045982,
+      "expected_nodes": 0.83071,
+      "irreversibility": 0.448523552,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.731041209
+    },
+    "target_event_id": 56,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.527392734,
+      "Evolution": 0.433157915,
+      "Integrity": 0.466824637,
+      "Method": 0.452209248,
+      "Purpose": 0.419664075
+    },
+    "uncertainty": {
+      "boundary": 0.36234099,
+      "causality": 0.738554011,
+      "facts": 0.218975667,
+      "horizon": 0.52,
+      "model": 0.722866374,
+      "normative": 0.312141612
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.472607266,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 46,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.436397356,
+      "boundary_ambiguity": 0.261840306,
+      "domains": 4.0,
+      "evolution_risk": 0.522709902,
+      "expected_impact": 0.51045982,
+      "expected_nodes": 0.83071,
+      "irreversibility": 0.448523552,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.731041209
+    },
+    "target_event_id": 56,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.527392734,
+      "Evolution": 0.433157915,
+      "Integrity": 0.466824637,
+      "Method": 0.452209248,
+      "Purpose": 0.419664075
+    },
+    "uncertainty": {
+      "boundary": 0.36234099,
+      "causality": 0.738554011,
+      "facts": 0.218975667,
+      "horizon": 0.52,
+      "model": 0.722866374,
+      "normative": 0.312141612
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.519485916,
+    "frozen_at": 0.75,
+    "gate": "PASS",
+    "horizon": 3,
+    "id": 47,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.693236155,
+      "boundary_ambiguity": 0.422302695,
+      "domains": 2.0,
+      "evolution_risk": 0.409183225,
+      "expected_impact": 0.359322147,
+      "expected_nodes": 0.600015,
+      "irreversibility": 0.194117185,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.685685111
+    },
+    "target_event_id": 57,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.480514084,
+      "Evolution": 0.464236151,
+      "Integrity": 0.406441082,
+      "Method": 0.342625823,
+      "Purpose": 0.403903559
+    },
+    "uncertainty": {
+      "boundary": 0.341827671,
+      "causality": 0.613132938,
+      "facts": 0.156237713,
+      "horizon": 0.36,
+      "model": 0.693838471,
+      "normative": 0.332985276
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.373997113,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 48,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.664365382,
+      "boundary_ambiguity": 0.334778147,
+      "domains": 5.0,
+      "evolution_risk": 0.457886767,
+      "expected_impact": 0.458374591,
+      "expected_nodes": 0.774008,
+      "irreversibility": 0.348097996,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.714224631
+    },
+    "target_event_id": 59,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.626002887,
+      "Evolution": 0.442524721,
+      "Integrity": 0.503743916,
+      "Method": 0.477003701,
+      "Purpose": 0.504667336
+    },
+    "uncertainty": {
+      "boundary": 0.467562451,
+      "causality": 0.787836374,
+      "facts": 0.233514274,
+      "horizon": 0.6,
+      "model": 0.712103764,
+      "normative": 0.338848613
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.455788649,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 49,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.366049663,
+      "boundary_ambiguity": 0.316295429,
+      "domains": 6.0,
+      "evolution_risk": 0.537373204,
+      "expected_impact": 0.376808743,
+      "expected_nodes": 1.415753,
+      "irreversibility": 0.252425927,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.787511419
+    },
+    "target_event_id": 61,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.448774657,
+      "Evolution": 0.455068418,
+      "Integrity": 0.544211351,
+      "Method": 0.26779417,
+      "Purpose": 0.444897644
+    },
+    "uncertainty": {
+      "boundary": 0.516103166,
+      "causality": 0.867753883,
+      "facts": 0.222766923,
+      "horizon": 0.68,
+      "model": 0.759007308,
+      "normative": 0.288927827
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.455788649,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 50,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.366049663,
+      "boundary_ambiguity": 0.316295429,
+      "domains": 6.0,
+      "evolution_risk": 0.537373204,
+      "expected_impact": 0.376808743,
+      "expected_nodes": 1.415753,
+      "irreversibility": 0.252425927,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.787511419
+    },
+    "target_event_id": 61,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.448774657,
+      "Evolution": 0.455068418,
+      "Integrity": 0.544211351,
+      "Method": 0.26779417,
+      "Purpose": 0.444897644
+    },
+    "uncertainty": {
+      "boundary": 0.516103166,
+      "causality": 0.867753883,
+      "facts": 0.222766923,
+      "horizon": 0.68,
+      "model": 0.759007308,
+      "normative": 0.288927827
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.525037081,
+    "frozen_at": 0.75,
+    "gate": "PASS",
+    "horizon": 3,
+    "id": 51,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.670647061,
+      "boundary_ambiguity": 0.401870255,
+      "domains": 2.0,
+      "evolution_risk": 0.43472315,
+      "expected_impact": 0.364046127,
+      "expected_nodes": 0.664031,
+      "irreversibility": 0.204613348,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.697947181
+    },
+    "target_event_id": 62,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.471823734,
+      "Evolution": 0.474962919,
+      "Integrity": 0.407432342,
+      "Method": 0.341135924,
+      "Purpose": 0.40617107
+    },
+    "uncertainty": {
+      "boundary": 0.329159558,
+      "causality": 0.617302042,
+      "facts": 0.156237713,
+      "horizon": 0.36,
+      "model": 0.701686196,
+      "normative": 0.330295201
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.371247691,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 52,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.670342386,
+      "boundary_ambiguity": 0.334778147,
+      "domains": 5.0,
+      "evolution_risk": 0.467113358,
+      "expected_impact": 0.458374591,
+      "expected_nodes": 0.774008,
+      "irreversibility": 0.34806317,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.717387694
+    },
+    "target_event_id": 64,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.628752309,
+      "Evolution": 0.446399889,
+      "Integrity": 0.504492929,
+      "Method": 0.478248076,
+      "Purpose": 0.504667336
+    },
+    "uncertainty": {
+      "boundary": 0.467562451,
+      "causality": 0.788911816,
+      "facts": 0.233514274,
+      "horizon": 0.6,
+      "model": 0.714128124,
+      "normative": 0.339685393
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.436909082,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 53,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.499947545,
+      "boundary_ambiguity": 0.245740899,
+      "domains": 6.0,
+      "evolution_risk": 0.526332366,
+      "expected_impact": 0.482708578,
+      "expected_nodes": 1.363293,
+      "irreversibility": 0.413339145,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.690950066
+    },
+    "target_event_id": 66,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.563090918,
+      "Evolution": 0.469522333,
+      "Integrity": 0.517044811,
+      "Method": 0.462607378,
+      "Purpose": 0.548945613
+    },
+    "uncertainty": {
+      "boundary": 0.472359357,
+      "causality": 0.834923022,
+      "facts": 0.234677172,
+      "horizon": 0.68,
+      "model": 0.697208042,
+      "normative": 0.318263514
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.436909082,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 54,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.499947545,
+      "boundary_ambiguity": 0.245740899,
+      "domains": 6.0,
+      "evolution_risk": 0.526332366,
+      "expected_impact": 0.482708578,
+      "expected_nodes": 1.363293,
+      "irreversibility": 0.413339145,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.690950066
+    },
+    "target_event_id": 66,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.563090918,
+      "Evolution": 0.469522333,
+      "Integrity": 0.517044811,
+      "Method": 0.462607378,
+      "Purpose": 0.548945613
+    },
+    "uncertainty": {
+      "boundary": 0.472359357,
+      "causality": 0.834923022,
+      "facts": 0.234677172,
+      "horizon": 0.68,
+      "model": 0.697208042,
+      "normative": 0.318263514
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.525037081,
+    "frozen_at": 0.75,
+    "gate": "PASS",
+    "horizon": 3,
+    "id": 55,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.670647061,
+      "boundary_ambiguity": 0.401870255,
+      "domains": 2.0,
+      "evolution_risk": 0.43472315,
+      "expected_impact": 0.364046127,
+      "expected_nodes": 0.664031,
+      "irreversibility": 0.204613348,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.697947181
+    },
+    "target_event_id": 67,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.471823734,
+      "Evolution": 0.474962919,
+      "Integrity": 0.407432342,
+      "Method": 0.341135924,
+      "Purpose": 0.40617107
+    },
+    "uncertainty": {
+      "boundary": 0.329159558,
+      "causality": 0.617302042,
+      "facts": 0.156237713,
+      "horizon": 0.36,
+      "model": 0.701686196,
+      "normative": 0.330295201
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.297242454,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 56,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.801255028,
+      "boundary_ambiguity": 0.355529963,
+      "domains": 5.0,
+      "evolution_risk": 0.49562369,
+      "expected_impact": 0.485667429,
+      "expected_nodes": 0.703254,
+      "irreversibility": 0.38582898,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.6864121
+    },
+    "target_event_id": 69,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.702757546,
+      "Evolution": 0.45662469,
+      "Integrity": 0.499822681,
+      "Method": 0.517353799,
+      "Purpose": 0.518199898
+    },
+    "uncertainty": {
+      "boundary": 0.480428577,
+      "causality": 0.778380114,
+      "facts": 0.234677172,
+      "horizon": 0.6,
+      "model": 0.694303744,
+      "normative": 0.360742447
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.542138692,
+    "frozen_at": 0.75,
+    "gate": "PASS",
+    "horizon": 3,
+    "id": 57,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.353371146,
+      "boundary_ambiguity": 0.298720786,
+      "domains": 4.0,
+      "evolution_risk": 0.519037751,
+      "expected_impact": 0.366008673,
+      "expected_nodes": 0.596466,
+      "irreversibility": 0.235356996,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.650911026
+    },
+    "target_event_id": 71,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.457861308,
+      "Evolution": 0.455058723,
+      "Integrity": 0.457614243,
+      "Method": 0.267246475,
+      "Purpose": 0.396278708
+    },
+    "uncertainty": {
+      "boundary": 0.385206887,
+      "causality": 0.711309749,
+      "facts": 0.23780424,
+      "horizon": 0.52,
+      "model": 0.671583057,
+      "normative": 0.286072828
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.542138692,
+    "frozen_at": 0.75,
+    "gate": "PASS",
+    "horizon": 3,
+    "id": 58,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.353371146,
+      "boundary_ambiguity": 0.298720786,
+      "domains": 4.0,
+      "evolution_risk": 0.519037751,
+      "expected_impact": 0.366008673,
+      "expected_nodes": 0.596466,
+      "irreversibility": 0.235356996,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.650911026
+    },
+    "target_event_id": 71,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.457861308,
+      "Evolution": 0.455058723,
+      "Integrity": 0.457614243,
+      "Method": 0.267246475,
+      "Purpose": 0.396278708
+    },
+    "uncertainty": {
+      "boundary": 0.385206887,
+      "causality": 0.711309749,
+      "facts": 0.23780424,
+      "horizon": 0.52,
+      "model": 0.671583057,
+      "normative": 0.286072828
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.525037081,
+    "frozen_at": 0.75,
+    "gate": "PASS",
+    "horizon": 3,
+    "id": 59,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.670647061,
+      "boundary_ambiguity": 0.401870255,
+      "domains": 2.0,
+      "evolution_risk": 0.43472315,
+      "expected_impact": 0.364046127,
+      "expected_nodes": 0.664031,
+      "irreversibility": 0.204613348,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.697947181
+    },
+    "target_event_id": 72,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.471823734,
+      "Evolution": 0.474962919,
+      "Integrity": 0.407432342,
+      "Method": 0.341135924,
+      "Purpose": 0.40617107
+    },
+    "uncertainty": {
+      "boundary": 0.329159558,
+      "causality": 0.617302042,
+      "facts": 0.156237713,
+      "horizon": 0.36,
+      "model": 0.701686196,
+      "normative": 0.330295201
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.2767442,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 60,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.833768481,
+      "boundary_ambiguity": 0.365839215,
+      "domains": 5.0,
+      "evolution_risk": 0.484994348,
+      "expected_impact": 0.489374554,
+      "expected_nodes": 0.662928,
+      "irreversibility": 0.389280305,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.679081121
+    },
+    "target_event_id": 74,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.7232558,
+      "Evolution": 0.440760494,
+      "Integrity": 0.500175338,
+      "Method": 0.524646141,
+      "Purpose": 0.519691318
+    },
+    "uncertainty": {
+      "boundary": 0.486820313,
+      "causality": 0.775887581,
+      "facts": 0.23780424,
+      "horizon": 0.6,
+      "model": 0.689611917,
+      "normative": 0.365665043
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.51682956,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 61,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.444402361,
+      "boundary_ambiguity": 0.253212565,
+      "domains": 3.0,
+      "evolution_risk": 0.535481629,
+      "expected_impact": 0.370172748,
+      "expected_nodes": 0.611452,
+      "irreversibility": 0.243243814,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.818071211
+    },
+    "target_event_id": 76,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.48317044,
+      "Evolution": 0.472663092,
+      "Integrity": 0.465998769,
+      "Method": 0.281401781,
+      "Purpose": 0.298655026
+    },
+    "uncertainty": {
+      "boundary": 0.29699179,
+      "causality": 0.713144212,
+      "facts": 0.223596159,
+      "horizon": 0.44,
+      "model": 0.778565575,
+      "normative": 0.299233605
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.51682956,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 62,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.444402361,
+      "boundary_ambiguity": 0.253212565,
+      "domains": 3.0,
+      "evolution_risk": 0.535481629,
+      "expected_impact": 0.370172748,
+      "expected_nodes": 0.611452,
+      "irreversibility": 0.243243814,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.818071211
+    },
+    "target_event_id": 76,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.48317044,
+      "Evolution": 0.472663092,
+      "Integrity": 0.465998769,
+      "Method": 0.281401781,
+      "Purpose": 0.298655026
+    },
+    "uncertainty": {
+      "boundary": 0.29699179,
+      "causality": 0.713144212,
+      "facts": 0.223596159,
+      "horizon": 0.44,
+      "model": 0.778565575,
+      "normative": 0.299233605
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.503397445,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 63,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.65262752,
+      "boundary_ambiguity": 0.389112459,
+      "domains": 4.0,
+      "evolution_risk": 0.456797424,
+      "expected_impact": 0.369111722,
+      "expected_nodes": 0.727546,
+      "irreversibility": 0.214339875,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.704553318
+    },
+    "target_event_id": 77,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.465358359,
+      "Evolution": 0.484234114,
+      "Integrity": 0.45593449,
+      "Method": 0.340367044,
+      "Purpose": 0.496602555
+    },
+    "uncertainty": {
+      "boundary": 0.441249724,
+      "causality": 0.729548128,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.705914123,
+      "normative": 0.328279025
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.361980422,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 64,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.672733187,
+      "boundary_ambiguity": 0.334778147,
+      "domains": 5.0,
+      "evolution_risk": 0.477994734,
+      "expected_impact": 0.458374591,
+      "expected_nodes": 0.774008,
+      "irreversibility": 0.34806317,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.718512154
+    },
+    "target_event_id": 79,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.638019578,
+      "Evolution": 0.437820656,
+      "Integrity": 0.506046191,
+      "Method": 0.478051417,
+      "Purpose": 0.504811336
+    },
+    "uncertainty": {
+      "boundary": 0.467562451,
+      "causality": 0.789294132,
+      "facts": 0.23780424,
+      "horizon": 0.6,
+      "model": 0.714847779,
+      "normative": 0.340020105
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.485223608,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 65,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.361348491,
+      "boundary_ambiguity": 0.298550886,
+      "domains": 6.0,
+      "evolution_risk": 0.518128666,
+      "expected_impact": 0.370057996,
+      "expected_nodes": 0.984486,
+      "irreversibility": 0.241007671,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.650986427
+    },
+    "target_event_id": 81,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.466948644,
+      "Evolution": 0.453710602,
+      "Integrity": 0.514776392,
+      "Method": 0.270610947,
+      "Purpose": 0.499174763
+    },
+    "uncertainty": {
+      "boundary": 0.505101549,
+      "causality": 0.821335385,
+      "facts": 0.23901509,
+      "horizon": 0.68,
+      "model": 0.671631313,
+      "normative": 0.287594588
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.485223608,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 66,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.361348491,
+      "boundary_ambiguity": 0.298550886,
+      "domains": 6.0,
+      "evolution_risk": 0.518128666,
+      "expected_impact": 0.370057996,
+      "expected_nodes": 0.984486,
+      "irreversibility": 0.241007671,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.650986427
+    },
+    "target_event_id": 81,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.466948644,
+      "Evolution": 0.453710602,
+      "Integrity": 0.514776392,
+      "Method": 0.270610947,
+      "Purpose": 0.499174763
+    },
+    "uncertainty": {
+      "boundary": 0.505101549,
+      "causality": 0.821335385,
+      "facts": 0.23901509,
+      "horizon": 0.68,
+      "model": 0.671631313,
+      "normative": 0.287594588
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.50370435,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 67,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.663203015,
+      "boundary_ambiguity": 0.393804173,
+      "domains": 4.0,
+      "evolution_risk": 0.442926311,
+      "expected_impact": 0.368472336,
+      "expected_nodes": 0.709043,
+      "irreversibility": 0.212640621,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.704976526
+    },
+    "target_event_id": 82,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.469992908,
+      "Evolution": 0.478408247,
+      "Integrity": 0.456558301,
+      "Method": 0.342061129,
+      "Purpose": 0.49629565
+    },
+    "uncertainty": {
+      "boundary": 0.444158587,
+      "causality": 0.729692019,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.706184977,
+      "normative": 0.329695656
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.274403017,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 68,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.832801536,
+      "boundary_ambiguity": 0.3568493,
+      "domains": 5.0,
+      "evolution_risk": 0.486940576,
+      "expected_impact": 0.48611338,
+      "expected_nodes": 0.696831,
+      "irreversibility": 0.38577344,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.678335888
+    },
+    "target_event_id": 84,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.725596983,
+      "Evolution": 0.440611604,
+      "Integrity": 0.499358847,
+      "Method": 0.523293475,
+      "Purpose": 0.518557955
+    },
+    "uncertainty": {
+      "boundary": 0.481246566,
+      "causality": 0.775634202,
+      "facts": 0.23901509,
+      "horizon": 0.6,
+      "model": 0.689134968,
+      "normative": 0.365203553
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.415001634,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 69,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.50972875,
+      "boundary_ambiguity": 0.138359442,
+      "domains": 6.0,
+      "evolution_risk": 0.527581608,
+      "expected_impact": 0.485689393,
+      "expected_nodes": 0.952589,
+      "irreversibility": 0.419520198,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.682012981
+    },
+    "target_event_id": 86,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.584998366,
+      "Evolution": 0.462406129,
+      "Integrity": 0.505590647,
+      "Method": 0.465830516,
+      "Purpose": 0.553622891
+    },
+    "uncertainty": {
+      "boundary": 0.405782854,
+      "causality": 0.831884413,
+      "facts": 0.243496864,
+      "horizon": 0.68,
+      "model": 0.691488308,
+      "normative": 0.319930964
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.415001634,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 70,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.50972875,
+      "boundary_ambiguity": 0.138359442,
+      "domains": 6.0,
+      "evolution_risk": 0.527581608,
+      "expected_impact": 0.485689393,
+      "expected_nodes": 0.952589,
+      "irreversibility": 0.419520198,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.682012981
+    },
+    "target_event_id": 86,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.584998366,
+      "Evolution": 0.462406129,
+      "Integrity": 0.505590647,
+      "Method": 0.465830516,
+      "Purpose": 0.553622891
+    },
+    "uncertainty": {
+      "boundary": 0.405782854,
+      "causality": 0.831884413,
+      "facts": 0.243496864,
+      "horizon": 0.68,
+      "model": 0.691488308,
+      "normative": 0.319930964
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.520846812,
+    "frozen_at": 0.75,
+    "gate": "PASS",
+    "horizon": 3,
+    "id": 71,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.685471404,
+      "boundary_ambiguity": 0.401344828,
+      "domains": 2.0,
+      "evolution_risk": 0.422395181,
+      "expected_impact": 0.365463506,
+      "expected_nodes": 0.673445,
+      "irreversibility": 0.2066916,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.705155195
+    },
+    "target_event_id": 87,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.479153188,
+      "Evolution": 0.469785172,
+      "Integrity": 0.409296803,
+      "Method": 0.344893294,
+      "Purpose": 0.406851411
+    },
+    "uncertainty": {
+      "boundary": 0.328833793,
+      "causality": 0.619752766,
+      "facts": 0.156237713,
+      "horizon": 0.36,
+      "model": 0.706299325,
+      "normative": 0.332512347
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.251825175,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 72,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.863882956,
+      "boundary_ambiguity": 0.357777026,
+      "domains": 5.0,
+      "evolution_risk": 0.490591429,
+      "expected_impact": 0.486426962,
+      "expected_nodes": 0.692384,
+      "irreversibility": 0.386016685,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.682063213
+    },
+    "target_event_id": 89,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.748174825,
+      "Evolution": 0.446870254,
+      "Integrity": 0.501689544,
+      "Method": 0.52981681,
+      "Purpose": 0.518852474
+    },
+    "uncertainty": {
+      "boundary": 0.481821756,
+      "causality": 0.776901492,
+      "facts": 0.243496864,
+      "horizon": 0.6,
+      "model": 0.691520456,
+      "normative": 0.36958631
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.408500834,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 73,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.515868226,
+      "boundary_ambiguity": 0.134525429,
+      "domains": 5.0,
+      "evolution_risk": 0.526944935,
+      "expected_impact": 0.486277286,
+      "expected_nodes": 0.740958,
+      "irreversibility": 0.419910556,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.680820466
+    },
+    "target_event_id": 91,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.591499166,
+      "Evolution": 0.46021058,
+      "Integrity": 0.476744848,
+      "Method": 0.467227126,
+      "Purpose": 0.503489258
+    },
+    "uncertainty": {
+      "boundary": 0.343405766,
+      "causality": 0.776478958,
+      "facts": 0.244378414,
+      "horizon": 0.6,
+      "model": 0.690725098,
+      "normative": 0.32084928
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.408500834,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 74,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.515868226,
+      "boundary_ambiguity": 0.134525429,
+      "domains": 5.0,
+      "evolution_risk": 0.526944935,
+      "expected_impact": 0.486277286,
+      "expected_nodes": 0.740958,
+      "irreversibility": 0.419910556,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.680820466
+    },
+    "target_event_id": 91,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.591499166,
+      "Evolution": 0.46021058,
+      "Integrity": 0.476744848,
+      "Method": 0.467227126,
+      "Purpose": 0.503489258
+    },
+    "uncertainty": {
+      "boundary": 0.343405766,
+      "causality": 0.776478958,
+      "facts": 0.244378414,
+      "horizon": 0.6,
+      "model": 0.690725098,
+      "normative": 0.32084928
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.520846812,
+    "frozen_at": 0.75,
+    "gate": "PASS",
+    "horizon": 3,
+    "id": 75,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.685471404,
+      "boundary_ambiguity": 0.401344828,
+      "domains": 2.0,
+      "evolution_risk": 0.422395181,
+      "expected_impact": 0.365463506,
+      "expected_nodes": 0.673445,
+      "irreversibility": 0.2066916,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.705155195
+    },
+    "target_event_id": 92,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.479153188,
+      "Evolution": 0.469785172,
+      "Integrity": 0.409296803,
+      "Method": 0.344893294,
+      "Purpose": 0.406851411
+    },
+    "uncertainty": {
+      "boundary": 0.328833793,
+      "causality": 0.619752766,
+      "facts": 0.156237713,
+      "horizon": 0.36,
+      "model": 0.706299325,
+      "normative": 0.332512347
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.248369621,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 76,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.864992579,
+      "boundary_ambiguity": 0.35350472,
+      "domains": 5.0,
+      "evolution_risk": 0.490450788,
+      "expected_impact": 0.484982873,
+      "expected_nodes": 0.713347,
+      "irreversibility": 0.384625404,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.682090788
+    },
+    "target_event_id": 94,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.751630379,
+      "Evolution": 0.444883038,
+      "Integrity": 0.50148375,
+      "Method": 0.529604844,
+      "Purpose": 0.518591311
+    },
+    "uncertainty": {
+      "boundary": 0.479172927,
+      "causality": 0.776910868,
+      "facts": 0.244378414,
+      "horizon": 0.6,
+      "model": 0.691538105,
+      "normative": 0.369597248
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.524976021,
+    "frozen_at": 0.75,
+    "gate": "PASS",
+    "horizon": 3,
+    "id": 77,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.344132678,
+      "boundary_ambiguity": 0.110278881,
+      "domains": 4.0,
+      "evolution_risk": 0.520647175,
+      "expected_impact": 0.462259814,
+      "expected_nodes": 0.433183,
+      "irreversibility": 0.379159399,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.655706092
+    },
+    "target_event_id": 96,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.475023979,
+      "Evolution": 0.447311088,
+      "Integrity": 0.436690517,
+      "Method": 0.346842518,
+      "Purpose": 0.389257265
+    },
+    "uncertainty": {
+      "boundary": 0.268372906,
+      "causality": 0.712940071,
+      "facts": 0.234373971,
+      "horizon": 0.52,
+      "model": 0.674651899,
+      "normative": 0.294404556
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.524976021,
+    "frozen_at": 0.75,
+    "gate": "PASS",
+    "horizon": 3,
+    "id": 78,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.344132678,
+      "boundary_ambiguity": 0.110278881,
+      "domains": 4.0,
+      "evolution_risk": 0.520647175,
+      "expected_impact": 0.462259814,
+      "expected_nodes": 0.433183,
+      "irreversibility": 0.379159399,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.655706092
+    },
+    "target_event_id": 96,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.475023979,
+      "Evolution": 0.447311088,
+      "Integrity": 0.436690517,
+      "Method": 0.346842518,
+      "Purpose": 0.389257265
+    },
+    "uncertainty": {
+      "boundary": 0.268372906,
+      "causality": 0.712940071,
+      "facts": 0.234373971,
+      "horizon": 0.52,
+      "model": 0.674651899,
+      "normative": 0.294404556
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.503762641,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 79,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.677838219,
+      "boundary_ambiguity": 0.394695273,
+      "domains": 4.0,
+      "evolution_risk": 0.439675715,
+      "expected_impact": 0.368350897,
+      "expected_nodes": 0.705634,
+      "irreversibility": 0.212393726,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.711492174
+    },
+    "target_event_id": 97,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.476681383,
+      "Evolution": 0.477042997,
+      "Integrity": 0.458200653,
+      "Method": 0.345057985,
+      "Purpose": 0.496237359
+    },
+    "uncertainty": {
+      "boundary": 0.444711069,
+      "causality": 0.731907339,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.710354991,
+      "normative": 0.33173244
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.338496926,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 80,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.688273395,
+      "boundary_ambiguity": 0.334778147,
+      "domains": 5.0,
+      "evolution_risk": 0.467508056,
+      "expected_impact": 0.458374591,
+      "expected_nodes": 0.774008,
+      "irreversibility": 0.348173121,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.725143292
+    },
+    "target_event_id": 99,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.661503074,
+      "Evolution": 0.435062516,
+      "Integrity": 0.510319895,
+      "Method": 0.481111047,
+      "Purpose": 0.505099336
+    },
+    "uncertainty": {
+      "boundary": 0.467562451,
+      "causality": 0.791548719,
+      "facts": 0.24681574,
+      "horizon": 0.6,
+      "model": 0.719091707,
+      "normative": 0.342195734
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.413650937,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 81,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.505334167,
+      "boundary_ambiguity": 0.244664785,
+      "domains": 6.0,
+      "evolution_risk": 0.525950361,
+      "expected_impact": 0.483042627,
+      "expected_nodes": 1.135735,
+      "irreversibility": 0.413518276,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.691013918
+    },
+    "target_event_id": 101,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.586349063,
+      "Evolution": 0.457082619,
+      "Integrity": 0.520973434,
+      "Method": 0.462981253,
+      "Purpose": 0.544817754
+    },
+    "uncertainty": {
+      "boundary": 0.471692166,
+      "causality": 0.834944732,
+      "facts": 0.248122493,
+      "horizon": 0.68,
+      "model": 0.697248908,
+      "normative": 0.319051046
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.413650937,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 82,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.505334167,
+      "boundary_ambiguity": 0.244664785,
+      "domains": 6.0,
+      "evolution_risk": 0.525950361,
+      "expected_impact": 0.483042627,
+      "expected_nodes": 1.135735,
+      "irreversibility": 0.413518276,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.691013918
+    },
+    "target_event_id": 101,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.586349063,
+      "Evolution": 0.457082619,
+      "Integrity": 0.520973434,
+      "Method": 0.462981253,
+      "Purpose": 0.544817754
+    },
+    "uncertainty": {
+      "boundary": 0.471692166,
+      "causality": 0.834944732,
+      "facts": 0.248122493,
+      "horizon": 0.68,
+      "model": 0.697248908,
+      "normative": 0.319051046
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.503762641,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 83,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.677838219,
+      "boundary_ambiguity": 0.394695273,
+      "domains": 4.0,
+      "evolution_risk": 0.439675715,
+      "expected_impact": 0.368350897,
+      "expected_nodes": 0.705634,
+      "irreversibility": 0.212393726,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.711492174
+    },
+    "target_event_id": 102,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.476681383,
+      "Evolution": 0.477042997,
+      "Integrity": 0.458200653,
+      "Method": 0.345057985,
+      "Purpose": 0.496237359
+    },
+    "uncertainty": {
+      "boundary": 0.444711069,
+      "causality": 0.731907339,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.710354991,
+      "normative": 0.33173244
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.250662352,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 84,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.859065802,
+      "boundary_ambiguity": 0.350000115,
+      "domains": 5.0,
+      "evolution_risk": 0.490223929,
+      "expected_impact": 0.483798275,
+      "expected_nodes": 0.731514,
+      "irreversibility": 0.383461237,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.682442628
+    },
+    "target_event_id": 104,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.749337648,
+      "Evolution": 0.442077517,
+      "Integrity": 0.502299175,
+      "Method": 0.527947214,
+      "Purpose": 0.517734704
+    },
+    "uncertainty": {
+      "boundary": 0.477000072,
+      "causality": 0.777030494,
+      "facts": 0.248122493,
+      "horizon": 0.6,
+      "model": 0.691763282,
+      "normative": 0.36864904
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.493592453,
+    "frozen_at": 0.75,
+    "gate": "PASS",
+    "horizon": 3,
+    "id": 85,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.378665292,
+      "boundary_ambiguity": 0.103001083,
+      "domains": 4.0,
+      "evolution_risk": 0.521863794,
+      "expected_impact": 0.527443623,
+      "expected_nodes": 0.425574,
+      "irreversibility": 0.466804257,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.650465476
+    },
+    "target_event_id": 106,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.419765932,
+      "Evolution": 0.49682632,
+      "Integrity": 0.40841921,
+      "Method": 0.506407547,
+      "Purpose": 0.446490025
+    },
+    "uncertainty": {
+      "boundary": 0.263860672,
+      "causality": 0.711158262,
+      "facts": 0.146980214,
+      "horizon": 0.52,
+      "model": 0.671297904,
+      "normative": 0.305757503
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.493592453,
+    "frozen_at": 0.75,
+    "gate": "PASS",
+    "horizon": 3,
+    "id": 86,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.378665292,
+      "boundary_ambiguity": 0.103001083,
+      "domains": 4.0,
+      "evolution_risk": 0.521863794,
+      "expected_impact": 0.527443623,
+      "expected_nodes": 0.425574,
+      "irreversibility": 0.466804257,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.650465476
+    },
+    "target_event_id": 106,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.419765932,
+      "Evolution": 0.49682632,
+      "Integrity": 0.40841921,
+      "Method": 0.506407547,
+      "Purpose": 0.446490025
+    },
+    "uncertainty": {
+      "boundary": 0.263860672,
+      "causality": 0.711158262,
+      "facts": 0.146980214,
+      "horizon": 0.52,
+      "model": 0.671297904,
+      "normative": 0.305757503
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.503762641,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 87,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.677838219,
+      "boundary_ambiguity": 0.394695273,
+      "domains": 4.0,
+      "evolution_risk": 0.439675715,
+      "expected_impact": 0.368350897,
+      "expected_nodes": 0.705634,
+      "irreversibility": 0.212393726,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.711492174
+    },
+    "target_event_id": 107,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.476681383,
+      "Evolution": 0.477042997,
+      "Integrity": 0.458200653,
+      "Method": 0.345057985,
+      "Purpose": 0.496237359
+    },
+    "uncertainty": {
+      "boundary": 0.444711069,
+      "causality": 0.731907339,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.710354991,
+      "normative": 0.33173244
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.472584312,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 88,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.329654428,
+      "boundary_ambiguity": 0.685320396,
+      "domains": 5.0,
+      "evolution_risk": 0.503686296,
+      "expected_impact": 0.50396699,
+      "expected_nodes": 0.720542,
+      "irreversibility": 0.446837339,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.604758964
+    },
+    "target_event_id": 109,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.513069153,
+      "Evolution": 0.447731711,
+      "Integrity": 0.521325427,
+      "Method": 0.436417417,
+      "Purpose": 0.527415688
+    },
+    "uncertainty": {
+      "boundary": 0.684898646,
+      "causality": 0.750618048,
+      "facts": 0.248122493,
+      "horizon": 0.6,
+      "model": 0.642045737,
+      "normative": 0.296548319
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.50673188,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 89,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.445342674,
+      "boundary_ambiguity": 0.447378325,
+      "domains": 2.0,
+      "evolution_risk": 0.527123579,
+      "expected_impact": 0.381551598,
+      "expected_nodes": 0.264196,
+      "irreversibility": 0.241172891,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.819666817
+    },
+    "target_event_id": 111,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.49326812,
+      "Evolution": 0.467622523,
+      "Integrity": 0.468692986,
+      "Method": 0.28124428,
+      "Purpose": 0.253497325
+    },
+    "uncertainty": {
+      "boundary": 0.357374561,
+      "causality": 0.658686718,
+      "facts": 0.235261526,
+      "horizon": 0.36,
+      "model": 0.779586763,
+      "normative": 0.300503134
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.50673188,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 90,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.445342674,
+      "boundary_ambiguity": 0.447378325,
+      "domains": 2.0,
+      "evolution_risk": 0.527123579,
+      "expected_impact": 0.381551598,
+      "expected_nodes": 0.264196,
+      "irreversibility": 0.241172891,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.819666817
+    },
+    "target_event_id": 111,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.49326812,
+      "Evolution": 0.467622523,
+      "Integrity": 0.468692986,
+      "Method": 0.28124428,
+      "Purpose": 0.253497325
+    },
+    "uncertainty": {
+      "boundary": 0.357374561,
+      "causality": 0.658686718,
+      "facts": 0.235261526,
+      "horizon": 0.36,
+      "model": 0.779586763,
+      "normative": 0.300503134
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.503177319,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 91,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.667029364,
+      "boundary_ambiguity": 0.38574735,
+      "domains": 4.0,
+      "evolution_risk": 0.458101206,
+      "expected_impact": 0.369570318,
+      "expected_nodes": 0.741423,
+      "irreversibility": 0.215660097,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.715890205
+    },
+    "target_event_id": 112,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.472148302,
+      "Evolution": 0.484781703,
+      "Integrity": 0.458243519,
+      "Method": 0.3438007,
+      "Purpose": 0.496822681
+    },
+    "uncertainty": {
+      "boundary": 0.439163357,
+      "causality": 0.73340267,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.713169731,
+      "normative": 0.330341143
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.337279617,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 92,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.690664197,
+      "boundary_ambiguity": 0.334778147,
+      "domains": 5.0,
+      "evolution_risk": 0.477836608,
+      "expected_impact": 0.458374591,
+      "expected_nodes": 0.774008,
+      "irreversibility": 0.34825614,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.726003203
+    },
+    "target_event_id": 114,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.662720383,
+      "Evolution": 0.436874842,
+      "Integrity": 0.510915548,
+      "Method": 0.481669297,
+      "Purpose": 0.505531336
+    },
+    "uncertainty": {
+      "boundary": 0.467562451,
+      "causality": 0.791841089,
+      "facts": 0.248122493,
+      "horizon": 0.6,
+      "model": 0.71964205,
+      "normative": 0.342530447
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.409781665,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 93,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.511674248,
+      "boundary_ambiguity": 0.138359442,
+      "domains": 6.0,
+      "evolution_risk": 0.529356051,
+      "expected_impact": 0.485689393,
+      "expected_nodes": 0.971488,
+      "irreversibility": 0.419553586,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.682810433
+    },
+    "target_event_id": 116,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.590218335,
+      "Evolution": 0.455688896,
+      "Integrity": 0.507565627,
+      "Method": 0.466241008,
+      "Purpose": 0.554856054
+    },
+    "uncertainty": {
+      "boundary": 0.405782854,
+      "causality": 0.832155547,
+      "facts": 0.249450674,
+      "horizon": 0.68,
+      "model": 0.691998677,
+      "normative": 0.320203334
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.409781665,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 94,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.511674248,
+      "boundary_ambiguity": 0.138359442,
+      "domains": 6.0,
+      "evolution_risk": 0.529356051,
+      "expected_impact": 0.485689393,
+      "expected_nodes": 0.971488,
+      "irreversibility": 0.419553586,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.682810433
+    },
+    "target_event_id": 116,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.590218335,
+      "Evolution": 0.455688896,
+      "Integrity": 0.507565627,
+      "Method": 0.466241008,
+      "Purpose": 0.554856054
+    },
+    "uncertainty": {
+      "boundary": 0.405782854,
+      "causality": 0.832155547,
+      "facts": 0.249450674,
+      "horizon": 0.68,
+      "model": 0.691998677,
+      "normative": 0.320203334
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.503397445,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 95,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.675994107,
+      "boundary_ambiguity": 0.389112459,
+      "domains": 4.0,
+      "evolution_risk": 0.445772384,
+      "expected_impact": 0.369111722,
+      "expected_nodes": 0.727546,
+      "irreversibility": 0.21448997,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.717494594
+    },
+    "target_event_id": 117,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.476106989,
+      "Evolution": 0.479603598,
+      "Integrity": 0.458998984,
+      "Method": 0.345320557,
+      "Purpose": 0.496602555
+    },
+    "uncertainty": {
+      "boundary": 0.441249724,
+      "causality": 0.733948162,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.71419654,
+      "normative": 0.331550347
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.254394453,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 96,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.85172676,
+      "boundary_ambiguity": 0.347073345,
+      "domains": 5.0,
+      "evolution_risk": 0.489417328,
+      "expected_impact": 0.482808992,
+      "expected_nodes": 0.74741,
+      "irreversibility": 0.382562236,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.683065942
+    },
+    "target_event_id": 119,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.745605547,
+      "Evolution": 0.438914632,
+      "Integrity": 0.502518603,
+      "Method": 0.526184717,
+      "Purpose": 0.517691849
+    },
+    "uncertainty": {
+      "boundary": 0.475185474,
+      "causality": 0.77724242,
+      "facts": 0.249450674,
+      "horizon": 0.6,
+      "model": 0.692162203,
+      "normative": 0.367522646
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.411229646,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 97,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.307852765,
+      "boundary_ambiguity": 0.347483494,
+      "domains": 3.0,
+      "evolution_risk": 0.551759333,
+      "expected_impact": 0.581675568,
+      "expected_nodes": 0.332209,
+      "irreversibility": 0.693326865,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.780271605
+    },
+    "target_event_id": 121,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.41092317,
+      "Evolution": 0.51217266,
+      "Integrity": 0.443363515,
+      "Method": 0.588770354,
+      "Purpose": 0.417978783
+    },
+    "uncertainty": {
+      "boundary": 0.355439767,
+      "causality": 0.700292346,
+      "facts": 0.146692976,
+      "horizon": 0.44,
+      "model": 0.754373827,
+      "normative": 0.301266944
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.411229646,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 98,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.307852765,
+      "boundary_ambiguity": 0.347483494,
+      "domains": 3.0,
+      "evolution_risk": 0.551759333,
+      "expected_impact": 0.581675568,
+      "expected_nodes": 0.332209,
+      "irreversibility": 0.693326865,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.780271605
+    },
+    "target_event_id": 121,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.41092317,
+      "Evolution": 0.51217266,
+      "Integrity": 0.443363515,
+      "Method": 0.588770354,
+      "Purpose": 0.417978783
+    },
+    "uncertainty": {
+      "boundary": 0.355439767,
+      "causality": 0.700292346,
+      "facts": 0.146692976,
+      "horizon": 0.44,
+      "model": 0.754373827,
+      "normative": 0.301266944
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.503397445,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 99,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.675994107,
+      "boundary_ambiguity": 0.389112459,
+      "domains": 4.0,
+      "evolution_risk": 0.445772384,
+      "expected_impact": 0.369111722,
+      "expected_nodes": 0.727546,
+      "irreversibility": 0.21448997,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.717494594
+    },
+    "target_event_id": 122,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.476106989,
+      "Evolution": 0.479603598,
+      "Integrity": 0.458998984,
+      "Method": 0.345320557,
+      "Purpose": 0.496602555
+    },
+    "uncertainty": {
+      "boundary": 0.441249724,
+      "causality": 0.733948162,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.71419654,
+      "normative": 0.331550347
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.472859662,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 100,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.341829572,
+      "boundary_ambiguity": 0.674789075,
+      "domains": 5.0,
+      "evolution_risk": 0.507741434,
+      "expected_impact": 0.502493346,
+      "expected_nodes": 0.747009,
+      "irreversibility": 0.444608425,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.606903169
+    },
+    "target_event_id": 124,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.518139208,
+      "Evolution": 0.446610756,
+      "Integrity": 0.521056334,
+      "Method": 0.438340626,
+      "Purpose": 0.527140338
+    },
+    "uncertainty": {
+      "boundary": 0.678369227,
+      "causality": 0.751347078,
+      "facts": 0.249450674,
+      "horizon": 0.6,
+      "model": 0.643418028,
+      "normative": 0.298105475
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.503950121,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 101,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.445332702,
+      "boundary_ambiguity": 0.44303992,
+      "domains": 2.0,
+      "evolution_risk": 0.527475623,
+      "expected_impact": 0.381041449,
+      "expected_nodes": 0.401348,
+      "irreversibility": 0.242116257,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.822816431
+    },
+    "target_event_id": 126,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.496049879,
+      "Evolution": 0.455893233,
+      "Integrity": 0.471162599,
+      "Method": 0.281871013,
+      "Purpose": 0.260441851
+    },
+    "uncertainty": {
+      "boundary": 0.35468475,
+      "causality": 0.659757586,
+      "facts": 0.242306402,
+      "horizon": 0.36,
+      "model": 0.781602516,
+      "normative": 0.300450723
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.503950121,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 102,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.445332702,
+      "boundary_ambiguity": 0.44303992,
+      "domains": 2.0,
+      "evolution_risk": 0.527475623,
+      "expected_impact": 0.381041449,
+      "expected_nodes": 0.401348,
+      "irreversibility": 0.242116257,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.822816431
+    },
+    "target_event_id": 126,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.496049879,
+      "Evolution": 0.455893233,
+      "Integrity": 0.471162599,
+      "Method": 0.281871013,
+      "Purpose": 0.260441851
+    },
+    "uncertainty": {
+      "boundary": 0.35468475,
+      "causality": 0.659757586,
+      "facts": 0.242306402,
+      "horizon": 0.36,
+      "model": 0.781602516,
+      "normative": 0.300450723
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.50311195,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 103,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.675668162,
+      "boundary_ambiguity": 0.384748048,
+      "domains": 4.0,
+      "evolution_risk": 0.450961184,
+      "expected_impact": 0.369706502,
+      "expected_nodes": 0.745647,
+      "irreversibility": 0.216145662,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.722885086
+    },
+    "target_event_id": 127,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.476171175,
+      "Evolution": 0.481782893,
+      "Integrity": 0.459788384,
+      "Method": 0.345765373,
+      "Purpose": 0.49688805
+    },
+    "uncertainty": {
+      "boundary": 0.43854379,
+      "causality": 0.735780929,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.717646455,
+      "normative": 0.331564193
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.332880542,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 104,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.700227402,
+      "boundary_ambiguity": 0.334778147,
+      "domains": 5.0,
+      "evolution_risk": 0.472090844,
+      "expected_impact": 0.458374591,
+      "expected_nodes": 0.774008,
+      "irreversibility": 0.348482298,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.73102744
+    },
+    "target_event_id": 129,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.667119458,
+      "Evolution": 0.431637509,
+      "Integrity": 0.512503741,
+      "Method": 0.483805071,
+      "Purpose": 0.505963336
+    },
+    "uncertainty": {
+      "boundary": 0.467562451,
+      "causality": 0.79354933,
+      "facts": 0.249450674,
+      "horizon": 0.6,
+      "model": 0.722857562,
+      "normative": 0.343869295
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.409274757,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 105,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.512776222,
+      "boundary_ambiguity": 0.138359442,
+      "domains": 6.0,
+      "evolution_risk": 0.529535283,
+      "expected_impact": 0.485689393,
+      "expected_nodes": 0.876976,
+      "irreversibility": 0.419572765,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.683152195
+    },
+    "target_event_id": 131,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.590725243,
+      "Evolution": 0.452749988,
+      "Integrity": 0.508051438,
+      "Method": 0.466562724,
+      "Purpose": 0.552001593
+    },
+    "uncertainty": {
+      "boundary": 0.405782854,
+      "causality": 0.832271746,
+      "facts": 0.250800282,
+      "horizon": 0.68,
+      "model": 0.692217405,
+      "normative": 0.32035761
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.409274757,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 106,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.512776222,
+      "boundary_ambiguity": 0.138359442,
+      "domains": 6.0,
+      "evolution_risk": 0.529535283,
+      "expected_impact": 0.485689393,
+      "expected_nodes": 0.876976,
+      "irreversibility": 0.419572765,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.683152195
+    },
+    "target_event_id": 131,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.590725243,
+      "Evolution": 0.452749988,
+      "Integrity": 0.508051438,
+      "Method": 0.466562724,
+      "Purpose": 0.552001593
+    },
+    "uncertainty": {
+      "boundary": 0.405782854,
+      "causality": 0.832271746,
+      "facts": 0.250800282,
+      "horizon": 0.68,
+      "model": 0.692217405,
+      "normative": 0.32035761
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.50311195,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 107,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.675668162,
+      "boundary_ambiguity": 0.384748048,
+      "domains": 4.0,
+      "evolution_risk": 0.450961184,
+      "expected_impact": 0.369706502,
+      "expected_nodes": 0.745647,
+      "irreversibility": 0.216145662,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.722885086
+    },
+    "target_event_id": 132,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.476171175,
+      "Evolution": 0.481782893,
+      "Integrity": 0.459788384,
+      "Method": 0.345765373,
+      "Purpose": 0.49688805
+    },
+    "uncertainty": {
+      "boundary": 0.43854379,
+      "causality": 0.735780929,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.717646455,
+      "normative": 0.331564193
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.25753353,
+    "frozen_at": 0.75,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 108,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.845558971,
+      "boundary_ambiguity": 0.344592385,
+      "domains": 5.0,
+      "evolution_risk": 0.488429063,
+      "expected_impact": 0.481970399,
+      "expected_nodes": 0.761437,
+      "irreversibility": 0.381824164,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.68374722
+    },
+    "target_event_id": 134,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.74246647,
+      "Evolution": 0.435485375,
+      "Integrity": 0.502807937,
+      "Method": 0.524745035,
+      "Purpose": 0.517721324
+    },
+    "uncertainty": {
+      "boundary": 0.473647279,
+      "causality": 0.777474055,
+      "facts": 0.250800282,
+      "horizon": 0.6,
+      "model": 0.692598221,
+      "normative": 0.366575296
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.472885418,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 109,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.381375126,
+      "boundary_ambiguity": 0.262688742,
+      "domains": 4.0,
+      "evolution_risk": 0.525569965,
+      "expected_impact": 0.543899608,
+      "expected_nodes": 0.774022,
+      "irreversibility": 0.588595908,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.730974623
+    },
+    "target_event_id": 136,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.527114582,
+      "Evolution": 0.457322465,
+      "Integrity": 0.475110136,
+      "Method": 0.512083746,
+      "Purpose": 0.423997344
+    },
+    "uncertainty": {
+      "boundary": 0.36286702,
+      "causality": 0.738531372,
+      "facts": 0.246330938,
+      "horizon": 0.52,
+      "model": 0.722823759,
+      "normative": 0.307782479
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.472885418,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 110,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.381375126,
+      "boundary_ambiguity": 0.262688742,
+      "domains": 4.0,
+      "evolution_risk": 0.525569965,
+      "expected_impact": 0.543899608,
+      "expected_nodes": 0.774022,
+      "irreversibility": 0.588595908,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.730974623
+    },
+    "target_event_id": 136,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.527114582,
+      "Evolution": 0.457322465,
+      "Integrity": 0.475110136,
+      "Method": 0.512083746,
+      "Purpose": 0.423997344
+    },
+    "uncertainty": {
+      "boundary": 0.36286702,
+      "causality": 0.738531372,
+      "facts": 0.246330938,
+      "horizon": 0.52,
+      "model": 0.722823759,
+      "normative": 0.307782479
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.502882632,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 111,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.67641229,
+      "boundary_ambiguity": 0.381242424,
+      "domains": 4.0,
+      "evolution_risk": 0.455091845,
+      "expected_impact": 0.370184248,
+      "expected_nodes": 0.760851,
+      "irreversibility": 0.217490593,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.727873142
+    },
+    "target_event_id": 137,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.476685462,
+      "Evolution": 0.483517771,
+      "Integrity": 0.460578329,
+      "Method": 0.346338568,
+      "Purpose": 0.497117368
+    },
+    "uncertainty": {
+      "boundary": 0.436370303,
+      "causality": 0.737476868,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.720838811,
+      "normative": 0.331716145
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.330131121,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 112,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.706204405,
+      "boundary_ambiguity": 0.334778147,
+      "domains": 5.0,
+      "evolution_risk": 0.473945902,
+      "expected_impact": 0.458374591,
+      "expected_nodes": 0.774008,
+      "irreversibility": 0.348640383,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.73400816
+    },
+    "target_event_id": 139,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.669868879,
+      "Evolution": 0.429402448,
+      "Integrity": 0.513614458,
+      "Method": 0.485193604,
+      "Purpose": 0.506395336
+    },
+    "uncertainty": {
+      "boundary": 0.467562451,
+      "causality": 0.794562774,
+      "facts": 0.250800282,
+      "horizon": 0.6,
+      "model": 0.724765222,
+      "normative": 0.344706076
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.408767849,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 113,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.513878195,
+      "boundary_ambiguity": 0.138359442,
+      "domains": 6.0,
+      "evolution_risk": 0.529862114,
+      "expected_impact": 0.485689393,
+      "expected_nodes": 1.013988,
+      "irreversibility": 0.419593976,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.683547701
+    },
+    "target_event_id": 141,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.591232151,
+      "Evolution": 0.449751161,
+      "Integrity": 0.508556404,
+      "Method": 0.46689673,
+      "Purpose": 0.557197936
+    },
+    "uncertainty": {
+      "boundary": 0.405782854,
+      "causality": 0.832406218,
+      "facts": 0.252171317,
+      "horizon": 0.68,
+      "model": 0.692470528,
+      "normative": 0.320511887
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.408767849,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 114,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.513878195,
+      "boundary_ambiguity": 0.138359442,
+      "domains": 6.0,
+      "evolution_risk": 0.529862114,
+      "expected_impact": 0.485689393,
+      "expected_nodes": 1.013988,
+      "irreversibility": 0.419593976,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.683547701
+    },
+    "target_event_id": 141,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.591232151,
+      "Evolution": 0.449751161,
+      "Integrity": 0.508556404,
+      "Method": 0.46689673,
+      "Purpose": 0.557197936
+    },
+    "uncertainty": {
+      "boundary": 0.405782854,
+      "causality": 0.832406218,
+      "facts": 0.252171317,
+      "horizon": 0.68,
+      "model": 0.692470528,
+      "normative": 0.320511887
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.502882632,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 115,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.67641229,
+      "boundary_ambiguity": 0.381242424,
+      "domains": 4.0,
+      "evolution_risk": 0.455091845,
+      "expected_impact": 0.370184248,
+      "expected_nodes": 0.760851,
+      "irreversibility": 0.217490593,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.727873142
+    },
+    "target_event_id": 142,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.476685462,
+      "Evolution": 0.483517771,
+      "Integrity": 0.460578329,
+      "Method": 0.346338568,
+      "Purpose": 0.497117368
+    },
+    "uncertainty": {
+      "boundary": 0.436370303,
+      "causality": 0.737476868,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.720838811,
+      "normative": 0.331716145
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.260205488,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 116,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.840313765,
+      "boundary_ambiguity": 0.342462584,
+      "domains": 5.0,
+      "evolution_risk": 0.487306173,
+      "expected_impact": 0.481250501,
+      "expected_nodes": 0.773904,
+      "irreversibility": 0.381205745,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.684484347
+    },
+    "target_event_id": 144,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.739794512,
+      "Evolution": 0.431877666,
+      "Integrity": 0.503156113,
+      "Method": 0.523547848,
+      "Purpose": 0.517807773
+    },
+    "uncertainty": {
+      "boundary": 0.472326802,
+      "causality": 0.777724678,
+      "facts": 0.252171317,
+      "horizon": 0.6,
+      "model": 0.693069982,
+      "normative": 0.365768977
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.425791046,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 117,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.515980446,
+      "boundary_ambiguity": 0.422724922,
+      "domains": 2.0,
+      "evolution_risk": 0.522122552,
+      "expected_impact": 0.493096623,
+      "expected_nodes": 0.404853,
+      "irreversibility": 0.42872167,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.812531841
+    },
+    "target_event_id": 146,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.574208954,
+      "Evolution": 0.434559953,
+      "Integrity": 0.467181533,
+      "Method": 0.463169849,
+      "Purpose": 0.312386903
+    },
+    "uncertainty": {
+      "boundary": 0.342089452,
+      "causality": 0.656260826,
+      "facts": 0.245739787,
+      "horizon": 0.36,
+      "model": 0.775020378,
+      "normative": 0.321546925
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.425791046,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 118,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.515980446,
+      "boundary_ambiguity": 0.422724922,
+      "domains": 2.0,
+      "evolution_risk": 0.522122552,
+      "expected_impact": 0.493096623,
+      "expected_nodes": 0.404853,
+      "irreversibility": 0.42872167,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.812531841
+    },
+    "target_event_id": 146,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.574208954,
+      "Evolution": 0.434559953,
+      "Integrity": 0.467181533,
+      "Method": 0.463169849,
+      "Purpose": 0.312386903
+    },
+    "uncertainty": {
+      "boundary": 0.342089452,
+      "causality": 0.656260826,
+      "facts": 0.245739787,
+      "horizon": 0.36,
+      "model": 0.775020378,
+      "normative": 0.321546925
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.502882632,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 119,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.688021977,
+      "boundary_ambiguity": 0.381242424,
+      "domains": 4.0,
+      "evolution_risk": 0.438878929,
+      "expected_impact": 0.370184248,
+      "expected_nodes": 0.760851,
+      "irreversibility": 0.21733587,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.71554774
+    },
+    "target_event_id": 147,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.482025918,
+      "Evolution": 0.476708347,
+      "Integrity": 0.457659673,
+      "Method": 0.348728638,
+      "Purpose": 0.497117368
+    },
+    "uncertainty": {
+      "boundary": 0.436370303,
+      "causality": 0.733286232,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.712950554,
+      "normative": 0.333341502
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.335833707,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 120,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.696772852,
+      "boundary_ambiguity": 0.326037671,
+      "domains": 5.0,
+      "evolution_risk": 0.466206596,
+      "expected_impact": 0.454585502,
+      "expected_nodes": 0.827009,
+      "irreversibility": 0.344456428,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.727284252
+    },
+    "target_event_id": 149,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.664166293,
+      "Evolution": 0.423015843,
+      "Integrity": 0.51145811,
+      "Method": 0.482011968,
+      "Purpose": 0.505008573
+    },
+    "uncertainty": {
+      "boundary": 0.462143356,
+      "causality": 0.792276646,
+      "facts": 0.252171317,
+      "horizon": 0.6,
+      "model": 0.720461922,
+      "normative": 0.34300675
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.504610601,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 121,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.386908022,
+      "boundary_ambiguity": 0.307399684,
+      "domains": 4.0,
+      "evolution_risk": 0.522167657,
+      "expected_impact": 0.437016788,
+      "expected_nodes": 1.121802,
+      "irreversibility": 0.346205822,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.755154739
+    },
+    "target_event_id": 151,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.495389399,
+      "Evolution": 0.450417243,
+      "Integrity": 0.48593777,
+      "Method": 0.346010727,
+      "Purpose": 0.370533508
+    },
+    "uncertainty": {
+      "boundary": 0.390587804,
+      "causality": 0.746752611,
+      "facts": 0.246704411,
+      "horizon": 0.52,
+      "model": 0.738299033,
+      "normative": 0.297868802
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.504610601,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 122,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.386908022,
+      "boundary_ambiguity": 0.307399684,
+      "domains": 4.0,
+      "evolution_risk": 0.522167657,
+      "expected_impact": 0.437016788,
+      "expected_nodes": 1.121802,
+      "irreversibility": 0.346205822,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.755154739
+    },
+    "target_event_id": 151,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.495389399,
+      "Evolution": 0.450417243,
+      "Integrity": 0.48593777,
+      "Method": 0.346010727,
+      "Purpose": 0.370533508
+    },
+    "uncertainty": {
+      "boundary": 0.390587804,
+      "causality": 0.746752611,
+      "facts": 0.246704411,
+      "horizon": 0.52,
+      "model": 0.738299033,
+      "normative": 0.297868802
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.502519247,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 123,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.681207905,
+      "boundary_ambiguity": 0.375687289,
+      "domains": 4.0,
+      "evolution_risk": 0.45348096,
+      "expected_impact": 0.3709413,
+      "expected_nodes": 0.786258,
+      "irreversibility": 0.219376887,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.718568628
+    },
+    "target_event_id": 152,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.479163984,
+      "Evolution": 0.4828412,
+      "Integrity": 0.457755067,
+      "Method": 0.347930399,
+      "Purpose": 0.497480753
+    },
+    "uncertainty": {
+      "boundary": 0.432926119,
+      "causality": 0.734313333,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.714883922,
+      "normative": 0.332463237
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.334801235,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 124,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.699017358,
+      "boundary_ambiguity": 0.326037671,
+      "domains": 5.0,
+      "evolution_risk": 0.474758555,
+      "expected_impact": 0.454585502,
+      "expected_nodes": 0.827009,
+      "irreversibility": 0.344535957,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.728012259
+    },
+    "target_event_id": 154,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.665198765,
+      "Evolution": 0.426607666,
+      "Integrity": 0.511630502,
+      "Method": 0.482507968,
+      "Purpose": 0.505008573
+    },
+    "uncertainty": {
+      "boundary": 0.462143356,
+      "causality": 0.792524168,
+      "facts": 0.252171317,
+      "horizon": 0.6,
+      "model": 0.720927846,
+      "normative": 0.34332098
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.497872286,
+    "frozen_at": 1.0,
+    "gate": "PASS",
+    "horizon": 3,
+    "id": 125,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.30039972,
+      "boundary_ambiguity": 0.115405015,
+      "domains": 4.0,
+      "evolution_risk": 0.584794362,
+      "expected_impact": 0.498630972,
+      "expected_nodes": 0.364768,
+      "irreversibility": 0.589795445,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.6601209
+    },
+    "target_event_id": 156,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.497691021,
+      "Evolution": 0.469619674,
+      "Integrity": 0.444064963,
+      "Method": 0.502127714,
+      "Purpose": 0.470532238
+    },
+    "uncertainty": {
+      "boundary": 0.271551109,
+      "causality": 0.714441106,
+      "facts": 0.253563779,
+      "horizon": 0.52,
+      "model": 0.677477376,
+      "normative": 0.291919058
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.497872286,
+    "frozen_at": 1.0,
+    "gate": "PASS",
+    "horizon": 3,
+    "id": 126,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.30039972,
+      "boundary_ambiguity": 0.115405015,
+      "domains": 4.0,
+      "evolution_risk": 0.584794362,
+      "expected_impact": 0.498630972,
+      "expected_nodes": 0.364768,
+      "irreversibility": 0.589795445,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.6601209
+    },
+    "target_event_id": 156,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.497691021,
+      "Evolution": 0.469619674,
+      "Integrity": 0.444064963,
+      "Method": 0.502127714,
+      "Purpose": 0.470532238
+    },
+    "uncertainty": {
+      "boundary": 0.271551109,
+      "causality": 0.714441106,
+      "facts": 0.253563779,
+      "horizon": 0.52,
+      "model": 0.677477376,
+      "normative": 0.291919058
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.502694396,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 127,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.689363497,
+      "boundary_ambiguity": 0.378364814,
+      "domains": 4.0,
+      "evolution_risk": 0.442559893,
+      "expected_impact": 0.370576408,
+      "expected_nodes": 0.773804,
+      "irreversibility": 0.218456323,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.720498358
+    },
+    "target_event_id": 157,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.482784195,
+      "Evolution": 0.478254351,
+      "Integrity": 0.458510838,
+      "Method": 0.349357698,
+      "Purpose": 0.497305604
+    },
+    "uncertainty": {
+      "boundary": 0.434586185,
+      "causality": 0.734969442,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.716118949,
+      "normative": 0.33356853
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.262244497,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 128,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.836370061,
+      "boundary_ambiguity": 0.340614314,
+      "domains": 5.0,
+      "evolution_risk": 0.485471359,
+      "expected_impact": 0.480625764,
+      "expected_nodes": 0.78506,
+      "irreversibility": 0.380664659,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.684796039
+    },
+    "target_event_id": 159,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.737755503,
+      "Evolution": 0.427904013,
+      "Integrity": 0.503441393,
+      "Method": 0.522650942,
+      "Purpose": 0.517939899
+    },
+    "uncertainty": {
+      "boundary": 0.471180875,
+      "causality": 0.777830653,
+      "facts": 0.253563779,
+      "horizon": 0.6,
+      "model": 0.693269465,
+      "normative": 0.365154385
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.417503673,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 129,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.521266726,
+      "boundary_ambiguity": 0.420600699,
+      "domains": 2.0,
+      "evolution_risk": 0.520776821,
+      "expected_impact": 0.494581162,
+      "expected_nodes": 0.338281,
+      "irreversibility": 0.431140187,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.811110443
+    },
+    "target_event_id": 161,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.582496327,
+      "Evolution": 0.427197012,
+      "Integrity": 0.467629625,
+      "Method": 0.465066617,
+      "Purpose": 0.307533576
+    },
+    "uncertainty": {
+      "boundary": 0.340772433,
+      "causality": 0.655777551,
+      "facts": 0.249287737,
+      "horizon": 0.36,
+      "model": 0.774110683,
+      "normative": 0.322435458
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.417503673,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 130,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.521266726,
+      "boundary_ambiguity": 0.420600699,
+      "domains": 2.0,
+      "evolution_risk": 0.520776821,
+      "expected_impact": 0.494581162,
+      "expected_nodes": 0.338281,
+      "irreversibility": 0.431140187,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.811110443
+    },
+    "target_event_id": 161,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.582496327,
+      "Evolution": 0.427197012,
+      "Integrity": 0.467629625,
+      "Method": 0.465066617,
+      "Purpose": 0.307533576
+    },
+    "uncertainty": {
+      "boundary": 0.340772433,
+      "causality": 0.655777551,
+      "facts": 0.249287737,
+      "horizon": 0.36,
+      "model": 0.774110683,
+      "normative": 0.322435458
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.502694396,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 131,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.700788052,
+      "boundary_ambiguity": 0.378364814,
+      "domains": 4.0,
+      "evolution_risk": 0.435245045,
+      "expected_impact": 0.370576408,
+      "expected_nodes": 0.773804,
+      "irreversibility": 0.218383187,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.713020764
+    },
+    "target_event_id": 162,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.48803949,
+      "Evolution": 0.475182115,
+      "Integrity": 0.456740144,
+      "Method": 0.351734183,
+      "Purpose": 0.497305604
+    },
+    "uncertainty": {
+      "boundary": 0.434586185,
+      "causality": 0.73242706,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.711333289,
+      "normative": 0.335167968
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.334554106,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 132,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.701158132,
+      "boundary_ambiguity": 0.321311223,
+      "domains": 5.0,
+      "evolution_risk": 0.465041038,
+      "expected_impact": 0.452536537,
+      "expected_nodes": 0.85881,
+      "irreversibility": 0.342369108,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.72624346
+    },
+    "target_event_id": 164,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.665445894,
+      "Evolution": 0.419323278,
+      "Integrity": 0.511101918,
+      "Method": 0.482384816,
+      "Purpose": 0.50445707
+    },
+    "uncertainty": {
+      "boundary": 0.459212958,
+      "causality": 0.791922776,
+      "facts": 0.253563779,
+      "horizon": 0.6,
+      "model": 0.719795814,
+      "normative": 0.343415792
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.496597654,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 133,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.445421803,
+      "boundary_ambiguity": 0.255268184,
+      "domains": 4.0,
+      "evolution_risk": 0.534510172,
+      "expected_impact": 0.369726117,
+      "expected_nodes": 0.779734,
+      "irreversibility": 0.242881581,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.817172324
+    },
+    "target_event_id": 166,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.503402346,
+      "Evolution": 0.437524076,
+      "Integrity": 0.496896671,
+      "Method": 0.282104425,
+      "Purpose": 0.338419914
+    },
+    "uncertainty": {
+      "boundary": 0.358266274,
+      "causality": 0.76783859,
+      "facts": 0.250290551,
+      "horizon": 0.52,
+      "model": 0.777990287,
+      "normative": 0.299331664
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.496597654,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 134,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.445421803,
+      "boundary_ambiguity": 0.255268184,
+      "domains": 4.0,
+      "evolution_risk": 0.534510172,
+      "expected_impact": 0.369726117,
+      "expected_nodes": 0.779734,
+      "irreversibility": 0.242881581,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.817172324
+    },
+    "target_event_id": 166,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.503402346,
+      "Evolution": 0.437524076,
+      "Integrity": 0.496896671,
+      "Method": 0.282104425,
+      "Purpose": 0.338419914
+    },
+    "uncertainty": {
+      "boundary": 0.358266274,
+      "causality": 0.76783859,
+      "facts": 0.250290551,
+      "horizon": 0.52,
+      "model": 0.777990287,
+      "normative": 0.299331664
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.502373477,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 135,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.694536651,
+      "boundary_ambiguity": 0.373458875,
+      "domains": 4.0,
+      "evolution_risk": 0.442269259,
+      "expected_impact": 0.371244988,
+      "expected_nodes": 0.796932,
+      "irreversibility": 0.220189839,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.715907217
+    },
+    "target_event_id": 167,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.485404535,
+      "Evolution": 0.478132285,
+      "Integrity": 0.456876153,
+      "Method": 0.35098145,
+      "Purpose": 0.497626523
+    },
+    "uncertainty": {
+      "boundary": 0.431544502,
+      "causality": 0.733408454,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.713180619,
+      "normative": 0.33435963
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.333558024,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 136,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.703323527,
+      "boundary_ambiguity": 0.321311223,
+      "domains": 5.0,
+      "evolution_risk": 0.468023673,
+      "expected_impact": 0.452536537,
+      "expected_nodes": 0.85881,
+      "irreversibility": 0.342445474,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.726958423
+    },
+    "target_event_id": 169,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.666441976,
+      "Evolution": 0.420575985,
+      "Integrity": 0.511271221,
+      "Method": 0.482863222,
+      "Purpose": 0.50445707
+    },
+    "uncertainty": {
+      "boundary": 0.459212958,
+      "causality": 0.792165864,
+      "facts": 0.253563779,
+      "horizon": 0.6,
+      "model": 0.720253391,
+      "normative": 0.343718947
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.344941083,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 137,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.644064806,
+      "boundary_ambiguity": 0.155532702,
+      "domains": 5.0,
+      "evolution_risk": 0.486885348,
+      "expected_impact": 0.496636408,
+      "expected_nodes": 0.605967,
+      "irreversibility": 0.399771251,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.699727461
+    },
+    "target_event_id": 171,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.655058917,
+      "Evolution": 0.425275983,
+      "Integrity": 0.486746213,
+      "Method": 0.48829159,
+      "Purpose": 0.520093743
+    },
+    "uncertainty": {
+      "boundary": 0.356430275,
+      "causality": 0.782907337,
+      "facts": 0.254977669,
+      "horizon": 0.6,
+      "model": 0.702825575,
+      "normative": 0.339832714
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.344941083,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 138,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.644064806,
+      "boundary_ambiguity": 0.155532702,
+      "domains": 5.0,
+      "evolution_risk": 0.486885348,
+      "expected_impact": 0.496636408,
+      "expected_nodes": 0.605967,
+      "irreversibility": 0.399771251,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.699727461
+    },
+    "target_event_id": 171,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.655058917,
+      "Evolution": 0.425275983,
+      "Integrity": 0.486746213,
+      "Method": 0.48829159,
+      "Purpose": 0.520093743
+    },
+    "uncertainty": {
+      "boundary": 0.356430275,
+      "causality": 0.782907337,
+      "facts": 0.254977669,
+      "horizon": 0.6,
+      "model": 0.702825575,
+      "normative": 0.339832714
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.502537108,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 139,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.702594852,
+      "boundary_ambiguity": 0.375960335,
+      "domains": 4.0,
+      "evolution_risk": 0.43910931,
+      "expected_impact": 0.370904089,
+      "expected_nodes": 0.784969,
+      "irreversibility": 0.21933279,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.717886362
+    },
+    "target_event_id": 172,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.488988584,
+      "Evolution": 0.476805107,
+      "Integrity": 0.457623978,
+      "Method": 0.352407988,
+      "Purpose": 0.497462892
+    },
+    "uncertainty": {
+      "boundary": 0.433095408,
+      "causality": 0.734081363,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.714447272,
+      "normative": 0.335453688
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.263973409,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 140,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.833039858,
+      "boundary_ambiguity": 0.338995214,
+      "domains": 5.0,
+      "evolution_risk": 0.483953612,
+      "expected_impact": 0.480078489,
+      "expected_nodes": 0.7951,
+      "irreversibility": 0.38020533,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.685333
+    },
+    "target_event_id": 174,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.736026591,
+      "Evolution": 0.424044654,
+      "Integrity": 0.503812021,
+      "Method": 0.521910915,
+      "Purpose": 0.518109207
+    },
+    "uncertainty": {
+      "boundary": 0.470177033,
+      "causality": 0.77801322,
+      "facts": 0.254977669,
+      "horizon": 0.6,
+      "model": 0.69361312,
+      "normative": 0.364633429
+    }
+  },
+  {
+    "audit_depth": 0,
+    "auditor_node": 25,
+    "diagnostic_trace": 0.437643645,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 141,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.439485627,
+      "boundary_ambiguity": 0.243438954,
+      "domains": 6.0,
+      "evolution_risk": 0.527151463,
+      "expected_impact": 0.497840795,
+      "expected_nodes": 1.487342,
+      "irreversibility": 0.508029929,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.691532672
+    },
+    "target_event_id": 176,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.561386075,
+      "Evolution": 0.438983712,
+      "Integrity": 0.523327016,
+      "Method": 0.495994272,
+      "Purpose": 0.562356355
+    },
+    "uncertainty": {
+      "boundary": 0.470932151,
+      "causality": 0.835121108,
+      "facts": 0.256014307,
+      "horizon": 0.68,
+      "model": 0.69758091,
+      "normative": 0.311312067
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.437643645,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 142,
+    "lens_version": 1,
+    "notes": [],
+    "projection": {
+      "agency_risk": 0.439485627,
+      "boundary_ambiguity": 0.243438954,
+      "domains": 6.0,
+      "evolution_risk": 0.527151463,
+      "expected_impact": 0.497840795,
+      "expected_nodes": 1.487342,
+      "irreversibility": 0.508029929,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.691532672
+    },
+    "target_event_id": 176,
+    "target_kind": "output",
+    "tensions": {
+      "Conduct": 0.561386075,
+      "Evolution": 0.438983712,
+      "Integrity": 0.523327016,
+      "Method": 0.495994272,
+      "Purpose": 0.562356355
+    },
+    "uncertainty": {
+      "boundary": 0.470932151,
+      "causality": 0.835121108,
+      "facts": 0.256014307,
+      "horizon": 0.68,
+      "model": 0.69758091,
+      "normative": 0.311312067
+    }
+  },
+  {
+    "audit_depth": 1,
+    "auditor_node": 45,
+    "diagnostic_trace": 0.502537108,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 143,
+    "lens_version": 1,
+    "notes": [
+      "primary_vs_independent_max_tension_delta=0.000000"
+    ],
+    "projection": {
+      "agency_risk": 0.702594852,
+      "boundary_ambiguity": 0.375960335,
+      "domains": 4.0,
+      "evolution_risk": 0.43910931,
+      "expected_impact": 0.370904089,
+      "expected_nodes": 0.784969,
+      "irreversibility": 0.21933279,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.717886362
+    },
+    "target_event_id": 177,
+    "target_kind": "audit",
+    "tensions": {
+      "Conduct": 0.488988584,
+      "Evolution": 0.476805107,
+      "Integrity": 0.457623978,
+      "Method": 0.352407988,
+      "Purpose": 0.497462892
+    },
+    "uncertainty": {
+      "boundary": 0.433095408,
+      "causality": 0.734081363,
+      "facts": 0.156237713,
+      "horizon": 0.52,
+      "model": 0.714447272,
+      "normative": 0.335453688
+    }
+  },
+  {
+    "audit_depth": 2,
+    "auditor_node": 46,
+    "diagnostic_trace": 0.265851032,
+    "frozen_at": 1.0,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "id": 144,
+    "lens_version": 1,
+    "notes": [
+      "postmortem is prospective; it cannot rewrite the gate already used"
+    ],
+    "projection": {
+      "agency_risk": 0.829336366,
+      "boundary_ambiguity": 0.337565149,
+      "domains": 5.0,
+      "evolution_risk": 0.482584897,
+      "expected_impact": 0.47959511,
+      "expected_nodes": 0.804183,
+      "irreversibility": 0.379806124,
+      "max_depth": 3.0,
+      "model_uncertainty": 0.685749192
+    },
+    "target_event_id": 179,
+    "target_kind": "gate",
+    "tensions": {
+      "Conduct": 0.734148968,
+      "Evolution": 0.420265754,
+      "Integrity": 0.504061971,
+      "Method": 0.521113547,
+      "Purpose": 0.518309185
+    },
+    "uncertainty": {
+      "boundary": 0.469290392,
+      "causality": 0.778154725,
+      "facts": 0.256014307,
+      "horizon": 0.6,
+      "model": 0.693879483,
+      "normative": 0.364066602
+    }
+  }
+]

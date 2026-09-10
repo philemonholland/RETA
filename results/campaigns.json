@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "policy": "Append campaigns; retain original timestamps, hashes and raw outputs. Corrections are attributable new records, never silent replacement of a published campaign.",
+  "campaigns": [
+    {
+      "id": "supplied-v1.0.0-20260909",
+      "model_version": "1.0.0",
+      "provenance": {
+        "source_kind": "supplied historical results",
+        "source_archive_sha256": "a53032c575a4779ecafd070e02f7dd09188103c9eace15b9c334d4b9a96a1be4",
+        "declared_package_date": "2026-09-09",
+        "started_at": null,
+        "finished_at": null,
+        "timestamp_note": "The package is dated September 9; exact execution times were not recorded in the supplied results.",
+        "engine_sha256": "ec2c300f5c9e446154d2a986bd7d719d68d3804c3dcbf02d120295903e928d09"
+      },
+      "data_sha256": {
+        "baseline_events.json": "74d650dad9c5e47854b1ba9dd687e22b340e301c028ebf18b0f697faa120c7f8",
+        "baseline_audits.json": "a414d2dfad003d26fc7ece858586cc366699c9b7b382a5a78c1cc10e377559d0",
+        "baseline_network_final.json": "4a8addb6af7b4355387a8061f05b0eba365d685613cf4a2ccd580ef82e8929ab",
+        "baseline_run_status.json": "36abe9424b708d952399fcabcfc424460c060f996d0b393a08bf487c7609737d",
+        "baseline_invariants.json": "db3627ab367847cb7ddc8da14f21396887a0cf68a4cf4dbf7f14f7e0b0e7a42e",
+        "horizon_sensitivity.json": "a4a9b34942d404eb2d34c569acb563bf76dc22243fab6bd1aa4e49deea5beeb5",
+        "horizon_sensitivity.csv": "11c6632e188637582b58ab157d14365c4d1c1d26456f01b92d9aac1371405c1b",
+        "recursive_evolution_learning_curve.json": "cfe173ed5fd36d829d7ffd7995adaa3193cfe54a3a665197340c855a849267dc",
+        "recursive_evolution_learning_curve.csv": "90a27f7fcb559789164ccc87c993c813fdbe71b9a03b62568f33e8230bc1216e",
+        "recursive_audit_counterfactual.csv": "bf956504f67eaf3ab998a87fba4673348e3dabf4e2844f40ce55e51b8d54577a",
+        "recursive_audit_counterfactual_summary.json": "1a822528edab18ffbaf2bae933149c0e702727f0c108c18abb32383f9f815b94",
+        "biased_auditor_recursive_check.json": "4d994b263c0d76bf4beb8cc425fd313d5944b100a2a489b899c175b0550c427e",
+        "causal_dag_multi_parent.json": "113ef283a2ef4dac32e7cc577cb57b3796a225a4a50e45be9dc969dd76c31c8c",
+        "lens_epoch_immutability.json": "9c3fccbea49b56c10999442dab13b60eb4994ef26b924966d9274a8d07a55bd4",
+        "cohen_complex_systems_probe.json": "1492d3bd34b37a82f80914d8b4530bebff8d3a109161392920a262092a3096a9",
+        "cohen_context_response.csv": "e7d340d407e5c4dd08296927930ab589974c991de2fe8ab5919e3ed5a24ff50e",
+        "cohen_perturbation_response.csv": "f358f8cd3210ddfff9633e64b74d2d25534a8b879d27d0b1c49c5f8c6a162cee",
+        "recursive_feedback_no_learning_control.json": "29ff5e529379840b90cc01228d9f3babc93328fc4ec1684d2635dda9012c23fe",
+        "recursive_evolution_learning_curve.svg": "066b71015154a453823107a5e04952e42c8e7045ca93729ab5228393852a63ce"
+      },
+      "source_sha256": {
+        "ips_recursive_sim.py": "ec2c300f5c9e446154d2a986bd7d719d68d3804c3dcbf02d120295903e928d09",
+        "run_experiments.py": "f527c368c1610cf8559845ef9c0f663c5b7be9acbb5c7df73eed79bdf9fbad0b"
+      },
+      "execution_identity": "campaign ID + experiment + seed + mode where applicable; HTML anchors preserve these identities",
+      "learning_runs": 64,
+      "learning_deliveries_per_run": 120,
+      "gate_comparison_runs": 96,
+      "no_learning_runs": 24,
+      "interpretation": "Synthetic software experiment; not independent replication, ethical calibration or empirical AI-safety evidence."
+    },
+    {
+      "id": "20260910T153725Z",
+      "model_version": "1.0.0",
+      "provenance": {
+        "source_kind": "same-implementation rerun",
+        "started_at": "2026-09-10T11:37:25.451146-04:00",
+        "finished_at": "2026-09-10T11:37:37.517856-04:00",
+        "python": "3.12.14",
+        "engine_sha256": "7e6c34372ca2a2c85d49732aab5dd7d3ae59026b6a12620f1d8bfd398c4f5cda",
+        "source_sha256": {
+          "simulation/ips_recursive_sim.py": "7e6c34372ca2a2c85d49732aab5dd7d3ae59026b6a12620f1d8bfd398c4f5cda",
+          "simulation/run_experiments.py": "f527c368c1610cf8559845ef9c0f663c5b7be9acbb5c7df73eed79bdf9fbad0b",
+          "tests/test_v1_model.py": "b2eac864ab32afb723757f693f3b94750a64c513083cd3031b74c7c4ce820492"
+        }
+      },
+      "data_sha256": {
+        "baseline_events.json": "65969aa4a114ddfd1e4c88a81627b962c40e2a2f131bbfab48f7be21bb478270",
+        "baseline_audits.json": "59fd4e82d3573cfef90119f0605a0226daf0b075957b5b1e7fab670428788371",
+        "baseline_network_final.json": "4647c70fda6fe6b3d1ce08beb0c8956cb77076a5b55d7db5c13af8b78feac958",
+        "baseline_run_status.json": "ebf79a033bd00b2b45b1ceb8e4cbdb8ff924e9639252f3a68b6c30a338059cfb",
+        "baseline_invariants.json": "cca7493d493fe6e47c4cffb2026f9d144bae92bb4f3ed27fbc57100d31e5c7c2",
+        "horizon_sensitivity.json": "2d6e6718427f48f18d006abb21dd9518fea802bb22713001c89f24fb9d5e455d",
+        "horizon_sensitivity.csv": "11c6632e188637582b58ab157d14365c4d1c1d26456f01b92d9aac1371405c1b",
+        "recursive_evolution_learning_curve.json": "b504c845d3faf9a617b69a8350f97a220dc5ec85074251d502b8aa37d255f0bd",
+        "recursive_evolution_learning_curve.csv": "90a27f7fcb559789164ccc87c993c813fdbe71b9a03b62568f33e8230bc1216e",
+        "recursive_audit_counterfactual.csv": "bf956504f67eaf3ab998a87fba4673348e3dabf4e2844f40ce55e51b8d54577a",
+        "recursive_audit_counterfactual_summary.json": "e54e4ae3cbddeaf6ca1639ddc430ba2e689f5d75b00813dfd29f2d15e2d7342c",
+        "biased_auditor_recursive_check.json": "345ad80ccffb3231e9ff63a5706668fb54bf41e1787703928b21cf6abdc73643",
+        "causal_dag_multi_parent.json": "0082911ef28ddd39e2382c84dbf5f1667b48382307086d1db1205ac6edf78f70",
+        "lens_epoch_immutability.json": "90498fa133fd8db409aa976419392a482d6ecf3e5ce65478b2cb86baba341efe",
+        "cohen_complex_systems_probe.json": "16cdc551a6f4a90cc699bad84d71905930389c11a32633770eb875200255c089",
+        "cohen_context_response.csv": "e7d340d407e5c4dd08296927930ab589974c991de2fe8ab5919e3ed5a24ff50e",
+        "cohen_perturbation_response.csv": "f358f8cd3210ddfff9633e64b74d2d25534a8b879d27d0b1c49c5f8c6a162cee",
+        "recursive_feedback_no_learning_control.json": "1484e95a6f4519c9c48be16aff3531007b172e43c6dcf12782589eb37cb9de87",
+        "recursive_evolution_learning_curve.svg": "b82ef8023b943b50f97d4b380241241c7605642b87ef03fde1555f633ee97342",
+        "deterministic_replay.json": "fd472fe7dba841a18c0662b0045063f58121bfcf90fbb99f129fa615b6df845a",
+        "report_2_software_checks.json": "f1cd17e0574ba7e09273c5a8af562f97101cf2951392a6173e5c309e46ff9281"
+      },
+      "source_sha256": {
+        "ips_recursive_sim.py": "7e6c34372ca2a2c85d49732aab5dd7d3ae59026b6a12620f1d8bfd398c4f5cda",
+        "run_experiments.py": "f527c368c1610cf8559845ef9c0f663c5b7be9acbb5c7df73eed79bdf9fbad0b"
+      },
+      "execution_identity": "campaign ID + experiment + seed + mode where applicable; HTML anchors preserve these identities",
+      "learning_runs": 64,
+      "learning_deliveries_per_run": 120,
+      "gate_comparison_runs": 96,
+      "no_learning_runs": 24,
+      "interpretation": "Synthetic software experiment; not independent replication, ethical calibration or empirical AI-safety evidence."
+    }
+  ]
+}

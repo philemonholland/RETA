@@ -62,3 +62,9 @@ The owner requested smaller normal reading sizes and replacement of this same cu
 The closing personal statement was extended in English and French in publication revision 4. Model/scientific files and styling are unchanged.
 
 The closing personal statement was extended in English and French in publication revision 5. Model/scientific files and styling are unchanged.
+
+## Browser audit and report clarification — revision 6
+
+Publication revision 6 repairs browser interactions and portable navigation, retains all original model/engine/data files, and incorporates the author’s revised closing sentence. Read [report 2](RETA_Model_Spec_v1.0.0_report-2.md), the [clarified analysis](RETA_Analysis_v1.0.0_revision-2.md), [correction history](CLAIM_CORRECTIONS.json), and [functional audit scope](FUNCTIONAL_AUDIT.json). The earlier specification, analysis and PDF remain included as historical sources.
+
+The supplied 17 tests and fixed-seed component experiments were rerun against the unchanged engine. These are same-implementation software checks, not independent scientific replication, expert review or evidence of real-world alignment. Native generated state-export completion remains unconfirmed in browser automation.

@@ -1,0 +1,261 @@
+{
+  "report_revision": 2,
+  "model_version": "1.0.0",
+  "date": "2026-09-10",
+  "scope": "Editorial clarification, same-engine synthetic checks and limited source verification; not independent scientific or expert validation.",
+  "original_specification_sha256": "8ca20e53dc71fd661dd0af4eb7915a400424a2eba9aed37c169a9b63cb026f2a",
+  "revised_specification_sha256": "d75c6889b3d7668166ee64912669ac944f20bbc84d0760503eb4db3dc16bff54",
+  "original_analysis_sha256": "9bc5d774ffc35e9d2375efda031fd9a4ddd1ce16125ffcc3665c045928413fb3",
+  "revised_analysis_sha256": "5adb5097da07e491c701dfe274cd72d33b908a0380d7052abc034663c55cd031",
+  "original_files_preserved": true,
+  "equations_unchanged": true,
+  "changes": [
+    {
+      "id": "C00",
+      "reason": "Distinguish report revision from model version.",
+      "previous": "# RETA — Model Specification v1.0.0",
+      "replacement": "# RETA — Model Specification v1.0.0\n\nReport 2: editorial clarification of the existing implementation, September 10, 2026. Equations, Python engine and recorded scientific data are unchanged. Original specification and report 1 remain available as historical sources."
+    },
+    {
+      "id": "C01",
+      "reason": "The same Python object exposes the latent fields and method; reviewed method closure does not read them.",
+      "previous": "Runtime audit and projection code cannot access `p^*` or `p^{eff}`.",
+      "replacement": "The reviewed runtime audit and projection functions do not read `p^*` or `p^{eff}`. These values remain accessible within the Python process; this is a separation in the implementation, not an enforced security boundary."
+    },
+    {
+      "id": "C02",
+      "reason": "Describe the update rule without claiming every possible input must yield a distinct numeric state.",
+      "previous": "Every delivered event also changes local state as a deterministic function of event intensity/channel plus the realized response observation.",
+      "replacement": "The delivery handler updates local state using event intensity/channel and the realized response observation. Conditional on that observation, its numerical update is deterministic."
+    },
+    {
+      "id": "C03",
+      "reason": "A bounded history and a recorded Boolean are not a universal evolution proof or full-state integrity enforcement.",
+      "previous": "The realized input is also appended to the recipient's bounded recent-input history. Consequently, even if all continuous state variables happen to saturate at clamp bounds, the full modeled state still changes when the interaction is realized. Each delivery records `state_before`, `state_after`, recent-input history before/after, and `state_evolved`; `validate_invariants()` rejects any realized delivery for which `state_evolved` is false.",
+      "replacement": "The realized event ID is appended to the recipient's six-entry recent-input history. Each delivery records selected state fields before and after, recent-input history, and `state_evolved`. The supplied probes report changes under their tested inputs; this is not a proof for every possible state or input. `validate_invariants()` flags a delivery whose recorded `state_evolved` value is false; it does not independently recompute that flag from a tamper-proof history."
+    },
+    {
+      "id": "C04",
+      "reason": "Attribute the methodological transfer to this project rather than to an endorsement or established biological transfer.",
+      "previous": "The state representation and validation strategy are constrained by the Alan A. Cohen complex-systems/evolution literature review materialized in",
+      "replacement": "The project interprets the Alan A. Cohen complex-systems/evolution literature review as methodological inspiration for the state representation and testing strategy. That review is recorded in"
+    },
+    {
+      "id": "C05",
+      "reason": "Different mechanisms do not establish timescale separation.",
+      "previous": "while model learning and constitutional revision remain distinct mechanisms/timescales;",
+      "replacement": "while model learning and constitutional revision remain distinct mechanisms; their separation does not establish empirically calibrated timescales;"
+    },
+    {
+      "id": "C06",
+      "reason": "Bound atomicity to insufficient event budget, not every failure mode.",
+      "previous": "so a budget boundary cannot leave a partial audit/lens-change chain.",
+      "replacement": "so insufficient event capacity is checked before those supported API transactions are created. This is an event-budget check, not general rollback or crash-atomic storage."
+    },
+    {
+      "id": "C07",
+      "reason": "The backward-cause condition, not list shape, supplies acyclicity.",
+      "previous": "`causes` is a list, not a single parent. Consequently history is a DAG rather than a tree.",
+      "replacement": "`causes` accepts multiple parents. For histories generated through the supported event-creation path, causes refer to earlier events, giving an acyclic event graph that can contain joins. A list of parents alone would not guarantee acyclicity."
+    },
+    {
+      "id": "C08",
+      "reason": "Verifier skips the happens-before lookup for missing cause IDs; clocks are modeled order, not causal discovery.",
+      "previous": "`validate_invariants()` checks that every declared cause precedes its child both by event ID and by `happens_before`.",
+      "replacement": "`validate_invariants()` checks that declared cause IDs are earlier than the child and, when the referenced event exists, that its clock happens before the child clock. It does not reject every possible malformed external history: in particular, a missing earlier cause is not independently rejected by that check. Vector-clock order also includes the modeled local process order; it is not proof that explicit `causes[]` exhausts every real causal influence."
+    },
+    {
+      "id": "C09",
+      "reason": "Projection depends on current mutable network state.",
+      "previous": "For a frozen candidate event, `project_trajectory(event,H)` traverses expected downstream influence for `H` graph hops.",
+      "replacement": "For a fixed candidate event and current network state, `project_trajectory(event,H)` traverses a synthetic downstream-influence approximation for up to `H` graph hops. Freezing an event record does not freeze the network state used by a later evaluation."
+    },
+    {
+      "id": "C10",
+      "reason": "Reach is a weighted traversal score; not necessarily unique nodes or a calibrated expectation; H=4 and H=6 can plateau.",
+      "previous": "The projection returns expected modeled reach, cross-domain reach, impact, agency risk, irreversibility, model uncertainty, evolution risk, boundary ambiguity, and maximum depth. v1.0 deliberately restores substantive horizon semantics: changing `H` changes the computation rather than only a UI field.",
+      "replacement": "The projection returns a weighted reach score (`expected_nodes`), domain coverage, and synthetic impact, agency-risk, irreversibility, model-uncertainty, evolution-risk and boundary-ambiguity scores, plus maximum visited depth. The reach score sums discounted visit weights and can count a node at multiple depths; it is not a calibrated expectation of distinct affected nodes. Labels such as risk and uncertainty name model constructs, not measured real-world probabilities. The horizon participates in the computation, although pruning or the graph structure can make different horizons return the same reach."
+    },
+    {
+      "id": "C11",
+      "reason": "Synthetic/clamped terms can plateau; not calibrated uncertainty.",
+      "previous": "Their function is to enforce separation of uncertainty categories and to make horizon uncertainty grow with projection depth/cross-domain reach.",
+      "replacement": "They maintain separate categories and include nonnegative depth, declared-horizon and domain-count terms, with clamping. This does not establish empirical uncertainty calibration or strict growth of every uncertainty component on every horizon change."
+    },
+    {
+      "id": "C12",
+      "reason": "Separate roles share the same implementation; identity is not independent evidence.",
+      "previous": "The independent auditor re-evaluates the original target.",
+      "replacement": "The separately identified auditor re-evaluates the original target using the same evaluator and network state, without the optional primary bias. Its identity is recorded, but it is not an independently trained or institutionally independent evaluator, and its own node state is not an input to the target-scoring formula."
+    },
+    {
+      "id": "C13",
+      "reason": "AuditPacket is a mutable dataclass; mutation probe confirms it.",
+      "previous": "The packet is then constructed once and frozen; no already-recorded packet or audit event is retroactively edited.",
+      "replacement": "The normal audit path constructs the packet once and does not retrospectively revise its scores. `AuditPacket` and its nested data are mutable Python objects; “frozen” here means retained by this workflow, not immutable or tamper-proof storage."
+    },
+    {
+      "id": "C14",
+      "reason": "Learning is optional and scoring uses source/network state, not an auditor-specific learned evaluator.",
+      "previous": "Their recipients therefore change state and learn from them.",
+      "replacement": "Delivery invokes the recipient state-update handler; response-model learning occurs only when `learning_enabled=True`. Governance decisions are computed synchronously before these queued downstream effects, so changing an auditor node through a delivery is not itself evidence that the scoring algorithm learns or improves."
+    },
+    {
+      "id": "C15",
+      "reason": "Bound immutability to the supported dataclass/API rather than adversarial runtime protection.",
+      "previous": "A `Lens` is immutable. A new lens version does not edit earlier packets.",
+      "replacement": "`Lens` is a frozen dataclass with tuple-valued sensitivities in the supported configuration. The normal lens-change path creates a new lens version without editing earlier packets. This is application-level versioning, not a security guarantee against arbitrary Python mutation."
+    },
+    {
+      "id": "C16",
+      "reason": "Packet fields and simulated approval must not imply a real human review or embedded full lens snapshot.",
+      "previous": "Every lens after version 1 must reference an extant `lens_change_approval` event. Historical AuditPackets retain the lens version and values used when they were created.",
+      "replacement": "Every lens after version 1 is required to reference an extant `lens_change_approval` event. Historical packets store the lens version and horizon; the retained lens epoch supplies its sensitivities and thresholds. “Human approval” is a simulated input parameter, not evidence that a person actually reviewed the candidate."
+    },
+    {
+      "id": "C17",
+      "reason": "An intention and tested workflow do not guarantee resistance to rewriting.",
+      "previous": "This separation prevents Vow 5 from becoming a license for silent retrospective norm rewriting.",
+      "replacement": "This separation is intended to make constitutional changes prospective and attributable in the modeled workflow; the current code does not enforce an append-only audit store."
+    },
+    {
+      "id": "C18",
+      "reason": "Separate requirements from universal guarantees and a complete executable verifier.",
+      "previous": "A release-valid run must satisfy at least:",
+      "replacement": "The following are intended requirements covered partly by runtime checks and partly by the supplied component tests; passing a finite suite does not prove them for every execution:"
+    },
+    {
+      "id": "C19",
+      "reason": "The original invariant contradicted the documented gate priority.",
+      "previous": "- one severe Vow tension causes rejection regardless of the other four;\n- symmetric severe tensions also reject;",
+      "replacement": "- a severe tension cannot be compensated by low values on the other components: the gate returns `REJECT` when uncertainty is below its threshold, otherwise `UNRESOLVED`; both block target delivery;\n- symmetric severe tensions obey the same uncertainty-first rule;"
+    },
+    {
+      "id": "C20",
+      "reason": "Do not imply complete causal equivalence.",
+      "previous": "- vector clocks agree with declared causal ancestry;",
+      "replacement": "- extant declared causes have earlier vector clocks under the modeled order;"
+    },
+    {
+      "id": "C21",
+      "reason": "Bound the claim to the API and checked budget failure.",
+      "previous": "- no run may contain more than `max_events`; governance transactions that cannot fit must fail before partial materialization.",
+      "replacement": "- the supported output/lens APIs check event capacity before materializing their governance transactions."
+    },
+    {
+      "id": "A00",
+      "reason": "Keep historical analysis and distinguish the correction.",
+      "previous": "# RETA — Analysis v1.0.0",
+      "replacement": "# RETA — Analysis v1.0.0\n\nEditorial revision 2, September 10, 2026. This clarifies claims about the unchanged engine and synthetic experiments; it does not add empirical validation. Original analysis remains available."
+    },
+    {
+      "id": "A01",
+      "reason": "Bound state-change claim to handler and observations.",
+      "previous": "Each received event transforms local state.",
+      "replacement": "Each received event invokes the local state-update handler; distinct state changes were observed in the supplied probes."
+    },
+    {
+      "id": "A02",
+      "reason": "Avoid a security/omniscience claim in the heading.",
+      "previous": "## 4. No hidden simulator oracle",
+      "replacement": "## 4. Separation of latent values from runtime scoring"
+    },
+    {
+      "id": "A03",
+      "reason": "Coding separation is not access control.",
+      "previous": "Those latent values are not available to the runtime audit functions.",
+      "replacement": "The reviewed runtime scoring functions do not read those values, although they remain accessible within the same Python process."
+    },
+    {
+      "id": "A04",
+      "reason": "Same-process method remains callable.",
+      "previous": "runtime auditors still cannot access it.",
+      "replacement": "the reviewed runtime scoring path does not call it. This is not an enforced information-security boundary."
+    },
+    {
+      "id": "A05",
+      "reason": "Correct the quantitative unit/interpretation.",
+      "previous": "expected modeled reach changes from 2.220 nodes at H=1 to 3.548 at H=6.",
+      "replacement": "the weighted reach score (`expected_nodes`) changes from 2.220 at H=1 to 3.548 at H=6. This score sums discounted visits, can include repeated nodes at different depths, and is not an expected count of distinct affected nodes."
+    },
+    {
+      "id": "A06",
+      "reason": "No strict growth guarantee.",
+      "previous": "The horizon controls downstream graph propagation and uncertainty growth.",
+      "replacement": "The horizon enters downstream projection and synthetic uncertainty formulas; pruning and clamping can produce plateaus."
+    },
+    {
+      "id": "A07",
+      "reason": "Make the actual gate priority explicit.",
+      "previous": "Symmetrically severe tensions also reject rather than geometrically cancelling at the center of the pentagon.",
+      "replacement": "With uncertainty below its threshold, symmetrically severe tensions also reject. At high uncertainty the result is `UNRESOLVED`, which also blocks delivery."
+    },
+    {
+      "id": "A08",
+      "reason": "Probe demonstrates recorded disagreement, not a causal improvement in the final verdict.",
+      "previous": "The recursive audit is materialized in the event graph and the final target gate is `UNRESOLVED`.",
+      "replacement": "The recursive audit is materialized in the event graph and the final target gate is `UNRESOLVED`. The primary packet in this fixed probe was already `UNRESOLVED`; this does not show that the discrepancy intervention changed the final decision. The separately identified auditor uses the same scoring implementation, not an independent source of normative validation."
+    },
+    {
+      "id": "A09",
+      "reason": "Avoid unsupported temporal/independence interpretation.",
+      "previous": "Ordinary state/model learning and constitutional change occur on different timescales.",
+      "replacement": "Ordinary state/model learning and constitutional change use separate mechanisms. Their timing is configured within a synchronous toy control flow, not an empirically established separation of timescales."
+    },
+    {
+      "id": "A10",
+      "reason": "One retained hash is not a general tamper-proof audit guarantee.",
+      "previous": "Vow 5 therefore permits constitutional evolution without retroactively laundering past decisions.",
+      "replacement": "The tested lens-change path therefore preserved that historical packet. The packet object remains mutable, and simulated human approval is a parameter rather than an actual human review."
+    },
+    {
+      "id": "A11",
+      "reason": "Correct reach-score unit.",
+      "previous": "by a mean absolute 0.218 nodes in the fixed projection probe.",
+      "replacement": "by a mean absolute 0.218 score units in the fixed projection probe."
+    },
+    {
+      "id": "A12",
+      "reason": "Actual 48-seed output contradicts a blanket zero-delivery claim for posthoc-blocked events.",
+      "previous": "In the gated arm those target outputs do not.",
+      "replacement": "In the gated arm, outputs blocked at decision time receive no target delivery. Some delivered outputs are nevertheless classified as blocking by the later final-state audit: the reported mean is 0.0833 such deliveries per gated run, compared with 9.2083 in the ungated arm."
+    },
+    {
+      "id": "A13",
+      "reason": "Replace sweeping corpus claims with specific primary-source examples and explicit inference.",
+      "previous": "The Alan A. Cohen literature review was fed back into v1.0 as a design constraint rather than attached as a thematic citation. Across Cohen’s program, several recurring results challenge unitary descriptions of complex adaptive state: multivariate dysregulation contains information not reducible to one marker; biologically defined subsystems can change in partly independent ways; sparse observations can estimate state without identifying the generating network; apparently conserved processes can lose universality across ecological contexts; and architectural constraints can shape which evolutionary trajectories are reachable. The later work on intrinsic health and entropy continues this program while explicitly leaving open whether any single quantity deserves privileged ontological status.",
+      "replacement": "The project uses the Cohen literature as methodological inspiration, not validation of RETA. For example, [Cohen, Leblanc and Roucou (2021)](https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2021.624097/full) discuss physiological state estimation from sparse biomarker samples and limits to mapping the underlying networks. [Cohen, Isaksson and Salguero-Gómez (2017)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0189124) use evolutionary simulations to examine how multiple trade-off currencies change outcomes under their assumptions. RETA interprets these works as reasons to retain multivariate state, context and architectural constraints. Neither paper tests this AI-governance model, and this transfer is the project’s interpretation."
+    },
+    {
+      "id": "A14",
+      "reason": "Retrospective design attribution is not a causal test.",
+      "previous": "That reading changes the IPS implementation in six ways.",
+      "replacement": "The project connects that reading to six design choices; this attribution is not a controlled demonstration that the literature caused each implementation choice."
+    },
+    {
+      "id": "A15",
+      "reason": "Remove unsupported ranking of a body of work and broad attribution.",
+      "previous": "Cohen’s strongest dynamic work motivates perturbation, recovery-time, directional-coupling, and attractor experiments, but v1.0 has no calibrated autonomous return-to-attractor flow. Claiming resilience from the current result would reproduce the exact inferential mistake the Cohen literature repeatedly warns against: turning a convenient observable into an unearned causal or ontological object.",
+      "replacement": "A future study could examine perturbation recovery and attractor behavior, but v1.0 has no calibrated autonomous return-to-attractor flow. Its immediate response signatures therefore do not establish resilience."
+    },
+    {
+      "id": "A16",
+      "reason": "Mark the transfer as analogy, not established applicability.",
+      "previous": "Cohen’s Danaid/constraint logic also sharpens the meaning of evolution here.",
+      "replacement": "The project also draws a conceptual analogy with architectural-constraint approaches, including the cited Danaid theory."
+    },
+    {
+      "id": "A17",
+      "reason": "Bound the strongest claim to what the implementation actually represents.",
+      "previous": "It is designed so that its own evaluators and constitutional updates are represented as fallible causal processes rather than privileged external oracles.",
+      "replacement": "It records evaluator roles and constitutional changes as causal events, while their scoring is still a shared synchronous program. This does not demonstrate that the evaluators independently learn ethical judgment, that the model is aligned, or that it remains aligned under arbitrary perturbations."
+    }
+  ],
+  "limitations": [
+    "No guarantee that every possible overclaim has been identified.",
+    "No empirical AI-safety, alignment, convergence or robustness validation.",
+    "Literature links and selected primary passages checked; not a new exhaustive literature review.",
+    "Historical model viewers and original report retain original wording and are identified as historical."
+  ],
+  "evidence": "REPORT_CLAIM_CHECKS.json"
+}

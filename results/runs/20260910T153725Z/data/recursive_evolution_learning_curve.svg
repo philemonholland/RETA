@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="100%" height="100%" fill="white"/>
+<text x="450.0" y="28" text-anchor="middle" font-family="sans-serif" font-size="18">Adaptive model learning inside recursive evolution</text>
+<line x1="90" y1="445.00" x2="870" y2="445.00" stroke="#dddddd" stroke-width="1"/>
+<text x="80" y="449.00" text-anchor="end" font-family="monospace" font-size="11">0.061</text>
+<line x1="90" y1="367.00" x2="870" y2="367.00" stroke="#dddddd" stroke-width="1"/>
+<text x="80" y="371.00" text-anchor="end" font-family="monospace" font-size="11">0.090</text>
+<line x1="90" y1="289.00" x2="870" y2="289.00" stroke="#dddddd" stroke-width="1"/>
+<text x="80" y="293.00" text-anchor="end" font-family="monospace" font-size="11">0.119</text>
+<line x1="90" y1="211.00" x2="870" y2="211.00" stroke="#dddddd" stroke-width="1"/>
+<text x="80" y="215.00" text-anchor="end" font-family="monospace" font-size="11">0.148</text>
+<line x1="90" y1="133.00" x2="870" y2="133.00" stroke="#dddddd" stroke-width="1"/>
+<text x="80" y="137.00" text-anchor="end" font-family="monospace" font-size="11">0.177</text>
+<line x1="90" y1="55.00" x2="870" y2="55.00" stroke="#dddddd" stroke-width="1"/>
+<text x="80" y="59.00" text-anchor="end" font-family="monospace" font-size="11">0.206</text>
+<line x1="90" y1="55" x2="90" y2="445" stroke="#333"/>
+<line x1="90" y1="445" x2="870" y2="445" stroke="#333"/>
+<text x="90.00" y="467" text-anchor="middle" font-family="monospace" font-size="11">0</text>
+<text x="246.00" y="467" text-anchor="middle" font-family="monospace" font-size="11">24</text>
+<text x="402.00" y="467" text-anchor="middle" font-family="monospace" font-size="11">48</text>
+<text x="558.00" y="467" text-anchor="middle" font-family="monospace" font-size="11">72</text>
+<text x="714.00" y="467" text-anchor="middle" font-family="monospace" font-size="11">96</text>
+<text x="870.00" y="467" text-anchor="middle" font-family="monospace" font-size="11">120</text>
+<polyline fill="none" stroke="#4f81bd" stroke-width="2.4" points="90.00,107.81 155.00,185.39 220.00,244.69 285.00,298.02 350.00,317.91 415.00,339.65 480.00,360.75 545.00,368.95 610.00,377.75 675.00,387.75 740.00,393.21 805.00,402.76 870.00,410.49"/>
+<circle cx="90.00" cy="107.81" r="3" fill="#4f81bd"/>
+<circle cx="155.00" cy="185.39" r="3" fill="#4f81bd"/>
+<circle cx="220.00" cy="244.69" r="3" fill="#4f81bd"/>
+<circle cx="285.00" cy="298.02" r="3" fill="#4f81bd"/>
+<circle cx="350.00" cy="317.91" r="3" fill="#4f81bd"/>
+<circle cx="415.00" cy="339.65" r="3" fill="#4f81bd"/>
+<circle cx="480.00" cy="360.75" r="3" fill="#4f81bd"/>
+<circle cx="545.00" cy="368.95" r="3" fill="#4f81bd"/>
+<circle cx="610.00" cy="377.75" r="3" fill="#4f81bd"/>
+<circle cx="675.00" cy="387.75" r="3" fill="#4f81bd"/>
+<circle cx="740.00" cy="393.21" r="3" fill="#4f81bd"/>
+<circle cx="805.00" cy="402.76" r="3" fill="#4f81bd"/>
+<circle cx="870.00" cy="410.49" r="3" fill="#4f81bd"/>
+<line x1="640" y1="55" x2="668" y2="55" stroke="#4f81bd" stroke-width="3"/>
+<text x="675" y="59" font-family="sans-serif" font-size="11">mean model error</text>
+<polyline fill="none" stroke="#c0504d" stroke-width="2.4" points="90.00,87.50 155.00,203.64 220.00,248.85 285.00,315.61 350.00,306.46 415.00,343.90 480.00,374.14 545.00,380.64 610.00,384.31 675.00,393.44 740.00,403.63 805.00,400.60 870.00,412.50"/>
+<circle cx="90.00" cy="87.50" r="3" fill="#c0504d"/>
+<circle cx="155.00" cy="203.64" r="3" fill="#c0504d"/>
+<circle cx="220.00" cy="248.85" r="3" fill="#c0504d"/>
+<circle cx="285.00" cy="315.61" r="3" fill="#c0504d"/>
+<circle cx="350.00" cy="306.46" r="3" fill="#c0504d"/>
+<circle cx="415.00" cy="343.90" r="3" fill="#c0504d"/>
+<circle cx="480.00" cy="374.14" r="3" fill="#c0504d"/>
+<circle cx="545.00" cy="380.64" r="3" fill="#c0504d"/>
+<circle cx="610.00" cy="384.31" r="3" fill="#c0504d"/>
+<circle cx="675.00" cy="393.44" r="3" fill="#c0504d"/>
+<circle cx="740.00" cy="403.63" r="3" fill="#c0504d"/>
+<circle cx="805.00" cy="400.60" r="3" fill="#c0504d"/>
+<circle cx="870.00" cy="412.50" r="3" fill="#c0504d"/>
+<line x1="640" y1="74" x2="668" y2="74" stroke="#c0504d" stroke-width="3"/>
+<text x="675" y="78" font-family="sans-serif" font-size="11">median model error</text>
+<text x="450.0" y="502" text-anchor="middle" font-family="sans-serif" font-size="13">Observed feedback events</text>
+<text x="18" y="260.0" transform="rotate(-90 18 260.0)" text-anchor="middle" font-family="sans-serif" font-size="13">Effective-response estimation error</text>
+</svg>

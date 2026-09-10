@@ -1,0 +1,184 @@
+{
+  "audit_events": [
+    {
+      "audit_packet_ids": [
+        3
+      ],
+      "boundary": {
+        "source_memberships": [
+          "ai",
+          "human",
+          "ecosystem"
+        ],
+        "source_primary": "ai"
+      },
+      "causes": [
+        1
+      ],
+      "channel": "info",
+      "claim_confidence": 0.55,
+      "created_at": 0.0,
+      "enactment_status": "ENACTED",
+      "evidence_status": "observed",
+      "gate_result": null,
+      "id": 2,
+      "intensity": 0.45,
+      "kind": "audit",
+      "label": "audit packet A1 for E1",
+      "lens_version": 1,
+      "metadata": {
+        "packet_id": 1,
+        "reported_gate": "UNRESOLVED"
+      },
+      "recipients_realized": [],
+      "recipients_requested": [
+        45
+      ],
+      "recipients_scheduled": [
+        45
+      ],
+      "roots": [
+        1
+      ],
+      "runtime_status": "observed",
+      "source": 25,
+      "vector_clock": {
+        "21": 1,
+        "25": 1
+      }
+    }
+  ],
+  "final_gate": "UNRESOLVED",
+  "meta_audit_events": [
+    {
+      "audit_packet_ids": [],
+      "boundary": {
+        "source_memberships": [
+          "institution",
+          "economy"
+        ],
+        "source_primary": "institution"
+      },
+      "causes": [
+        1,
+        2
+      ],
+      "channel": "authority",
+      "claim_confidence": 0.55,
+      "created_at": 0.0,
+      "enactment_status": "ENACTED",
+      "evidence_status": "observed",
+      "gate_result": null,
+      "id": 3,
+      "intensity": 0.4,
+      "kind": "meta_audit",
+      "label": "meta-audit A3 of audit E2",
+      "lens_version": null,
+      "metadata": {
+        "divergence": 0.267338568,
+        "independent_packet_id": 2,
+        "packet_id": 3
+      },
+      "recipients_realized": [],
+      "recipients_requested": [
+        4
+      ],
+      "recipients_scheduled": [
+        4
+      ],
+      "roots": [
+        1
+      ],
+      "runtime_status": "observed",
+      "source": 45,
+      "vector_clock": {
+        "21": 1,
+        "25": 1,
+        "45": 1
+      }
+    }
+  ],
+  "power_audit_detected_discrepancy": true,
+  "recursive_audit_materialized": true,
+  "target_event": 1,
+  "target_packets": [
+    {
+      "audit_depth": 0,
+      "auditor_node": 25,
+      "diagnostic_trace": 0.386071188,
+      "frozen_at": 0.0,
+      "gate": "UNRESOLVED",
+      "horizon": 3,
+      "id": 1,
+      "lens_version": 1,
+      "notes": [],
+      "projection": {
+        "agency_risk": 0.610819683,
+        "boundary_ambiguity": 0.322546533,
+        "domains": 6.0,
+        "evolution_risk": 0.555740444,
+        "expected_impact": 0.504195822,
+        "expected_nodes": 4.076063,
+        "irreversibility": 0.444957042,
+        "max_depth": 3.0,
+        "model_uncertainty": 0.612504758
+      },
+      "target_event_id": 1,
+      "target_kind": "output",
+      "tensions": {
+        "Conduct": 0.326747138,
+        "Evolution": 0.572270612,
+        "Integrity": 0.258031047,
+        "Method": 0.561934567,
+        "Purpose": 0.613928812
+      },
+      "uncertainty": {
+        "boundary": 0.51997885,
+        "causality": 0.808251618,
+        "facts": 0.141415913,
+        "horizon": 0.68,
+        "model": 0.647003045,
+        "normative": 0.335934338
+      }
+    },
+    {
+      "audit_depth": 1,
+      "auditor_node": 45,
+      "diagnostic_trace": 0.386071188,
+      "frozen_at": 0.0,
+      "gate": "UNRESOLVED",
+      "horizon": 3,
+      "id": 2,
+      "lens_version": 1,
+      "notes": [],
+      "projection": {
+        "agency_risk": 0.610819683,
+        "boundary_ambiguity": 0.322546533,
+        "domains": 6.0,
+        "evolution_risk": 0.555740444,
+        "expected_impact": 0.504195822,
+        "expected_nodes": 4.076063,
+        "irreversibility": 0.444957042,
+        "max_depth": 3.0,
+        "model_uncertainty": 0.612504758
+      },
+      "target_event_id": 1,
+      "target_kind": "output",
+      "tensions": {
+        "Conduct": 0.594085706,
+        "Evolution": 0.572270612,
+        "Integrity": 0.516062094,
+        "Method": 0.561934567,
+        "Purpose": 0.613928812
+      },
+      "uncertainty": {
+        "boundary": 0.51997885,
+        "causality": 0.808251618,
+        "facts": 0.141415913,
+        "horizon": 0.68,
+        "model": 0.647003045,
+        "normative": 0.335934338
+      }
+    }
+  ]
+}

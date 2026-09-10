@@ -60,7 +60,7 @@ I thank my parents, **Linda Bouchard and Gaétan Bolduc**, for their lifelong su
 
 Finally, I thank **Alexia Matte** for having stood by my side throughout those years and for the emotional and intellectual support she gave me, including during some very difficult times. I wish her love, kindness, gentleness and happiness.
 
-I never wanted my name to be public, but I see no other way to get this work out into the world. I stand on the shoulders of giants, but I am very small.
+I never wanted my name to be public, but I see no other way to get this work out into the world. I am just a mouse moving across the shoulders of giants.
 
 **Guillaume Bolduc**  
 Independant researcher  

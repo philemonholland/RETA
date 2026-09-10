@@ -1,0 +1,1946 @@
+{
+  "scope": "Same-implementation synthetic software checks, not independent scientific replication or real-world alignment validation.",
+  "started_at": "2026-09-10T11:37:25.451146-04:00",
+  "finished_at": "2026-09-10T11:37:37.517856-04:00",
+  "python": "3.12.14",
+  "source_sha256": {
+    "simulation/ips_recursive_sim.py": "7e6c34372ca2a2c85d49732aab5dd7d3ae59026b6a12620f1d8bfd398c4f5cda",
+    "simulation/run_experiments.py": "f527c368c1610cf8559845ef9c0f663c5b7be9acbb5c7df73eed79bdf9fbad0b",
+    "tests/test_v1_model.py": "b2eac864ab32afb723757f693f3b94750a64c513083cd3031b74c7c4ce820492"
+  },
+  "unit_tests": 17,
+  "unit_tests_pass": true,
+  "gate_priority": {
+    "low_uncertainty": "REJECT",
+    "high_uncertainty": "UNRESOLVED"
+  },
+  "audit_packet_runtime_mutable": true,
+  "latent_values_same_process_accessible": true,
+  "runtime_method_closure_reviewed": [
+    "_learn_from_arrival",
+    "_outgoing",
+    "evaluate_event",
+    "gate_from_vectors",
+    "learned_response",
+    "observable_model_uncertainty",
+    "project_trajectory",
+    "response_posterior_variance",
+    "tension_vector",
+    "uncertainty_vector"
+  ],
+  "latent_reads_in_that_closure": [],
+  "auditor_identity_load_uses": 1,
+  "results": {
+    "horizon_experiment": [
+      {
+        "horizon": 1,
+        "gate": "MODIFY",
+        "diagnostic_trace": 0.422402297,
+        "max_tension": 0.577597703,
+        "max_uncertainty": 0.573633322,
+        "expected_nodes": 2.22,
+        "domains": 3.0,
+        "expected_impact": 0.5255
+      },
+      {
+        "horizon": 2,
+        "gate": "MODIFY",
+        "diagnostic_trace": 0.441114279,
+        "max_tension": 0.558885721,
+        "max_uncertainty": 0.65210046,
+        "expected_nodes": 3.150984,
+        "domains": 4.0,
+        "expected_impact": 0.488303288
+      },
+      {
+        "horizon": 3,
+        "gate": "UNRESOLVED",
+        "diagnostic_trace": 0.437495722,
+        "max_tension": 0.562504278,
+        "max_uncertainty": 0.781959277,
+        "expected_nodes": 3.512989,
+        "domains": 5.0,
+        "expected_impact": 0.480224484
+      },
+      {
+        "horizon": 4,
+        "gate": "UNRESOLVED",
+        "diagnostic_trace": 0.432397122,
+        "max_tension": 0.567602878,
+        "max_uncertainty": 0.857160592,
+        "expected_nodes": 3.548328,
+        "domains": 5.0,
+        "expected_impact": 0.478945666
+      },
+      {
+        "horizon": 5,
+        "gate": "UNRESOLVED",
+        "diagnostic_trace": 0.423397122,
+        "max_tension": 0.576602878,
+        "max_uncertainty": 0.857160592,
+        "expected_nodes": 3.548328,
+        "domains": 5.0,
+        "expected_impact": 0.478945666
+      },
+      {
+        "horizon": 6,
+        "gate": "UNRESOLVED",
+        "diagnostic_trace": 0.408613181,
+        "max_tension": 0.591386819,
+        "max_uncertainty": 0.915,
+        "expected_nodes": 3.548328,
+        "domains": 5.0,
+        "expected_impact": 0.478945666
+      }
+    ],
+    "dag_experiment": {
+      "parents": [
+        1,
+        2
+      ],
+      "child": 3,
+      "child_causes": [
+        1,
+        2
+      ],
+      "parent_A_happens_before_child": true,
+      "parent_B_happens_before_child": true,
+      "child_vector_clock": {
+        "0": 1,
+        "21": 1,
+        "40": 1
+      },
+      "invariants": {
+        "pass": true,
+        "failures": [],
+        "events": 6,
+        "audits": 3
+      }
+    },
+    "biased_auditor_experiment": {
+      "target_event": 1,
+      "final_gate": "UNRESOLVED",
+      "target_packets": [
+        {
+          "id": 1,
+          "target_event_id": 1,
+          "auditor_node": 25,
+          "audit_depth": 0,
+          "lens_version": 1,
+          "horizon": 3,
+          "tensions": {
+            "Purpose": 0.613928812,
+            "Method": 0.561934567,
+            "Conduct": 0.326747138,
+            "Integrity": 0.258031047,
+            "Evolution": 0.572270612
+          },
+          "uncertainty": {
+            "facts": 0.141415913,
+            "causality": 0.808251618,
+            "boundary": 0.51997885,
+            "model": 0.647003045,
+            "normative": 0.335934338,
+            "horizon": 0.68
+          },
+          "projection": {
+            "expected_impact": 0.504195822,
+            "agency_risk": 0.610819683,
+            "irreversibility": 0.444957042,
+            "model_uncertainty": 0.612504758,
+            "evolution_risk": 0.555740444,
+            "boundary_ambiguity": 0.322546533,
+            "expected_nodes": 4.076063,
+            "domains": 6.0,
+            "max_depth": 3.0
+          },
+          "gate": "UNRESOLVED",
+          "diagnostic_trace": 0.386071188,
+          "frozen_at": 0.0,
+          "target_kind": "output",
+          "notes": []
+        },
+        {
+          "id": 2,
+          "target_event_id": 1,
+          "auditor_node": 45,
+          "audit_depth": 1,
+          "lens_version": 1,
+          "horizon": 3,
+          "tensions": {
+            "Purpose": 0.613928812,
+            "Method": 0.561934567,
+            "Conduct": 0.594085706,
+            "Integrity": 0.516062094,
+            "Evolution": 0.572270612
+          },
+          "uncertainty": {
+            "facts": 0.141415913,
+            "causality": 0.808251618,
+            "boundary": 0.51997885,
+            "model": 0.647003045,
+            "normative": 0.335934338,
+            "horizon": 0.68
+          },
+          "projection": {
+            "expected_impact": 0.504195822,
+            "agency_risk": 0.610819683,
+            "irreversibility": 0.444957042,
+            "model_uncertainty": 0.612504758,
+            "evolution_risk": 0.555740444,
+            "boundary_ambiguity": 0.322546533,
+            "expected_nodes": 4.076063,
+            "domains": 6.0,
+            "max_depth": 3.0
+          },
+          "gate": "UNRESOLVED",
+          "diagnostic_trace": 0.386071188,
+          "frozen_at": 0.0,
+          "target_kind": "output",
+          "notes": []
+        }
+      ],
+      "audit_events": [
+        {
+          "id": 2,
+          "roots": [
+            1
+          ],
+          "kind": "audit",
+          "source": 25,
+          "causes": [
+            1
+          ],
+          "channel": "info",
+          "intensity": 0.45,
+          "label": "audit packet A1 for E1",
+          "created_at": 0.0,
+          "recipients_requested": [
+            45
+          ],
+          "recipients_scheduled": [
+            45
+          ],
+          "recipients_realized": [],
+          "enactment_status": "ENACTED",
+          "evidence_status": "observed",
+          "runtime_status": "observed",
+          "boundary": {
+            "source_primary": "ai",
+            "source_memberships": [
+              "ai",
+              "human",
+              "ecosystem"
+            ]
+          },
+          "claim_confidence": 0.55,
+          "vector_clock": {
+            "21": 1,
+            "25": 1
+          },
+          "lens_version": 1,
+          "gate_result": null,
+          "audit_packet_ids": [
+            3
+          ],
+          "metadata": {
+            "packet_id": 1,
+            "reported_gate": "UNRESOLVED"
+          }
+        }
+      ],
+      "meta_audit_events": [
+        {
+          "id": 3,
+          "roots": [
+            1
+          ],
+          "kind": "meta_audit",
+          "source": 45,
+          "causes": [
+            1,
+            2
+          ],
+          "channel": "authority",
+          "intensity": 0.4,
+          "label": "meta-audit A3 of audit E2",
+          "created_at": 0.0,
+          "recipients_requested": [
+            4
+          ],
+          "recipients_scheduled": [
+            4
+          ],
+          "recipients_realized": [],
+          "enactment_status": "ENACTED",
+          "evidence_status": "observed",
+          "runtime_status": "observed",
+          "boundary": {
+            "source_primary": "institution",
+            "source_memberships": [
+              "institution",
+              "economy"
+            ]
+          },
+          "claim_confidence": 0.55,
+          "vector_clock": {
+            "21": 1,
+            "25": 1,
+            "45": 1
+          },
+          "lens_version": null,
+          "gate_result": null,
+          "audit_packet_ids": [],
+          "metadata": {
+            "packet_id": 3,
+            "independent_packet_id": 2,
+            "divergence": 0.267338568
+          }
+        }
+      ],
+      "recursive_audit_materialized": true,
+      "power_audit_detected_discrepancy": true
+    },
+    "lens_epoch_experiment": {
+      "event_1": 1,
+      "event_1_lens": 1,
+      "event_2": 7,
+      "event_2_lens": 2,
+      "new_lens": {
+        "version": 2,
+        "horizon": 5,
+        "sensitivities": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "modify_threshold": 0.48,
+        "reject_threshold": 0.78,
+        "unresolved_threshold": 0.72,
+        "note": "validated prospective test epoch",
+        "governance_event": 6
+      },
+      "governance_event_exists": true,
+      "governance_event_kind": "lens_change_approval",
+      "governance_chain": [
+        {
+          "id": 4,
+          "roots": [
+            2
+          ],
+          "kind": "lens_change_proposal",
+          "source": 46,
+          "causes": [],
+          "channel": "info",
+          "intensity": 0.16,
+          "label": "propose lens epoch v2",
+          "created_at": 0.0,
+          "recipients_requested": [
+            45
+          ],
+          "recipients_scheduled": [
+            45
+          ],
+          "recipients_realized": [],
+          "enactment_status": "ENACTED",
+          "evidence_status": "observed",
+          "runtime_status": "observed",
+          "boundary": {
+            "source_primary": "institution",
+            "source_memberships": [
+              "institution",
+              "economy"
+            ]
+          },
+          "claim_confidence": 0.55,
+          "vector_clock": {
+            "46": 1
+          },
+          "lens_version": null,
+          "gate_result": null,
+          "audit_packet_ids": [],
+          "metadata": {
+            "from_version": 1,
+            "to_version": 2,
+            "changes": {
+              "horizon": 5,
+              "modify_threshold": 0.48,
+              "note": "validated prospective test epoch"
+            },
+            "prospective_only": true
+          }
+        },
+        {
+          "id": 5,
+          "roots": [
+            2
+          ],
+          "kind": "lens_change_review",
+          "source": 45,
+          "causes": [
+            4
+          ],
+          "channel": "info",
+          "intensity": 0.2,
+          "label": "review proposed lens epoch v2",
+          "created_at": 0.0,
+          "recipients_requested": [
+            4
+          ],
+          "recipients_scheduled": [
+            4
+          ],
+          "recipients_realized": [],
+          "enactment_status": "ENACTED",
+          "evidence_status": "observed",
+          "runtime_status": "observed",
+          "boundary": {
+            "source_primary": "institution",
+            "source_memberships": [
+              "institution",
+              "ai"
+            ]
+          },
+          "claim_confidence": 0.55,
+          "vector_clock": {
+            "45": 1,
+            "46": 1
+          },
+          "lens_version": null,
+          "gate_result": null,
+          "audit_packet_ids": [],
+          "metadata": {
+            "proposal_event": 4,
+            "candidate_review": {
+              "gate": "PASS",
+              "structural_valid": true,
+              "failures": [],
+              "change_magnitude": 0.333333333,
+              "review_uncertainty": 0.27,
+              "operating_limits": {
+                "horizon": [
+                  1,
+                  12
+                ],
+                "sensitivity_each": [
+                  "greater_than_0",
+                  2.0
+                ],
+                "threshold_each": [
+                  "greater_than_0",
+                  "less_than_1"
+                ],
+                "threshold_order": "modify < reject"
+              }
+            },
+            "review_gate": "PASS"
+          }
+        },
+        {
+          "id": 6,
+          "roots": [
+            2
+          ],
+          "kind": "lens_change_approval",
+          "source": 4,
+          "causes": [
+            4,
+            5
+          ],
+          "channel": "authority",
+          "intensity": 0.18,
+          "label": "approve lens epoch v2",
+          "created_at": 0.0,
+          "recipients_requested": [
+            46,
+            25,
+            45
+          ],
+          "recipients_scheduled": [
+            46,
+            25,
+            45
+          ],
+          "recipients_realized": [],
+          "enactment_status": "ENACTED",
+          "evidence_status": "observed",
+          "runtime_status": "observed",
+          "boundary": {
+            "source_primary": "human",
+            "source_memberships": [
+              "human"
+            ]
+          },
+          "claim_confidence": 0.55,
+          "vector_clock": {
+            "4": 2,
+            "45": 1,
+            "46": 1
+          },
+          "lens_version": null,
+          "gate_result": null,
+          "audit_packet_ids": [],
+          "metadata": {
+            "proposal_event": 4,
+            "review_event": 5,
+            "approval_requested": true,
+            "review_gate": "PASS",
+            "approved": true,
+            "prospective_only": true
+          }
+        }
+      ],
+      "historical_packet_unchanged": true,
+      "historical_packet_sha256_before": "857760679fa1237db3ca7e395b9b40bab48df0e014e0af7d86e86313f801f055",
+      "historical_packet_sha256_after": "857760679fa1237db3ca7e395b9b40bab48df0e014e0af7d86e86313f801f055"
+    },
+    "evolution_learning_experiment": {
+      "n_seeds": 64,
+      "steps": 120,
+      "initial_mean": 0.18664352504792622,
+      "final_mean": 0.07342751677241176,
+      "relative_change": -0.6065895307455371,
+      "mean_abs_projection_change": 0.21796685937500002,
+      "all_runs_materialized_feedback": true
+    },
+    "recursive_feedback_no_learning_control": {
+      "n_seeds": 24,
+      "steps": 60,
+      "all_histories_recurred": true,
+      "all_posteriors_unchanged": true,
+      "all_model_errors_unchanged": true,
+      "all_ordinary_states_evolved": true,
+      "min_recurrent_without_model_learning": 60,
+      "pass": true,
+      "runs": [
+        {
+          "seed": 353000,
+          "events_materialized": 60,
+          "feedback_deliveries_recorded": 60,
+          "error_before": 0.10027076159045098,
+          "error_after": 0.10027076159045098,
+          "posterior_unchanged": true,
+          "ordinary_state_changed": true,
+          "ordinary_state_before": {
+            "openness": 0.334449401544407,
+            "agency": 0.6644490485079586,
+            "stability": 0.8556907678139396,
+            "uncertainty": 0.5165423838421702,
+            "adaptability": 1.0,
+            "input_load": 0.0
+          },
+          "ordinary_state_after": {
+            "openness": 0.2816494015444068,
+            "agency": 0.6512490485079574,
+            "stability": 0.8498155678139399,
+            "uncertainty": 0.0,
+            "adaptability": 1.0,
+            "input_load": 0.08399999999999994
+          },
+          "recurrent_without_model_learning": 60
+        },
+        {
+          "seed": 353001,
+          "events_materialized": 60,
+          "feedback_deliveries_recorded": 60,
+          "error_before": 0.20648419535532594,
+          "error_after": 0.20648419535532594,
+          "posterior_unchanged": true,
+          "ordinary_state_changed": true,
+          "ordinary_state_before": {
+            "openness": 0.9145826153922826,
+            "agency": 0.7156593818683177,
+            "stability": 0.7858238731743767,
+            "uncertainty": 0.28153779802378265,
+            "adaptability": 1.0,
+            "input_load": 0.0
+          },
+          "ordinary_state_after": {
+            "openness": 0.8617826153922831,
+            "agency": 0.7024593818683165,
+            "stability": 0.779948673174377,
+            "uncertainty": 0.0,
+            "adaptability": 1.0,
+            "input_load": 0.08399999999999994
+          },
+          "recurrent_without_model_learning": 60
+        },
+        {
+          "seed": 353002,
+          "events_materialized": 60,
+          "feedback_deliveries_recorded": 60,
+          "error_before": 0.13962508508190513,
+          "error_after": 0.13962508508190513,
+          "posterior_unchanged": true,
+          "ordinary_state_changed": true,
+          "ordinary_state_before": {
+            "openness": 0.6321443239692599,
+            "agency": 0.9489652034128084,
+            "stability": 0.41489464512560514,
+            "uncertainty": 0.7984492894029245,
+            "adaptability": 1.0,
+            "input_load": 0.0
+          },
+          "ordinary_state_after": {
+            "openness": 0.5793443239692604,
+            "agency": 0.9357652034128072,
+            "stability": 0.40901944512560473,
+            "uncertainty": 0.44497831678987765,
+            "adaptability": 1.0,
+            "input_load": 0.08399999999999994
+          },
+          "recurrent_without_model_learning": 60
+        },
+        {
+          "seed": 353003,
+          "events_materialized": 60,
+          "feedback_deliveries_recorded": 60,
+          "error_before": 0.2012262995168566,
+          "error_after": 0.2012262995168566,
+          "posterior_unchanged": true,
+          "ordinary_state_changed": true,
+          "ordinary_state_before": {
+            "openness": 0.891053606616333,
+            "agency": 0.9196152922697365,
+            "stability": 0.40499697980703786,
+            "uncertainty": 0.3765639813616872,
+            "adaptability": 1.0,
+            "input_load": 0.0
+          },
+          "ordinary_state_after": {
+            "openness": 0.8382536066163335,
+            "agency": 0.9064152922697353,
+            "stability": 0.39912177980703745,
+            "uncertainty": 0.03200090753535377,
+            "adaptability": 1.0,
+            "input_load": 0.08399999999999994
+          },
+          "recurrent_without_model_learning": 60
+        },
+        {
+          "seed": 353004,
+          "events_materialized": 60,
+          "feedback_deliveries_recorded": 60,
+          "error_before": 0.1488777442388236,
+          "error_after": 0.1488777442388236,
+          "posterior_unchanged": true,
+          "ordinary_state_changed": true,
+          "ordinary_state_before": {
+            "openness": 0.8657758769579231,
+            "agency": 0.5165481224423274,
+            "stability": 0.8416887734434566,
+            "uncertainty": 0.5671398069709539,
+            "adaptability": 1.0,
+            "input_load": 0.0
+          },
+          "ordinary_state_after": {
+            "openness": 0.8129758769579236,
+            "agency": 0.5033481224423262,
+            "stability": 0.8358135734434569,
+            "uncertainty": 0.0,
+            "adaptability": 1.0,
+            "input_load": 0.08399999999999994
+          },
+          "recurrent_without_model_learning": 60
+        },
+        {
+          "seed": 353005,
+          "events_materialized": 60,
+          "feedback_deliveries_recorded": 60,
+          "error_before": 0.16073115772753951,
+          "error_after": 0.16073115772753951,
+          "posterior_unchanged": true,
+          "ordinary_state_changed": true,
+          "ordinary_state_before": {
+            "openness": 0.5466900276951492,
+            "agency": 0.5617395145120099,
+            "stability": 0.3369368605664931,
+            "uncertainty": 0.6012819754891097,
+            "adaptability": 1.0,
+            "input_load": 0.0
+          },
+          "ordinary_state_after": {
+            "openness": 0.4938900276951496,
+            "agency": 0.5485395145120087,
+            "stability": 0.33106166056649267,
+            "uncertainty": 0.31797300897926567,
+            "adaptability": 1.0,
+            "input_load": 0.08399999999999994
+          },
+          "recurrent_without_model_learning": 60
+        },
+        {
+          "seed": 353006,
+          "events_materialized": 60,
+          "feedback_deliveries_recorded": 60,
+          "error_before": 0.23336988492310046,
+          "error_after": 0.23336988492310046,
+          "posterior_unchanged": true,
+          "ordinary_state_changed": true,
+          "ordinary_state_before": {
+            "openness": 0.5039982375688851,
+            "agency": 0.6524449055315926,
+            "stability": 0.3455712705501355,
+            "uncertainty": 0.5100381103344261,
+            "adaptability": 1.0,
+            "input_load": 0.0
+          },
+          "ordinary_state_after": {
+            "openness": 0.45119823756888494,
+            "agency": 0.6392449055315914,
+            "stability": 0.33969607055013507,
+            "uncertainty": 0.218958174839305,
+            "adaptability": 1.0,
+            "input_load": 0.08399999999999994
+          },
+          "recurrent_without_model_learning": 60
+        },
+        {
+          "seed": 353007,
+          "events_materialized": 60,
+          "feedback_deliveries_recorded": 60,
+          "error_before": 0.12606795233115553,
+          "error_after": 0.12606795233115553,
+          "posterior_unchanged": true,
+          "ordinary_state_changed": true,
+          "ordinary_state_before": {
+            "openness": 0.6428445630706847,
+            "agency": 0.538089284254238,
+            "stability": 0.715852339088451,
+            "uncertainty": 0.34763824539259075,
+            "adaptability": 1.0,
+            "input_load": 0.0
+          },
+          "ordinary_state_after": {
+            "openness": 0.5900445630706852,
+            "agency": 0.5248892842542368,
+            "stability": 0.7099771390884513,
+            "uncertainty": 0.0,
+            "adaptability": 1.0,
+            "input_load": 0.08399999999999994
+          },
+          "recurrent_without_model_learning": 60
+        },
+        {
+          "seed": 353008,
+          "events_materialized": 60,
+          "feedback_deliveries_recorded": 60,
+          "error_before": 0.2325279643908143,
+          "error_after": 0.2325279643908143,
+          "posterior_unchanged": true,
+          "ordinary_state_changed": true,
+          "ordinary_state_before": {
+            "openness": 0.7560721133835614,
+            "agency": 0.2844106865115464,
+            "stability": 0.7285158387268893,
+            "uncertainty": 0.346892395010218,
+            "adaptability": 1.0,
+            "input_load": 0.0
+          },
+          "ordinary_state_after": {
+            "openness": 0.7032721133835619,
+            "agency": 0.27121068651154584,
+            "stability": 0.7226406387268896,
+            "uncertainty": 0.0,
+            "adaptability": 1.0,
+            "input_load": 0.08399999999999994
+          },
+          "recurrent_without_model_learning": 60
+        },
+        {
+          "seed": 353009,
+          "events_materialized": 60,
+          "feedback_deliveries_recorded": 60,
+          "error_before": 0.2488261106275022,
+          "error_after": 0.2488261106275022,
+          "posterior_unchanged": true,
+          "ordinary_state_changed": true,
+          "ordinary_state_before": {
+            "openness": 0.49029424707405267,
+            "agency": 0.6576883751433342,
+            "stability": 0.6068626054329798,
+            "uncertainty": 0.811828974680975,
+            "adaptability": 1.0,
+            "input_load": 0.0
+          },
+          "ordinary_state_after": {
+            "openness": 0.4374942470740525,
+            "agency": 0.644488375143333,
+            "stability": 0.60098740543298,
+            "uncertainty": 0.28558683779129185,
+            "adaptability": 1.0,
+            "input_load": 0.08399999999999994
+          },
+          "recurrent_without_model_learning": 60
+        },
+        {
+          "seed": 353010,
+          "events_materialized": 60,
+          "feedback_deliveries_recorded": 60,
+          "error_before": 0.24492485161498187,
+          "error_after": 0.24492485161498187,
+          "posterior_unchanged": true,
+          "ordinary_state_changed": true,
+          "ordinary_state_before": {
+            "openness": 0.9302136646583676,
+            "agency": 0.8535176471224986,
+            "stability": 0.7833446301985532,
+            "uncertainty": 0.8420977985719219,
+            "adaptability": 1.0,
+            "input_load": 0.0
+          },
+          "ordinary_state_after": {
+            "openness": 0.8774136646583681,
+            "agency": 0.8403176471224973,
+            "stability": 0.7774694301985534,
+            "uncertainty": 0.15702183939322287,
+            "adaptability": 1.0,
+            "input_load": 0.08399999999999994
+          },
+          "recurrent_without_model_learning": 60
+        },
+        {
+          "seed": 353011,
+          "events_materialized": 60,
+          "feedback_deliveries_recorded": 60,
+          "error_before": 0.2009274715743959,
+          "error_after": 0.2009274715743959,
+          "posterior_unchanged": true,
+          "ordinary_state_changed": true,
+          "ordinary_state_before": {
+            "openness": 0.6527824429096654,
+            "agency": 0.7837327853078022,
+            "stability": 0.32464574520708994,
+            "uncertainty": 0.2756622699555009,
+            "adaptability": 1.0,
+            "input_load": 0.0
+          },
+          "ordinary_state_after": {
+            "openness": 0.5999824429096658,
+            "agency": 0.770532785307801,
+            "stability": 0.31877054520708953,
+            "uncertainty": 0.003415307269120596,
+            "adaptability": 1.0,
+            "input_load": 0.08399999999999994
+          },
+          "recurrent_without_model_learning": 60
+        },
+        {
+          "seed": 353012,
+          "events_materialized": 60,
+          "feedback_deliveries_recorded": 60,
+          "error_before": 0.2007508545964956,
+          "error_after": 0.2007508545964956,
+          "posterior_unchanged": true,
+          "ordinary_state_changed": true,
+          "ordinary_state_before": {
+            "openness": 0.5015326712979004,
+            "agency": 0.3600440202164464,
+            "stability": 0.4838133048266172,
+            "uncertainty": 0.7879260250134393,
+            "adaptability": 1.0,
+            "input_load": 0.0
+          },
+          "ordinary_state_after": {
+            "openness": 0.44873267129790023,
+            "agency": 0.34684402021644584,
+            "stability": 0.4779381048266168,
+            "uncertainty": 0.3724282586694824,
+            "adaptability": 1.0,
+            "input_load": 0.08399999999999994
+          },
+          "recurrent_without_model_learning": 60
+        },
+        {
+          "seed": 353013,
+          "events_materialized": 60,
+          "feedback_deliveries_recorded": 60,
+          "error_before": 0.13572493918240067,
+          "error_after": 0.13572493918240067,
+          "posterior_unchanged": true,
+          "ordinary_state_changed": true,
+          "ordinary_state_before": {
+            "openness": 0.7403376725967974,
+            "agency": 0.7130016099428758,
+            "stability": 0.3853374899132177,
+            "uncertainty": 0.65771332338918,
+            "adaptability": 1.0,
+            "input_load": 0.0
+          },
+          "ordinary_state_after": {
+            "openness": 0.6875376725967979,
+            "agency": 0.6998016099428745,
+            "stability": 0.3794622899132173,
+            "uncertainty": 0.3308437904672834,
+            "adaptability": 1.0,
+            "input_load": 0.08399999999999994
+          },
+          "recurrent_without_model_learning": 60
+        },
+        {
+          "seed": 353014,
+          "events_materialized": 60,
+          "feedback_deliveries_recorded": 60,
+          "error_before": 0.13327338091656563,
+          "error_after": 0.13327338091656563,
+          "posterior_unchanged": true,
+          "ordinary_state_changed": true,
+          "ordinary_state_before": {
+            "openness": 0.6832109447801485,
+            "agency": 0.5943768183817155,
+            "stability": 0.574699609586969,
+            "uncertainty": 0.845208430266939,
+            "adaptability": 1.0,
+            "input_load": 0.0
+          },
+          "ordinary_state_after": {
+            "openness": 0.630410944780149,
+            "agency": 0.5811768183817143,
+            "stability": 0.5688244095869692,
+            "uncertainty": 0.34791298963866546,
+            "adaptability": 1.0,
+            "input_load": 0.08399999999999994
+          },
+          "recurrent_without_model_learning": 60
+        },
+        {
+          "seed": 353015,
+          "events_materialized": 60,
+          "feedback_deliveries_recorded": 60,
+          "error_before": 0.15826392259076233,
+          "error_after": 0.15826392259076233,
+          "posterior_unchanged": true,
+          "ordinary_state_changed": true,
+          "ordinary_state_before": {
+            "openness": 0.7825157376937568,
+            "agency": 0.7588294533663429,
+            "stability": 0.32017051621805875,
+            "uncertainty": 0.2549783449154347,
+            "adaptability": 1.0,
+            "input_load": 0.0
+          },
+          "ordinary_state_after": {
+            "openness": 0.7297157376937573,
+            "agency": 0.7456294533663417,
+            "stability": 0.31429531621805834,
+            "uncertainty": 0.0,
+            "adaptability": 1.0,
+            "input_load": 0.08399999999999994
+          },
+          "recurrent_without_model_learning": 60
+        },
+        {
+          "seed": 353016,
+          "events_materialized": 60,
+          "feedback_deliveries_recorded": 60,
+          "error_before": 0.16528275766596195,
+          "error_after": 0.16528275766596195,
+          "posterior_unchanged": true,
+          "ordinary_state_changed": true,
+          "ordinary_state_before": {
+            "openness": 0.6359351841732859,
+            "agency": 0.7522999937529675,
+            "stability": 0.5187442349852063,
+            "uncertainty": 0.6183685172349214,
+            "adaptability": 1.0,
+            "input_load": 0.0
+          },
+          "ordinary_state_after": {
+            "openness": 0.5831351841732864,
+            "agency": 0.7390999937529663,
+            "stability": 0.5128690349852065,
+            "uncertainty": 0.17143291374823535,
+            "adaptability": 1.0,
+            "input_load": 0.08399999999999994
+          },
+          "recurrent_without_model_learning": 60
+        },
+        {
+          "seed": 353017,
+          "events_materialized": 60,
+          "feedback_deliveries_recorded": 60,
+          "error_before": 0.2251089613474905,
+          "error_after": 0.2251089613474905,
+          "posterior_unchanged": true,
+          "ordinary_state_changed": true,
+          "ordinary_state_before": {
+            "openness": 0.8668795496923849,
+            "agency": 0.44805197352543474,
+            "stability": 0.6016950029763393,
+            "uncertainty": 0.4006694667739793,
+            "adaptability": 1.0,
+            "input_load": 0.0
+          },
+          "ordinary_state_after": {
+            "openness": 0.8140795496923854,
+            "agency": 0.4348519735254342,
+            "stability": 0.5958198029763395,
+            "uncertainty": 0.0,
+            "adaptability": 1.0,
+            "input_load": 0.08399999999999994
+          },
+          "recurrent_without_model_learning": 60
+        },
+        {
+          "seed": 353018,
+          "events_materialized": 60,
+          "feedback_deliveries_recorded": 60,
+          "error_before": 0.24939462640881532,
+          "error_after": 0.24939462640881532,
+          "posterior_unchanged": true,
+          "ordinary_state_changed": true,
+          "ordinary_state_before": {
+            "openness": 0.7567107307724654,
+            "agency": 0.8191961595905013,
+            "stability": 0.852273732656613,
+            "uncertainty": 0.37703699835110455,
+            "adaptability": 1.0,
+            "input_load": 0.0
+          },
+          "ordinary_state_after": {
+            "openness": 0.7039107307724659,
+            "agency": 0.8059961595905001,
+            "stability": 0.8463985326566132,
+            "uncertainty": 0.0,
+            "adaptability": 1.0,
+            "input_load": 0.08399999999999994
+          },
+          "recurrent_without_model_learning": 60
+        },
+        {
+          "seed": 353019,
+          "events_materialized": 60,
+          "feedback_deliveries_recorded": 60,
+          "error_before": 0.0979807354584336,
+          "error_after": 0.0979807354584336,
+          "posterior_unchanged": true,
+          "ordinary_state_changed": true,
+          "ordinary_state_before": {
+            "openness": 0.5023555053165183,
+            "agency": 0.3148718230542727,
+            "stability": 0.6440720004378817,
+            "uncertainty": 0.3247301693772897,
+            "adaptability": 1.0,
+            "input_load": 0.0
+          },
+          "ordinary_state_after": {
+            "openness": 0.44955550531651817,
+            "agency": 0.30167182305427215,
+            "stability": 0.638196800437882,
+            "uncertainty": 0.0,
+            "adaptability": 1.0,
+            "input_load": 0.08399999999999994
+          },
+          "recurrent_without_model_learning": 60
+        },
+        {
+          "seed": 353020,
+          "events_materialized": 60,
+          "feedback_deliveries_recorded": 60,
+          "error_before": 0.19152181258797643,
+          "error_after": 0.19152181258797643,
+          "posterior_unchanged": true,
+          "ordinary_state_changed": true,
+          "ordinary_state_before": {
+            "openness": 0.9265187892829999,
+            "agency": 0.37236474173842,
+            "stability": 0.34157043393934144,
+            "uncertainty": 0.21769017300102858,
+            "adaptability": 1.0,
+            "input_load": 0.0
+          },
+          "ordinary_state_after": {
+            "openness": 0.8737187892830004,
+            "agency": 0.35916474173841945,
+            "stability": 0.33569523393934103,
+            "uncertainty": 0.0,
+            "adaptability": 1.0,
+            "input_load": 0.08399999999999994
+          },
+          "recurrent_without_model_learning": 60
+        },
+        {
+          "seed": 353021,
+          "events_materialized": 60,
+          "feedback_deliveries_recorded": 60,
+          "error_before": 0.2308162836022675,
+          "error_after": 0.2308162836022675,
+          "posterior_unchanged": true,
+          "ordinary_state_changed": true,
+          "ordinary_state_before": {
+            "openness": 0.8909881418570875,
+            "agency": 0.20861305318539963,
+            "stability": 0.3848970315768383,
+            "uncertainty": 0.2851457922253757,
+            "adaptability": 1.0,
+            "input_load": 0.0
+          },
+          "ordinary_state_after": {
+            "openness": 0.838188141857088,
+            "agency": 0.1954130531853991,
+            "stability": 0.3790218315768379,
+            "uncertainty": 0.0,
+            "adaptability": 1.0,
+            "input_load": 0.08399999999999994
+          },
+          "recurrent_without_model_learning": 60
+        },
+        {
+          "seed": 353022,
+          "events_materialized": 60,
+          "feedback_deliveries_recorded": 60,
+          "error_before": 0.14458868908137082,
+          "error_after": 0.14458868908137082,
+          "posterior_unchanged": true,
+          "ordinary_state_changed": true,
+          "ordinary_state_before": {
+            "openness": 0.4654577828478068,
+            "agency": 0.5663186706253327,
+            "stability": 0.8642487252596764,
+            "uncertainty": 0.7721558903111144,
+            "adaptability": 1.0,
+            "input_load": 0.0
+          },
+          "ordinary_state_after": {
+            "openness": 0.41265778284780663,
+            "agency": 0.5531186706253315,
+            "stability": 0.8583735252596767,
+            "uncertainty": 0.0142662455774048,
+            "adaptability": 1.0,
+            "input_load": 0.08399999999999994
+          },
+          "recurrent_without_model_learning": 60
+        },
+        {
+          "seed": 353023,
+          "events_materialized": 60,
+          "feedback_deliveries_recorded": 60,
+          "error_before": 0.11515610210970043,
+          "error_after": 0.11515610210970043,
+          "posterior_unchanged": true,
+          "ordinary_state_changed": true,
+          "ordinary_state_before": {
+            "openness": 0.3085845434339717,
+            "agency": 0.4447109256172553,
+            "stability": 0.6697522051399574,
+            "uncertainty": 0.6662014825735241,
+            "adaptability": 1.0,
+            "input_load": 0.0
+          },
+          "ordinary_state_after": {
+            "openness": 0.2557845434339715,
+            "agency": 0.43151092561725474,
+            "stability": 0.6638770051399576,
+            "uncertainty": 0.08335870594756194,
+            "adaptability": 1.0,
+            "input_load": 0.08399999999999994
+          },
+          "recurrent_without_model_learning": 60
+        }
+      ]
+    },
+    "cohen_complex_systems_probe": {
+      "interpretation_boundary": {
+        "biological_equivalence_claimed": false,
+        "single_privileged_health_or_alignment_scalar_claimed": false,
+        "critical_transition_claimed": false,
+        "resilience_or_recovery_measured": false,
+        "reason_recovery_not_measured": "the v1.0 engine has event-driven state updates but no calibrated autonomous recovery/return-to-attractor process"
+      },
+      "design_constraints": [
+        "distributed multivariate state is retained",
+        "perturbation response is measured from realized state transitions",
+        "channel/modular context is preserved",
+        "context dependence is tested rather than assumed universal",
+        "scalar norms are descriptive and never authorization variables",
+        "state inference is not treated as network identification"
+      ],
+      "state_dimensions": [
+        "openness",
+        "agency",
+        "stability",
+        "uncertainty",
+        "adaptability",
+        "input_load"
+      ],
+      "channel_intensity_runs": [
+        {
+          "seed": 808080,
+          "target_primary": "ai",
+          "target_node": 20,
+          "channel": "info",
+          "intensity": 0.15,
+          "before": {
+            "openness": 0.4757241079583764,
+            "agency": 0.20597592012491078,
+            "stability": 0.632739106635563,
+            "uncertainty": 0.719879348995164,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.0
+          },
+          "after": {
+            "openness": 0.4797241079583764,
+            "agency": 0.2039134201249108,
+            "stability": 0.631929106635563,
+            "uncertainty": 0.7171504123956306,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.021
+          },
+          "delta": {
+            "openness": 0.0040000000000000036,
+            "agency": -0.002062499999999995,
+            "stability": -0.0008099999999999774,
+            "uncertainty": -0.002728936599533438,
+            "adaptability": 0.0,
+            "input_load": 0.021
+          },
+          "changed_dimensions": 5,
+          "state_signature_l2": 0.021664650959899473,
+          "delivery_realized": true
+        },
+        {
+          "seed": 808080,
+          "target_primary": "ai",
+          "target_node": 20,
+          "channel": "resource",
+          "intensity": 0.15,
+          "before": {
+            "openness": 0.4757241079583764,
+            "agency": 0.20597592012491078,
+            "stability": 0.632739106635563,
+            "uncertainty": 0.719879348995164,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.0
+          },
+          "after": {
+            "openness": 0.4771241079583764,
+            "agency": 0.2039134201249108,
+            "stability": 0.631578106635563,
+            "uncertainty": 0.7141181773956305,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.021
+          },
+          "delta": {
+            "openness": 0.0014000000000000123,
+            "agency": -0.002062499999999995,
+            "stability": -0.0011609999999999676,
+            "uncertainty": -0.005761171599533488,
+            "adaptability": 0.0,
+            "input_load": 0.021
+          },
+          "changed_dimensions": 5,
+          "state_signature_l2": 0.02194887071011334,
+          "delivery_realized": true
+        },
+        {
+          "seed": 808080,
+          "target_primary": "ai",
+          "target_node": 20,
+          "channel": "authority",
+          "intensity": 0.15,
+          "before": {
+            "openness": 0.4757241079583764,
+            "agency": 0.20597592012491078,
+            "stability": 0.632739106635563,
+            "uncertainty": 0.719879348995164,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.0
+          },
+          "after": {
+            "openness": 0.47332410795837637,
+            "agency": 0.19772592012491078,
+            "stability": 0.631065106635563,
+            "uncertainty": 0.7141258723956306,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.021
+          },
+          "delta": {
+            "openness": -0.0024000000000000132,
+            "agency": -0.008250000000000007,
+            "stability": -0.0016739999999999533,
+            "uncertainty": -0.0057534765995334025,
+            "adaptability": 0.0,
+            "input_load": 0.021
+          },
+          "changed_dimensions": 5,
+          "state_signature_l2": 0.02346757910355004,
+          "delivery_realized": true
+        },
+        {
+          "seed": 808080,
+          "target_primary": "ai",
+          "target_node": 20,
+          "channel": "physical",
+          "intensity": 0.15,
+          "before": {
+            "openness": 0.4757241079583764,
+            "agency": 0.20597592012491078,
+            "stability": 0.632739106635563,
+            "uncertainty": 0.719879348995164,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.0
+          },
+          "after": {
+            "openness": 0.47232410795837637,
+            "agency": 0.2039134201249108,
+            "stability": 0.630930106635563,
+            "uncertainty": 0.7141278973956307,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.021
+          },
+          "delta": {
+            "openness": -0.003400000000000014,
+            "agency": -0.002062499999999995,
+            "stability": -0.0018089999999999495,
+            "uncertainty": -0.005751451599533386,
+            "adaptability": 0.0,
+            "input_load": 0.021
+          },
+          "changed_dimensions": 5,
+          "state_signature_l2": 0.02220733173417678,
+          "delivery_realized": true
+        },
+        {
+          "seed": 808080,
+          "target_primary": "ai",
+          "target_node": 20,
+          "channel": "ecology",
+          "intensity": 0.15,
+          "before": {
+            "openness": 0.4757241079583764,
+            "agency": 0.20597592012491078,
+            "stability": 0.632739106635563,
+            "uncertainty": 0.719879348995164,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.0
+          },
+          "after": {
+            "openness": 0.4717241079583764,
+            "agency": 0.2039134201249108,
+            "stability": 0.630849106635563,
+            "uncertainty": 0.7141291123956306,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.021
+          },
+          "delta": {
+            "openness": -0.0040000000000000036,
+            "agency": -0.002062499999999995,
+            "stability": -0.0018899999999999473,
+            "uncertainty": -0.005750236599533443,
+            "adaptability": 0.0,
+            "input_load": 0.021
+          },
+          "changed_dimensions": 5,
+          "state_signature_l2": 0.022313476358483762,
+          "delivery_realized": true
+        },
+        {
+          "seed": 808080,
+          "target_primary": "ai",
+          "target_node": 20,
+          "channel": "info",
+          "intensity": 0.45,
+          "before": {
+            "openness": 0.4757241079583764,
+            "agency": 0.20597592012491078,
+            "stability": 0.632739106635563,
+            "uncertainty": 0.719879348995164,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.0
+          },
+          "after": {
+            "openness": 0.4797241079583764,
+            "agency": 0.19978842012491077,
+            "stability": 0.6303091066355629,
+            "uncertainty": 0.7306747123956305,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.06300000000000001
+          },
+          "delta": {
+            "openness": 0.0040000000000000036,
+            "agency": -0.0061875000000000124,
+            "stability": -0.0024300000000000432,
+            "uncertainty": 0.010795363400466496,
+            "adaptability": 0.0,
+            "input_load": 0.06300000000000001
+          },
+          "changed_dimensions": 5,
+          "state_signature_l2": 0.06438734291146152,
+          "delivery_realized": true
+        },
+        {
+          "seed": 808080,
+          "target_primary": "ai",
+          "target_node": 20,
+          "channel": "resource",
+          "intensity": 0.45,
+          "before": {
+            "openness": 0.4757241079583764,
+            "agency": 0.20597592012491078,
+            "stability": 0.632739106635563,
+            "uncertainty": 0.719879348995164,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.0
+          },
+          "after": {
+            "openness": 0.4771241079583764,
+            "agency": 0.19978842012491077,
+            "stability": 0.629256106635563,
+            "uncertainty": 0.7215780073956306,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.06300000000000001
+          },
+          "delta": {
+            "openness": 0.0014000000000000123,
+            "agency": -0.0061875000000000124,
+            "stability": -0.003483000000000014,
+            "uncertainty": 0.0016986584004665684,
+            "adaptability": 0.0,
+            "input_load": 0.06300000000000001
+          },
+          "changed_dimensions": 5,
+          "state_signature_l2": 0.06343707027922615,
+          "delivery_realized": true
+        },
+        {
+          "seed": 808080,
+          "target_primary": "ai",
+          "target_node": 20,
+          "channel": "authority",
+          "intensity": 0.45,
+          "before": {
+            "openness": 0.4757241079583764,
+            "agency": 0.20597592012491078,
+            "stability": 0.632739106635563,
+            "uncertainty": 0.719879348995164,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.0
+          },
+          "after": {
+            "openness": 0.47332410795837637,
+            "agency": 0.1812259201249108,
+            "stability": 0.627717106635563,
+            "uncertainty": 0.7216010923956306,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.06300000000000001
+          },
+          "delta": {
+            "openness": -0.0024000000000000132,
+            "agency": -0.024749999999999994,
+            "stability": -0.005021999999999971,
+            "uncertainty": 0.0017217434004666021,
+            "adaptability": 0.0,
+            "input_load": 0.06300000000000001
+          },
+          "changed_dimensions": 5,
+          "state_signature_l2": 0.06793752559769198,
+          "delivery_realized": true
+        },
+        {
+          "seed": 808080,
+          "target_primary": "ai",
+          "target_node": 20,
+          "channel": "physical",
+          "intensity": 0.45,
+          "before": {
+            "openness": 0.4757241079583764,
+            "agency": 0.20597592012491078,
+            "stability": 0.632739106635563,
+            "uncertainty": 0.719879348995164,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.0
+          },
+          "after": {
+            "openness": 0.47232410795837637,
+            "agency": 0.19978842012491077,
+            "stability": 0.627312106635563,
+            "uncertainty": 0.7216071673956306,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.06300000000000001
+          },
+          "delta": {
+            "openness": -0.003400000000000014,
+            "agency": -0.0061875000000000124,
+            "stability": -0.00542699999999996,
+            "uncertainty": 0.001727818400466541,
+            "adaptability": 0.0,
+            "input_load": 0.06300000000000001
+          },
+          "changed_dimensions": 5,
+          "state_signature_l2": 0.0636496884648699,
+          "delivery_realized": true
+        },
+        {
+          "seed": 808080,
+          "target_primary": "ai",
+          "target_node": 20,
+          "channel": "ecology",
+          "intensity": 0.45,
+          "before": {
+            "openness": 0.4757241079583764,
+            "agency": 0.20597592012491078,
+            "stability": 0.632739106635563,
+            "uncertainty": 0.719879348995164,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.0
+          },
+          "after": {
+            "openness": 0.4717241079583764,
+            "agency": 0.19978842012491077,
+            "stability": 0.627069106635563,
+            "uncertainty": 0.7216108123956306,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.06300000000000001
+          },
+          "delta": {
+            "openness": -0.0040000000000000036,
+            "agency": -0.0061875000000000124,
+            "stability": -0.005669999999999953,
+            "uncertainty": 0.001731463400466593,
+            "adaptability": 0.0,
+            "input_load": 0.06300000000000001
+          },
+          "changed_dimensions": 5,
+          "state_signature_l2": 0.06370582408035513,
+          "delivery_realized": true
+        },
+        {
+          "seed": 808080,
+          "target_primary": "ai",
+          "target_node": 20,
+          "channel": "info",
+          "intensity": 0.75,
+          "before": {
+            "openness": 0.4757241079583764,
+            "agency": 0.20597592012491078,
+            "stability": 0.632739106635563,
+            "uncertainty": 0.719879348995164,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.0
+          },
+          "after": {
+            "openness": 0.4797241079583764,
+            "agency": 0.19566342012491078,
+            "stability": 0.628689106635563,
+            "uncertainty": 0.7441990123956306,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.10500000000000001
+          },
+          "delta": {
+            "openness": 0.0040000000000000036,
+            "agency": -0.010312500000000002,
+            "stability": -0.004049999999999998,
+            "uncertainty": 0.02431966340046654,
+            "adaptability": 0.0,
+            "input_load": 0.10500000000000001
+          },
+          "changed_dimensions": 5,
+          "state_signature_l2": 0.10842138250438423,
+          "delivery_realized": true
+        },
+        {
+          "seed": 808080,
+          "target_primary": "ai",
+          "target_node": 20,
+          "channel": "resource",
+          "intensity": 0.75,
+          "before": {
+            "openness": 0.4757241079583764,
+            "agency": 0.20597592012491078,
+            "stability": 0.632739106635563,
+            "uncertainty": 0.719879348995164,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.0
+          },
+          "after": {
+            "openness": 0.4771241079583764,
+            "agency": 0.19566342012491078,
+            "stability": 0.626934106635563,
+            "uncertainty": 0.7290378373956307,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.10500000000000001
+          },
+          "delta": {
+            "openness": 0.0014000000000000123,
+            "agency": -0.010312500000000002,
+            "stability": -0.005804999999999949,
+            "uncertainty": 0.009158488400466624,
+            "adaptability": 0.0,
+            "input_load": 0.10500000000000001
+          },
+          "changed_dimensions": 5,
+          "state_signature_l2": 0.10607018238426613,
+          "delivery_realized": true
+        },
+        {
+          "seed": 808080,
+          "target_primary": "ai",
+          "target_node": 20,
+          "channel": "authority",
+          "intensity": 0.75,
+          "before": {
+            "openness": 0.4757241079583764,
+            "agency": 0.20597592012491078,
+            "stability": 0.632739106635563,
+            "uncertainty": 0.719879348995164,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.0
+          },
+          "after": {
+            "openness": 0.47332410795837637,
+            "agency": 0.16472592012491077,
+            "stability": 0.624369106635563,
+            "uncertainty": 0.7290763123956306,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.10500000000000001
+          },
+          "delta": {
+            "openness": -0.0024000000000000132,
+            "agency": -0.04125000000000001,
+            "stability": -0.008369999999999989,
+            "uncertainty": 0.009196963400466607,
+            "adaptability": 0.0,
+            "input_load": 0.10500000000000001
+          },
+          "changed_dimensions": 5,
+          "state_signature_l2": 0.11352076257579283,
+          "delivery_realized": true
+        },
+        {
+          "seed": 808080,
+          "target_primary": "ai",
+          "target_node": 20,
+          "channel": "physical",
+          "intensity": 0.75,
+          "before": {
+            "openness": 0.4757241079583764,
+            "agency": 0.20597592012491078,
+            "stability": 0.632739106635563,
+            "uncertainty": 0.719879348995164,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.0
+          },
+          "after": {
+            "openness": 0.47232410795837637,
+            "agency": 0.19566342012491078,
+            "stability": 0.623694106635563,
+            "uncertainty": 0.7290864373956306,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.10500000000000001
+          },
+          "delta": {
+            "openness": -0.003400000000000014,
+            "agency": -0.010312500000000002,
+            "stability": -0.00904499999999997,
+            "uncertainty": 0.009207088400466579,
+            "adaptability": 0.0,
+            "input_load": 0.10500000000000001
+          },
+          "changed_dimensions": 5,
+          "state_signature_l2": 0.10634608670780514,
+          "delivery_realized": true
+        },
+        {
+          "seed": 808080,
+          "target_primary": "ai",
+          "target_node": 20,
+          "channel": "ecology",
+          "intensity": 0.75,
+          "before": {
+            "openness": 0.4757241079583764,
+            "agency": 0.20597592012491078,
+            "stability": 0.632739106635563,
+            "uncertainty": 0.719879348995164,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.0
+          },
+          "after": {
+            "openness": 0.4717241079583764,
+            "agency": 0.19566342012491078,
+            "stability": 0.623289106635563,
+            "uncertainty": 0.7290925123956307,
+            "adaptability": 0.2657947264844552,
+            "input_load": 0.10500000000000001
+          },
+          "delta": {
+            "openness": -0.0040000000000000036,
+            "agency": -0.010312500000000002,
+            "stability": -0.009449999999999958,
+            "uncertainty": 0.009213163400466629,
+            "adaptability": 0.0,
+            "input_load": 0.10500000000000001
+          },
+          "changed_dimensions": 5,
+          "state_signature_l2": 0.10640269045514639,
+          "delivery_realized": true
+        }
+      ],
+      "context_runs": [
+        {
+          "seed": 808081,
+          "target_primary": "human",
+          "target_node": 0,
+          "channel": "info",
+          "intensity": 0.65,
+          "before": {
+            "openness": 0.31235274726059287,
+            "agency": 0.790201697545126,
+            "stability": 0.305366051918827,
+            "uncertainty": 0.7230002830736338,
+            "adaptability": 0.4372583971824497,
+            "input_load": 0.0
+          },
+          "after": {
+            "openness": 0.31635274726059287,
+            "agency": 0.781264197545126,
+            "stability": 0.301856051918827,
+            "uncertainty": 0.7477224422948514,
+            "adaptability": 0.4372583971824497,
+            "input_load": 0.09100000000000001
+          },
+          "delta": {
+            "openness": 0.0040000000000000036,
+            "agency": -0.008937500000000043,
+            "stability": -0.003510000000000013,
+            "uncertainty": 0.024722159221217566,
+            "adaptability": 0.0,
+            "input_load": 0.09100000000000001
+          },
+          "changed_dimensions": 5,
+          "state_signature_l2": 0.09487035449922823,
+          "delivery_realized": true
+        },
+        {
+          "seed": 808081,
+          "target_primary": "ai",
+          "target_node": 20,
+          "channel": "info",
+          "intensity": 0.65,
+          "before": {
+            "openness": 0.948669799673371,
+            "agency": 0.5915169961401261,
+            "stability": 0.6987498584901913,
+            "uncertainty": 0.41823488192167135,
+            "adaptability": 0.9319285010453313,
+            "input_load": 0.0
+          },
+          "after": {
+            "openness": 0.952669799673371,
+            "agency": 0.582579496140126,
+            "stability": 0.6952398584901913,
+            "uncertainty": 0.4370562840443185,
+            "adaptability": 0.9319285010453313,
+            "input_load": 0.09100000000000001
+          },
+          "delta": {
+            "openness": 0.0040000000000000036,
+            "agency": -0.008937500000000043,
+            "stability": -0.003510000000000013,
+            "uncertainty": 0.018821402122647157,
+            "adaptability": 0.0,
+            "input_load": 0.09100000000000001
+          },
+          "changed_dimensions": 5,
+          "state_signature_l2": 0.09350638579323013,
+          "delivery_realized": true
+        },
+        {
+          "seed": 808081,
+          "target_primary": "institution",
+          "target_node": 40,
+          "channel": "info",
+          "intensity": 0.65,
+          "before": {
+            "openness": 0.5338531661545858,
+            "agency": 0.20516828621039168,
+            "stability": 0.7677460721810347,
+            "uncertainty": 0.6757117354311049,
+            "adaptability": 0.5059955307515338,
+            "input_load": 0.0
+          },
+          "after": {
+            "openness": 0.5378531661545858,
+            "agency": 0.1962307862103917,
+            "stability": 0.7642360721810347,
+            "uncertainty": 0.6934981943483893,
+            "adaptability": 0.5059955307515338,
+            "input_load": 0.09100000000000001
+          },
+          "delta": {
+            "openness": 0.0040000000000000036,
+            "agency": -0.008937499999999987,
+            "stability": -0.003510000000000013,
+            "uncertainty": 0.017786458917284476,
+            "adaptability": 0.0,
+            "input_load": 0.09100000000000001
+          },
+          "changed_dimensions": 5,
+          "state_signature_l2": 0.0933035751033488,
+          "delivery_realized": true
+        },
+        {
+          "seed": 808081,
+          "target_primary": "economy",
+          "target_node": 55,
+          "channel": "info",
+          "intensity": 0.65,
+          "before": {
+            "openness": 0.9244964595418423,
+            "agency": 0.7083914554561488,
+            "stability": 0.6552778590586967,
+            "uncertainty": 0.24582250940147787,
+            "adaptability": 0.5250805324641987,
+            "input_load": 0.0
+          },
+          "after": {
+            "openness": 0.9284964595418423,
+            "agency": 0.6994539554561487,
+            "stability": 0.6517678590586967,
+            "uncertainty": 0.2652959915155974,
+            "adaptability": 0.5250805324641987,
+            "input_load": 0.09100000000000001
+          },
+          "delta": {
+            "openness": 0.0040000000000000036,
+            "agency": -0.008937500000000043,
+            "stability": -0.003510000000000013,
+            "uncertainty": 0.019473482114119534,
+            "adaptability": 0.0,
+            "input_load": 0.09100000000000001
+          },
+          "changed_dimensions": 5,
+          "state_signature_l2": 0.09363981798305109,
+          "delivery_realized": true
+        },
+        {
+          "seed": 808081,
+          "target_primary": "ecosystem",
+          "target_node": 70,
+          "channel": "info",
+          "intensity": 0.65,
+          "before": {
+            "openness": 0.8102066513849422,
+            "agency": 0.31981773911975325,
+            "stability": 0.30100501131964846,
+            "uncertainty": 0.1556574447080493,
+            "adaptability": 0.9402386086992919,
+            "input_load": 0.0
+          },
+          "after": {
+            "openness": 0.8142066513849422,
+            "agency": 0.31088023911975327,
+            "stability": 0.29749501131964845,
+            "uncertainty": 0.18044501953825456,
+            "adaptability": 0.9402386086992919,
+            "input_load": 0.09100000000000001
+          },
+          "delta": {
+            "openness": 0.0040000000000000036,
+            "agency": -0.008937499999999987,
+            "stability": -0.003510000000000013,
+            "uncertainty": 0.024787574830205272,
+            "adaptability": 0.0,
+            "input_load": 0.09100000000000001
+          },
+          "changed_dimensions": 5,
+          "state_signature_l2": 0.09488742209699359,
+          "delivery_realized": true
+        },
+        {
+          "seed": 808081,
+          "target_primary": "infra",
+          "target_node": 85,
+          "channel": "info",
+          "intensity": 0.65,
+          "before": {
+            "openness": 0.260740408487618,
+            "agency": 0.6484278192394413,
+            "stability": 0.6978002796531655,
+            "uncertainty": 0.6233851053519174,
+            "adaptability": 0.8441321818623692,
+            "input_load": 0.0
+          },
+          "after": {
+            "openness": 0.264740408487618,
+            "agency": 0.6394903192394412,
+            "stability": 0.6942902796531655,
+            "uncertainty": 0.6422207511571199,
+            "adaptability": 0.8441321818623692,
+            "input_load": 0.09100000000000001
+          },
+          "delta": {
+            "openness": 0.0040000000000000036,
+            "agency": -0.008937500000000043,
+            "stability": -0.003510000000000013,
+            "uncertainty": 0.018835645805202472,
+            "adaptability": 0.0,
+            "input_load": 0.09100000000000001
+          },
+          "changed_dimensions": 5,
+          "state_signature_l2": 0.09350925386906392,
+          "delivery_realized": true
+        }
+      ],
+      "distinct_channel_intensity_signatures": 15,
+      "context_uncertainty_delta_range": 0.007001115912920797,
+      "context_response_norm_range": 0.0015838469936447913,
+      "all_deliveries_realized": true,
+      "multivariate_response_present": true,
+      "pass": true
+    },
+    "audit_counterfactual_experiment": {
+      "no_gate": {
+        "n": 48,
+        "mean_output_events": 6.229166666666667,
+        "mean_total_deliveries": 12.75,
+        "mean_deliveries_from_posthoc_blocked_outputs": 9.208333333333334
+      },
+      "recursive_audit": {
+        "n": 48,
+        "mean_output_events": 20.979166666666668,
+        "mean_total_deliveries": 0.4791666666666667,
+        "mean_deliveries_from_posthoc_blocked_outputs": 0.08333333333333333
+      }
+    },
+    "deterministic_replay_experiment": {
+      "hash_run_1": "678c58af432f680cbb2187a57707e78652a506a0d9b1a7ecddc0448286c67418",
+      "hash_run_2": "678c58af432f680cbb2187a57707e78652a506a0d9b1a7ecddc0448286c67418",
+      "identical": true
+    },
+    "baseline": {
+      "seed": 20260909,
+      "root_event": 1,
+      "events_total": 180,
+      "output_events": 36,
+      "governance_events": 144,
+      "postmortem_events": 36,
+      "audit_packets": 144,
+      "multi_cause_events": 141,
+      "initial_network_model_error": 0.18101876703133718,
+      "final_network_model_error": 0.18050228252894474,
+      "invariants": {
+        "pass": true,
+        "failures": [],
+        "events": 180,
+        "audits": 144
+      },
+      "run_status": {
+        "time": 2.2792485764715824,
+        "events": 180,
+        "event_budget": 180,
+        "event_budget_reached": true,
+        "pending_deliveries": 0,
+        "next_delivery_time": null
+      },
+      "roles": {
+        "actor": 21,
+        "primary_auditor": 25,
+        "power_auditor": 45,
+        "human_gate": 4,
+        "lens_steward": 46
+      }
+    }
+  }
+}

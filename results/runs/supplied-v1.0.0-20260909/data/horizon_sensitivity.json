@@ -1,0 +1,62 @@
+[
+  {
+    "diagnostic_trace": 0.422402297,
+    "domains": 3.0,
+    "expected_impact": 0.5255,
+    "expected_nodes": 2.22,
+    "gate": "MODIFY",
+    "horizon": 1,
+    "max_tension": 0.577597703,
+    "max_uncertainty": 0.573633322
+  },
+  {
+    "diagnostic_trace": 0.441114279,
+    "domains": 4.0,
+    "expected_impact": 0.488303288,
+    "expected_nodes": 3.150984,
+    "gate": "MODIFY",
+    "horizon": 2,
+    "max_tension": 0.558885721,
+    "max_uncertainty": 0.65210046
+  },
+  {
+    "diagnostic_trace": 0.437495722,
+    "domains": 5.0,
+    "expected_impact": 0.480224484,
+    "expected_nodes": 3.512989,
+    "gate": "UNRESOLVED",
+    "horizon": 3,
+    "max_tension": 0.562504278,
+    "max_uncertainty": 0.781959277
+  },
+  {
+    "diagnostic_trace": 0.432397122,
+    "domains": 5.0,
+    "expected_impact": 0.478945666,
+    "expected_nodes": 3.548328,
+    "gate": "UNRESOLVED",
+    "horizon": 4,
+    "max_tension": 0.567602878,
+    "max_uncertainty": 0.857160592
+  },
+  {
+    "diagnostic_trace": 0.423397122,
+    "domains": 5.0,
+    "expected_impact": 0.478945666,
+    "expected_nodes": 3.548328,
+    "gate": "UNRESOLVED",
+    "horizon": 5,
+    "max_tension": 0.576602878,
+    "max_uncertainty": 0.857160592
+  },
+  {
+    "diagnostic_trace": 0.408613181,
+    "domains": 5.0,
+    "expected_impact": 0.478945666,
+    "expected_nodes": 3.548328,
+    "gate": "UNRESOLVED",
+    "horizon": 6,
+    "max_tension": 0.591386819,
+    "max_uncertainty": 0.915
+  }
+]

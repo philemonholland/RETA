@@ -10,10 +10,10 @@
   "published_at": "2026-09-09T23:16:00-04:00",
   "download": "/alignment/downloads/RETA_v1.1.0_public-2.zip",
   "current": true,
-  "change": "Personal thanks to the author’s parents added immediately before Alexia in English and French; model, scientific sources, typography and animation unchanged.",
+  "change": "Functional browser fixes and updated final sentence; current model, Python engine, scientific documents and previous source archives preserved.",
   "scientific_source_version": "1.0.0",
-  "publication_revision": 5,
-  "statement_revised_at": "2026-09-10T08:04:00-04:00",
+  "publication_revision": 6,
+  "statement_revised_at": "2026-09-10T10:10:00-04:00",
   "replacement_history": [
     {
       "revision": 2,
@@ -86,7 +86,32 @@
       "scientific_model_changed": false,
       "animation_changed": false,
       "layout_changed": false,
-      "original_bytes_preserved": "Previous Git commits and publication history."
+      "original_bytes_preserved": "Previous Git commits and publication history.",
+      "replacement_zip_sha256": "b9e421cff37be9429031dff9fb349350e3324869eabf59ccec6636ccdcb125e0",
+      "replacement_download": "/alignment/downloads/RETA_v1.1.0_public-2.zip"
+    },
+    {
+      "revision": 6,
+      "revised_at": "2026-09-10T10:10:00-04:00",
+      "reason": "Functional audit repairs and the owner’s revised mouse/giants sentence.",
+      "previous_zip_sha256": "b9e421cff37be9429031dff9fb349350e3324869eabf59ccec6636ccdcb125e0",
+      "previous_website_commit": "5ca6693f73b230a9e710adc20f62d7f34cff0cfc",
+      "previous_public_source_commit": "4920aabdc8300714af2d6a9ac9aaa163ecfc159b",
+      "scientific_model_changed": false,
+      "original_model_and_older_zip_bytes_preserved": true,
+      "changes": [
+        "Replay Play-at-end and stopped-state display",
+        "Direct PDF download and accurate size",
+        "Archive language preference continuity",
+        "Consistent obfuscated contacts in live archive wrappers",
+        "Package-local navigation",
+        "Declared legacy browser input/visibility/selection adapters",
+        "External reference availability note",
+        "Owner’s revised final sentence",
+        "Report 2 and revised analysis qualify claims; original scientific documents and report 1 retained",
+        "Readable correction, analysis and historical specification pages",
+        "Preliminary results grouped into preserved experiment campaigns and individual runs"
+      ]
     }
   ],
   "name_revised_at": "2026-09-10T06:29:00-04:00",

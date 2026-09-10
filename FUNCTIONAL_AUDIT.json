@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-09-10T10:10:00-04:00",
+  "scope": "Browser functionality and publication integrity; not scientific alignment validation.",
+  "fixes": [
+    "Replay Play-at-end and stopped-state display",
+    "Direct PDF download and accurate size",
+    "Archive language preference continuity",
+    "Consistent obfuscated contacts in live archive wrappers",
+    "Package-local navigation",
+    "Declared legacy browser input/visibility/selection adapters",
+    "External reference availability note",
+    "Owner’s revised final sentence",
+    "Report 2 and revised analysis qualify claims; original scientific documents and report 1 retained",
+    "Readable correction, analysis and historical specification pages",
+    "Preliminary results grouped into preserved experiment campaigns and individual runs"
+  ],
+  "original_sources_preserved": true,
+  "external_links": {
+    "checked": 131,
+    "reachable": 104,
+    "access_restricted": 26,
+    "missing": 1
+  },
+  "reference_corrections": [
+    {
+      "citation": "Colin J. Fidge (1988), Timestamps in Message-Passing Systems That Preserve the Partial Ordering",
+      "previous_url": "https://ics.uci.edu/~cs230/reading/1.pdf",
+      "status": "Online copy unavailable; citation retained. Alternate copies were not verified."
+    }
+  ],
+  "claim_review": {
+    "report": "/alignment/paper/",
+    "corrections": "/alignment/paper/claim-corrections.json",
+    "evidence": "/alignment/paper/report-2-software-checks.json",
+    "scope": "Editorial clarification and same-implementation software checks; no independent scientific validation or guarantee of zero possible overclaims."
+  },
+  "limitations": [
+    "Native generated state-export file completion could not be confirmed by browser automation. JSON serialization checks passed; direct ZIP and PDF downloads were observed.",
+    "External links: 26 access-restricted results are inconclusive; reachability is not source-content validation.",
+    "Tests used the available desktop in-app browser and a narrow mobile viewport; no claim of exhaustive browser, device or adversarial coverage."
+  ]
+}

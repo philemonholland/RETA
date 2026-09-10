@@ -1,0 +1,1571 @@
+{
+  "curve": [
+    {
+      "feedback_observations": 0,
+      "mean_model_error": 0.18664352504792622,
+      "median_model_error": 0.19423883382603527,
+      "p10_model_error": 0.1436619325354695,
+      "p90_model_error": 0.23238364950567486
+    },
+    {
+      "feedback_observations": 10,
+      "mean_model_error": 0.15762244388472754,
+      "median_model_error": 0.1507964809965342,
+      "p10_model_error": 0.09230627137795089,
+      "p90_model_error": 0.24929587223008273
+    },
+    {
+      "feedback_observations": 20,
+      "mean_model_error": 0.13544442722798947,
+      "median_model_error": 0.1338868257769694,
+      "p10_model_error": 0.06596798194075623,
+      "p90_model_error": 0.19792569581667582
+    },
+    {
+      "feedback_observations": 30,
+      "mean_model_error": 0.11549396687338594,
+      "median_model_error": 0.10891653578169644,
+      "p10_model_error": 0.06828705122694372,
+      "p90_model_error": 0.164857698649168
+    },
+    {
+      "feedback_observations": 40,
+      "mean_model_error": 0.10805445183208212,
+      "median_model_error": 0.11233960843272506,
+      "p10_model_error": 0.055896123118698605,
+      "p90_model_error": 0.1516628296934068
+    },
+    {
+      "feedback_observations": 50,
+      "mean_model_error": 0.09992477000058474,
+      "median_model_error": 0.09833377998011808,
+      "p10_model_error": 0.05366045814876756,
+      "p90_model_error": 0.14444454522803427
+    },
+    {
+      "feedback_observations": 60,
+      "mean_model_error": 0.0920334911950631,
+      "median_model_error": 0.08702370877005158,
+      "p10_model_error": 0.06108399285003541,
+      "p90_model_error": 0.13094348903160008
+    },
+    {
+      "feedback_observations": 70,
+      "mean_model_error": 0.08896662905975244,
+      "median_model_error": 0.08459206444770098,
+      "p10_model_error": 0.05621747693419458,
+      "p90_model_error": 0.1255189357995987
+    },
+    {
+      "feedback_observations": 80,
+      "mean_model_error": 0.08567248183328452,
+      "median_model_error": 0.08321862257934279,
+      "p10_model_error": 0.05343969915641682,
+      "p90_model_error": 0.11786822163355018
+    },
+    {
+      "feedback_observations": 90,
+      "mean_model_error": 0.08193171016452834,
+      "median_model_error": 0.07980620759725571,
+      "p10_model_error": 0.053400390226393944,
+      "p90_model_error": 0.1093150461576879
+    },
+    {
+      "feedback_observations": 100,
+      "mean_model_error": 0.07988945565972773,
+      "median_model_error": 0.07599411930550229,
+      "p10_model_error": 0.050481290844692425,
+      "p90_model_error": 0.10941990873319182
+    },
+    {
+      "feedback_observations": 110,
+      "mean_model_error": 0.07631924509625726,
+      "median_model_error": 0.0771258346972366,
+      "p10_model_error": 0.041849834368874586,
+      "p90_model_error": 0.10326440360148743
+    },
+    {
+      "feedback_observations": 120,
+      "mean_model_error": 0.07342751677241176,
+      "median_model_error": 0.07267534493067516,
+      "p10_model_error": 0.041349118982656634,
+      "p90_model_error": 0.1023390386927013
+    }
+  ],
+  "n_seeds": 64,
+  "per_seed": [
+    {
+      "error_0": 0.2127304374948144,
+      "error_final": 0.08827100552905064,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.4230769230769231,
+        "ecology": 0.15384615384615385,
+        "info": 0.6923076923076923,
+        "physical": 0.8846153846153846,
+        "resource": 0.5384615384615384
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.491297,
+      "projection_expected_nodes_before": 1.257603,
+      "seed": 303000
+    },
+    {
+      "error_0": 0.16832750955596568,
+      "error_final": 0.09191992180421951,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.38461538461538464,
+        "ecology": 0.2692307692307692,
+        "info": 0.7692307692307693,
+        "physical": 0.11538461538461539,
+        "resource": 0.2692307692307692
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.353464,
+      "projection_expected_nodes_before": 1.107252,
+      "seed": 303001
+    },
+    {
+      "error_0": 0.2294120813384652,
+      "error_final": 0.03415581589478711,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.6153846153846154,
+        "ecology": 0.7307692307692307,
+        "info": 0.7692307692307693,
+        "physical": 0.19230769230769232,
+        "resource": 0.19230769230769232
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.282073,
+      "projection_expected_nodes_before": 1.060848,
+      "seed": 303002
+    },
+    {
+      "error_0": 0.20352354305237533,
+      "error_final": 0.06777631502942395,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.6538461538461539,
+        "ecology": 0.38461538461538464,
+        "info": 0.15384615384615385,
+        "physical": 0.34615384615384615,
+        "resource": 0.5
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 0.844514,
+      "projection_expected_nodes_before": 1.310775,
+      "seed": 303003
+    },
+    {
+      "error_0": 0.21323806414008142,
+      "error_final": 0.05992178677194395,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.23076923076923078,
+        "ecology": 0.7692307692307693,
+        "info": 0.4230769230769231,
+        "physical": 0.23076923076923078,
+        "resource": 0.46153846153846156
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.073508,
+      "projection_expected_nodes_before": 1.150509,
+      "seed": 303004
+    },
+    {
+      "error_0": 0.20381184552237386,
+      "error_final": 0.07811479091844879,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.3076923076923077,
+        "ecology": 0.4230769230769231,
+        "info": 0.5384615384615384,
+        "physical": 0.6923076923076923,
+        "resource": 0.7692307692307693
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.444694,
+      "projection_expected_nodes_before": 1.38793,
+      "seed": 303005
+    },
+    {
+      "error_0": 0.16672208277508618,
+      "error_final": 0.08955789404620344,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.19230769230769232,
+        "ecology": 0.2692307692307692,
+        "info": 0.5769230769230769,
+        "physical": 0.6153846153846154,
+        "resource": 0.7307692307692307
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.319909,
+      "projection_expected_nodes_before": 1.230588,
+      "seed": 303006
+    },
+    {
+      "error_0": 0.22156844630092376,
+      "error_final": 0.07447967616812541,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.4230769230769231,
+        "ecology": 0.6923076923076923,
+        "info": 0.23076923076923078,
+        "physical": 0.8461538461538461,
+        "resource": 0.34615384615384615
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 0.995873,
+      "projection_expected_nodes_before": 1.407998,
+      "seed": 303007
+    },
+    {
+      "error_0": 0.15991756427660583,
+      "error_final": 0.06476223600799076,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.46153846153846156,
+        "ecology": 0.46153846153846156,
+        "info": 0.6153846153846154,
+        "physical": 0.5384615384615384,
+        "resource": 0.19230769230769232
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.194457,
+      "projection_expected_nodes_before": 1.092371,
+      "seed": 303008
+    },
+    {
+      "error_0": 0.20157460230588914,
+      "error_final": 0.04046983846047754,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.5769230769230769,
+        "ecology": 0.7692307692307693,
+        "info": 0.38461538461538464,
+        "physical": 0.19230769230769232,
+        "resource": 0.15384615384615385
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.132517,
+      "projection_expected_nodes_before": 1.277272,
+      "seed": 303009
+    },
+    {
+      "error_0": 0.25112871092930433,
+      "error_final": 0.07665603194013236,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.6923076923076923,
+        "ecology": 0.46153846153846156,
+        "info": 0.6153846153846154,
+        "physical": 0.19230769230769232,
+        "resource": 0.2692307692307692
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.360927,
+      "projection_expected_nodes_before": 1.227628,
+      "seed": 303010
+    },
+    {
+      "error_0": 0.09028812687844037,
+      "error_final": 0.07640808637612141,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.6923076923076923,
+        "ecology": 0.5,
+        "info": 0.5384615384615384,
+        "physical": 0.4230769230769231,
+        "resource": 0.5
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.216033,
+      "projection_expected_nodes_before": 1.175602,
+      "seed": 303011
+    },
+    {
+      "error_0": 0.1605680343285203,
+      "error_final": 0.10737100161726658,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.19230769230769232,
+        "ecology": 0.6538461538461539,
+        "info": 0.19230769230769232,
+        "physical": 0.6923076923076923,
+        "resource": 0.38461538461538464
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 0.927001,
+      "projection_expected_nodes_before": 1.370202,
+      "seed": 303012
+    },
+    {
+      "error_0": 0.20985484214499595,
+      "error_final": 0.13158824821876794,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.8076923076923077,
+        "ecology": 0.38461538461538464,
+        "info": 0.07692307692307693,
+        "physical": 0.5769230769230769,
+        "resource": 0.2692307692307692
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 0.695373,
+      "projection_expected_nodes_before": 1.059453,
+      "seed": 303013
+    },
+    {
+      "error_0": 0.20598377455025907,
+      "error_final": 0.05624741724935861,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.7307692307692307,
+        "ecology": 0.5,
+        "info": 0.8076923076923077,
+        "physical": 0.07692307692307693,
+        "resource": 0.4230769230769231
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.570619,
+      "projection_expected_nodes_before": 1.219907,
+      "seed": 303014
+    },
+    {
+      "error_0": 0.09196176858991381,
+      "error_final": 0.07136992027782477,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.6153846153846154,
+        "ecology": 0.46153846153846156,
+        "info": 0.6153846153846154,
+        "physical": 0.7692307692307693,
+        "resource": 0.5
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.371633,
+      "projection_expected_nodes_before": 1.236327,
+      "seed": 303015
+    },
+    {
+      "error_0": 0.17324841405078767,
+      "error_final": 0.0804923115427104,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.6923076923076923,
+        "ecology": 0.5384615384615384,
+        "info": 0.38461538461538464,
+        "physical": 0.23076923076923078,
+        "resource": 0.6153846153846154
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.109032,
+      "projection_expected_nodes_before": 1.246741,
+      "seed": 303016
+    },
+    {
+      "error_0": 0.14900785883143544,
+      "error_final": 0.06621419936389875,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.19230769230769232,
+        "ecology": 0.38461538461538464,
+        "info": 0.5384615384615384,
+        "physical": 0.15384615384615385,
+        "resource": 0.34615384615384615
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.342484,
+      "projection_expected_nodes_before": 1.293021,
+      "seed": 303017
+    },
+    {
+      "error_0": 0.21998422417417168,
+      "error_final": 0.045455161427935716,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.6923076923076923,
+        "ecology": 0.6153846153846154,
+        "info": 0.19230769230769232,
+        "physical": 0.7692307692307693,
+        "resource": 0.23076923076923078
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 0.864124,
+      "projection_expected_nodes_before": 1.229348,
+      "seed": 303018
+    },
+    {
+      "error_0": 0.23238364950567486,
+      "error_final": 0.10701687422566689,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.34615384615384615,
+        "ecology": 0.5,
+        "info": 0.3076923076923077,
+        "physical": 0.11538461538461539,
+        "resource": 0.11538461538461539
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 0.958627,
+      "projection_expected_nodes_before": 1.151519,
+      "seed": 303019
+    },
+    {
+      "error_0": 0.2317527453638613,
+      "error_final": 0.09324688439157146,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.19230769230769232,
+        "ecology": 0.11538461538461539,
+        "info": 0.23076923076923078,
+        "physical": 0.6538461538461539,
+        "resource": 0.3076923076923077
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 0.959952,
+      "projection_expected_nodes_before": 1.321562,
+      "seed": 303020
+    },
+    {
+      "error_0": 0.23770551580190658,
+      "error_final": 0.047222156846179406,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.3076923076923077,
+        "ecology": 0.2692307692307692,
+        "info": 0.7692307692307693,
+        "physical": 0.6153846153846154,
+        "resource": 0.7307692307692307
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.61255,
+      "projection_expected_nodes_before": 1.275657,
+      "seed": 303021
+    },
+    {
+      "error_0": 0.2064565141387284,
+      "error_final": 0.060055804659827405,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.6538461538461539,
+        "ecology": 0.23076923076923078,
+        "info": 0.46153846153846156,
+        "physical": 0.19230769230769232,
+        "resource": 0.5769230769230769
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.13783,
+      "projection_expected_nodes_before": 1.178483,
+      "seed": 303022
+    },
+    {
+      "error_0": 0.2019646410308778,
+      "error_final": 0.020987554178501556,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.7307692307692307,
+        "ecology": 0.2692307692307692,
+        "info": 0.6923076923076923,
+        "physical": 0.2692307692307692,
+        "resource": 0.6538461538461539
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.423178,
+      "projection_expected_nodes_before": 1.208407,
+      "seed": 303023
+    },
+    {
+      "error_0": 0.155235201690346,
+      "error_final": 0.09221490681429322,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.6153846153846154,
+        "ecology": 0.4230769230769231,
+        "info": 0.5,
+        "physical": 0.46153846153846156,
+        "resource": 0.6538461538461539
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.000023,
+      "projection_expected_nodes_before": 1.000023,
+      "seed": 303024
+    },
+    {
+      "error_0": 0.20415974859893318,
+      "error_final": 0.02051272512456546,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.8461538461538461,
+        "ecology": 0.23076923076923078,
+        "info": 0.2692307692307692,
+        "physical": 0.34615384615384615,
+        "resource": 0.5769230769230769
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 0.985022,
+      "projection_expected_nodes_before": 1.280908,
+      "seed": 303025
+    },
+    {
+      "error_0": 0.18860118940845133,
+      "error_final": 0.07160588839048376,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.6538461538461539,
+        "ecology": 0.8846153846153846,
+        "info": 0.38461538461538464,
+        "physical": 0.2692307692307692,
+        "resource": 0.23076923076923078
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.083397,
+      "projection_expected_nodes_before": 1.213416,
+      "seed": 303026
+    },
+    {
+      "error_0": 0.1735136406160891,
+      "error_final": 0.04496347303373309,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.2692307692307692,
+        "ecology": 0.3076923076923077,
+        "info": 0.5,
+        "physical": 0.46153846153846156,
+        "resource": 0.15384615384615385
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.315515,
+      "projection_expected_nodes_before": 1.315515,
+      "seed": 303027
+    },
+    {
+      "error_0": 0.1436619325354695,
+      "error_final": 0.09108491642200027,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.19230769230769232,
+        "ecology": 0.7307692307692307,
+        "info": 0.23076923076923078,
+        "physical": 0.46153846153846156,
+        "resource": 0.5
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 0.883795,
+      "projection_expected_nodes_before": 1.164589,
+      "seed": 303028
+    },
+    {
+      "error_0": 0.07800494987145065,
+      "error_final": 0.09517581708471362,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.5384615384615384,
+        "ecology": 0.6923076923076923,
+        "info": 0.4230769230769231,
+        "physical": 0.8076923076923077,
+        "resource": 0.6153846153846154
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.176212,
+      "projection_expected_nodes_before": 1.271887,
+      "seed": 303029
+    },
+    {
+      "error_0": 0.20104697395861146,
+      "error_final": 0.08983357473520134,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.2692307692307692,
+        "ecology": 0.8461538461538461,
+        "info": 0.34615384615384615,
+        "physical": 0.7692307692307693,
+        "resource": 0.11538461538461539
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 0.976501,
+      "projection_expected_nodes_before": 1.127152,
+      "seed": 303030
+    },
+    {
+      "error_0": 0.20320797041803598,
+      "error_final": 0.08142117292376663,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.07692307692307693,
+        "ecology": 0.5384615384615384,
+        "info": 0.19230769230769232,
+        "physical": 0.46153846153846156,
+        "resource": 0.19230769230769232
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 0.843293,
+      "projection_expected_nodes_before": 1.164668,
+      "seed": 303031
+    },
+    {
+      "error_0": 0.18616987910494204,
+      "error_final": 0.09924427375226065,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.46153846153846156,
+        "ecology": 0.6153846153846154,
+        "info": 0.46153846153846156,
+        "physical": 0.8076923076923077,
+        "resource": 0.2692307692307692
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.184451,
+      "projection_expected_nodes_before": 1.228989,
+      "seed": 303032
+    },
+    {
+      "error_0": 0.2080852108299732,
+      "error_final": 0.07130570221978885,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.7307692307692307,
+        "ecology": 0.7692307692307693,
+        "info": 0.11538461538461539,
+        "physical": 0.6923076923076923,
+        "resource": 0.34615384615384615
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 0.766762,
+      "projection_expected_nodes_before": 1.216254,
+      "seed": 303033
+    },
+    {
+      "error_0": 0.20293919029086824,
+      "error_final": 0.09818089505399649,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.6923076923076923,
+        "ecology": 0.3076923076923077,
+        "info": 0.46153846153846156,
+        "physical": 0.15384615384615385,
+        "resource": 0.34615384615384615
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.34758,
+      "projection_expected_nodes_before": 1.405711,
+      "seed": 303034
+    },
+    {
+      "error_0": 0.11605133535340426,
+      "error_final": 0.021739388810613998,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.15384615384615385,
+        "ecology": 0.5769230769230769,
+        "info": 0.5,
+        "physical": 0.5384615384615384,
+        "resource": 0.5769230769230769
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.428903,
+      "projection_expected_nodes_before": 1.428903,
+      "seed": 303035
+    },
+    {
+      "error_0": 0.16721103702113033,
+      "error_final": 0.05674213641452103,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.5384615384615384,
+        "ecology": 0.5,
+        "info": 0.11538461538461539,
+        "physical": 0.34615384615384615,
+        "resource": 0.9230769230769231
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 0.744229,
+      "projection_expected_nodes_before": 1.202077,
+      "seed": 303036
+    },
+    {
+      "error_0": 0.12414515248313543,
+      "error_final": 0.07259693986206102,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.6538461538461539,
+        "ecology": 0.6153846153846154,
+        "info": 0.6538461538461539,
+        "physical": 0.7307692307692307,
+        "resource": 0.6538461538461539
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.553314,
+      "projection_expected_nodes_before": 1.34077,
+      "seed": 303037
+    },
+    {
+      "error_0": 0.25562815270945427,
+      "error_final": 0.045105628936623135,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.6923076923076923,
+        "ecology": 0.07692307692307693,
+        "info": 0.2692307692307692,
+        "physical": 0.34615384615384615,
+        "resource": 0.23076923076923078
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.021904,
+      "projection_expected_nodes_before": 1.340679,
+      "seed": 303038
+    },
+    {
+      "error_0": 0.21324201360717412,
+      "error_final": 0.07599843408654515,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.3076923076923077,
+        "ecology": 0.38461538461538464,
+        "info": 0.2692307692307692,
+        "physical": 0.2692307692307692,
+        "resource": 0.8076923076923077
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 0.973468,
+      "projection_expected_nodes_before": 1.250725,
+      "seed": 303039
+    },
+    {
+      "error_0": 0.24033867452293628,
+      "error_final": 0.06645319345536146,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.5769230769230769,
+        "ecology": 0.19230769230769232,
+        "info": 0.7692307692307693,
+        "physical": 0.23076923076923078,
+        "resource": 0.7692307692307693
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.537089,
+      "projection_expected_nodes_before": 1.226608,
+      "seed": 303040
+    },
+    {
+      "error_0": 0.1464756268598139,
+      "error_final": 0.08865205943842344,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.7307692307692307,
+        "ecology": 0.7307692307692307,
+        "info": 0.23076923076923078,
+        "physical": 0.5384615384615384,
+        "resource": 0.38461538461538464
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 0.916931,
+      "projection_expected_nodes_before": 1.239183,
+      "seed": 303041
+    },
+    {
+      "error_0": 0.187343477640301,
+      "error_final": 0.07946645674711238,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.15384615384615385,
+        "ecology": 0.34615384615384615,
+        "info": 0.23076923076923078,
+        "physical": 0.38461538461538464,
+        "resource": 0.34615384615384615
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 0.958607,
+      "projection_expected_nodes_before": 1.339843,
+      "seed": 303042
+    },
+    {
+      "error_0": 0.1726378324218094,
+      "error_final": 0.1070073538499956,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.7307692307692307,
+        "ecology": 0.19230769230769232,
+        "info": 0.38461538461538464,
+        "physical": 0.4230769230769231,
+        "resource": 0.6538461538461539
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.202926,
+      "projection_expected_nodes_before": 1.368804,
+      "seed": 303043
+    },
+    {
+      "error_0": 0.20705042660981415,
+      "error_final": 0.13781965737904495,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.4230769230769231,
+        "ecology": 0.38461538461538464,
+        "info": 0.5769230769230769,
+        "physical": 0.46153846153846156,
+        "resource": 0.38461538461538464
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.478475,
+      "projection_expected_nodes_before": 1.368011,
+      "seed": 303044
+    },
+    {
+      "error_0": 0.16073275334388018,
+      "error_final": 0.07281920004177553,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.11538461538461539,
+        "ecology": 0.5,
+        "info": 0.5384615384615384,
+        "physical": 0.6923076923076923,
+        "resource": 0.2692307692307692
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.286288,
+      "projection_expected_nodes_before": 1.240839,
+      "seed": 303045
+    },
+    {
+      "error_0": 0.20453010773286223,
+      "error_final": 0.1023390386927013,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.07692307692307693,
+        "ecology": 0.2692307692307692,
+        "info": 0.46153846153846156,
+        "physical": 0.46153846153846156,
+        "resource": 0.38461538461538464
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.172541,
+      "projection_expected_nodes_before": 1.216086,
+      "seed": 303046
+    },
+    {
+      "error_0": 0.21960755483433606,
+      "error_final": 0.028803908349516332,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.38461538461538464,
+        "ecology": 0.15384615384615385,
+        "info": 0.19230769230769232,
+        "physical": 0.38461538461538464,
+        "resource": 0.38461538461538464
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 0.804778,
+      "projection_expected_nodes_before": 1.086885,
+      "seed": 303047
+    },
+    {
+      "error_0": 0.1619734751731157,
+      "error_final": 0.0627444503536591,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.46153846153846156,
+        "ecology": 0.6923076923076923,
+        "info": 0.6538461538461539,
+        "physical": 0.19230769230769232,
+        "resource": 0.23076923076923078
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.485985,
+      "projection_expected_nodes_before": 1.289282,
+      "seed": 303048
+    },
+    {
+      "error_0": 0.177819428820163,
+      "error_final": 0.06614881339239385,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.23076923076923078,
+        "ecology": 0.5384615384615384,
+        "info": 0.34615384615384615,
+        "physical": 0.8461538461538461,
+        "resource": 0.5
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.145946,
+      "projection_expected_nodes_before": 1.366367,
+      "seed": 303049
+    },
+    {
+      "error_0": 0.115039887778461,
+      "error_final": 0.059011525342670734,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.4230769230769231,
+        "ecology": 0.5769230769230769,
+        "info": 0.6538461538461539,
+        "physical": 0.6923076923076923,
+        "resource": 0.23076923076923078
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.374531,
+      "projection_expected_nodes_before": 1.204053,
+      "seed": 303050
+    },
+    {
+      "error_0": 0.17370864989981055,
+      "error_final": 0.07358472067604843,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.11538461538461539,
+        "ecology": 0.46153846153846156,
+        "info": 0.34615384615384615,
+        "physical": 0.5769230769230769,
+        "resource": 0.19230769230769232
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.086829,
+      "projection_expected_nodes_before": 1.280975,
+      "seed": 303051
+    },
+    {
+      "error_0": 0.15863388445600862,
+      "error_final": 0.060323467149470844,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.5,
+        "ecology": 0.5384615384615384,
+        "info": 0.3076923076923077,
+        "physical": 0.23076923076923078,
+        "resource": 0.4230769230769231
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 0.996456,
+      "projection_expected_nodes_before": 1.220762,
+      "seed": 303052
+    },
+    {
+      "error_0": 0.1958306730762124,
+      "error_final": 0.07275374999928931,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.46153846153846156,
+        "ecology": 0.19230769230769232,
+        "info": 0.5,
+        "physical": 0.4230769230769231,
+        "resource": 0.7692307692307693
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.286687,
+      "projection_expected_nodes_before": 1.286687,
+      "seed": 303053
+    },
+    {
+      "error_0": 0.2383588524311781,
+      "error_final": 0.08934936082019257,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.8461538461538461,
+        "ecology": 0.23076923076923078,
+        "info": 0.7692307692307693,
+        "physical": 0.7307692307692307,
+        "resource": 0.46153846153846156
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.646448,
+      "projection_expected_nodes_before": 1.297691,
+      "seed": 303054
+    },
+    {
+      "error_0": 0.20205878542736172,
+      "error_final": 0.041349118982656634,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.7307692307692307,
+        "ecology": 0.4230769230769231,
+        "info": 0.6538461538461539,
+        "physical": 0.23076923076923078,
+        "resource": 0.5769230769230769
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.138283,
+      "projection_expected_nodes_before": 1.023393,
+      "seed": 303055
+    },
+    {
+      "error_0": 0.1771598609834909,
+      "error_final": 0.05758349112192025,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.38461538461538464,
+        "ecology": 0.38461538461538464,
+        "info": 0.6538461538461539,
+        "physical": 0.3076923076923077,
+        "resource": 0.6923076923076923
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.533542,
+      "projection_expected_nodes_before": 1.32565,
+      "seed": 303056
+    },
+    {
+      "error_0": 0.18753623576834796,
+      "error_final": 0.09620107402451909,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.3076923076923077,
+        "ecology": 0.7307692307692307,
+        "info": 0.34615384615384615,
+        "physical": 0.7692307692307693,
+        "resource": 0.3076923076923077
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.096372,
+      "projection_expected_nodes_before": 1.29476,
+      "seed": 303057
+    },
+    {
+      "error_0": 0.23564536608755587,
+      "error_final": 0.07153040948452857,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.6153846153846154,
+        "ecology": 0.5,
+        "info": 0.19230769230769232,
+        "physical": 0.07692307692307693,
+        "resource": 0.19230769230769232
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 0.859271,
+      "projection_expected_nodes_before": 1.221557,
+      "seed": 303058
+    },
+    {
+      "error_0": 0.15507272912561892,
+      "error_final": 0.06618561347115497,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.23076923076923078,
+        "ecology": 0.5769230769230769,
+        "info": 0.7692307692307693,
+        "physical": 0.3076923076923077,
+        "resource": 0.5769230769230769
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.665659,
+      "projection_expected_nodes_before": 1.310179,
+      "seed": 303059
+    },
+    {
+      "error_0": 0.1556218944899738,
+      "error_final": 0.060032607740221136,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.5384615384615384,
+        "ecology": 0.46153846153846156,
+        "info": 0.15384615384615385,
+        "physical": 0.2692307692307692,
+        "resource": 0.5
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 0.822503,
+      "projection_expected_nodes_before": 1.221149,
+      "seed": 303060
+    },
+    {
+      "error_0": 0.19264699457585813,
+      "error_final": 0.06200666494782157,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.5769230769230769,
+        "ecology": 0.38461538461538464,
+        "info": 0.07692307692307693,
+        "physical": 0.2692307692307692,
+        "resource": 0.5769230769230769
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 0.737435,
+      "projection_expected_nodes_before": 1.316575,
+      "seed": 303061
+    },
+    {
+      "error_0": 0.18107403904199598,
+      "error_final": 0.10415096211891908,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.6923076923076923,
+        "ecology": 0.4230769230769231,
+        "info": 0.5,
+        "physical": 0.5384615384615384,
+        "resource": 0.34615384615384615
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.329149,
+      "projection_expected_nodes_before": 1.329149,
+      "seed": 303062
+    },
+    {
+      "error_0": 0.23426981638744468,
+      "error_final": 0.11555736924335361,
+      "events_materialized": 120,
+      "feedback_deliveries_recorded": 120,
+      "learned_response_after": {
+        "authority": 0.46153846153846156,
+        "ecology": 0.46153846153846156,
+        "info": 0.8461538461538461,
+        "physical": 0.5,
+        "resource": 0.15384615384615385
+      },
+      "learned_response_before": {
+        "authority": 0.5,
+        "ecology": 0.5,
+        "info": 0.5,
+        "physical": 0.5,
+        "resource": 0.5
+      },
+      "projection_expected_nodes_after": 1.64797,
+      "projection_expected_nodes_before": 1.239709,
+      "seed": 303063
+    }
+  ],
+  "steps": 120
+}
