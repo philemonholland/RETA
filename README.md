@@ -54,3 +54,7 @@ On September 10, 2026, the author requested replacement of this same v1.1 editio
 The explanation includes proposed developments. Current playback remains a recorded trace; a live simulation is deferred to a future version. Naming, public documentation and interface changes do not alter the scientific equations or transition rules. Researchers acknowledged in the statement have not reviewed or approved the current model.
 
 [Replacement history](https://www.hortrame.com/alignment/archive/v1.1.0-e2-replacement.json) records the prior and replacement hashes. The preceding source commit remains in this repository’s history. All earlier model packages, back to the first 2D model, remain available in the [complete archive](https://www.hortrame.com/alignment/archive/).
+
+## Typography revision 3
+
+The owner requested smaller normal reading sizes and replacement of this same current archive on September 10, 2026. Only the website presentation changed; the model and Python simulation source remain identical. Prior source revisions remain in Git history.

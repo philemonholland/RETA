@@ -1,0 +1,31 @@
+/* Owner's typography correction: normal reading sizes, restrained headings. */
+.pub-header .pub-byline { font-size: 13px; line-height: 1.5; }
+.pub-header .pub-byline strong,
+.model-page .pub-header .pub-byline strong { font-size: 16px; font-weight: 500; }
+.pub-header .pub-status { font-size: 12px; font-weight: 400; letter-spacing: .01em; }
+.pub-header .pub-nav { font-size: 13px; }
+.pub-header .pub-contact { font-size: 13px; }
+.pub-header .obfuscated-contact svg { height: 18px; width: auto; }
+.model-page .pub-header + header h1 { font-size: 17px; font-weight: 600; line-height: 1.4; }
+.model-page .pub-header + header p { font-size: 13px; line-height: 1.5; }
+.model-page .pub-header + header .badge { font-size: 12px; font-weight: 400; }
+.author-top > .author-statement { width: 70%; margin-left: auto; margin-right: auto; padding-top: 16px; padding-bottom: 16px; }
+.author-top .author-statement,
+.author-top .author-statement .author-summary,
+.author-top .author-statement .author-boundary,
+.author-top .author-statement .author-statement-attribution,
+.author-top .author-statement .author-history { font-size: 14px; line-height: 1.55; }
+.author-top .author-statement h2 { font-size: 15px; font-weight: 600; line-height: 1.45; margin-bottom: 10px; }
+.author-top .author-statement p { margin-bottom: 10px; }
+.author-top .author-statement strong { font-weight: 600; }
+.author-top .author-statement summary { font-size: 13px; font-weight: 400; }
+.author-top .author-statement .author-history h3 { font-size: 15px; font-weight: 600; line-height: 1.45; }
+.author-top .author-statement .author-links { font-size: 13px; }
+.author-page .pub-main { font-size: 15px; line-height: 1.65; }
+.author-page .pub-main h1 { font-size: 24px; font-weight: 600; line-height: 1.35; }
+.author-page .pub-main h2 { font-size: 18px; font-weight: 600; line-height: 1.45; }
+@media (max-width: 700px) {
+  .author-top > .author-statement { width: 100%; }
+  .model-page .pub-header + header h1 { font-size: 17px; }
+  .author-top .author-statement h2 { font-size: 15px; }
+}

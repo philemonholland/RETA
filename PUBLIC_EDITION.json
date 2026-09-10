@@ -10,9 +10,9 @@
   "published_at": "2026-09-09T23:16:00-04:00",
   "download": "/alignment/downloads/RETA_v1.1.0_public-2.zip",
   "current": true,
-  "change": "RETA naming and bilingual author statement/acknowledgments revision, replacing this same v1.1 edition at the owner’s request. Scientific equations, recorded trace and playback behavior unchanged.",
+  "change": "Smaller normal typography and centered 70% author-statement panel. Model, Python source, recorded trace and animation behavior unchanged; current archive replaced at the owner’s request.",
   "scientific_source_version": "1.0.0",
-  "publication_revision": 2,
+  "publication_revision": 3,
   "statement_revised_at": "2026-09-10T06:29:00-04:00",
   "replacement_history": [
     {
@@ -44,8 +44,23 @@
           "package_sha256": "675012e11d54452e1aacdfaee596d88034affeea2c5fe1e2613f7b0b3699f57f",
           "reason_for_followup": "Owner requested homepage-style email obfuscation on alignment pages before the final handoff."
         }
-      }
+      },
+      "replacement_zip_sha256": "b801a30b0c54c91047542f2eb0b612336997ae95057cefa86db0f0865ddf419e",
+      "replacement_download": "/alignment/downloads/RETA_v1.1.0_public-2.zip"
+    },
+    {
+      "revision": 3,
+      "revised_at": "2026-09-10T07:30:00-04:00",
+      "reason": "Owner requested smaller normal typography and explicitly asked to replace the current archive because the model itself has not changed. The owner also requested a final personal note explaining why he is publishing under his name.",
+      "previous_zip_sha256": "b801a30b0c54c91047542f2eb0b612336997ae95057cefa86db0f0865ddf419e",
+      "previous_website_commit": "2aaae5ac8b4f39ff62252db3b33fb4780e038eed",
+      "previous_public_source_commit": "bfd0d5a12d6c8ce5d340d060a40e742732f77a5e",
+      "scientific_model_changed": false,
+      "animation_changed": false,
+      "original_bytes_preserved": "Previous Git commits and public-source history.",
+      "author_statement_changed": true
     }
   ],
-  "name_revised_at": "2026-09-10T06:29:00-04:00"
+  "name_revised_at": "2026-09-10T06:29:00-04:00",
+  "presentation_revised_at": "2026-09-10T07:30:00-04:00"
 }
