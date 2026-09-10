@@ -56,6 +56,8 @@ The overlap between my earlier work and current AI-alignment research was initia
 
 I take full responsibility for this synthesis, its interpretations, its extensions, its errors and the decision to make it public. It began as a deeply personal, unreviewed project. Its public availability is an invitation to scrutiny, not a claim that scrutiny has already occurred.
 
+I thank my parents, **Linda Bouchard and Gaétan Bolduc**, for their lifelong support and for the incredibly rich, strange and unique childhood they gave me.
+
 Finally, I thank **Alexia Matte** for having stood by my side throughout those years and for the emotional and intellectual support she gave me, including during some very difficult times. I wish her love, kindness, gentleness and happiness.
 
 I never wanted my name to be public, but I see no other way to get this work out into the world. I stand on the shoulders of giants, but I am very small.

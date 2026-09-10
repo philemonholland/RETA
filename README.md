@@ -60,3 +60,5 @@ The explanation includes proposed developments. Current playback remains a recor
 The owner requested smaller normal reading sizes and replacement of this same current archive on September 10, 2026. Only the website presentation changed; the model and Python simulation source remain identical. Prior source revisions remain in Git history.
 
 The closing personal statement was extended in English and French in publication revision 4. Model/scientific files and styling are unchanged.
+
+The closing personal statement was extended in English and French in publication revision 5. Model/scientific files and styling are unchanged.
