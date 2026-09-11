@@ -1,8 +1,10 @@
 {
-  "source": "Integrated Epistemic-Ethical Review Model",
-  "sha256": "07b0595ea26fb83fc2c833fba59516e98edb1d25bc2316e8b72fbaeb65b215e5",
-  "markdown": "/alignment/epistemology/Integrated_Epistemic-Ethical_Review_Model.md",
-  "text_unchanged": true,
+  "revision": 12,
+  "date": "2026-09-10T23:58:53.106608-04:00",
+  "reason": "Alignment epistemology introduction now reuses the exact bilingual explanation above the swarm simulation, followed by the unchanged full model in a disclosure. Swarm interface proportions corrected.",
+  "previous_website_commit": "0d7ab70a4705dad5b846c49dc834dc50c24c1e80",
+  "scientific_model_changed": false,
+  "epistemology_source_unchanged": true,
   "introductory_explanation": {
     "en": {
       "source": "/swarm/",
@@ -16,6 +18,5 @@
       "paragraph_text_sha256": "9a7de3824632ccab5beb8c245605b50398e0c87ff499affa3c465e7d837b88eb",
       "page": "/alignment/fr/epistemology/"
     }
-  },
-  "presentation_revision": 12
+  }
 }

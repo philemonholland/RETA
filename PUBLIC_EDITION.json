@@ -10,9 +10,9 @@
   "published_at": "2026-09-09T23:16:00-04:00",
   "download": "/alignment/downloads/RETA_v1.1.0_public-2.zip",
   "current": true,
-  "change": "Editorial and typography revision; original model, equations and recorded results preserved.",
+  "change": "Alignment epistemology introduction now reuses the exact bilingual explanation above the swarm simulation, followed by the unchanged full model in a disclosure. Swarm interface proportions corrected.",
   "scientific_source_version": "1.0.0",
-  "publication_revision": 11,
+  "publication_revision": 12,
   "statement_revised_at": "2026-09-10T12:34:00-04:00",
   "replacement_history": [
     {
@@ -164,7 +164,32 @@
       "previous_zip_sha256": "107940d63a9fdb5a7be77aa5d91e0aa380fa7f7769d76d58e1fb086893db6602",
       "previous_website_commit": "27a0ce4ab2cca4c7ffb044becf27ac890ba5191c",
       "scientific_model_changed": false,
-      "original_reports_and_run_data_unchanged": true
+      "original_reports_and_run_data_unchanged": true,
+      "replacement_zip_sha256": "8b48bb8bba1e5caea35d3dd48acc82120bd7864d394b272542a60f7b17ef4070",
+      "replacement_download": "/alignment/downloads/RETA_v1.1.0_public-2.zip"
+    },
+    {
+      "revision": 12,
+      "date": "2026-09-10T23:58:53.106608-04:00",
+      "reason": "Alignment epistemology introduction now reuses the exact bilingual explanation above the swarm simulation, followed by the unchanged full model in a disclosure. Swarm interface proportions corrected.",
+      "previous_website_commit": "0d7ab70a4705dad5b846c49dc834dc50c24c1e80",
+      "scientific_model_changed": false,
+      "epistemology_source_unchanged": true,
+      "introductory_explanation": {
+        "en": {
+          "source": "/swarm/",
+          "selector": ".ethical-summary [data-language-panel=\"en\"]",
+          "paragraph_text_sha256": "8c8b295aeed51e58284ad9735cc0d6a8047622dd35a6e88959ff5ba7642e0486",
+          "page": "/alignment/epistemology/"
+        },
+        "fr": {
+          "source": "/swarm/",
+          "selector": ".ethical-summary [data-language-panel=\"fr\"]",
+          "paragraph_text_sha256": "9a7de3824632ccab5beb8c245605b50398e0c87ff499affa3c465e7d837b88eb",
+          "page": "/alignment/fr/epistemology/"
+        }
+      },
+      "previous_zip_sha256": "8b48bb8bba1e5caea35d3dd48acc82120bd7864d394b272542a60f7b17ef4070"
     }
   ],
   "name_revised_at": "2026-09-10T06:29:00-04:00",
