@@ -3,8 +3,8 @@
   "report_id": "RETA-v1.0.0-report-2",
   "published_at": "2026-09-10T11:40:00-04:00",
   "publication_date": "2026-09-10",
-  "abstract_en": "This specification describes a deterministic, synthetic model for studying AI alignment across interacting information-processing systems. Proposed outputs, audits, gates and postmortems share one causal event graph. Delivered events change local state; optional response-model learning changes future estimates. Evaluation uses five tension components, six uncertainty components, a finite audit budget and prospective lens epochs. The accompanying browser explorer replays a supplied 180-event trace. This report clarifies the existing specification without changing its equations, engine or data. This is an uncalibrated research prototype, not empirical evidence of safety or a proof that alignment has been achieved.",
-  "abstract_fr": "Cette spécification décrit un modèle déterministe et synthétique pour étudier l’alignement de l’IA entre systèmes de traitement de l’information. Sorties proposées, audits, décisions et retours d’expérience partagent un même graphe causal. Les événements reçus modifient l’état local; l’apprentissage facultatif du modèle de réponse modifie les estimations futures. L’évaluation distingue cinq tensions, six incertitudes, un budget d’audit fini et des versions prospectives de la grille. L’explorateur rejoue une trace fournie de 180 événements. Ce rapport précise la spécification existante en anglais, sans modifier ses équations, son moteur ni ses données. Ce prototype non calibré ne prouve ni la sécurité empirique ni l’obtention de l’alignement.",
+  "abstract_en": "Specification of a deterministic synthetic research model with proposed outputs, audits, gates and postmortems in a causal graph. Evaluation uses five tensions, six uncertainty categories, finite audit budgets and prospective lens versions. Browser playback reuses a 180-event trace. Practical usefulness, empirical safety and alignment are unestablished.",
+  "abstract_fr": "Spécification d’un modèle synthétique déterministe : événements, audits, décisions et retours d’expérience; cinq tensions, six incertitudes et versions prospectives de la grille. La présentation rejoue 180 événements. Prototype non calibré, sans preuve d’alignement ou de sécurité empirique.",
   "source_sha256": "d75c6889b3d7668166ee64912669ac944f20bbc84d0760503eb4db3dc16bff54",
   "pdf_sha256": "cbf38df228ea47e941faaeb5854978fbd1dca4e28420d9779f5312945f49c77b",
   "equations": 14,
@@ -39,5 +39,10 @@
       "checked_at": "2026-09-10T10:10:00-04:00",
       "note": "Original PDF bibliography preserved; current HTML marks link availability."
     }
-  ]
+  ],
+  "web_editorial_revision": {
+    "revision": 11,
+    "date": "2026-09-10T20:59:28.446052-04:00",
+    "note": "HTML prose clarified and condensed. Original report PDF and Markdown remain separately available; no new scientific results."
+  }
 }

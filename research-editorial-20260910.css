@@ -1,0 +1,30 @@
+/* Restrained research typography; source text and experiment values unaffected. */
+body{font-size:14px;line-height:1.5}
+.pub-header{padding:12px 22px}.pub-nav{font-size:13px;line-height:1.5;gap:6px 16px;margin-top:10px}
+.pub-byline strong{font-size:16px}.pub-status{font-size:12px;letter-spacing:0;margin:7px 0}
+.pub-main{max-width:1120px;padding:24px 22px 65px}
+.pub-main h1,.paper-main h1,.document h1,.intro h1,body>header h1{font:600 20px/1.3 system-ui,sans-serif;letter-spacing:0;margin:0 0 14px}
+.pub-main h2,.paper-main h2,.document h2,.findings h2,.section-top h2{font:600 17px/1.35 system-ui,sans-serif;letter-spacing:0;margin:22px 0 10px}
+.pub-main h3,.paper-main h3,.document h3,.visual h3,.narrative h3{font:600 15px/1.4 system-ui,sans-serif;margin:16px 0 8px}
+.pub-main p,.paper-main p,.document p,.document li,.intro .lead,.findings>p:not(.eyebrow),.narrative p{font-size:14px;line-height:1.55;margin:0 0 12px}
+.paper-main{max-width:1040px;margin:22px auto 65px;padding:24px 28px;border-radius:4px;font:14px/1.55 system-ui,sans-serif}
+.paper-main .paper-abstract{font-size:14px;line-height:1.55}.paper-main .paper-note{font-size:13px;padding:10px 12px;margin:12px 0}
+.paper-main .paper-meta,.paper-main .paper-download{font:12px/1.5 system-ui,sans-serif}.paper-main .paper-references{font-size:13px}
+.pub-card{padding:16px;margin:16px 0}.pub-card h2{font-size:16px;margin:0 0 8px}
+.pub-button,.animation-button,.primary{font:600 13px/1.4 system-ui,sans-serif!important;min-height:34px;padding:7px 12px!important;border-radius:4px;margin-top:5px}
+.animation-launch{padding:13px;margin:14px 0}.paper-main .animation-launch h2{font-size:16px}.animation-caption{font-size:12px!important}
+.site-header{padding:12px max(22px,calc((100vw - 1180px)/2));gap:20px;flex-wrap:wrap}.site-header>a{font-size:12px;letter-spacing:.04em}.site-header nav{display:flex!important;flex-wrap:wrap;gap:6px 16px;font-size:13px}
+main{max-width:1180px}.intro{padding:24px 0 18px;max-width:1000px}.intro .lead{max-width:1000px;font-size:14px}
+.eyebrow,.paper-kicker{font:600 11px/1.4 system-ui,sans-serif;letter-spacing:.025em;margin:0 0 8px}
+.orientation{padding:14px 0;margin-bottom:20px;gap:24px}.orientation p{font-size:13px;margin:6px 0 0}.orientation b{font-size:13px}
+.scope-note{padding:14px 16px;margin:0 0 22px}.scope-note h2{font-size:15px;margin:0 0 8px}.scope-grid{gap:10px 22px}
+.visual,.narrative{padding:16px}.visual h3,.narrative h3{margin-top:0;font-size:16px}.narrative h4{font-size:12px;margin-top:14px}
+.controls{padding:12px 0;gap:12px}.controls button,.controls select,.casebar button,.casebar select{font-size:13px;padding:6px 9px}
+.stats{margin-top:14px;padding-top:12px}.stats b{font:600 18px/1.35 system-ui,sans-serif}
+.findings{padding:26px 0;max-width:1000px}.document{max-width:1040px;margin:24px auto}.document h2{margin-top:24px}.document blockquote{margin:14px 0;padding:10px 14px;font-size:14px}
+.document .formula,.paper-text{font-size:13px;line-height:1.6}.document table{font-size:13px}.document td,.document th{padding:8px}
+.pub-footer{font-size:12px;padding:9px 18px;gap:16px}.site-header~main+.pub-footer{padding:14px 22px}
+.author-statement,.author-full-text,.author-support{font-size:14px}.author-statement h2{font-size:15px}.author-full-text h1{font-size:20px}
+.reta-explanation{font-size:14px;line-height:1.6}.reta-explanation h2{font-size:17px}.reta-explanation h3{font-size:15px}.reta-name-dialog{font-size:14px}
+.epistemology-main{max-width:1000px;margin:24px auto 64px;padding:0 22px}.epistemology-main h1{font:600 20px/1.3 system-ui}.epistemology-main h2{font:600 17px/1.4 system-ui;margin-top:20px}.epistemology-main p{font:14px/1.65 system-ui;margin:0 0 14px}.epistemology-main summary{font-size:14px;cursor:pointer;padding:10px 0}.epistemology-main details{border-top:1px solid #29414e}.epistemology-main details[open]{padding-bottom:20px}
+@media(max-width:700px){.pub-header,.site-header{padding:12px 16px}.pub-nav{gap:6px 12px}.site-header nav{width:100%;order:3}.site-header .language-switch{margin-left:auto}.paper-main{margin:14px 10px 65px;padding:18px 16px}.pub-main{padding:20px 16px 65px}.intro{padding:22px 0 14px}.intro h1,.paper-main h1,.document h1{font-size:20px}.intro .lead,.document p,.narrative p{font-size:14px}.scope-grid{grid-template-columns:1fr}.orientation{gap:12px}.epistemology-main{padding:0 16px}.pub-footer{flex-wrap:wrap}.pub-footer span{display:none}}

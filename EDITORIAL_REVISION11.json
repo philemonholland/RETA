@@ -1,0 +1,19 @@
+{
+  "revision": 11,
+  "revisedAt": "2026-09-10T20:59:28.446052-04:00",
+  "reason": "Restrained typography, impersonal concise research prose, early toy-model qualification, resource/greedy diagnostic limits and visible abstract-first epistemology access.",
+  "epistemologySourceUnchanged": true,
+  "experimentalDataChanged": false,
+  "originalModelFilesChanged": false,
+  "originalReportsChanged": false,
+  "sourceQuotationPolicy": "Original paper titles, source proofs and archival downloadable records remain verbatim; personal author wording is restricted to acknowledgments. Epistemology abstract/source are explicitly exempt from editorial rewriting.",
+  "limits": "Editorial review narrows supported claims; no guarantee of scientific validity or immunity from criticism.",
+  "framework": {
+    "url": "/alignment/epistemology/",
+    "url_fr": "/alignment/fr/epistemology/",
+    "source": "/alignment/epistemology/Integrated_Epistemic-Ethical_Review_Model.md",
+    "sha256": "07b0595ea26fb83fc2c833fba59516e98edb1d25bc2316e8b72fbaeb65b215e5",
+    "abstract_sha256": "8c8b295aeed51e58284ad9735cc0d6a8047622dd35a6e88959ff5ba7642e0486"
+  },
+  "previousWebsiteCommit": "27a0ce4ab2cca4c7ffb044becf27ac890ba5191c"
+}

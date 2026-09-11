@@ -10,9 +10,9 @@
   "published_at": "2026-09-09T23:16:00-04:00",
   "download": "/alignment/downloads/RETA_v1.1.0_public-2.zip",
   "current": true,
-  "change": "Animated campaign webpages made prominent; recorded baseline data, model and existing viewer unchanged.",
+  "change": "Editorial and typography revision; original model, equations and recorded results preserved.",
   "scientific_source_version": "1.0.0",
-  "publication_revision": 9,
+  "publication_revision": 11,
   "statement_revised_at": "2026-09-10T12:34:00-04:00",
   "replacement_history": [
     {
@@ -153,7 +153,18 @@
       "previous_public_source_commit": "fef922fd002c3db28a53233bb1a99646211f64af",
       "scientific_model_changed": false,
       "recorded_results_changed": false,
-      "existing_viewer_changed": false
+      "existing_viewer_changed": false,
+      "replacement_zip_sha256": "107940d63a9fdb5a7be77aa5d91e0aa380fa7f7769d76d58e1fb086893db6602",
+      "replacement_download": "/alignment/downloads/RETA_v1.1.0_public-2.zip"
+    },
+    {
+      "revision": 11,
+      "revised_at": "2026-09-10T20:59:28.446052-04:00",
+      "reason": "Restrained typography, impersonal concise research prose, early toy-model qualification, resource/greedy diagnostic limits and visible abstract-first epistemology access.",
+      "previous_zip_sha256": "107940d63a9fdb5a7be77aa5d91e0aa380fa7f7769d76d58e1fb086893db6602",
+      "previous_website_commit": "27a0ce4ab2cca4c7ffb044becf27ac890ba5191c",
+      "scientific_model_changed": false,
+      "original_reports_and_run_data_unchanged": true
     }
   ],
   "name_revised_at": "2026-09-10T06:29:00-04:00",
