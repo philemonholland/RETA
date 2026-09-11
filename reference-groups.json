@@ -2,7 +2,7 @@
   "version": 1,
   "date": "2026-09-10",
   "basis": "Editorial grouping by the subjects of the existing supplied citations; not independent verification, endorsement or a claim that categories are exclusive intellectual fields.",
-  "referenceSourceSha256": "ea1747143d0342215b099b28fc1f339d4e059531da0bc9ae21210bf94d83836f",
+  "referenceSourceSha256": "ea398c97394491122a2d9c81bab5cdd8c9ec7776a140ac0bb3ae884244a99df5",
   "groups": [
     {
       "id": "knowledge",
@@ -53,7 +53,8 @@
         "ref-126",
         "ref-127",
         "ref-128",
-        "ref-129"
+        "ref-129",
+        "ref-143"
       ]
     },
     {
@@ -132,7 +133,6 @@
         "ref-90",
         "ref-91",
         "ref-93",
-        "ref-97",
         "ref-104",
         "ref-106",
         "ref-107",
@@ -203,5 +203,8 @@
     "correctedYear": 2024,
     "reason": "The first page number was parsed as the year. The cited journal issue is March 2024.",
     "source": "https://www.iris.unicampus.it/bitstream/20.500.12610/79050/1/A_Sum-of-States_Preservation_Framework_for_Open_Multiagent_Systems_With_Nonlinear_Heterogeneous_Coupling.pdf"
+  },
+  "aliases": {
+    "ref-97": "ref-85"
   }
 }

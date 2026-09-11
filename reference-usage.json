@@ -1,0 +1,1031 @@
+{
+  "revision": 13,
+  "date": "2026-09-11T19:06:12.042345-04:00",
+  "scope": "Documented-use audit; not a full-text validation of every original publication.",
+  "baseline_entries": 142,
+  "current_unique_entries": 142,
+  "aliases": {
+    "ref-97": "ref-85"
+  },
+  "confirmed_corrections": [
+    "Merged duplicate ref-97 into ref-85 with an anchor alias",
+    "Completed ref-142 author/year/DOI metadata",
+    "Added the directly implemented PCG generator reference as ref-143"
+  ],
+  "findings": {
+    "largest_subject_entries": 39,
+    "broader_cohen_bibliography_imported": 38,
+    "selected_cohen_methodological_roles": 18,
+    "additional_cohen_entries": 20,
+    "untraced_ids": [
+      "ref-35",
+      "ref-52",
+      "ref-75",
+      "ref-80",
+      "ref-81",
+      "ref-92",
+      "ref-93",
+      "ref-103",
+      "ref-139"
+    ],
+    "ai_review_in_text_citations": 46,
+    "ai_review_external_sources": 50
+  },
+  "references": [
+    {
+      "id": "ref-1",
+      "role": "history",
+      "subject": "knowledge",
+      "declared_model_role": null,
+      "assessment": "Keep as historical influence with the source manuscript/version or acknowledgment context. The underlying unpublished manuscripts were not re-reviewed in full during this audit."
+    },
+    {
+      "id": "ref-2",
+      "role": "history",
+      "subject": "knowledge",
+      "declared_model_role": null,
+      "assessment": "Keep as historical influence with the source manuscript/version or acknowledgment context. The underlying unpublished manuscripts were not re-reviewed in full during this audit."
+    },
+    {
+      "id": "ref-3",
+      "role": "influence",
+      "subject": "knowledge",
+      "declared_model_role": null,
+      "assessment": "Declared rationale for economic/ecological system boundaries; not empirical calibration or evidence that an aggregate is a unitary agent."
+    },
+    {
+      "id": "ref-4",
+      "role": "history",
+      "subject": "knowledge",
+      "declared_model_role": null,
+      "assessment": "Keep as historical influence with the source manuscript/version or acknowledgment context. The underlying unpublished manuscripts were not re-reviewed in full during this audit."
+    },
+    {
+      "id": "ref-5",
+      "role": "mechanism",
+      "subject": "networks",
+      "declared_model_role": "causal partial order / logical clocks",
+      "assessment": "causal partial order / logical clocks. Materialization record: URL_ONLY. This is a declared role, not proof of full-text reading or implementation. The code instantiates logical/vector-clock ordering; this does not establish historical derivation from each original paper or claim that all three papers were reproduced."
+    },
+    {
+      "id": "ref-6",
+      "role": "mechanism",
+      "subject": "networks",
+      "declared_model_role": "vector-clock partial-order representation",
+      "assessment": "vector-clock partial-order representation. Materialization record: URL_ONLY. This is a declared role, not proof of full-text reading or implementation. The code instantiates logical/vector-clock ordering; this does not establish historical derivation from each original paper or claim that all three papers were reproduced."
+    },
+    {
+      "id": "ref-7",
+      "role": "mechanism",
+      "subject": "networks",
+      "declared_model_role": "vector-time partial-order representation",
+      "assessment": "vector-time partial-order representation. Materialization record: URL_ONLY. This is a declared role, not proof of full-text reading or implementation. The code instantiates logical/vector-clock ordering; this does not establish historical derivation from each original paper or claim that all three papers were reproduced."
+    },
+    {
+      "id": "ref-9",
+      "role": "influence",
+      "subject": "biology",
+      "declared_model_role": null,
+      "assessment": "Declared rationale for economic/ecological system boundaries; not empirical calibration or evidence that an aggregate is a unitary agent. The code link is at the corpus/architectural level; no paper-specific biological method or dataset replication is established."
+    },
+    {
+      "id": "ref-10",
+      "role": "history",
+      "subject": "knowledge",
+      "declared_model_role": null,
+      "assessment": "Keep as historical influence with the source manuscript/version or acknowledgment context. The underlying unpublished manuscripts were not re-reviewed in full during this audit."
+    },
+    {
+      "id": "ref-11",
+      "role": "history",
+      "subject": "knowledge",
+      "declared_model_role": null,
+      "assessment": "Keep as historical influence with the source manuscript/version or acknowledgment context. The underlying unpublished manuscripts were not re-reviewed in full during this audit."
+    },
+    {
+      "id": "ref-12",
+      "role": "history",
+      "subject": "reflexive",
+      "declared_model_role": null,
+      "assessment": "Keep as historical influence with the source manuscript/version or acknowledgment context. The underlying unpublished manuscripts were not re-reviewed in full during this audit. The current Python engine does not expose a named RGT Boolean/PAD implementation. Recursive auditing is not itself proof that the cited reflexive-game formalism is implemented. The unversioned “direct simulation citation” label needs clarification."
+    },
+    {
+      "id": "ref-13",
+      "role": "companion",
+      "subject": "networks",
+      "declared_model_role": null,
+      "assessment": "Registered for the companion open-membership/theorem literature. A citation in that source register is not proof of paper-specific use in the current RETA engine. Preserve companion scope; require a precise claim/assumption link before promoting to core model evidence."
+    },
+    {
+      "id": "ref-14",
+      "role": "review",
+      "subject": "biology",
+      "declared_model_role": null,
+      "assessment": "Substantive broader-review discussion; no individual role in the 18-source selected methodological list. No current model implementation or biological data transfer established."
+    },
+    {
+      "id": "ref-15",
+      "role": "history",
+      "subject": "knowledge",
+      "declared_model_role": null,
+      "assessment": "Keep as historical influence with the source manuscript/version or acknowledgment context. The underlying unpublished manuscripts were not re-reviewed in full during this audit."
+    },
+    {
+      "id": "ref-16",
+      "role": "history",
+      "subject": "knowledge",
+      "declared_model_role": null,
+      "assessment": "Keep as historical influence with the source manuscript/version or acknowledgment context. The underlying unpublished manuscripts were not re-reviewed in full during this audit."
+    },
+    {
+      "id": "ref-17",
+      "role": "history",
+      "subject": "knowledge",
+      "declared_model_role": null,
+      "assessment": "Keep as historical influence with the source manuscript/version or acknowledgment context. The underlying unpublished manuscripts were not re-reviewed in full during this audit."
+    },
+    {
+      "id": "ref-18",
+      "role": "companion",
+      "subject": "networks",
+      "declared_model_role": null,
+      "assessment": "Registered for the companion open-membership/theorem literature. A citation in that source register is not proof of paper-specific use in the current RETA engine. Preserve companion scope; require a precise claim/assumption link before promoting to core model evidence."
+    },
+    {
+      "id": "ref-19",
+      "role": "review",
+      "subject": "biology",
+      "declared_model_role": null,
+      "assessment": "Substantive broader-review discussion; no individual role in the 18-source selected methodological list. No current model implementation or biological data transfer established."
+    },
+    {
+      "id": "ref-20",
+      "role": "history",
+      "subject": "reflexive",
+      "declared_model_role": null,
+      "assessment": "Keep as historical influence with the source manuscript/version or acknowledgment context. The underlying unpublished manuscripts were not re-reviewed in full during this audit. The current Python engine does not expose a named RGT Boolean/PAD implementation. Recursive auditing is not itself proof that the cited reflexive-game formalism is implemented. The unversioned “direct simulation citation” label needs clarification."
+    },
+    {
+      "id": "ref-21",
+      "role": "history",
+      "subject": "reflexive",
+      "declared_model_role": null,
+      "assessment": "Keep as historical influence with the source manuscript/version or acknowledgment context. The underlying unpublished manuscripts were not re-reviewed in full during this audit. The current Python engine does not expose a named RGT Boolean/PAD implementation. Recursive auditing is not itself proof that the cited reflexive-game formalism is implemented. The unversioned “direct simulation citation” label needs clarification."
+    },
+    {
+      "id": "ref-22",
+      "role": "history",
+      "subject": "knowledge",
+      "declared_model_role": null,
+      "assessment": "Keep as historical influence with the source manuscript/version or acknowledgment context. The underlying unpublished manuscripts were not re-reviewed in full during this audit."
+    },
+    {
+      "id": "ref-23",
+      "role": "history",
+      "subject": "knowledge",
+      "declared_model_role": null,
+      "assessment": "Keep as historical influence with the source manuscript/version or acknowledgment context. The underlying unpublished manuscripts were not re-reviewed in full during this audit."
+    },
+    {
+      "id": "ref-24",
+      "role": "influence",
+      "subject": "networks",
+      "declared_model_role": "continuous-flow / discrete-jump semantics",
+      "assessment": "continuous-flow / discrete-jump semantics. Materialization record: URL_ONLY. This is a declared role, not proof of full-text reading or implementation."
+    },
+    {
+      "id": "ref-25",
+      "role": "influence",
+      "subject": "biology",
+      "declared_model_role": "distributed regulatory architecture; robustness/evolvability; network context",
+      "assessment": "distributed regulatory architecture; robustness/evolvability; network context. Materialization record: CITATION_AND_RECOVERED_REVIEW. This is a declared role, not proof of full-text reading or implementation. The code link is at the corpus/architectural level; no paper-specific biological method or dataset replication is established."
+    },
+    {
+      "id": "ref-26",
+      "role": "influence",
+      "subject": "biology",
+      "declared_model_role": "multivariate state; covariance-sensitive dysregulation; warning against single-variable state",
+      "assessment": "multivariate state; covariance-sensitive dysregulation; warning against single-variable state. Materialization record: CITATION_AND_RECOVERED_REVIEW. This is a declared role, not proof of full-text reading or implementation. The code link is at the corpus/architectural level; no paper-specific biological method or dataset replication is established."
+    },
+    {
+      "id": "ref-27",
+      "role": "history",
+      "subject": "knowledge",
+      "declared_model_role": null,
+      "assessment": "Keep as historical influence with the source manuscript/version or acknowledgment context. The underlying unpublished manuscripts were not re-reviewed in full during this audit."
+    },
+    {
+      "id": "ref-28",
+      "role": "history",
+      "subject": "knowledge",
+      "declared_model_role": null,
+      "assessment": "Keep as historical influence with the source manuscript/version or acknowledgment context. The underlying unpublished manuscripts were not re-reviewed in full during this audit."
+    },
+    {
+      "id": "ref-29",
+      "role": "influence",
+      "subject": "networks",
+      "declared_model_role": "typed/multilayer network semantics",
+      "assessment": "typed/multilayer network semantics. Materialization record: URL_ONLY. This is a declared role, not proof of full-text reading or implementation."
+    },
+    {
+      "id": "ref-30",
+      "role": "influence",
+      "subject": "biology",
+      "declared_model_role": "cross-context validation / nonuniversality discipline",
+      "assessment": "cross-context validation / nonuniversality discipline. Materialization record: CITATION_AND_RECOVERED_REVIEW. This is a declared role, not proof of full-text reading or implementation. The code link is at the corpus/architectural level; no paper-specific biological method or dataset replication is established."
+    },
+    {
+      "id": "ref-143",
+      "role": "mechanism",
+      "subject": "networks",
+      "declared_model_role": "Deterministic pseudorandom number generation.",
+      "assessment": "PCG32 is named and implemented in the published engine."
+    },
+    {
+      "id": "ref-31",
+      "role": "influence",
+      "subject": "biology",
+      "declared_model_role": "weakly coupled modular dysregulation; plural subsystem trajectories",
+      "assessment": "weakly coupled modular dysregulation; plural subsystem trajectories. Materialization record: CITATION_AND_RECOVERED_REVIEW. This is a declared role, not proof of full-text reading or implementation. The code link is at the corpus/architectural level; no paper-specific biological method or dataset replication is established."
+    },
+    {
+      "id": "ref-32",
+      "role": "review",
+      "subject": "biology",
+      "declared_model_role": null,
+      "assessment": "Substantive broader-review discussion; no individual role in the 18-source selected methodological list. No current model implementation or biological data transfer established."
+    },
+    {
+      "id": "ref-33",
+      "role": "review",
+      "subject": "biology",
+      "declared_model_role": null,
+      "assessment": "Substantive broader-review discussion; no individual role in the 18-source selected methodological list. No current model implementation or biological data transfer established."
+    },
+    {
+      "id": "ref-34",
+      "role": "history",
+      "subject": "knowledge",
+      "declared_model_role": null,
+      "assessment": "Keep as historical influence with the source manuscript/version or acknowledgment context. The underlying unpublished manuscripts were not re-reviewed in full during this audit."
+    },
+    {
+      "id": "ref-35",
+      "role": "untraced",
+      "subject": "values",
+      "declared_model_role": null,
+      "assessment": "Found in the review bibliography, but no numbered in-text citation or individual current-model role was found in the inspected records. Related vocabulary is insufficient to attribute this specific work."
+    },
+    {
+      "id": "ref-36",
+      "role": "companion",
+      "subject": "networks",
+      "declared_model_role": null,
+      "assessment": "Registered for the companion open-membership/theorem literature. A citation in that source register is not proof of paper-specific use in the current RETA engine. Preserve companion scope; require a precise claim/assumption link before promoting to core model evidence."
+    },
+    {
+      "id": "ref-37",
+      "role": "influence",
+      "subject": "biology",
+      "declared_model_role": "dynamics, redundancy, compensation, homeostasis, causal restraint",
+      "assessment": "dynamics, redundancy, compensation, homeostasis, causal restraint. Materialization record: CITATION_AND_RECOVERED_REVIEW. This is a declared role, not proof of full-text reading or implementation. The code link is at the corpus/architectural level; no paper-specific biological method or dataset replication is established."
+    },
+    {
+      "id": "ref-38",
+      "role": "history",
+      "subject": "reflexive",
+      "declared_model_role": null,
+      "assessment": "Keep as historical influence with the source manuscript/version or acknowledgment context. The underlying unpublished manuscripts were not re-reviewed in full during this audit. The current Python engine does not expose a named RGT Boolean/PAD implementation. Recursive auditing is not itself proof that the cited reflexive-game formalism is implemented. The unversioned “direct simulation citation” label needs clarification."
+    },
+    {
+      "id": "ref-39",
+      "role": "history",
+      "subject": "project",
+      "declared_model_role": null,
+      "assessment": "Keep as historical influence with the source manuscript/version or acknowledgment context. The underlying unpublished manuscripts were not re-reviewed in full during this audit."
+    },
+    {
+      "id": "ref-40",
+      "role": "review",
+      "subject": "values",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-41",
+      "role": "review",
+      "subject": "values",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-42",
+      "role": "influence",
+      "subject": "biology",
+      "declared_model_role": "non-fungible constraints and multiple resource currencies",
+      "assessment": "non-fungible constraints and multiple resource currencies. Materialization record: CITATION_AND_RECOVERED_REVIEW. This is a declared role, not proof of full-text reading or implementation. The code link is at the corpus/architectural level; no paper-specific biological method or dataset replication is established."
+    },
+    {
+      "id": "ref-142",
+      "role": "review",
+      "subject": "biology",
+      "declared_model_role": null,
+      "assessment": "Substantive broader-review discussion; no individual role in the 18-source selected methodological list. No current model implementation or biological data transfer established."
+    },
+    {
+      "id": "ref-43",
+      "role": "review",
+      "subject": "safety",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-44",
+      "role": "review",
+      "subject": "safety",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-45",
+      "role": "review",
+      "subject": "safety",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-46",
+      "role": "review",
+      "subject": "values",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-47",
+      "role": "influence",
+      "subject": "biology",
+      "declared_model_role": "comparative tests; reject context-free universality",
+      "assessment": "comparative tests; reject context-free universality. Materialization record: CITATION_AND_RECOVERED_REVIEW. This is a declared role, not proof of full-text reading or implementation. The code link is at the corpus/architectural level; no paper-specific biological method or dataset replication is established."
+    },
+    {
+      "id": "ref-48",
+      "role": "history",
+      "subject": "project",
+      "declared_model_role": null,
+      "assessment": "Keep as historical influence with the source manuscript/version or acknowledgment context. The underlying unpublished manuscripts were not re-reviewed in full during this audit."
+    },
+    {
+      "id": "ref-49",
+      "role": "review",
+      "subject": "safety",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-50",
+      "role": "review",
+      "subject": "biology",
+      "declared_model_role": null,
+      "assessment": "Substantive broader-review discussion; no individual role in the 18-source selected methodological list. No current model implementation or biological data transfer established."
+    },
+    {
+      "id": "ref-51",
+      "role": "review",
+      "subject": "biology",
+      "declared_model_role": null,
+      "assessment": "Substantive broader-review discussion; no individual role in the 18-source selected methodological list. No current model implementation or biological data transfer established."
+    },
+    {
+      "id": "ref-52",
+      "role": "untraced",
+      "subject": "biology",
+      "declared_model_role": null,
+      "assessment": "Listed in the broader review bibliography, without an individually identifiable body discussion or selected model role in the inspected records. Shared topic vocabulary is not sufficient evidence of this publication’s use."
+    },
+    {
+      "id": "ref-53",
+      "role": "companion",
+      "subject": "networks",
+      "declared_model_role": null,
+      "assessment": "Registered for the companion open-membership/theorem literature. A citation in that source register is not proof of paper-specific use in the current RETA engine. Preserve companion scope; require a precise claim/assumption link before promoting to core model evidence."
+    },
+    {
+      "id": "ref-54",
+      "role": "influence",
+      "subject": "biology",
+      "declared_model_role": "trade-off versus architectural constraint distinction",
+      "assessment": "trade-off versus architectural constraint distinction. Materialization record: CITATION_AND_RECOVERED_REVIEW. This is a declared role, not proof of full-text reading or implementation. The code link is at the corpus/architectural level; no paper-specific biological method or dataset replication is established."
+    },
+    {
+      "id": "ref-55",
+      "role": "influence",
+      "subject": "biology",
+      "declared_model_role": "anti-unitary ontology; multiple partially coupled processes",
+      "assessment": "anti-unitary ontology; multiple partially coupled processes. Materialization record: CITATION_AND_RECOVERED_REVIEW. This is a declared role, not proof of full-text reading or implementation. The code link is at the corpus/architectural level; no paper-specific biological method or dataset replication is established."
+    },
+    {
+      "id": "ref-56",
+      "role": "review",
+      "subject": "safety",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-57",
+      "role": "companion",
+      "subject": "networks",
+      "declared_model_role": null,
+      "assessment": "Registered for the companion open-membership/theorem literature. A citation in that source register is not proof of paper-specific use in the current RETA engine. Preserve companion scope; require a precise claim/assumption link before promoting to core model evidence."
+    },
+    {
+      "id": "ref-58",
+      "role": "companion",
+      "subject": "networks",
+      "declared_model_role": null,
+      "assessment": "Registered for the companion open-membership/theorem literature. A citation in that source register is not proof of paper-specific use in the current RETA engine. Preserve companion scope; require a precise claim/assumption link before promoting to core model evidence."
+    },
+    {
+      "id": "ref-59",
+      "role": "influence",
+      "subject": "biology",
+      "declared_model_role": "state inference versus network identification; identifiability limits",
+      "assessment": "state inference versus network identification; identifiability limits. Materialization record: CITATION_AND_RECOVERED_REVIEW. This is a declared role, not proof of full-text reading or implementation. The code link is at the corpus/architectural level; no paper-specific biological method or dataset replication is established."
+    },
+    {
+      "id": "ref-60",
+      "role": "review",
+      "subject": "safety",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-61",
+      "role": "review",
+      "subject": "safety",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-62",
+      "role": "influence",
+      "subject": "biology",
+      "declared_model_role": "maintainability, architectural constraints, evolutionary path dependence",
+      "assessment": "maintainability, architectural constraints, evolutionary path dependence. Materialization record: CITATION_AND_RECOVERED_REVIEW. This is a declared role, not proof of full-text reading or implementation. The code link is at the corpus/architectural level; no paper-specific biological method or dataset replication is established."
+    },
+    {
+      "id": "ref-63",
+      "role": "influence",
+      "subject": "biology",
+      "declared_model_role": "emergence, interaction networks, resilience, hierarchy, degeneracy/plasticity",
+      "assessment": "emergence, interaction networks, resilience, hierarchy, degeneracy/plasticity. Materialization record: CITATION_AND_RECOVERED_REVIEW. This is a declared role, not proof of full-text reading or implementation. The code link is at the corpus/architectural level; no paper-specific biological method or dataset replication is established."
+    },
+    {
+      "id": "ref-64",
+      "role": "influence",
+      "subject": "biology",
+      "declared_model_role": "dynamic perturbation diagnostics; variability/synchrony as context-specific signals",
+      "assessment": "dynamic perturbation diagnostics; variability/synchrony as context-specific signals. Materialization record: CITATION_AND_RECOVERED_REVIEW. This is a declared role, not proof of full-text reading or implementation. The code link is at the corpus/architectural level; no paper-specific biological method or dataset replication is established."
+    },
+    {
+      "id": "ref-65",
+      "role": "review",
+      "subject": "safety",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-66",
+      "role": "review",
+      "subject": "safety",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-67",
+      "role": "review",
+      "subject": "values",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-68",
+      "role": "companion",
+      "subject": "networks",
+      "declared_model_role": null,
+      "assessment": "Registered for the companion open-membership/theorem literature. A citation in that source register is not proof of paper-specific use in the current RETA engine. Preserve companion scope; require a precise claim/assumption link before promoting to core model evidence."
+    },
+    {
+      "id": "ref-8",
+      "role": "companion",
+      "subject": "networks",
+      "declared_model_role": null,
+      "assessment": "Registered for the companion open-membership/theorem literature. A citation in that source register is not proof of paper-specific use in the current RETA engine. Preserve companion scope; require a precise claim/assumption link before promoting to core model evidence."
+    },
+    {
+      "id": "ref-69",
+      "role": "review",
+      "subject": "safety",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-70",
+      "role": "influence",
+      "subject": "values",
+      "declared_model_role": "dynamic and influenceable preferences/rewards",
+      "assessment": "dynamic and influenceable preferences/rewards. Materialization record: URL_ONLY. This is a declared role, not proof of full-text reading or implementation."
+    },
+    {
+      "id": "ref-71",
+      "role": "review",
+      "subject": "safety",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-72",
+      "role": "review",
+      "subject": "safety",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-73",
+      "role": "review",
+      "subject": "safety",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-74",
+      "role": "influence",
+      "subject": "safety",
+      "declared_model_role": "external control/monitoring under potentially untrusted models",
+      "assessment": "external control/monitoring under potentially untrusted models. Materialization record: URL_ONLY. This is a declared role, not proof of full-text reading or implementation."
+    },
+    {
+      "id": "ref-75",
+      "role": "untraced",
+      "subject": "safety",
+      "declared_model_role": null,
+      "assessment": "Found in the review bibliography, but no numbered in-text citation or individual current-model role was found in the inspected records. Related vocabulary is insufficient to attribute this specific work."
+    },
+    {
+      "id": "ref-76",
+      "role": "companion",
+      "subject": "networks",
+      "declared_model_role": null,
+      "assessment": "Registered for the companion open-membership/theorem literature. A citation in that source register is not proof of paper-specific use in the current RETA engine. Preserve companion scope; require a precise claim/assumption link before promoting to core model evidence."
+    },
+    {
+      "id": "ref-77",
+      "role": "companion",
+      "subject": "networks",
+      "declared_model_role": null,
+      "assessment": "Registered for the companion open-membership/theorem literature. A citation in that source register is not proof of paper-specific use in the current RETA engine. Preserve companion scope; require a precise claim/assumption link before promoting to core model evidence."
+    },
+    {
+      "id": "ref-78",
+      "role": "companion",
+      "subject": "networks",
+      "declared_model_role": null,
+      "assessment": "Registered for the companion open-membership/theorem literature. A citation in that source register is not proof of paper-specific use in the current RETA engine. Preserve companion scope; require a precise claim/assumption link before promoting to core model evidence."
+    },
+    {
+      "id": "ref-79",
+      "role": "companion",
+      "subject": "networks",
+      "declared_model_role": null,
+      "assessment": "Registered for the companion open-membership/theorem literature. A citation in that source register is not proof of paper-specific use in the current RETA engine. Preserve companion scope; require a precise claim/assumption link before promoting to core model evidence."
+    },
+    {
+      "id": "ref-80",
+      "role": "untraced",
+      "subject": "biology",
+      "declared_model_role": null,
+      "assessment": "Listed in the broader review bibliography, without an individually identifiable body discussion or selected model role in the inspected records. Shared topic vocabulary is not sufficient evidence of this publication’s use."
+    },
+    {
+      "id": "ref-81",
+      "role": "untraced",
+      "subject": "biology",
+      "declared_model_role": null,
+      "assessment": "Listed in the broader review bibliography, without an individually identifiable body discussion or selected model role in the inspected records. Shared topic vocabulary is not sufficient evidence of this publication’s use."
+    },
+    {
+      "id": "ref-82",
+      "role": "review",
+      "subject": "safety",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-83",
+      "role": "review",
+      "subject": "values",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-84",
+      "role": "review",
+      "subject": "values",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-85",
+      "role": "influence",
+      "subject": "values",
+      "declared_model_role": "empirical human-AI feedback-loop effects",
+      "assessment": "empirical human-AI feedback-loop effects. Materialization record: URL_ONLY. This is a declared role, not proof of full-text reading or implementation."
+    },
+    {
+      "id": "ref-86",
+      "role": "review",
+      "subject": "values",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-87",
+      "role": "influence",
+      "subject": "safety",
+      "declared_model_role": "auditing-agent precedent and evaluator limitations",
+      "assessment": "auditing-agent precedent and evaluator limitations. Materialization record: URL_ONLY. This is a declared role, not proof of full-text reading or implementation."
+    },
+    {
+      "id": "ref-88",
+      "role": "review",
+      "subject": "safety",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-89",
+      "role": "review",
+      "subject": "values",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-90",
+      "role": "influence",
+      "subject": "values",
+      "declared_model_role": "dynamic/social multi-agent alignment framing",
+      "assessment": "dynamic/social multi-agent alignment framing. Materialization record: URL_ONLY. This is a declared role, not proof of full-text reading or implementation."
+    },
+    {
+      "id": "ref-91",
+      "role": "review",
+      "subject": "values",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-92",
+      "role": "untraced",
+      "subject": "safety",
+      "declared_model_role": null,
+      "assessment": "Found in the review bibliography, but no numbered in-text citation or individual current-model role was found in the inspected records. Related vocabulary is insufficient to attribute this specific work."
+    },
+    {
+      "id": "ref-93",
+      "role": "untraced",
+      "subject": "values",
+      "declared_model_role": null,
+      "assessment": "Found in the review bibliography, but no numbered in-text citation or individual current-model role was found in the inspected records. Related vocabulary is insufficient to attribute this specific work."
+    },
+    {
+      "id": "ref-94",
+      "role": "influence",
+      "subject": "project",
+      "declared_model_role": null,
+      "assessment": "Declared internal design lineage. Keep distinct from independently published scientific evidence; no full-source review is certified by this audit."
+    },
+    {
+      "id": "ref-95",
+      "role": "companion",
+      "subject": "networks",
+      "declared_model_role": null,
+      "assessment": "Registered for the companion open-membership/theorem literature. A citation in that source register is not proof of paper-specific use in the current RETA engine. Preserve companion scope; require a precise claim/assumption link before promoting to core model evidence."
+    },
+    {
+      "id": "ref-96",
+      "role": "companion",
+      "subject": "networks",
+      "declared_model_role": null,
+      "assessment": "Registered for the companion open-membership/theorem literature. A citation in that source register is not proof of paper-specific use in the current RETA engine. Preserve companion scope; require a precise claim/assumption link before promoting to core model evidence."
+    },
+    {
+      "id": "ref-98",
+      "role": "influence",
+      "subject": "biology",
+      "declared_model_role": "energy/communication/structure; robustness, plasticity, performance, sustainability as plural observables",
+      "assessment": "energy/communication/structure; robustness, plasticity, performance, sustainability as plural observables. Materialization record: CITATION_AND_RECOVERED_REVIEW. This is a declared role, not proof of full-text reading or implementation. The code link is at the corpus/architectural level; no paper-specific biological method or dataset replication is established."
+    },
+    {
+      "id": "ref-99",
+      "role": "influence",
+      "subject": "biology",
+      "declared_model_role": "strong empirical warning against context-free universal latent axes",
+      "assessment": "strong empirical warning against context-free universal latent axes. Materialization record: CITATION_AND_RECOVERED_REVIEW. This is a declared role, not proof of full-text reading or implementation. The code link is at the corpus/architectural level; no paper-specific biological method or dataset replication is established."
+    },
+    {
+      "id": "ref-100",
+      "role": "influence",
+      "subject": "biology",
+      "declared_model_role": "cross-scale disorder as candidate diagnostic; terminology/metric discipline",
+      "assessment": "cross-scale disorder as candidate diagnostic; terminology/metric discipline. Materialization record: CITATION_AND_RECOVERED_REVIEW. This is a declared role, not proof of full-text reading or implementation. The code link is at the corpus/architectural level; no paper-specific biological method or dataset replication is established."
+    },
+    {
+      "id": "ref-101",
+      "role": "influence",
+      "subject": "biology",
+      "declared_model_role": "subsystem specificity; evidence against forcing global coherence",
+      "assessment": "subsystem specificity; evidence against forcing global coherence. Materialization record: CITATION_AND_RECOVERED_REVIEW. This is a declared role, not proof of full-text reading or implementation. The code link is at the corpus/architectural level; no paper-specific biological method or dataset replication is established."
+    },
+    {
+      "id": "ref-102",
+      "role": "review",
+      "subject": "biology",
+      "declared_model_role": null,
+      "assessment": "Substantive broader-review discussion; no individual role in the 18-source selected methodological list. No current model implementation or biological data transfer established."
+    },
+    {
+      "id": "ref-103",
+      "role": "untraced",
+      "subject": "biology",
+      "declared_model_role": null,
+      "assessment": "Listed in the broader review bibliography, without an individually identifiable body discussion or selected model role in the inspected records. Shared topic vocabulary is not sufficient evidence of this publication’s use."
+    },
+    {
+      "id": "ref-104",
+      "role": "review",
+      "subject": "values",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-105",
+      "role": "influence",
+      "subject": "safety",
+      "declared_model_role": "alignment/control risk landscape and uncertainty context",
+      "assessment": "alignment/control risk landscape and uncertainty context. Materialization record: URL_ONLY. This is a declared role, not proof of full-text reading or implementation."
+    },
+    {
+      "id": "ref-106",
+      "role": "review",
+      "subject": "values",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-107",
+      "role": "review",
+      "subject": "values",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-108",
+      "role": "review",
+      "subject": "values",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-109",
+      "role": "review",
+      "subject": "safety",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-110",
+      "role": "review",
+      "subject": "safety",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-111",
+      "role": "review",
+      "subject": "safety",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-112",
+      "role": "influence",
+      "subject": "safety",
+      "declared_model_role": "runtime monitoring context",
+      "assessment": "runtime monitoring context. Materialization record: URL_ONLY. This is a declared role, not proof of full-text reading or implementation."
+    },
+    {
+      "id": "ref-113",
+      "role": "influence",
+      "subject": "values",
+      "declared_model_role": "organization-level multi-agent misalignment",
+      "assessment": "organization-level multi-agent misalignment. Materialization record: URL_ONLY. This is a declared role, not proof of full-text reading or implementation."
+    },
+    {
+      "id": "ref-114",
+      "role": "influence",
+      "subject": "values",
+      "declared_model_role": "evolving human-AI networks / collective sensemaking",
+      "assessment": "evolving human-AI networks / collective sensemaking. Materialization record: URL_ONLY. This is a declared role, not proof of full-text reading or implementation."
+    },
+    {
+      "id": "ref-115",
+      "role": "review",
+      "subject": "values",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-116",
+      "role": "influence",
+      "subject": "values",
+      "declared_model_role": "institutional/distributional governance context",
+      "assessment": "institutional/distributional governance context. Materialization record: URL_ONLY. This is a declared role, not proof of full-text reading or implementation."
+    },
+    {
+      "id": "ref-117",
+      "role": "review",
+      "subject": "values",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-118",
+      "role": "review",
+      "subject": "values",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-119",
+      "role": "review",
+      "subject": "safety",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-120",
+      "role": "review",
+      "subject": "safety",
+      "declared_model_role": null,
+      "assessment": "An explicit literature-review citation documents contextual use. The current RETA simulator does not implement the cited LLM training/control method merely because the review discusses it."
+    },
+    {
+      "id": "ref-121",
+      "role": "influence",
+      "subject": "project",
+      "declared_model_role": null,
+      "assessment": "Declared internal design lineage. Keep distinct from independently published scientific evidence; no full-source review is certified by this audit."
+    },
+    {
+      "id": "ref-122",
+      "role": "influence",
+      "subject": "project",
+      "declared_model_role": null,
+      "assessment": "Declared internal design lineage. Keep distinct from independently published scientific evidence; no full-source review is certified by this audit."
+    },
+    {
+      "id": "ref-123",
+      "role": "influence",
+      "subject": "project",
+      "declared_model_role": null,
+      "assessment": "Declared internal design lineage. Keep distinct from independently published scientific evidence; no full-source review is certified by this audit."
+    },
+    {
+      "id": "ref-124",
+      "role": "companion",
+      "subject": "project",
+      "declared_model_role": null,
+      "assessment": "The theorem bridge is explicit and limited. It does not prove the broader RETA alignment ontology."
+    },
+    {
+      "id": "ref-125",
+      "role": "companion",
+      "subject": "networks",
+      "declared_model_role": null,
+      "assessment": "Registered for the companion open-membership/theorem literature. A citation in that source register is not proof of paper-specific use in the current RETA engine. Preserve companion scope; require a precise claim/assumption link before promoting to core model evidence."
+    },
+    {
+      "id": "ref-126",
+      "role": "companion",
+      "subject": "networks",
+      "declared_model_role": null,
+      "assessment": "Registered for the companion open-membership/theorem literature. A citation in that source register is not proof of paper-specific use in the current RETA engine. Preserve companion scope; require a precise claim/assumption link before promoting to core model evidence."
+    },
+    {
+      "id": "ref-127",
+      "role": "companion",
+      "subject": "networks",
+      "declared_model_role": null,
+      "assessment": "Registered for the companion open-membership/theorem literature. A citation in that source register is not proof of paper-specific use in the current RETA engine. Preserve companion scope; require a precise claim/assumption link before promoting to core model evidence."
+    },
+    {
+      "id": "ref-128",
+      "role": "companion",
+      "subject": "networks",
+      "declared_model_role": null,
+      "assessment": "Registered for the companion open-membership/theorem literature. A citation in that source register is not proof of paper-specific use in the current RETA engine. Preserve companion scope; require a precise claim/assumption link before promoting to core model evidence."
+    },
+    {
+      "id": "ref-129",
+      "role": "companion",
+      "subject": "networks",
+      "declared_model_role": null,
+      "assessment": "Registered for the companion open-membership/theorem literature. A citation in that source register is not proof of paper-specific use in the current RETA engine. Preserve companion scope; require a precise claim/assumption link before promoting to core model evidence."
+    },
+    {
+      "id": "ref-130",
+      "role": "companion",
+      "subject": "project",
+      "declared_model_role": null,
+      "assessment": "Companion software or process context, not independent support for RETA."
+    },
+    {
+      "id": "ref-131",
+      "role": "companion",
+      "subject": "project",
+      "declared_model_role": null,
+      "assessment": "Companion software or process context, not independent support for RETA."
+    },
+    {
+      "id": "ref-132",
+      "role": "tool",
+      "subject": "project",
+      "declared_model_role": null,
+      "assessment": "Software provenance/tool credit, not a scholarly premise of the model."
+    },
+    {
+      "id": "ref-133",
+      "role": "influence",
+      "subject": "biology",
+      "declared_model_role": "compensation under finite resource/maintenance constraints",
+      "assessment": "compensation under finite resource/maintenance constraints. Materialization record: CITATION_AND_RECOVERED_REVIEW. This is a declared role, not proof of full-text reading or implementation. The code link is at the corpus/architectural level; no paper-specific biological method or dataset replication is established."
+    },
+    {
+      "id": "ref-134",
+      "role": "review",
+      "subject": "biology",
+      "declared_model_role": null,
+      "assessment": "Substantive broader-review discussion; no individual role in the 18-source selected methodological list. No current model implementation or biological data transfer established."
+    },
+    {
+      "id": "ref-135",
+      "role": "review",
+      "subject": "biology",
+      "declared_model_role": null,
+      "assessment": "Substantive broader-review discussion; no individual role in the 18-source selected methodological list. No current model implementation or biological data transfer established."
+    },
+    {
+      "id": "ref-136",
+      "role": "review",
+      "subject": "biology",
+      "declared_model_role": null,
+      "assessment": "Substantive broader-review discussion; no individual role in the 18-source selected methodological list. No current model implementation or biological data transfer established."
+    },
+    {
+      "id": "ref-137",
+      "role": "review",
+      "subject": "biology",
+      "declared_model_role": null,
+      "assessment": "Substantive broader-review discussion; no individual role in the 18-source selected methodological list. No current model implementation or biological data transfer established."
+    },
+    {
+      "id": "ref-138",
+      "role": "review",
+      "subject": "biology",
+      "declared_model_role": null,
+      "assessment": "Substantive broader-review discussion; no individual role in the 18-source selected methodological list. No current model implementation or biological data transfer established."
+    },
+    {
+      "id": "ref-139",
+      "role": "untraced",
+      "subject": "biology",
+      "declared_model_role": null,
+      "assessment": "Listed in the broader review bibliography, without an individually identifiable body discussion or selected model role in the inspected records. Shared topic vocabulary is not sufficient evidence of this publication’s use."
+    },
+    {
+      "id": "ref-140",
+      "role": "biography",
+      "subject": "biology",
+      "declared_model_role": null,
+      "assessment": "Author/lab profile used for biographical context; not a research result or implementation dependency."
+    },
+    {
+      "id": "ref-141",
+      "role": "biography",
+      "subject": "biology",
+      "declared_model_role": null,
+      "assessment": "Author/lab profile used for biographical context; not a research result or implementation dependency."
+    }
+  ],
+  "prior_catalog": "/alignment/references/archive/catalog-20260911-before-audit.json"
+}

@@ -10,9 +10,9 @@
   "published_at": "2026-09-09T23:16:00-04:00",
   "download": "/alignment/downloads/RETA_v1.1.0_public-2.zip",
   "current": true,
-  "change": "Alignment epistemology introduction now reuses the exact bilingual explanation above the swarm simulation, followed by the unchanged full model in a disclosure. Swarm interface proportions corrected.",
+  "change": "Source-use attribution and reference corrections; scientific model unchanged.",
   "scientific_source_version": "1.0.0",
-  "publication_revision": 12,
+  "publication_revision": 13,
   "statement_revised_at": "2026-09-10T12:34:00-04:00",
   "replacement_history": [
     {
@@ -189,7 +189,17 @@
           "page": "/alignment/fr/epistemology/"
         }
       },
-      "previous_zip_sha256": "8b48bb8bba1e5caea35d3dd48acc82120bd7864d394b272542a60f7b17ef4070"
+      "previous_zip_sha256": "8b48bb8bba1e5caea35d3dd48acc82120bd7864d394b272542a60f7b17ef4070",
+      "replacement_zip_sha256": "e87e240973cdfdd0e49ec864ea447f773c1b894ae0641117f34ee32d2cac0f76",
+      "replacement_download": "/alignment/downloads/RETA_v1.1.0_public-2.zip"
+    },
+    {
+      "revision": 13,
+      "date": "2026-09-11T19:06:12.435850-04:00",
+      "previous_zip_sha256": "e87e240973cdfdd0e49ec864ea447f773c1b894ae0641117f34ee32d2cac0f76",
+      "previous_website_commit": "5eb4a91dd214f4c301c4aecb9fbc1dbfbf2300c4",
+      "reason": "Source-use attribution and reference corrections; scientific model unchanged.",
+      "scientific_model_changed": false
     }
   ],
   "name_revised_at": "2026-09-10T06:29:00-04:00",

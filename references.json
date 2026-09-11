@@ -210,6 +210,13 @@
     "id": "ref-30"
   },
   {
+    "id": "ref-143",
+    "year": 2014,
+    "citation": "Melissa E. O’Neill. PCG: A Family of Simple Fast Space-Efficient Statistically Good Algorithms for Random Number Generation. Technical Report HMC-CS-2014-0905, Harvey Mudd College, 2014.",
+    "url": "https://www.pcg-random.org/paper.html",
+    "source": "Named PCG32 generator in the published RETA Python engine; source-use audit correction."
+  },
+  {
     "year": 2015,
     "citation": "Li Q et al. 'Homeostatic dysregulation proceeds in parallel in multiple physiological systems.' Aging Cell 14 (2015): 1103-1112.",
     "url": "https://doi.org/10.1111/acel.12402",
@@ -292,6 +299,13 @@
     "url": "https://doi.org/10.1371/journal.pone.0189124",
     "source": "v1.0 supplied scientific bibliography",
     "id": "ref-42"
+  },
+  {
+    "year": 2017,
+    "citation": "Ghalib A. Bello and Gerard Dumancas. “A Random Forest-Induced Distance-Based Measure of Physiological Dysregulation.” Current Aging Science 10(4), 270–281, 2017. DOI: 10.2174/1874609810666170117155756.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28103780/",
+    "source": "v1.0 supplied scientific bibliography",
+    "id": "ref-142"
   },
   {
     "year": 2018,
@@ -680,13 +694,6 @@
   },
   {
     "year": 2025,
-    "citation": "Moshe Glickman and Tali Sharot. 'How human-AI feedback loops alter human perceptual, emotional and social judgements.' Nature Human Behaviour 9, 345-359, 2025.",
-    "url": "https://doi.org/10.1038/s41562-024-02077-2",
-    "source": "v1.0 supplied scientific bibliography",
-    "id": "ref-97"
-  },
-  {
-    "year": 2025,
     "citation": "Cohen AA, Picard M, Beard JR, et al. 'Intrinsic health as a foundation for a science of health.' Science Advances 11 (2025): eadu8437.",
     "url": "https://doi.org/10.1126/sciadv.adu8437",
     "source": "v1.0 supplied scientific bibliography",
@@ -992,12 +999,5 @@
     "url": "https://www.publichealth.columbia.edu/research-labs/cohen-lab-aging-systems-statistics",
     "source": "v1.0 supplied scientific bibliography",
     "id": "ref-141"
-  },
-  {
-    "year": null,
-    "citation": "[External methodological critique] A random-forest-induced distance-based measure of physiological dysregulation. PubMed PMID 28103780.",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/28103780/",
-    "source": "v1.0 supplied scientific bibliography",
-    "id": "ref-142"
   }
 ]

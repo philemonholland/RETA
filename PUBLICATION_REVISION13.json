@@ -1,0 +1,22 @@
+{
+  "revision": 13,
+  "published_at": "2026-09-11T19:06:12.435850-04:00",
+  "previous_website_commit": "5eb4a91dd214f4c301c4aecb9fbc1dbfbf2300c4",
+  "changes": [
+    "Paired unchanged 30-page paper and supplied 8-page reviewer companion",
+    "Public review-material access and current reading links",
+    "References grouped by documented use; duplicate alias and bibliographic corrections"
+  ],
+  "scientific_engines_changed": false,
+  "companion": {
+    "path": "paper/supporting/REVIEWER_Supporting_Lemma_2.1_Proof_R01_20260911.pdf",
+    "sha256": "431969feb5ad310d93350cfc59a0332e5ce61da7e42d7ab1299f7571cf47c5c5",
+    "pages": 8,
+    "source_filename": "REVIEWER_Supporting_Lemma_2.1_Proof_R01_20260911.pdf",
+    "governing_document": "paper/files/Priority_State_Dynamics_v07_Full.pdf",
+    "governing_sha256": "c3171ce35ca77b61cdacf5beb8f8288f7335472682ad0a6cdab071d553622bc8",
+    "role": "Reviewer-produced reconstruction of Lemma 2.1; not the original cited supplement or independent human mathematical approval.",
+    "published_at": "2026-09-11T19:06:12.042345-04:00"
+  },
+  "source_use_audit": "/alignment/references/usage.json"
+}
